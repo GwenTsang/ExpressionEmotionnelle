@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="1973-99270072"/>
+<unit id="unitex_1614594424322">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424322</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="55"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424323">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424323</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="56"/>
+</start>
+<end>
+<singlePosition index="486"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424324">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424324</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="487"/>
+</start>
+<end>
+<singlePosition index="898"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424325">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424325</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="899"/>
+</start>
+<end>
+<singlePosition index="1358"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424326">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424326</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1359"/>
+</start>
+<end>
+<singlePosition index="1859"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618585832433">
+<metadata>
+<author>a2</author>
+<creation-date>1618585832433</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618585909847</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">triste</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1663"/>
+</start>
+<end>
+<singlePosition index="1676"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618585847754">
+<metadata>
+<author>a2</author>
+<creation-date>1618585847754</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618585866486</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Hugo, 9 ans</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1655"/>
+</start>
+<end>
+<singlePosition index="1657"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1618585913320">
+<metadata>
+<author>a2</author>
+<creation-date>1618585913320</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618846761115</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Attribut du sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618585832433"/>
+<term id="a2_1618585847754"/>
+</positioning>
+</relation>
+</annotations>

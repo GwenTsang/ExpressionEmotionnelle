@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="840-45205479"/>
+<unit id="unitex_1614594407907">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594407907</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="0"/>
+		</start>
+		<end>
+			<singlePosition index="12"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1614594407908">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594407908</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="13"/>
+		</start>
+		<end>
+			<singlePosition index="159"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1614594407909">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594407909</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="160"/>
+		</start>
+		<end>
+			<singlePosition index="366"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1614594407910">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594407910</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="367"/>
+		</start>
+		<end>
+			<singlePosition index="612"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1614594407911">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594407911</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="613"/>
+		</start>
+		<end>
+			<singlePosition index="797"/>
+		</end>
+	</positioning>
+</unit>
+
+</annotations>

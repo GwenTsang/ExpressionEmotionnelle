@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="389-59854014"/>
+<unit id="a1_1621579827920">
+<metadata>
+<author>a1</author>
+<creation-date>1621579827920</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="368"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579827926">
+<metadata>
+<author>a1</author>
+<creation-date>1621579827926</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628232939270</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">plaisir</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="323"/>
+</start>
+<end>
+<singlePosition index="330"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628232941062">
+<metadata>
+<author>a1</author>
+<creation-date>1628232941062</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628232944923</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="333"/>
+</start>
+<end>
+<singlePosition index="346"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628232991846">
+<metadata>
+<author>a1</author>
+<creation-date>1628232991846</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628233008411</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Complexe</feature>
+<feature name="Categorie2">Fierte</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">récompense</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="82"/>
+</start>
+<end>
+<singlePosition index="92"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628233010801">
+<metadata>
+<author>a1</author>
+<creation-date>1628233010801</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628233014097</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">des gens qui participent à faire la paix dans le monde</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="106"/>
+</start>
+<end>
+<singlePosition index="160"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1628232948396">
+<metadata>
+<author>a1</author>
+<creation-date>1628232948396</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628232951700</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579827926"/>
+<term id="a1_1628232941062"/>
+</positioning>
+</relation>
+<relation id="a1_1628233022465">
+<metadata>
+<author>a1</author>
+<creation-date>1628233022465</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628233027258</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. direct</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1628232991846"/>
+<term id="a1_1628233010801"/>
+</positioning>
+</relation>
+</annotations>

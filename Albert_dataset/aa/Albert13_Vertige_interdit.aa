@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="384-58314168"/>
+<unit id="unitex_1614594403844">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594403844</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="16"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594403845">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594403845</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="17"/>
+</start>
+<end>
+<singlePosition index="367"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594403846">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594403846</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="368"/>
+</start>
+<end>
+<singlePosition index="368"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615894028160">
+<metadata>
+<author>a2</author>
+<creation-date>1615894028160</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1615894127088</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Admiration</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">performance</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="73"/>
+</start>
+<end>
+<singlePosition index="87"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615894065364">
+<metadata>
+<author>a2</author>
+<creation-date>1615894065364</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1615894082205</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="87"/>
+</start>
+<end>
+<singlePosition index="88"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619189099128">
+<metadata>
+<author>a2</author>
+<creation-date>1619189099128</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1623760613988</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Fierte</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Joie</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">imposé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="281"/>
+</start>
+<end>
+<singlePosition index="293"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619189105255">
+<metadata>
+<author>a2</author>
+<creation-date>1619189105255</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619189128852</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le Polonais Piotr Lobodzinski</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="243"/>
+</start>
+<end>
+<singlePosition index="280"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619189155724">
+<metadata>
+<author>a2</author>
+<creation-date>1619189155724</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619189186293</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">n'a pas réussi</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="303"/>
+</start>
+<end>
+<singlePosition index="337"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619189191026">
+<metadata>
+<author>a2</author>
+<creation-date>1619189191026</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619189207121</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le Polonais Piotr Lobodzinski</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="300"/>
+</start>
+<end>
+<singlePosition index="302"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1615894087634">
+<metadata>
+<author>a2</author>
+<creation-date>1615894087634</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1615894028160"/>
+<term id="a2_1615894065364"/>
+</positioning>
+</relation>
+<relation id="a2_1619189147872">
+<metadata>
+<author>a2</author>
+<creation-date>1619189147872</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1619189099128"/>
+<term id="a2_1619189105255"/>
+</positioning>
+</relation>
+<relation id="a2_1619189209622">
+<metadata>
+<author>a2</author>
+<creation-date>1619189209622</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1619189155724"/>
+<term id="a2_1619189191026"/>
+</positioning>
+</relation>
+</annotations>

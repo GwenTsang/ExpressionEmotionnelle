@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="425-27007299"/>
+<unit id="unitex_1614594408239">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594408239</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="11"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594408240">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594408240</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="12"/>
+</start>
+<end>
+<singlePosition index="407"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619015823613">
+<metadata>
+<author>a2</author>
+<creation-date>1619015823613</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619015846202</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">hommage</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="59"/>
+</start>
+<end>
+<singlePosition index="74"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619015850647">
+<metadata>
+<author>a2</author>
+<creation-date>1619015850647</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619015881131</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le quartier de Kadikoy à Istanbul</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="12"/>
+</start>
+<end>
+<singlePosition index="45"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1619015885372">
+<metadata>
+<author>a2</author>
+<creation-date>1619015885372</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619015886819</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1619015823613"/>
+<term id="a2_1619015850647"/>
+</positioning>
+</relation>
+</annotations>

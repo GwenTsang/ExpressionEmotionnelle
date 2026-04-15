@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="431-62843715"/>
+<unit id="unitex_1617122718916">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718916</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="13"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718917">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718917</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="14"/>
+</start>
+<end>
+<singlePosition index="398"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618487664277">
+<metadata>
+<author>a2</author>
+<creation-date>1618487664277</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618487741200</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">s'était fait avoir</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="354"/>
+</start>
+<end>
+<singlePosition index="372"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618487688855">
+<metadata>
+<author>a2</author>
+<creation-date>1618487688855</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621349767925</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">un médecin indien</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="351"/>
+</start>
+<end>
+<singlePosition index="353"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1618487710614">
+<metadata>
+<author>a2</author>
+<creation-date>1618487710614</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet passif</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618487664277"/>
+<term id="a2_1618487688855"/>
+</positioning>
+</relation>
+</annotations>

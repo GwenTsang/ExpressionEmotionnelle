@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="555-62753724"/>
+<unit id="unitex_1617122712896">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712896</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="12"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712897">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712897</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="13"/>
+</start>
+<end>
+<singlePosition index="527"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617367478965">
+<metadata>
+<author>a2</author>
+<creation-date>1617367478965</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617367499201</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Point d'exclamation</feature>
+<feature name="Declencheur">!</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="439"/>
+</start>
+<end>
+<singlePosition index="440"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617367479972">
+<metadata>
+<author>a2</author>
+<creation-date>1617367479972</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617367510043</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="440"/>
+</start>
+<end>
+<singlePosition index="441"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617367528380">
+<metadata>
+<author>a2</author>
+<creation-date>1617367528380</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617367551750</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">découvert</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="310"/>
+</start>
+<end>
+<singlePosition index="321"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617367556586">
+<metadata>
+<author>a2</author>
+<creation-date>1617367556586</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620655208090</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">un technicien bruxellois</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="285"/>
+</start>
+<end>
+<singlePosition index="309"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1617367514056">
+<metadata>
+<author>a2</author>
+<creation-date>1617367514056</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617367478965"/>
+<term id="a2_1617367479972"/>
+</positioning>
+</relation>
+<relation id="a2_1617367573890">
+<metadata>
+<author>a2</author>
+<creation-date>1617367573890</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617367528380"/>
+<term id="a2_1617367556586"/>
+</positioning>
+</relation>
+</annotations>

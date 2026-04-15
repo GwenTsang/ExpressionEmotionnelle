@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="823-72632736"/>
+<unit id="unitex_1614594404029">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404029</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="6"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594404030">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404030</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="7"/>
+</start>
+<end>
+<singlePosition index="258"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594404031">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404031</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="259"/>
+</start>
+<end>
+<singlePosition index="580"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594404032">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404032</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="581"/>
+</start>
+<end>
+<singlePosition index="800"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594404033">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404033</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="801"/>
+</start>
+<end>
+<singlePosition index="801"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619190616453">
+<metadata>
+<author>a2</author>
+<creation-date>1619190616453</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619190633253</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">tendues</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="509"/>
+</start>
+<end>
+<singlePosition index="535"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619190636804">
+<metadata>
+<author>a2</author>
+<creation-date>1619190636804</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">François Hollande et Vladimir Poutine</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="542"/>
+</start>
+<end>
+<singlePosition index="579"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1619190657412">
+<metadata>
+<author>a2</author>
+<creation-date>1619190657412</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619190660114</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1619190616453"/>
+<term id="a2_1619190636804"/>
+</positioning>
+</relation>
+</annotations>

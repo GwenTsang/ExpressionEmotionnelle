@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="509-66963303"/>
+<unit id="unitex_1617122717739">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122717739</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="24"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122717740">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122717740</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="25"/>
+</start>
+<end>
+<singlePosition index="488"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618395865024">
+<metadata>
+<author>a2</author>
+<creation-date>1618395865024</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618395904937</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Complexe</feature>
+<feature name="Categorie2">Fierte</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">satisfaction</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="112"/>
+</start>
+<end>
+<singlePosition index="124"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618395909368">
+<metadata>
+<author>a2</author>
+<creation-date>1618395909368</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621331255892</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">l'auteur de romans à suspense Mark Dawson</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">Det</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="109"/>
+</start>
+<end>
+<singlePosition index="111"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618395961990">
+<metadata>
+<author>a2</author>
+<creation-date>1618395961990</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618395975298</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Points de suspension</feature>
+<feature name="Declencheur">...</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="285"/>
+</start>
+<end>
+<singlePosition index="286"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618395979860">
+<metadata>
+<author>a2</author>
+<creation-date>1618395979860</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618395991759</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="286"/>
+</start>
+<end>
+<singlePosition index="287"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618396007369">
+<metadata>
+<author>a2</author>
+<creation-date>1618396007369</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618396025372</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">reproches</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="449"/>
+</start>
+<end>
+<singlePosition index="462"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618396029925">
+<metadata>
+<author>a2</author>
+<creation-date>1618396029925</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618396041667</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">ses confrères auteurs</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="466"/>
+</start>
+<end>
+<singlePosition index="487"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1618395940194">
+<metadata>
+<author>a2</author>
+<creation-date>1618395940194</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Determination</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618395865024"/>
+<term id="a2_1618395909368"/>
+</positioning>
+</relation>
+<relation id="a2_1618395994510">
+<metadata>
+<author>a2</author>
+<creation-date>1618395994510</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618395961990"/>
+<term id="a2_1618395979860"/>
+</positioning>
+</relation>
+<relation id="a2_1618396044463">
+<metadata>
+<author>a2</author>
+<creation-date>1618396044463</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. du nom</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618396007369"/>
+<term id="a2_1618396029925"/>
+</positioning>
+</relation>
+</annotations>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="414-15898410"/>
+<unit id="unitex_1617122713521">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122713521</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="14"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122713522">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122713522</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="15"/>
+</start>
+<end>
+<singlePosition index="394"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617717774615">
+<metadata>
+<author>a2</author>
+<creation-date>1617717774615</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717886803</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Point d'exclamation</feature>
+<feature name="Declencheur">!</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="393"/>
+</start>
+<end>
+<singlePosition index="394"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617717778559">
+<metadata>
+<author>a2</author>
+<creation-date>1617717778559</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717855095</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="392"/>
+</start>
+<end>
+<singlePosition index="393"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617717795415">
+<metadata>
+<author>a2</author>
+<creation-date>1617717795415</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717827415</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Points de suspension</feature>
+<feature name="Declencheur">...</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="361"/>
+</start>
+<end>
+<singlePosition index="364"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617717807183">
+<metadata>
+<author>a2</author>
+<creation-date>1617717807183</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717842617</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="364"/>
+</start>
+<end>
+<singlePosition index="365"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617717916763">
+<metadata>
+<author>a2</author>
+<creation-date>1617717916763</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717936799</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">refuse</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="301"/>
+</start>
+<end>
+<singlePosition index="329"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617717942355">
+<metadata>
+<author>a2</author>
+<creation-date>1617717942355</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717954505</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le client</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="291"/>
+</start>
+<end>
+<singlePosition index="300"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1617717845443">
+<metadata>
+<author>a2</author>
+<creation-date>1617717845443</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717847111</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617717795415"/>
+<term id="a2_1617717807183"/>
+</positioning>
+</relation>
+<relation id="a2_1617717896757">
+<metadata>
+<author>a2</author>
+<creation-date>1617717896757</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717899361</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617717774615"/>
+<term id="a2_1617717778559"/>
+</positioning>
+</relation>
+<relation id="a2_1617717958633">
+<metadata>
+<author>a2</author>
+<creation-date>1617717958633</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617717960708</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617717916763"/>
+<term id="a2_1617717942355"/>
+</positioning>
+</relation>
+</annotations>
