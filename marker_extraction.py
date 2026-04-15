@@ -44,6 +44,40 @@ logger = logging.getLogger(__name__)
 RE_WORD = re.compile(r"\b[a-zA-ZÀ-ÿœŒæÆ]+(?:['-][a-zA-ZÀ-ÿœŒæÆ]+)*\b", re.UNICODE)
 RE_PUNCT = re.compile(r"[!?.,;:…\-—–\"'«»()\[\]]+")
 
+# Liste de stopwords pour filtrage des marqueurs
+FR_STOPWORDS = {
+    # Pronoms et déterminants
+    "le", "la", "les", "l", "un", "une", "des", "du", "de", "d", "au", "aux",
+    "ce", "cet", "cette", "ces", "mon", "ton", "son", "ma", "ta", "sa", "mes", "tes", "ses",
+    "notre", "votre", "leur", "nos", "vos", "leurs",
+    "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles",
+    "me", "te", "se", "lui", "y", "en", "eux", "moi", "toi",
+    "qui", "que", "quoi", "dont", "où", "lequel", "auquel", "duquel", "laquelle", "lesquels", "lesquelles",
+    "ceci", "cela", "ça", "celui", "celle", "ceux", "celles",
+    
+    # Prépositions et conjonctions
+    "à", "pour", "sur", "dans", "avec", "par", "vers", "sous", "sans", "chez", "entre", "depuis",
+    "et", "ou", "ni", "mais", "or", "car", "donc",
+    "qu", "quand", "comme", "si", "lorsque", "puisque", "quoique",
+    
+    # Adverbes fréquents et mots outils
+    "ne", "pas", "plus", "moins", "très", "trop", "aussi", "bien", "mal", "alors", "ainsi", "toujours", "jamais",
+    "ici", "là", "oui", "non", "tout", "tous", "toute", "toutes", "rien", "personne", "aucun", "autre", "autres",
+    "même", "quelque", "quelques",
+    
+    # Verbes très fréquents (formes et lemmes)
+    "être", "suis", "es", "est", "sommes", "êtes", "sont", "été", "étais", "était", "étions", "étiez", "étaient", "serai", "sera", "serons", "serez", "seront",
+    "avoir", "ai", "as", "a", "avons", "avez", "ont", "eu", "avais", "avait", "avions", "aviez", "avaient", "aurai", "aura", "aurons", "aurez", "auront",
+    "aller", "vais", "vas", "va", "allons", "allez", "vont",
+    "faire", "fais", "fait", "faisons", "faites", "font",
+    "pouvoir", "peux", "peut", "pouvons", "pouvez", "peuvent",
+    "vouloir", "veux", "veut", "voulons", "voulez", "veulent",
+    "devoir", "dois", "doit", "devons", "devez", "doivent",
+    "dire", "dis", "dit", "disons", "dites", "disent",
+    
+    # Bruit additionnel (lettres isolées)
+    "c", "j", "m", "n", "s", "t", "y"
+}
 
 # ---------------------------------------------------------------------------
 # Backends de lemmatisation
@@ -238,6 +272,7 @@ def build_marker_dataframe(
     include_empty: bool = False,
     lemmatizer_backend: str = "spacy",
     batch_size: int = 256,
+    remove_stopwords: bool = False,
 ) -> pd.DataFrame:
     """Construit le dataframe marqueur × annotation.
 
@@ -313,6 +348,8 @@ def build_marker_dataframe(
 
         # Mots
         for word in extract_words(text):
+            if remove_stopwords and word in FR_STOPWORDS:
+                continue
             r = base_record.copy()
             r["marker_type"] = "word"
             r["marker_value"] = word
@@ -369,6 +406,8 @@ def build_marker_dataframe(
                 "remarque": row["remarque"],
             }
             for lemma in all_lemmas[i]:
+                if remove_stopwords and lemma in FR_STOPWORDS:
+                    continue
                 r = base_record.copy()
                 r["marker_type"] = "lemma"
                 r["marker_value"] = lemma
@@ -423,6 +462,11 @@ def main():
         help="Inclut les unités SitEmo/Autre avec Mode/Remarque vide",
     )
     parser.add_argument(
+        "--remove-stopwords",
+        action="store_true",
+        help="Filtre les mots vides (stopwords) français ultra-fréquents",
+    )
+    parser.add_argument(
         "--lemmatizer",
         choices=["spacy", "stanza"],
         default="spacy",
@@ -454,6 +498,7 @@ def main():
         include_empty=args.include_empty,
         lemmatizer_backend=args.lemmatizer,
         batch_size=args.batch_size,
+        remove_stopwords=args.remove_stopwords,
     )
 
     if markers_df.empty:

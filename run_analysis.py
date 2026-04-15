@@ -84,6 +84,7 @@ def run_markers(
     include_empty: bool = False,
     lemmatizer_backend: str = "spacy",
     batch_size: int = 256,
+    remove_stopwords: bool = False,
 ) -> pd.DataFrame:
     """Étape 2 : extraction des marqueurs linguistiques."""
     logger.info("=" * 60)
@@ -96,6 +97,7 @@ def run_markers(
         include_empty=include_empty,
         lemmatizer_backend=lemmatizer_backend,
         batch_size=batch_size,
+        remove_stopwords=remove_stopwords,
     )
 
     if markers_df.empty:
@@ -206,6 +208,11 @@ def main():
         help="Inclut les unités SitEmo/Autre avec Mode/Remarque vide dans l'analyse",
     )
     parser.add_argument(
+        "--remove-stopwords",
+        action="store_true",
+        help="Filtre les mots vides (stopwords) français ultra-fréquents",
+    )
+    parser.add_argument(
         "--min-freq",
         type=int,
         default=3,
@@ -218,8 +225,8 @@ def main():
     if args.corpus:
         logger.info("Corpus sélectionné : %s", args.corpus)
     lemmatizer_label = args.lemmatizer if not args.no_lemma else "désactivé"
-    logger.info("Options : include-empty=%s, lemmatizer=%s, batch-size=%d, min-freq=%d",
-                args.include_empty, lemmatizer_label, args.batch_size, args.min_freq)
+    logger.info("Options : include-empty=%s, lemmatizer=%s, batch-size=%d, min-freq=%d, remove-stopwords=%s",
+                args.include_empty, lemmatizer_label, args.batch_size, args.min_freq, args.remove_stopwords)
 
     annotations_csv = os.path.join(args.output_dir, "annotations.csv")
     markers_csv = os.path.join(args.output_dir, "markers.csv")
@@ -241,6 +248,7 @@ def main():
             include_empty=args.include_empty,
             lemmatizer_backend=args.lemmatizer,
             batch_size=args.batch_size,
+            remove_stopwords=args.remove_stopwords,
         )
     else:
         if not os.path.isfile(markers_csv):

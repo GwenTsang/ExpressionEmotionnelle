@@ -1,0 +1,269 @@
+﻿corpus,file_id,unit_id,type,start_idx,end_idx,text_span,mode,categorie1,categorie2,remarque,marker_type,marker_value
+CorpusCovid,covid_10-13_MonQuotidien_Explicatif_origine-symptomes,a2_1618818198992,SitEmo,1550,1553,...,Montree,Surprise,Aucune,,punctuation,…
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618818597335,SitEmo,374,386,un cauchemar,Designee,Peur,Aucune,,word,cauchemar
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,word,temps
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,word,d'écran
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,word,long
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,punctuation,'
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819402238,SitEmo,1317,1349,pas toujours très facile à vivre,Suggeree,Tristesse,Aucune,,word,facile
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819402238,SitEmo,1317,1349,pas toujours très facile à vivre,Suggeree,Tristesse,Aucune,,word,vivre
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819451072,SitEmo,1351,1375,Mes copains m'ont manqué,Suggeree,Tristesse,Aucune,,word,copains
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819451072,SitEmo,1351,1375,Mes copains m'ont manqué,Suggeree,Tristesse,Aucune,,word,m'ont
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819451072,SitEmo,1351,1375,Mes copains m'ont manqué,Suggeree,Tristesse,Aucune,,word,manqué
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819451072,SitEmo,1351,1375,Mes copains m'ont manqué,Suggeree,Tristesse,Aucune,,punctuation,'
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819611058,SitEmo,1616,1623,pénible,Designee,Tristesse,Aucune,,word,pénible
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,word,l'impression
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,word,d'être
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,word,pestiférée
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,punctuation,'
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,punctuation,'
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1621433000072,Autre,2021,2028,soulagé,,,,,word,soulagé
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820063846,SitEmo,1404,1411,injuste,Suggeree,Colere,Aucune,,word,injuste
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,word,n'est
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,word,familles
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,word,d'acheter
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,word,produits
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,word,l'école
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,punctuation,'
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,punctuation,'
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,punctuation,'
+CorpusCovid,covid_6-10_PetitQuotidien_Explicatif_comment-la-Chine-lutte,a2_1621419419023,SitEmo,595,596,!,Montree,Surprise,Aucune,,punctuation,!
+CorpusCovid,covid_6-10_PetitQuotidien_Explicatif_contre-les-virus,a2_1618844687788,SitEmo,2283,2291,paniquer,Designee,Peur,Aucune,,word,paniquer
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618580315584,SitEmo,631,638,content,Designee,Joie,Aucune,,word,content
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581001812,SitEmo,1311,1322,C'est super,Suggeree,Joie,Aucune,,word,c'est
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581001812,SitEmo,1311,1322,C'est super,Suggeree,Joie,Aucune,,word,super
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581001812,SitEmo,1311,1322,C'est super,Suggeree,Joie,Aucune,,punctuation,'
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581266391,SitEmo,1850,1854,déçu,Designee,Tristesse,Aucune,,word,déçu
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581352223,SitEmo,1894,1900,triste,Designee,Tristesse,Aucune,,word,triste
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618844845204,SitEmo,1323,1324,!,Montree,Joie,Aucune,,punctuation,!
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1621419732334,SitEmo,2289,2328,Mes copines et ma maîtresse me manquent,Suggeree,Tristesse,Aucune,,word,copines
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1621419732334,SitEmo,2289,2328,Mes copines et ma maîtresse me manquent,Suggeree,Tristesse,Aucune,,word,maîtresse
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1621419732334,SitEmo,2289,2328,Mes copines et ma maîtresse me manquent,Suggeree,Tristesse,Aucune,,word,manquent
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_recits-du-confinement,a2_1618582015419,SitEmo,541,549,contente,Designee,Joie,Aucune,,word,contente
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_recits-du-confinement,a2_1618582102148,SitEmo,973,979,triste,Designee,Tristesse,Aucune,,word,triste
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_recits-du-confinement,a2_1618582105768,SitEmo,983,991,contente,Designee,Joie,Aucune,,word,contente
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_coronavirus-et-transmission,a2_1618582808002,SitEmo,1962,1974,l’ont craint,Designee,Peur,Aucune,,word,craint
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_coronavirus-et-transmission,a2_1618582861543,SitEmo,2050,2060,les fuient,Comportementale,Peur,Aucune,,word,fuient
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_point-sur-ce-qu-on-sait,a2_1618584999824,SitEmo,3471,3477,satané,Montree,Colere,Aucune,,word,satané
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_point-sur-ce-qu-on-sait,a2_1618585124653,SitEmo,3484,3485,!,Montree,Colere,Aucune,,punctuation,!
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_point-sur-ce-qu-on-sait,a2_1618845026222,SitEmo,2058,2062,peur,Designee,Peur,Aucune,,word,peur
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_que-sait-on-coronavirus,a2_1618845138534,SitEmo,1194,1198,peur,Designee,Peur,Aucune,,word,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Hugo,a2_1618585832433,SitEmo,1663,1676,un peu triste,Designee,Tristesse,Aucune,,word,peu
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Hugo,a2_1618585832433,SitEmo,1663,1676,un peu triste,Designee,Tristesse,Aucune,,word,triste
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Jiashu,a2_1618586442048,SitEmo,1537,1545,heureuse,Designee,Joie,Aucune,,word,heureuse
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Jiashu,a2_1621430457787,SitEmo,1701,1728,Ils sont vraiment courageux,Montree,Admiration,Aucune,,word,vraiment
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Jiashu,a2_1621430457787,SitEmo,1701,1728,Ils sont vraiment courageux,Montree,Admiration,Aucune,,word,courageux
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_infirmiere-en-reanimation,a2_1618586154909,SitEmo,1683,1691,inquiète,Designee,Peur,Aucune,,word,inquiète
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_infirmiere-en-reanimation,a2_1618586257333,SitEmo,2520,2528,révoltée,Designee,Colere,Aucune,,word,révoltée
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586584086,SitEmo,388,393,fière,Designee,Fierte,Aucune,,word,fière
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586682792,SitEmo,830,838,contente,Designee,Joie,Aucune,,word,contente
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586749472,SitEmo,1093,1098,fière,Designee,Fierte,Aucune,,word,fière
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586820072,SitEmo,1519,1526,ai peur,Designee,Peur,Aucune,,word,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587097854,SitEmo,3842,3850,ont peur,Designee,Peur,Aucune,,word,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587141800,SitEmo,3917,3929,plutôt fiers,Designee,Fierte,Aucune,,word,plutôt
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587141800,SitEmo,3917,3929,plutôt fiers,Designee,Fierte,Aucune,,word,fiers
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587219665,SitEmo,4027,4042,inquiète un peu,Designee,Peur,Aucune,,word,inquiète
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587219665,SitEmo,4027,4042,inquiète un peu,Designee,Peur,Aucune,,word,peu
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1621430886439,SitEmo,4496,4503,plaisir,Designee,Joie,Aucune,,word,plaisir
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1618834933788,SitEmo,876,888,ai trop peur,Designee,Peur,Aucune,,word,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1618835323360,SitEmo,4916,4922,énerve,Designee,Colere,Aucune,,word,énerve
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431094981,SitEmo,2108,2113,super,Suggeree,Joie,Aucune,,word,super
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431156900,SitEmo,2114,2115,!,Montree,Joie,Aucune,,punctuation,!
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431195682,SitEmo,2170,2182,se disputait,Comportementale,Colere,Aucune,,word,disputait
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431351314,SitEmo,3199,3206,marrant,Designee,Joie,Aucune,,word,marrant
+CorpusCovid,covid_adultes_LeMonde_Explicatif_mesures-annoncees,a2_1618821340618,SitEmo,9590,9602,en réclamant,Comportementale,Colere,Aucune,,word,réclamant
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618823155606,SitEmo,70,92,beaucoup d’inquiétudes,Designee,Peur,Aucune,,word,beaucoup
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618823155606,SitEmo,70,92,beaucoup d’inquiétudes,Designee,Peur,Aucune,,word,inquiétudes
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,craignons
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,apparition
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,développement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,foyers
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,épidémiques
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,provinces
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,hors
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,chine
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,pourraient
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,prendre
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,word,relais
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824238644,SitEmo,6587,6609,beaucoup d’inquiétudes,Designee,Peur,Aucune,,word,beaucoup
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824238644,SitEmo,6587,6609,beaucoup d’inquiétudes,Designee,Peur,Aucune,,word,inquiétudes
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,apparition
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,développement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,foyers
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,épidémiques
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,provinces
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,hors
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,chine
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,pourraient
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,prendre
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,word,relais
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825553798,SitEmo,7079,7092,très inquiets,Designee,Peur,Aucune,,word,inquiets
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,word,dénonce
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,word,inaction
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,word,gouvernements
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,punctuation,«
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,punctuation,»
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825672427,SitEmo,6965,6997,« l’inaction » des gouvernements,Suggeree,Colere,Aucune,,word,inaction
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825672427,SitEmo,6965,6997,« l’inaction » des gouvernements,Suggeree,Colere,Aucune,,word,gouvernements
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825672427,SitEmo,6965,6997,« l’inaction » des gouvernements,Suggeree,Colere,Aucune,,punctuation,«
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825672427,SitEmo,6965,6997,« l’inaction » des gouvernements,Suggeree,Colere,Aucune,,punctuation,»
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825834292,SitEmo,9663,9672,révoltent,Comportementale,Colere,Aucune,,word,révoltent
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,accusant
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,abstenus
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,prendre
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,temps
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,mesures
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,endiguer
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,word,épidémie
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,punctuation,«
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,punctuation,»
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826247004,SitEmo,15520,15528,Critiqué,Comportementale,Colere,Aucune,,word,critiqué
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826366458,SitEmo,17776,17783,surpris,Designee,Surprise,Aucune,,word,surpris
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826368550,SitEmo,17787,17795,inquiété,Designee,Peur,Aucune,,word,inquiété
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434099027,SitEmo,5629,5657,Des comportements de panique,Comportementale,Peur,Aucune,,word,comportements
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434099027,SitEmo,5629,5657,Des comportements de panique,Comportementale,Peur,Aucune,,word,panique
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434161939,SitEmo,5650,5657,panique,Designee,Peur,Aucune,,word,panique
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434311616,SitEmo,15548,15578,son non-respect des protocoles,Suggeree,Colere,Aucune,,word,non-respect
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434311616,SitEmo,15548,15578,son non-respect des protocoles,Suggeree,Colere,Aucune,,word,protocoles
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434311616,SitEmo,15548,15578,son non-respect des protocoles,Suggeree,Colere,Aucune,,punctuation,-
+CorpusCovid,covid_adultes_Liberation_Explicatif_inquietude-decolle,a2_1618827805430,SitEmo,14,26,l’inquiétude,Designee,Peur,Aucune,,word,inquiétude
+CorpusCovid,covid_adultes_Liberation_Explicatif_inquietude-decolle,a2_1618832264328,SitEmo,1480,1491,la psychose,Designee,Peur,Aucune,,word,psychose
+CorpusCovid,covid_adultes_Liberation_Explicatif_inquietude-decolle,a2_1618832332040,SitEmo,2201,2219,pas moins inquiets,Designee,Peur,Aucune,,word,inquiets
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833601854,SitEmo,859,871,est critiqué,Comportementale,Colere,Aucune,,word,critiqué
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833737355,SitEmo,3836,3848,L’inquiétude,Designee,Peur,Aucune,,word,inquiétude
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833927139,SitEmo,6349,6361,s’inquiètent,Designee,Peur,Aucune,,word,inquiètent
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,word,arrivée
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,word,virus
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,word,pourrait
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,word,ajouter
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,word,facteurs
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,word,mortalité
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1621434565413,SitEmo,6037,6052,laisse craindre,Designee,Peur,Aucune,,word,laisse
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1621434565413,SitEmo,6037,6052,laisse craindre,Designee,Peur,Aucune,,word,craindre
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833063684,SitEmo,268,277,préoccupe,Designee,Peur,Aucune,,word,préoccupe
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833134799,SitEmo,589,618,fait partie des plus inquiets,Designee,Peur,Aucune,,word,partie
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833134799,SitEmo,589,618,fait partie des plus inquiets,Designee,Peur,Aucune,,word,inquiets
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833366867,SitEmo,2062,2072,inquiétant,Designee,Peur,Aucune,,word,inquiétant
+CorpusCovid,covid_adultes_Liberation_Explicatif_protection-rapprochee,a2_1618834735442,SitEmo,4445,4468,héros en blouse blanche,Suggeree,Admiration,Aucune,,word,héros
+CorpusCovid,covid_adultes_Liberation_Explicatif_protection-rapprochee,a2_1618834735442,SitEmo,4445,4468,héros en blouse blanche,Suggeree,Admiration,Aucune,,word,blouse
+CorpusCovid,covid_adultes_Liberation_Explicatif_protection-rapprochee,a2_1618834735442,SitEmo,4445,4468,héros en blouse blanche,Suggeree,Admiration,Aucune,,word,blanche
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618818597335,SitEmo,374,386,un cauchemar,Designee,Peur,Aucune,,lemma,cauchemar
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,lemma,temps
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,lemma,écran
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819302996,SitEmo,1266,1298,avais un temps d'écran plus long,Suggeree,Joie,Aucune,,lemma,long
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819402238,SitEmo,1317,1349,pas toujours très facile à vivre,Suggeree,Tristesse,Aucune,,lemma,facile
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819402238,SitEmo,1317,1349,pas toujours très facile à vivre,Suggeree,Tristesse,Aucune,,lemma,vivre
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819451072,SitEmo,1351,1375,Mes copains m'ont manqué,Suggeree,Tristesse,Aucune,,lemma,copain
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819451072,SitEmo,1351,1375,Mes copains m'ont manqué,Suggeree,Tristesse,Aucune,,lemma,manquer
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819611058,SitEmo,1616,1623,pénible,Designee,Tristesse,Aucune,,lemma,pénible
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,lemma,impression
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1618819691576,SitEmo,1751,1791,avais l'impression d'être une pestiférée,Suggeree,Embarras,Tristesse,,lemma,pestiféré
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1621433000072,Autre,2021,2028,soulagé,,,,,lemma,soulager
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820063846,SitEmo,1404,1411,injuste,Suggeree,Colere,Aucune,,lemma,injuste
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,lemma,famille
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,lemma,acheter
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,lemma,produit
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_savon-toilettes,a2_1618820178866,SitEmo,1415,1476,Ce n'est pas aux familles d'acheter ces produits pour l'école,Montree,Colere,Aucune,,lemma,école
+CorpusCovid,covid_6-10_PetitQuotidien_Explicatif_contre-les-virus,a2_1618844687788,SitEmo,2283,2291,paniquer,Designee,Peur,Aucune,,lemma,paniquer
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618580315584,SitEmo,631,638,content,Designee,Joie,Aucune,,lemma,content
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581001812,SitEmo,1311,1322,C'est super,Suggeree,Joie,Aucune,,lemma,super
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581266391,SitEmo,1850,1854,déçu,Designee,Tristesse,Aucune,,lemma,déçu
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1618581352223,SitEmo,1894,1900,triste,Designee,Tristesse,Aucune,,lemma,triste
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1621419732334,SitEmo,2289,2328,Mes copines et ma maîtresse me manquent,Suggeree,Tristesse,Aucune,,lemma,copine
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1621419732334,SitEmo,2289,2328,Mes copines et ma maîtresse me manquent,Suggeree,Tristesse,Aucune,,lemma,maîtresse
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_a-cause-du-coronavirus,a2_1621419732334,SitEmo,2289,2328,Mes copines et ma maîtresse me manquent,Suggeree,Tristesse,Aucune,,lemma,manquer
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_recits-du-confinement,a2_1618582015419,SitEmo,541,549,contente,Designee,Joie,Aucune,,lemma,content
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_recits-du-confinement,a2_1618582102148,SitEmo,973,979,triste,Designee,Tristesse,Aucune,,lemma,triste
+CorpusCovid,covid_6-10_PetitQuotidien_Temoignages_recits-du-confinement,a2_1618582105768,SitEmo,983,991,contente,Designee,Joie,Aucune,,lemma,content
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_coronavirus-et-transmission,a2_1618582808002,SitEmo,1962,1974,l’ont craint,Designee,Peur,Aucune,,lemma,craindre
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_coronavirus-et-transmission,a2_1618582861543,SitEmo,2050,2060,les fuient,Comportementale,Peur,Aucune,,lemma,fuient
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_point-sur-ce-qu-on-sait,a2_1618584999824,SitEmo,3471,3477,satané,Montree,Colere,Aucune,,lemma,sataner
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_point-sur-ce-qu-on-sait,a2_1618845026222,SitEmo,2058,2062,peur,Designee,Peur,Aucune,,lemma,peur
+CorpusCovid,covid_8-13_PtitLibe_Explicatif_que-sait-on-coronavirus,a2_1618845138534,SitEmo,1194,1198,peur,Designee,Peur,Aucune,,lemma,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Hugo,a2_1618585832433,SitEmo,1663,1676,un peu triste,Designee,Tristesse,Aucune,,lemma,peu
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Hugo,a2_1618585832433,SitEmo,1663,1676,un peu triste,Designee,Tristesse,Aucune,,lemma,triste
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Jiashu,a2_1618586442048,SitEmo,1537,1545,heureuse,Designee,Joie,Aucune,,lemma,heureux
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Jiashu,a2_1621430457787,SitEmo,1701,1728,Ils sont vraiment courageux,Montree,Admiration,Aucune,,lemma,vraiment
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_Jiashu,a2_1621430457787,SitEmo,1701,1728,Ils sont vraiment courageux,Montree,Admiration,Aucune,,lemma,courageux
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_infirmiere-en-reanimation,a2_1618586154909,SitEmo,1683,1691,inquiète,Designee,Peur,Aucune,,lemma,inquiet
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_infirmiere-en-reanimation,a2_1618586257333,SitEmo,2520,2528,révoltée,Designee,Colere,Aucune,,lemma,révolter
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586584086,SitEmo,388,393,fière,Designee,Fierte,Aucune,,lemma,fier
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586682792,SitEmo,830,838,contente,Designee,Joie,Aucune,,lemma,content
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586749472,SitEmo,1093,1098,fière,Designee,Fierte,Aucune,,lemma,fier
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618586820072,SitEmo,1519,1526,ai peur,Designee,Peur,Aucune,,lemma,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587097854,SitEmo,3842,3850,ont peur,Designee,Peur,Aucune,,lemma,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587141800,SitEmo,3917,3929,plutôt fiers,Designee,Fierte,Aucune,,lemma,plutôt
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587141800,SitEmo,3917,3929,plutôt fiers,Designee,Fierte,Aucune,,lemma,fier
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587219665,SitEmo,4027,4042,inquiète un peu,Designee,Peur,Aucune,,lemma,inquiet
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1618587219665,SitEmo,4027,4042,inquiète un peu,Designee,Peur,Aucune,,lemma,peu
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_mere-courageuse,a2_1621430886439,SitEmo,4496,4503,plaisir,Designee,Joie,Aucune,,lemma,plaisir
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1618834933788,SitEmo,876,888,ai trop peur,Designee,Peur,Aucune,,lemma,peur
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1618835323360,SitEmo,4916,4922,énerve,Designee,Colere,Aucune,,lemma,énerv
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431094981,SitEmo,2108,2113,super,Suggeree,Joie,Aucune,,lemma,super
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431195682,SitEmo,2170,2182,se disputait,Comportementale,Colere,Aucune,,lemma,disputer
+CorpusCovid,covid_8-13_PtitLibe_Temoignages_vies-confinees,a2_1621431351314,SitEmo,3199,3206,marrant,Designee,Joie,Aucune,,lemma,marrant
+CorpusCovid,covid_adultes_LeMonde_Explicatif_mesures-annoncees,a2_1618821340618,SitEmo,9590,9602,en réclamant,Comportementale,Colere,Aucune,,lemma,réclamer
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618823155606,SitEmo,70,92,beaucoup d’inquiétudes,Designee,Peur,Aucune,,lemma,beaucoup
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618823155606,SitEmo,70,92,beaucoup d’inquiétudes,Designee,Peur,Aucune,,lemma,inquiétude
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,craignon
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,apparition
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,développement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,foyer
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,épidémique
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,province
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,hors
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,chine
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,prendre
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824061508,SitEmo,5253,5391,craignons l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Designee,Peur,Aucune,,lemma,relais
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824238644,SitEmo,6587,6609,beaucoup d’inquiétudes,Designee,Peur,Aucune,,lemma,beaucoup
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1618824238644,SitEmo,6587,6609,beaucoup d’inquiétudes,Designee,Peur,Aucune,,lemma,inquiétude
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,apparition
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,développement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,foyer
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,épidémique
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,province
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,hors
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,chine
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,prendre
+CorpusCovid,covid_adultes_LeMonde_Explicatif_moins-de-morts,a2_1621433912639,SitEmo,5263,5391,l’apparition et le développement de foyers épidémiques dans d’autres provinces ou hors de Chine qui pourraient prendre le relais,Suggeree,Peur,Aucune,,lemma,relais
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825553798,SitEmo,7079,7092,très inquiets,Designee,Peur,Aucune,,lemma,inquiet
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,lemma,dénonce
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,lemma,inaction
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825670121,SitEmo,6957,6997,dénonce « l’inaction » des gouvernements,Comportementale,Colere,Aucune,,lemma,gouvernement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825672427,SitEmo,6965,6997,« l’inaction » des gouvernements,Suggeree,Colere,Aucune,,lemma,inaction
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825672427,SitEmo,6965,6997,« l’inaction » des gouvernements,Suggeree,Colere,Aucune,,lemma,gouvernement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618825834292,SitEmo,9663,9672,révoltent,Comportementale,Colere,Aucune,,lemma,révolter
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,accuser
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,abstenir
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,prendre
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,temps
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,mesure
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,endiguer
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826029202,SitEmo,11008,11099,les accusant de s’être « abstenus » de prendre à temps des mesures pour endiguer l’épidémie,Comportementale,Colere,Aucune,,lemma,épidémie
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826247004,SitEmo,15520,15528,Critiqué,Comportementale,Colere,Aucune,,lemma,critiqué
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826366458,SitEmo,17776,17783,surpris,Designee,Surprise,Aucune,,lemma,surpris
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1618826368550,SitEmo,17787,17795,inquiété,Designee,Peur,Aucune,,lemma,inquiéter
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434099027,SitEmo,5629,5657,Des comportements de panique,Comportementale,Peur,Aucune,,lemma,comportement
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434099027,SitEmo,5629,5657,Des comportements de panique,Comportementale,Peur,Aucune,,lemma,panique
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434161939,SitEmo,5650,5657,panique,Designee,Peur,Aucune,,lemma,panique
+CorpusCovid,covid_adultes_LeMonde_Explicatif_principales-etapes-evolution,a2_1621434311616,SitEmo,15548,15578,son non-respect des protocoles,Suggeree,Colere,Aucune,,lemma,protocole
+CorpusCovid,covid_adultes_Liberation_Explicatif_inquietude-decolle,a2_1618827805430,SitEmo,14,26,l’inquiétude,Designee,Peur,Aucune,,lemma,inquiétude
+CorpusCovid,covid_adultes_Liberation_Explicatif_inquietude-decolle,a2_1618832264328,SitEmo,1480,1491,la psychose,Designee,Peur,Aucune,,lemma,psychose
+CorpusCovid,covid_adultes_Liberation_Explicatif_inquietude-decolle,a2_1618832332040,SitEmo,2201,2219,pas moins inquiets,Designee,Peur,Aucune,,lemma,inquiet
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833601854,SitEmo,859,871,est critiqué,Comportementale,Colere,Aucune,,lemma,critiquer
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833737355,SitEmo,3836,3848,L’inquiétude,Designee,Peur,Aucune,,lemma,inquiétude
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833927139,SitEmo,6349,6361,s’inquiètent,Designee,Peur,Aucune,,lemma,inquiéter
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,lemma,arrivée
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,lemma,virus
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,lemma,ajouter
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,lemma,facteur
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1618833957926,SitEmo,6379,6453,l’arrivée du virus qui pourrait s’ajouter à d’autres facteurs de mortalité,Suggeree,Peur,Aucune,,lemma,mortalité
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1621434565413,SitEmo,6037,6052,laisse craindre,Designee,Peur,Aucune,,lemma,laisse
+CorpusCovid,covid_adultes_Liberation_Explicatif_ou-en-est-l-epidemie,a2_1621434565413,SitEmo,6037,6052,laisse craindre,Designee,Peur,Aucune,,lemma,craindre
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833063684,SitEmo,268,277,préoccupe,Designee,Peur,Aucune,,lemma,préoccuper
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833134799,SitEmo,589,618,fait partie des plus inquiets,Designee,Peur,Aucune,,lemma,partie
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833134799,SitEmo,589,618,fait partie des plus inquiets,Designee,Peur,Aucune,,lemma,inquiet
+CorpusCovid,covid_adultes_Liberation_Explicatif_pas-une-grippette,a2_1618833366867,SitEmo,2062,2072,inquiétant,Designee,Peur,Aucune,,lemma,inquiéter
+CorpusCovid,covid_adultes_Liberation_Explicatif_protection-rapprochee,a2_1618834735442,SitEmo,4445,4468,héros en blouse blanche,Suggeree,Admiration,Aucune,,lemma,héros
+CorpusCovid,covid_adultes_Liberation_Explicatif_protection-rapprochee,a2_1618834735442,SitEmo,4445,4468,héros en blouse blanche,Suggeree,Admiration,Aucune,,lemma,blous
+CorpusCovid,covid_adultes_Liberation_Explicatif_protection-rapprochee,a2_1618834735442,SitEmo,4445,4468,héros en blouse blanche,Suggeree,Admiration,Aucune,,lemma,blanc
