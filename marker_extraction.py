@@ -7,11 +7,16 @@ Ce script prend en entrée le CSV d'annotations produit par glozz_parser.py
 et génère un dataframe « marqueur × annotation » où chaque ligne correspond
 à un marqueur (mot, lemme ou ponctuation) extrait d'un segment annoté.
 
+Deux backends de lemmatisation sont disponibles :
+  - spaCy  (CPU, batch via nlp.pipe())     — défaut
+  - stanza (GPU CUDA uniquement, batch via bulk_process())
+
 Usage :
-    python marker_extraction.py                             # défaut
-    python marker_extraction.py -i output/annotations.csv   # entrée personnalisée
-    python marker_extraction.py --no-lemma                  # sans lemmatisation
-    python marker_extraction.py --include-empty              # inclut les unités avec Mode/Remarque vide
+    python marker_extraction.py                                  # spaCy par défaut
+    python marker_extraction.py --lemmatizer stanza               # Stanza GPU
+    python marker_extraction.py --no-lemma                        # sans lemmatisation
+    python marker_extraction.py --include-empty                   # inclut features vides
+    python marker_extraction.py --lemmatizer spacy --batch-size 512
 """
 
 import os
@@ -19,6 +24,7 @@ import re
 import sys
 import argparse
 import logging
+import time
 from typing import Optional
 
 import pandas as pd
@@ -40,31 +46,155 @@ RE_PUNCT = re.compile(r"[!?.,;:…\-—–\"'«»()\[\]]+")
 
 
 # ---------------------------------------------------------------------------
-# Chargement du modèle spaCy (lazy)
+# Backends de lemmatisation
 # ---------------------------------------------------------------------------
 
-_nlp = None
+
+class LemmatizerBackend:
+    """Interface commune pour les backends de lemmatisation."""
+
+    def lemmatize_batch(self, texts: list[str]) -> list[list[str]]:
+        """Lemmatise une liste de textes. Retourne une liste de listes de lemmes."""
+        raise NotImplementedError
 
 
-def _get_spacy_nlp():
-    """Charge le modèle spaCy fr_core_news_sm une seule fois (lazy loading)."""
-    global _nlp
-    if _nlp is not None:
-        return _nlp
-    try:
-        import spacy
+class SpacyBackend(LemmatizerBackend):
+    """Backend spaCy avec batch processing via nlp.pipe()."""
 
-        _nlp = spacy.load("fr_core_news_sm", disable=["parser", "ner"])
-        logger.info("spaCy fr_core_news_sm chargé (lemmatisation activée)")
-        return _nlp
-    except ImportError:
-        logger.warning("spaCy non installé — lemmatisation désactivée")
-        return None
-    except OSError:
-        logger.warning(
-            "Modèle fr_core_news_sm introuvable — lemmatisation désactivée"
+    def __init__(self, batch_size: int = 256):
+        try:
+            import spacy
+        except ImportError:
+            raise RuntimeError(
+                "spaCy n'est pas installé. "
+                "Installez-le avec : pip install spacy && "
+                "python -m spacy download fr_core_news_sm"
+            )
+
+        try:
+            self.nlp = spacy.load("fr_core_news_sm", disable=["parser", "ner"])
+        except OSError:
+            raise RuntimeError(
+                "Modèle spaCy fr_core_news_sm introuvable. "
+                "Installez-le avec : python -m spacy download fr_core_news_sm"
+            )
+
+        self.batch_size = batch_size
+        logger.info(
+            "Backend spaCy chargé (fr_core_news_sm, batch_size=%d)", batch_size
         )
-        return None
+
+    def lemmatize_batch(self, texts: list[str]) -> list[list[str]]:
+        """Lemmatise un batch de textes via nlp.pipe()."""
+        results = []
+        for doc in self.nlp.pipe(texts, batch_size=self.batch_size):
+            lemmas = [
+                token.lemma_.lower()
+                for token in doc
+                if token.is_alpha and not token.is_space
+            ]
+            results.append(lemmas)
+        return results
+
+
+class StanzaBackend(LemmatizerBackend):
+    """Backend Stanza avec GPU CUDA obligatoire et batch processing."""
+
+    def __init__(self, batch_size: int = 256):
+        # --- Vérification GPU CUDA ---
+        try:
+            import torch
+        except ImportError:
+            raise RuntimeError(
+                "PyTorch n'est pas installé. Stanza nécessite PyTorch avec CUDA. "
+                "Installez-le avec : pip install torch"
+            )
+
+        if not torch.cuda.is_available():
+            raise RuntimeError(
+                "ERREUR : GPU CUDA non détecté.\n"
+                "Stanza ne peut être utilisé qu'avec un GPU CUDA.\n"
+                f"  torch.cuda.is_available() = {torch.cuda.is_available()}\n"
+                f"  torch.version.cuda = {torch.version.cuda}\n"
+                "Utilisez --lemmatizer spacy pour une exécution CPU, "
+                "ou vérifiez votre installation CUDA."
+            )
+
+        gpu_name = torch.cuda.get_device_name(0)
+        logger.info("GPU CUDA détecté : %s", gpu_name)
+
+        # --- Chargement de Stanza ---
+        try:
+            import stanza
+        except ImportError:
+            raise RuntimeError(
+                "Stanza n'est pas installé. "
+                "Installez-le avec : pip install stanza"
+            )
+
+        # Télécharger le modèle français si nécessaire
+        try:
+            stanza.download("fr", processors="tokenize,lemma", verbose=False)
+        except Exception:
+            pass  # Peut échouer si déjà installé, pas grave
+
+        self.nlp = stanza.Pipeline(
+            "fr",
+            processors="tokenize,lemma",
+            use_gpu=True,
+            verbose=False,
+        )
+        self.batch_size = batch_size
+        logger.info(
+            "Backend Stanza chargé (fr, GPU CUDA, batch_size=%d)", batch_size
+        )
+
+    def lemmatize_batch(self, texts: list[str]) -> list[list[str]]:
+        """Lemmatise un batch de textes via stanza bulk_process()."""
+        # Stanza attend des Document ou des str. On filtre les vides.
+        # bulk_process traite tous les textes en batch GPU
+        import stanza
+
+        # Découper en sous-batches pour ne pas saturer la VRAM
+        all_results = []
+        for i in range(0, len(texts), self.batch_size):
+            batch = texts[i : i + self.batch_size]
+            # Stanza bulk_process prend une liste de str ou de Document
+            docs = [stanza.Document([], text=t) for t in batch]
+            processed = self.nlp(docs)
+            for doc in processed:
+                lemmas = [
+                    word.lemma.lower()
+                    for sent in doc.sentences
+                    for word in sent.words
+                    if word.text.isalpha()
+                ]
+                all_results.append(lemmas)
+        return all_results
+
+
+def get_lemmatizer(
+    backend_name: str = "spacy", batch_size: int = 256
+) -> LemmatizerBackend:
+    """Factory pour le backend de lemmatisation.
+
+    Parameters
+    ----------
+    backend_name : str
+        "spacy" ou "stanza"
+    batch_size : int
+        Taille du batch pour le traitement.
+
+    Returns
+    -------
+    LemmatizerBackend
+    """
+    if backend_name == "spacy":
+        return SpacyBackend(batch_size=batch_size)
+    elif backend_name == "stanza":
+        return StanzaBackend(batch_size=batch_size)
+    else:
+        raise ValueError(f"Backend inconnu : {backend_name}. Choix : spacy, stanza")
 
 
 # ---------------------------------------------------------------------------
@@ -102,22 +232,12 @@ def extract_punctuations(text: str) -> list[str]:
     return puncts
 
 
-def extract_lemmas(text: str, nlp) -> list[str]:
-    """Extrait les lemmes via spaCy, en ne conservant que les tokens alphabétiques."""
-    if nlp is None or not text or not isinstance(text, str):
-        return []
-    doc = nlp(text)
-    return [
-        token.lemma_.lower()
-        for token in doc
-        if token.is_alpha and not token.is_space
-    ]
-
-
 def build_marker_dataframe(
     annotations_df: pd.DataFrame,
     use_lemma: bool = True,
     include_empty: bool = False,
+    lemmatizer_backend: str = "spacy",
+    batch_size: int = 256,
 ) -> pd.DataFrame:
     """Construit le dataframe marqueur × annotation.
 
@@ -130,9 +250,13 @@ def build_marker_dataframe(
     annotations_df : pd.DataFrame
         Le dataframe d'annotations (sortie de glozz_parser.py).
     use_lemma : bool
-        Si True, extrait aussi les lemmes via spaCy.
+        Si True, extrait aussi les lemmes.
     include_empty : bool
         Si True, inclut les unités avec Mode/Remarque vide.
+    lemmatizer_backend : str
+        "spacy" ou "stanza".
+    batch_size : int
+        Taille de batch pour la lemmatisation.
 
     Returns
     -------
@@ -161,18 +285,17 @@ def build_marker_dataframe(
 
     # --- Filtrage des text_span vides ---
     df = df[df["text_span"].notna() & (df["text_span"].str.strip() != "")].copy()
+    df = df.reset_index(drop=True)
 
-    # --- Chargement de spaCy si nécessaire ---
-    nlp = _get_spacy_nlp() if use_lemma else None
-
-    # --- Extraction des marqueurs ---
-    all_marker_rows = []
     total = len(df)
+    texts = df["text_span"].tolist()
 
-    for i, (idx, row) in enumerate(df.iterrows()):
-        if (i + 1) % 500 == 0:
-            logger.info("Extraction des marqueurs : %d/%d", i + 1, total)
+    # --- Extraction des mots et ponctuations (rapide, pas de NLP) ---
+    logger.info("Extraction des mots et ponctuations (%d annotations)...", total)
+    t0 = time.time()
 
+    all_marker_rows = []
+    for i, row in df.iterrows():
         text = row["text_span"]
         base_record = {
             "corpus": row["corpus"],
@@ -202,9 +325,50 @@ def build_marker_dataframe(
             r["marker_value"] = punct
             all_marker_rows.append(r)
 
-        # Lemmes
-        if nlp is not None:
-            for lemma in extract_lemmas(text, nlp):
+    t_words = time.time() - t0
+    n_words_punct = len(all_marker_rows)
+    logger.info(
+        "Mots/ponctuations extraits : %d marqueurs en %.1fs", n_words_punct, t_words
+    )
+
+    # --- Lemmatisation en batch ---
+    if use_lemma:
+        logger.info(
+            "Lemmatisation (%s, batch_size=%d) de %d textes...",
+            lemmatizer_backend,
+            batch_size,
+            total,
+        )
+        t0 = time.time()
+
+        lemmatizer = get_lemmatizer(lemmatizer_backend, batch_size=batch_size)
+        all_lemmas = lemmatizer.lemmatize_batch(texts)
+
+        t_lemma = time.time() - t0
+        n_lemmas = sum(len(l) for l in all_lemmas)
+        logger.info(
+            "Lemmatisation terminée : %d lemmes en %.1fs (%.0f textes/s)",
+            n_lemmas,
+            t_lemma,
+            total / t_lemma if t_lemma > 0 else 0,
+        )
+
+        # Ajouter les lemmes au résultat
+        for i, row in df.iterrows():
+            base_record = {
+                "corpus": row["corpus"],
+                "file_id": row["file_id"],
+                "unit_id": row["unit_id"],
+                "type": row["type"],
+                "start_idx": row["start_idx"],
+                "end_idx": row["end_idx"],
+                "text_span": row["text_span"],
+                "mode": row["mode"],
+                "categorie1": row["categorie1"],
+                "categorie2": row["categorie2"],
+                "remarque": row["remarque"],
+            }
+            for lemma in all_lemmas[i]:
                 r = base_record.copy()
                 r["marker_type"] = "lemma"
                 r["marker_value"] = lemma
@@ -251,16 +415,29 @@ def main():
     parser.add_argument(
         "--no-lemma",
         action="store_true",
-        help="Désactive la lemmatisation (pas besoin de spaCy)",
+        help="Désactive la lemmatisation",
     )
     parser.add_argument(
         "--include-empty",
         action="store_true",
         help="Inclut les unités SitEmo/Autre avec Mode/Remarque vide",
     )
+    parser.add_argument(
+        "--lemmatizer",
+        choices=["spacy", "stanza"],
+        default="spacy",
+        help="Backend de lemmatisation : spacy (CPU) ou stanza (GPU CUDA requis) (défaut: spacy)",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=256,
+        help="Taille de batch pour la lemmatisation (défaut: 256)",
+    )
     args = parser.parse_args()
 
     logger.info("=== Extraction des marqueurs linguistiques ===")
+    logger.info("Lemmatiseur : %s", args.lemmatizer if not args.no_lemma else "désactivé")
 
     # Lecture des annotations
     if not os.path.isfile(args.input):
@@ -272,7 +449,11 @@ def main():
 
     # Extraction
     markers_df = build_marker_dataframe(
-        df, use_lemma=not args.no_lemma, include_empty=args.include_empty
+        df,
+        use_lemma=not args.no_lemma,
+        include_empty=args.include_empty,
+        lemmatizer_backend=args.lemmatizer,
+        batch_size=args.batch_size,
     )
 
     if markers_df.empty:

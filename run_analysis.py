@@ -82,6 +82,8 @@ def run_markers(
     output_dir: str = "output",
     use_lemma: bool = True,
     include_empty: bool = False,
+    lemmatizer_backend: str = "spacy",
+    batch_size: int = 256,
 ) -> pd.DataFrame:
     """Étape 2 : extraction des marqueurs linguistiques."""
     logger.info("=" * 60)
@@ -89,7 +91,11 @@ def run_markers(
     logger.info("=" * 60)
 
     markers_df = build_marker_dataframe(
-        annotations_df, use_lemma=use_lemma, include_empty=include_empty
+        annotations_df,
+        use_lemma=use_lemma,
+        include_empty=include_empty,
+        lemmatizer_backend=lemmatizer_backend,
+        batch_size=batch_size,
     )
 
     if markers_df.empty:
@@ -180,7 +186,19 @@ def main():
     parser.add_argument(
         "--no-lemma",
         action="store_true",
-        help="Désactive la lemmatisation spaCy",
+        help="Désactive la lemmatisation",
+    )
+    parser.add_argument(
+        "--lemmatizer",
+        choices=["spacy", "stanza"],
+        default="spacy",
+        help="Backend de lemmatisation : spacy (CPU batch) ou stanza (GPU CUDA requis) (défaut: spacy)",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=256,
+        help="Taille de batch pour la lemmatisation (défaut: 256)",
     )
     parser.add_argument(
         "--include-empty",
@@ -199,8 +217,9 @@ def main():
     logger.info("=== PIPELINE D'ANALYSE DES MARQUEURS ÉMOTIONNELS ===")
     if args.corpus:
         logger.info("Corpus sélectionné : %s", args.corpus)
-    logger.info("Options : include-empty=%s, lemma=%s, min-freq=%d",
-                args.include_empty, not args.no_lemma, args.min_freq)
+    lemmatizer_label = args.lemmatizer if not args.no_lemma else "désactivé"
+    logger.info("Options : include-empty=%s, lemmatizer=%s, batch-size=%d, min-freq=%d",
+                args.include_empty, lemmatizer_label, args.batch_size, args.min_freq)
 
     annotations_csv = os.path.join(args.output_dir, "annotations.csv")
     markers_csv = os.path.join(args.output_dir, "markers.csv")
@@ -220,6 +239,8 @@ def main():
             args.output_dir,
             use_lemma=not args.no_lemma,
             include_empty=args.include_empty,
+            lemmatizer_backend=args.lemmatizer,
+            batch_size=args.batch_size,
         )
     else:
         if not os.path.isfile(markers_csv):

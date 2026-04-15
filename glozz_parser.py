@@ -29,12 +29,13 @@ import pandas as pd
 # Configuration
 # ---------------------------------------------------------------------------
 
-# Chemins absolus des quatre corpus
+# Chemins des quatre corpus (relatifs au dossier du script)
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CORPUS_DIRS = {
-    "Albert_dataset": "/home/gwen/Documents/Emotions/Albert_dataset",
-    "CorpusCovid": "/home/gwen/Documents/Emotions/CorpusCovid",
-    "LitteratureJeunesse": "/home/gwen/Documents/Emotions/LitteratureJeunesse",
-    "PtitLibe": "/home/gwen/Documents/Emotions/PtitLibe",
+    "Albert_dataset": os.path.join(_SCRIPT_DIR, "Albert_dataset"),
+    "CorpusCovid": os.path.join(_SCRIPT_DIR, "CorpusCovid"),
+    "LitteratureJeunesse": os.path.join(_SCRIPT_DIR, "LitteratureJeunesse"),
+    "PtitLibe": os.path.join(_SCRIPT_DIR, "PtitLibe"),
 }
 
 # Types d'annotation à extraire
