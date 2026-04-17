@@ -5,7 +5,7 @@ Corpus annotés et pipeline d'analyse pour l'étude des expressions émotionnell
 ## Contenu du dépôt
 
 
-**Corpus** : Albert_dataset/, CorpusCovid/, LitteratureJeunesse/, PtitLibe/  
+**Corpus** : Albert/, CorpusCovid/, LitteratureJeunesse/, PtitLibe/  
   Chaque sous-dossier attendu contient deux sous-dossiers `aa/` (annotations .aa XML) et `ac/` (texte brut .ac).
   
 - glozz_parser.py — parse les fichiers `.aa` et `.ac` et produit `output/annotations.csv`.
@@ -108,13 +108,12 @@ Cela exécute successivement : parsing → extraction des marqueurs → calcul d
 - Chaque unité annotée (unit) est lue avec ses positions start/end (offsets) pour extraire le segment textuel.
 - Les scripts ciblent les types d'unités "SitEmo" et "Autre". Pour SitEmo, les features attendues incluent Mode, Categorie, Categorie2 ; pour Autre la feature Remarque est exploitée.
 
-## Conseils et dépannage
+## Conseils
 
-- Si `glozz_parser.py` signale des fichiers .ac manquants, vérifiez que chaque `.aa` a son `.ac` correspondant dans le dossier `ac/`.
 - Pour spaCy, si le modèle fr_core_news_sm n'est pas trouvé :
   - python -m spacy download fr_core_news_sm
 - Pour Stanza, vérifiez `torch.cuda.is_available()` avant d'essayer le backend stanza ; sinon utilisez spaCy.
-- En cas de lenteur : augmenter `--batch-size` pour spaCy (jusqu'à la mémoire disponible) ; pour stanza, attention à la VRAM GPU.
+- En cas de lenteur : augmenter `--batch-size` pour spaCy (jusqu'à la mémoire disponible).
 
 ## Expérimentation et interprétation
 
