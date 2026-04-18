@@ -54,6 +54,34 @@ from nlp_utils import (
     get_lemmatizer,
 )
 
+# ---------------------------------------------------------------------------
+# Taxonomie émotionnelle EMOTYC
+# ---------------------------------------------------------------------------
+
+BASE_EMOTIONS = {"Colère", "Dégoût", "Joie", "Peur", "Surprise", "Tristesse"}
+COMPLEX_EMOTIONS = {"Admiration", "Culpabilité", "Embarras", "Fierté", "Jalousie"}
+
+EMOTION_COLUMNS = [
+    "Colère", "Dégoût", "Joie", "Peur", "Surprise", "Tristesse",
+    "Admiration", "Culpabilité", "Embarras", "Fierté", "Jalousie", "Autre",
+]
+MODE_COLUMNS = ["Comportementale", "Désignée", "Montrée", "Suggérée"]
+META_COLUMNS = ["Base", "Complexe"]
+
+# Toutes les colonnes binaires d'annotation (16 + 2 méta)
+BINARY_ANNOTATION_COLUMNS = EMOTION_COLUMNS + MODE_COLUMNS + META_COLUMNS
+
+# Colonnes linguistiques optionnelles (propagées si présentes)
+LINGUISTIC_COLUMNS = [
+    "elongation", "ironie", "insulte", "mépris / haine",
+    "argot", "abréviation", "interjection",
+]
+
+# Colonnes contextuelles optionnelles (propagées si présentes)
+CONTEXT_COLUMNS = [
+    "ROLE", "HATE", "TARGET", "VERBAL_ABUSE",
+    "INTENTION", "CONTEXT", "SENTIMENT",
+]
 
 # ---------------------------------------------------------------------------
 # Lecture auto-détectée (XLSX / CSV)
