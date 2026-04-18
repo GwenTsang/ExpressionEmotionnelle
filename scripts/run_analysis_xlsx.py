@@ -146,7 +146,7 @@ def run_specificity(
 
     # 1. Spécificité par Émotion
     df_emo = compute_conditional_entropy(
-        df_glozz_format, EMOTIONS, condition_col="categorie1", min_freq=min_freq
+        df_glozz_format, "categorie1", EMOTIONS, min_freq=min_freq
     )
     if not df_emo.empty:
         p1 = os.path.join(out_spec, "entropy_per_marker_emotion.csv")
@@ -155,7 +155,7 @@ def run_specificity(
 
     # 2. Spécificité par Mode
     df_mode = compute_conditional_entropy(
-        df_glozz_format, MODES, condition_col="mode", min_freq=min_freq
+        df_glozz_format, "mode", MODES, min_freq=min_freq
     )
     if not df_mode.empty:
         p2 = os.path.join(out_spec, "entropy_per_marker_mode.csv")
