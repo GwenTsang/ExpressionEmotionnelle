@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="889-0"/>
+<unit id="unitex_1614594412561">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594412561</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="7"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594412562">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594412562</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="8"/>
+</start>
+<end>
+<singlePosition index="159"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594412563">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594412563</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="160"/>
+</start>
+<end>
+<singlePosition index="375"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594412564">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594412564</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="376"/>
+</start>
+<end>
+<singlePosition index="845"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617116150442">
+<metadata>
+<author>a2</author>
+<creation-date>1617116150442</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620382238909</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">tensions</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="53"/>
+</start>
+<end>
+<singlePosition index="65"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617116181458">
+<metadata>
+<author>a2</author>
+<creation-date>1617116181458</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617116202733</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">l'Irlande du Nord et l'Irlande du Sud</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="14"/>
+</start>
+<end>
+<singlePosition index="51"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617116226832">
+<metadata>
+<author>a2</author>
+<creation-date>1617116226832</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617116248349</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">n'ont aucune envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="667"/>
+</start>
+<end>
+<singlePosition index="738"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617116251832">
+<metadata>
+<author>a2</author>
+<creation-date>1617116251832</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617116270041</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les Irlandais</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="653"/>
+</start>
+<end>
+<singlePosition index="666"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1617116206016">
+<metadata>
+<author>a2</author>
+<creation-date>1617116206016</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617116150442"/>
+<term id="a2_1617116181458"/>
+</positioning>
+</relation>
+<relation id="a2_1617116272944">
+<metadata>
+<author>a2</author>
+<creation-date>1617116272944</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617116226832"/>
+<term id="a2_1617116251832"/>
+</positioning>
+</relation>
+</annotations>

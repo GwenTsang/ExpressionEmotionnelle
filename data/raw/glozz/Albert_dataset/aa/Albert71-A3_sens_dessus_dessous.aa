@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="534-53424657"/>
+<unit id="unitex_1617122715911">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122715911</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="19"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122715912">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122715912</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="20"/>
+</start>
+<end>
+<singlePosition index="493"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122715913">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122715913</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="494"/>
+</start>
+<end>
+<singlePosition index="494"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617972542659">
+<metadata>
+<author>a2</author>
+<creation-date>1617972542659</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617972579674</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Point d'exclamation</feature>
+<feature name="Declencheur">!</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="348"/>
+</start>
+<end>
+<singlePosition index="349"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617972549643">
+<metadata>
+<author>a2</author>
+<creation-date>1617972549643</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617972558381</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="349"/>
+</start>
+<end>
+<singlePosition index="350"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1617972583115">
+<metadata>
+<author>a2</author>
+<creation-date>1617972583115</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617972586269</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617972542659"/>
+<term id="a2_1617972549643"/>
+</positioning>
+</relation>
+</annotations>

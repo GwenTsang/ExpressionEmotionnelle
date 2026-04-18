@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="463-75272472"/>
+<unit id="unitex_1614594409659">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594409659</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="0"/>
+		</start>
+		<end>
+			<singlePosition index="20"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1614594409660">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1614594409660</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="21"/>
+		</start>
+		<end>
+			<singlePosition index="438"/>
+		</end>
+	</positioning>
+</unit>
+
+</annotations>

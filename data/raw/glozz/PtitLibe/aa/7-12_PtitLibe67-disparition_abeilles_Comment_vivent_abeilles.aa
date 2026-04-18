@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="422-21167883"/>
+<unit id="a1_1621579833082">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833082</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="29"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833083">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833083</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="29"/>
+</start>
+<end>
+<singlePosition index="414"/>
+</end>
+</positioning>
+</unit>
+</annotations>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="806-2919708"/>
+<unit id="unitex_1617122718787">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1617122718787</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="0"/>
+		</start>
+		<end>
+			<singlePosition index="5"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1617122718788">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1617122718788</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="6"/>
+		</start>
+		<end>
+			<singlePosition index="129"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1617122718789">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1617122718789</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="130"/>
+		</start>
+		<end>
+			<singlePosition index="268"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1617122718790">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1617122718790</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="269"/>
+		</start>
+		<end>
+			<singlePosition index="482"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1617122718791">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1617122718791</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="483"/>
+		</start>
+		<end>
+			<singlePosition index="688"/>
+		</end>
+	</positioning>
+</unit>
+<unit id="unitex_1617122718792">
+	<metadata>
+		<author>unitex</author>
+		<creation-date>1617122718792</creation-date>
+		<lastModifier>n/a</lastModifier>
+		<lastModificationDate>0</lastModificationDate>
+	</metadata>
+	<characterisation>
+		<type>paragraph</type>
+		<featureSet/>
+	</characterisation>
+	<positioning>
+		<start>
+			<singlePosition index="689"/>
+		</start>
+		<end>
+			<singlePosition index="762"/>
+		</end>
+	</positioning>
+</unit>
+
+</annotations>

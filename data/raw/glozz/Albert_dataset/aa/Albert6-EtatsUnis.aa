@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="813-76712328"/>
+<unit id="unitex_1614594416065">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594416065</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="10"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594416066">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594416066</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="11"/>
+</start>
+<end>
+<singlePosition index="213"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594416067">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594416067</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="214"/>
+</start>
+<end>
+<singlePosition index="620"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594416068">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594416068</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="621"/>
+</start>
+<end>
+<singlePosition index="779"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615376216957">
+<metadata>
+<author>a2</author>
+<creation-date>1615376216957</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619022851854</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">manifestations</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="339"/>
+</start>
+<end>
+<singlePosition index="357"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615376242785">
+<metadata>
+<author>a2</author>
+<creation-date>1615376242785</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619023032235</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les opposants au candidat républicain</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="246"/>
+</start>
+<end>
+<singlePosition index="283"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619022918249">
+<metadata>
+<author>a2</author>
+<creation-date>1619022918249</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619022938302</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">défilent</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="448"/>
+</start>
+<end>
+<singlePosition index="456"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619022942790">
+<metadata>
+<author>a2</author>
+<creation-date>1619022942790</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619023041528</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les opposants au candidat républicain</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="431"/>
+</start>
+<end>
+<singlePosition index="447"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1615376278145">
+<metadata>
+<author>a2</author>
+<creation-date>1615376278145</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619022859672</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1615376216957"/>
+<term id="a2_1615376242785"/>
+</positioning>
+</relation>
+<relation id="a2_1619022955040">
+<metadata>
+<author>a2</author>
+<creation-date>1619022955040</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619022956912</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1619022918249"/>
+<term id="a2_1619022942790"/>
+</positioning>
+</relation>
+</annotations>

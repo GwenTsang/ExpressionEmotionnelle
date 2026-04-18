@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="404-73002699"/>
+<unit id="a1_1621579826529">
+<metadata>
+<author>a1</author>
+<creation-date>1621579826529</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="380"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1627460861973">
+<metadata>
+<author>a1</author>
+<creation-date>1627460861973</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1627460918005</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Admiration</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">admiré</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="336"/>
+</start>
+<end>
+<singlePosition index="342"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1627460878692">
+<metadata>
+<author>a1</author>
+<creation-date>1627460878692</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1627460883524</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Haine</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="359"/>
+</start>
+<end>
+<singlePosition index="366"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1627460891216">
+<metadata>
+<author>a1</author>
+<creation-date>1627460891216</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1627460898472</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">certains</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProIndef</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="347"/>
+</start>
+<end>
+<singlePosition index="355"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1627460902330">
+<metadata>
+<author>a1</author>
+<creation-date>1627460902330</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1627460911806</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. d'agent</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1627460861973"/>
+<term id="a1_1627460891216"/>
+</positioning>
+</relation>
+</annotations>

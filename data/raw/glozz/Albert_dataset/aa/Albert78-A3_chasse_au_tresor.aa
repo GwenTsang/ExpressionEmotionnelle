@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="516-94520547"/>
+<unit id="unitex_1617122717161">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122717161</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="16"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122717162">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122717162</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="17"/>
+</start>
+<end>
+<singlePosition index="485"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618330935478">
+<metadata>
+<author>a2</author>
+<creation-date>1618330935478</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618330964362</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">heureux</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="31"/>
+</start>
+<end>
+<singlePosition index="38"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618330971714">
+<metadata>
+<author>a2</author>
+<creation-date>1618330971714</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621258110568</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">un explorateur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="39"/>
+</start>
+<end>
+<singlePosition index="50"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618331022106">
+<metadata>
+<author>a2</author>
+<creation-date>1618331022106</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618331041904</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">remporté</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="51"/>
+</start>
+<end>
+<singlePosition index="104"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1621258095091">
+<metadata>
+<author>a2</author>
+<creation-date>1621258095091</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621258097525</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Epithete</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618330935478"/>
+<term id="a2_1618330971714"/>
+</positioning>
+</relation>
+<relation id="a2_1621258117759">
+<metadata>
+<author>a2</author>
+<creation-date>1621258117759</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621258124369</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618331022106"/>
+<term id="a2_1618330971714"/>
+</positioning>
+</relation>
+</annotations>

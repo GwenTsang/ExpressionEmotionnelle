@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="491-53424657"/>
+<unit id="unitex_1614594412176">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594412176</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="20"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594412177">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594412177</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="21"/>
+</start>
+<end>
+<singlePosition index="469"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617107862488">
+<metadata>
+<author>a2</author>
+<creation-date>1617107862488</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617107911862</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">porté plainte</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="421"/>
+</start>
+<end>
+<singlePosition index="424"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617107867038">
+<metadata>
+<author>a2</author>
+<creation-date>1617107867038</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode"/>
+<feature name="Type"/>
+<feature name="Categorie"/>
+<feature name="Type2"/>
+<feature name="Categorie2"/>
+<feature name="Nature"/>
+<feature name="Declencheur"/>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="431"/>
+</start>
+<end>
+<singlePosition index="444"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617107891284">
+<metadata>
+<author>a2</author>
+<creation-date>1617107891284</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617107930414</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Une dizaine de femmes</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="399"/>
+</start>
+<end>
+<singlePosition index="420"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1617107932180">
+<metadata>
+<author>a2</author>
+<creation-date>1617107932180</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617107862488"/>
+<term id="a2_1617107891284"/>
+</positioning>
+</relation>
+<relation id="a1_1635237151328">
+<metadata>
+<author>a1</author>
+<creation-date>1635237151328</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a2_1617107862488"/>
+<term id="a2_1617107867038"/>
+</positioning>
+</relation>
+</annotations>

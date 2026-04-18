@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="438-58394160"/>
+<unit id="unitex_1614594404298">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404298</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="23"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594404299">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404299</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="24"/>
+</start>
+<end>
+<singlePosition index="416"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594404300">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594404300</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="417"/>
+</start>
+<end>
+<singlePosition index="417"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1619433561612">
+<metadata>
+<author>a2</author>
+<creation-date>1619433561612</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1619433581523</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">joviales</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="364"/>
+</start>
+<end>
+<singlePosition index="377"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620046941421">
+<metadata>
+<author>a2</author>
+<creation-date>1620046941421</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620046950921</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les jeunes</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="391"/>
+</start>
+<end>
+<singlePosition index="401"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1620046953011">
+<metadata>
+<author>a2</author>
+<creation-date>1620046953011</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620046955353</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1619433561612"/>
+<term id="a2_1620046941421"/>
+</positioning>
+</relation>
+</annotations>

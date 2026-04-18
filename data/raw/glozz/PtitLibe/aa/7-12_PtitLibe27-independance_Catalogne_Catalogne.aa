@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="1556-21097890"/>
+<unit id="a1_1621579828054">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828054</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="28"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828055">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828055</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="28"/>
+</start>
+<end>
+<singlePosition index="407"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828056">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828056</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="407"/>
+</start>
+<end>
+<singlePosition index="838"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828057">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828057</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="838"/>
+</start>
+<end>
+<singlePosition index="1215"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828058">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828058</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1215"/>
+</start>
+<end>
+<singlePosition index="1486"/>
+</end>
+</positioning>
+</unit>
+</annotations>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="511-84341565"/>
+<unit id="unitex_1614594408208">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594408208</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="16"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594408209">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594408209</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="17"/>
+</start>
+<end>
+<singlePosition index="487"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615294487619">
+<metadata>
+<author>a2</author>
+<creation-date>1615294487619</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1615294816924</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">rêvé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="410"/>
+</start>
+<end>
+<singlePosition index="429"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615294624643">
+<metadata>
+<author>a2</author>
+<creation-date>1615294624643</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1615294644529</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Edie Sims</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="405"/>
+</start>
+<end>
+<singlePosition index="409"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615294825801">
+<metadata>
+<author>a2</author>
+<creation-date>1615294825801</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1615294864096</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">offert</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="316"/>
+</start>
+<end>
+<singlePosition index="328"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615294874101">
+<metadata>
+<author>a2</author>
+<creation-date>1615294874101</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1616417512319</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Edie Sims</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="331"/>
+</start>
+<end>
+<singlePosition index="346"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1615297042682">
+<metadata>
+<author>a2</author>
+<creation-date>1615297042682</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1615297074948</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">cadeau</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="378"/>
+</start>
+<end>
+<singlePosition index="399"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1615294652269">
+<metadata>
+<author>a2</author>
+<creation-date>1615294652269</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1615294487619"/>
+<term id="a2_1615294624643"/>
+</positioning>
+</relation>
+<relation id="a2_1615295037103">
+<metadata>
+<author>a2</author>
+<creation-date>1615295037103</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. indirect</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1615294825801"/>
+<term id="a2_1615294874101"/>
+</positioning>
+</relation>
+<relation id="a2_1615297086304">
+<metadata>
+<author>a2</author>
+<creation-date>1615297086304</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1615297042682"/>
+<term id="a2_1615294874101"/>
+</positioning>
+</relation>
+</annotations>

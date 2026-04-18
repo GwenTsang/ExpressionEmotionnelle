@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2308-12408759"/>
+<unit id="a1_1621579832638">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832638</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="47"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832639">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832639</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="47"/>
+</start>
+<end>
+<singlePosition index="146"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832640">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832640</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="146"/>
+</start>
+<end>
+<singlePosition index="169"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832641">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832641</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="169"/>
+</start>
+<end>
+<singlePosition index="590"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832642">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832642</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="590"/>
+</start>
+<end>
+<singlePosition index="615"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832643">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832643</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="615"/>
+</start>
+<end>
+<singlePosition index="1115"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832644">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832644</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1115"/>
+</start>
+<end>
+<singlePosition index="1138"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832645">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832645</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1138"/>
+</start>
+<end>
+<singlePosition index="1622"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832646">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832646</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1622"/>
+</start>
+<end>
+<singlePosition index="1651"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832647">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832647</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1651"/>
+</start>
+<end>
+<singlePosition index="2195"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629368986783">
+<metadata>
+<author>a1</author>
+<creation-date>1629368986783</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629368994220</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1514"/>
+</start>
+<end>
+<singlePosition index="1514"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832654">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832654</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629369182452</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">rugissements</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1487"/>
+</start>
+<end>
+<singlePosition index="1513"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579832655">
+<metadata>
+<author>a1</author>
+<creation-date>1621579832655</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629368983437</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">effrayants</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1504"/>
+</start>
+<end>
+<singlePosition index="1514"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1629368998121">
+<metadata>
+<author>a1</author>
+<creation-date>1629368998121</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579832655"/>
+<term id="a1_1629368986783"/>
+</positioning>
+</relation>
+<relation id="a1_1629369193658">
+<metadata>
+<author>a1</author>
+<creation-date>1629369193658</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629369196121</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579832654"/>
+<term id="a1_1629368986783"/>
+</positioning>
+</relation>
+</annotations>
