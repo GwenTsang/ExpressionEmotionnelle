@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <annotations>
-<metadata corpusHashcode="10259-0"/>
+<metadata corpusHashcode="10259-0" />
 <unit id="unitex_1614594424454">
 <metadata>
 <author>unitex</author>
@@ -10,14 +10,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="0"/>
+<singlePosition index="0" />
 </start>
 <end>
-<singlePosition index="120"/>
+<singlePosition index="120" />
 </end>
 </positioning>
 </unit>
@@ -30,14 +30,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="121"/>
+<singlePosition index="121" />
 </start>
 <end>
-<singlePosition index="300"/>
+<singlePosition index="300" />
 </end>
 </positioning>
 </unit>
@@ -50,14 +50,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="301"/>
+<singlePosition index="301" />
 </start>
 <end>
-<singlePosition index="734"/>
+<singlePosition index="734" />
 </end>
 </positioning>
 </unit>
@@ -70,14 +70,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="735"/>
+<singlePosition index="735" />
 </start>
 <end>
-<singlePosition index="1176"/>
+<singlePosition index="1176" />
 </end>
 </positioning>
 </unit>
@@ -90,14 +90,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="1177"/>
+<singlePosition index="1177" />
 </start>
 <end>
-<singlePosition index="1213"/>
+<singlePosition index="1213" />
 </end>
 </positioning>
 </unit>
@@ -110,14 +110,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="1214"/>
+<singlePosition index="1214" />
 </start>
 <end>
-<singlePosition index="1597"/>
+<singlePosition index="1597" />
 </end>
 </positioning>
 </unit>
@@ -130,14 +130,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="1598"/>
+<singlePosition index="1598" />
 </start>
 <end>
-<singlePosition index="2114"/>
+<singlePosition index="2114" />
 </end>
 </positioning>
 </unit>
@@ -150,14 +150,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="2115"/>
+<singlePosition index="2115" />
 </start>
 <end>
-<singlePosition index="2581"/>
+<singlePosition index="2581" />
 </end>
 </positioning>
 </unit>
@@ -170,14 +170,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="2582"/>
+<singlePosition index="2582" />
 </start>
 <end>
-<singlePosition index="2651"/>
+<singlePosition index="2651" />
 </end>
 </positioning>
 </unit>
@@ -190,14 +190,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="2652"/>
+<singlePosition index="2652" />
 </start>
 <end>
-<singlePosition index="3131"/>
+<singlePosition index="3131" />
 </end>
 </positioning>
 </unit>
@@ -210,14 +210,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="3132"/>
+<singlePosition index="3132" />
 </start>
 <end>
-<singlePosition index="3357"/>
+<singlePosition index="3357" />
 </end>
 </positioning>
 </unit>
@@ -230,14 +230,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="3358"/>
+<singlePosition index="3358" />
 </start>
 <end>
-<singlePosition index="4044"/>
+<singlePosition index="4044" />
 </end>
 </positioning>
 </unit>
@@ -250,14 +250,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="4045"/>
+<singlePosition index="4045" />
 </start>
 <end>
-<singlePosition index="4369"/>
+<singlePosition index="4369" />
 </end>
 </positioning>
 </unit>
@@ -270,14 +270,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="4370"/>
+<singlePosition index="4370" />
 </start>
 <end>
-<singlePosition index="4423"/>
+<singlePosition index="4423" />
 </end>
 </positioning>
 </unit>
@@ -290,14 +290,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="4424"/>
+<singlePosition index="4424" />
 </start>
 <end>
-<singlePosition index="4773"/>
+<singlePosition index="4773" />
 </end>
 </positioning>
 </unit>
@@ -310,14 +310,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="4774"/>
+<singlePosition index="4774" />
 </start>
 <end>
-<singlePosition index="5199"/>
+<singlePosition index="5199" />
 </end>
 </positioning>
 </unit>
@@ -330,14 +330,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="5200"/>
+<singlePosition index="5200" />
 </start>
 <end>
-<singlePosition index="5262"/>
+<singlePosition index="5262" />
 </end>
 </positioning>
 </unit>
@@ -350,14 +350,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="5263"/>
+<singlePosition index="5263" />
 </start>
 <end>
-<singlePosition index="5664"/>
+<singlePosition index="5664" />
 </end>
 </positioning>
 </unit>
@@ -370,14 +370,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="5665"/>
+<singlePosition index="5665" />
 </start>
 <end>
-<singlePosition index="5913"/>
+<singlePosition index="5913" />
 </end>
 </positioning>
 </unit>
@@ -390,14 +390,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="5914"/>
+<singlePosition index="5914" />
 </start>
 <end>
-<singlePosition index="6162"/>
+<singlePosition index="6162" />
 </end>
 </positioning>
 </unit>
@@ -410,14 +410,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="6163"/>
+<singlePosition index="6163" />
 </start>
 <end>
-<singlePosition index="6575"/>
+<singlePosition index="6575" />
 </end>
 </positioning>
 </unit>
@@ -430,14 +430,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="6576"/>
+<singlePosition index="6576" />
 </start>
 <end>
-<singlePosition index="6627"/>
+<singlePosition index="6627" />
 </end>
 </positioning>
 </unit>
@@ -450,14 +450,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="6628"/>
+<singlePosition index="6628" />
 </start>
 <end>
-<singlePosition index="6942"/>
+<singlePosition index="6942" />
 </end>
 </positioning>
 </unit>
@@ -470,14 +470,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="6943"/>
+<singlePosition index="6943" />
 </start>
 <end>
-<singlePosition index="6974"/>
+<singlePosition index="6974" />
 </end>
 </positioning>
 </unit>
@@ -490,14 +490,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="6975"/>
+<singlePosition index="6975" />
 </start>
 <end>
-<singlePosition index="7340"/>
+<singlePosition index="7340" />
 </end>
 </positioning>
 </unit>
@@ -510,14 +510,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="7341"/>
+<singlePosition index="7341" />
 </start>
 <end>
-<singlePosition index="7709"/>
+<singlePosition index="7709" />
 </end>
 </positioning>
 </unit>
@@ -530,14 +530,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="7710"/>
+<singlePosition index="7710" />
 </start>
 <end>
-<singlePosition index="7879"/>
+<singlePosition index="7879" />
 </end>
 </positioning>
 </unit>
@@ -550,14 +550,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="7880"/>
+<singlePosition index="7880" />
 </start>
 <end>
-<singlePosition index="7951"/>
+<singlePosition index="7951" />
 </end>
 </positioning>
 </unit>
@@ -570,14 +570,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="7952"/>
+<singlePosition index="7952" />
 </start>
 <end>
-<singlePosition index="8372"/>
+<singlePosition index="8372" />
 </end>
 </positioning>
 </unit>
@@ -590,14 +590,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="8373"/>
+<singlePosition index="8373" />
 </start>
 <end>
-<singlePosition index="8871"/>
+<singlePosition index="8871" />
 </end>
 </positioning>
 </unit>
@@ -610,14 +610,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="8872"/>
+<singlePosition index="8872" />
 </start>
 <end>
-<singlePosition index="9444"/>
+<singlePosition index="9444" />
 </end>
 </positioning>
 </unit>
@@ -630,14 +630,14 @@
 </metadata>
 <characterisation>
 <type>paragraph</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="9445"/>
+<singlePosition index="9445" />
 </start>
 <end>
-<singlePosition index="9659"/>
+<singlePosition index="9659" />
 </end>
 </positioning>
 </unit>
@@ -662,10 +662,10 @@
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="9590"/>
+<singlePosition index="9590" />
 </start>
 <end>
-<singlePosition index="9602"/>
+<singlePosition index="9602" />
 </end>
 </positioning>
 </unit>
@@ -679,21 +679,21 @@
 <characterisation>
 <type>SitEmo</type>
 <featureSet>
-<feature name="Mode"/>
-<feature name="Type"/>
-<feature name="Categorie"/>
-<feature name="Type2"/>
-<feature name="Categorie2"/>
-<feature name="Nature"/>
-<feature name="Declencheur"/>
+<feature name="Mode" />
+<feature name="Type" />
+<feature name="Categorie" />
+<feature name="Type2" />
+<feature name="Categorie2" />
+<feature name="Nature">SN</feature>
+<feature name="Declencheur" />
 </featureSet>
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="9612"/>
+<singlePosition index="9612" />
 </start>
 <end>
-<singlePosition index="9658"/>
+<singlePosition index="9658" />
 </end>
 </positioning>
 </unit>
@@ -714,10 +714,10 @@
 </characterisation>
 <positioning>
 <start>
-<singlePosition index="9461"/>
+<singlePosition index="9461" />
 </start>
 <end>
-<singlePosition index="9555"/>
+<singlePosition index="9555" />
 </end>
 </positioning>
 </unit>
@@ -735,8 +735,8 @@
 </featureSet>
 </characterisation>
 <positioning>
-<term id="a2_1618821340618"/>
-<term id="a2_1618821376165"/>
+<term id="a2_1618821340618" />
+<term id="a2_1618821376165" />
 </positioning>
 </relation>
 <relation id="a1_1635242914921">
@@ -748,11 +748,11 @@
 </metadata>
 <characterisation>
 <type>Discontinue</type>
-<featureSet/>
+<featureSet />
 </characterisation>
 <positioning>
-<term id="a2_1618821340618"/>
-<term id="a2_1618821343664"/>
+<term id="a2_1618821340618" />
+<term id="a2_1618821343664" />
 </positioning>
 </relation>
 </annotations>
