@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="778-75762423"/>
+<unit id="a1_1621579828728">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828728</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="739"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628626656606">
+<metadata>
+<author>a1</author>
+<creation-date>1628626656606</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628626664278</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="183"/>
+</start>
+<end>
+<singlePosition index="188"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628626666046">
+<metadata>
+<author>a1</author>
+<creation-date>1628626666046</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628626674409</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="248"/>
+</start>
+<end>
+<singlePosition index="267"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628626675596">
+<metadata>
+<author>a1</author>
+<creation-date>1628626675596</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628626687538</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="273"/>
+</start>
+<end>
+<singlePosition index="288"/>
+</end>
+</positioning>
+</unit>
+</annotations>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="514-28417158"/>
+<unit id="a1_1621579836652">
+<metadata>
+<author>a1</author>
+<creation-date>1621579836652</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="495"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1630096657182">
+<metadata>
+<author>a1</author>
+<creation-date>1630096657182</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1630096664106</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Indéterminée</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="18"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1630096692887">
+<metadata>
+<author>a1</author>
+<creation-date>1630096692887</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1630096701475</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Admiration</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">prestigieuses</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="481"/>
+</start>
+<end>
+<singlePosition index="494"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1630096706011">
+<metadata>
+<author>a1</author>
+<creation-date>1630096706011</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1630096710481</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="494"/>
+</start>
+<end>
+<singlePosition index="495"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1630096713387">
+<metadata>
+<author>a1</author>
+<creation-date>1630096713387</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1630096715170</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1630096692887"/>
+<term id="a1_1630096706011"/>
+</positioning>
+</relation>
+</annotations>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="513-72482751"/>
+<unit id="a1_1621579827556">
+<metadata>
+<author>a1</author>
+<creation-date>1621579827556</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="475"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579827558">
+<metadata>
+<author>a1</author>
+<creation-date>1621579827558</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628090450298</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="15"/>
+</start>
+<end>
+<singlePosition index="91"/>
+</end>
+</positioning>
+</unit>
+</annotations>

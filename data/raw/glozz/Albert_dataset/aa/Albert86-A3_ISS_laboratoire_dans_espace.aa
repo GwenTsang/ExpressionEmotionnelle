@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="1936-0"/>
+<unit id="unitex_1617122718899">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718899</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="34"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718900">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718900</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="35"/>
+</start>
+<end>
+<singlePosition index="206"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718901">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718901</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="207"/>
+</start>
+<end>
+<singlePosition index="632"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718902">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718902</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="633"/>
+</start>
+<end>
+<singlePosition index="663"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718903">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718903</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="664"/>
+</start>
+<end>
+<singlePosition index="938"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718904">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718904</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="939"/>
+</start>
+<end>
+<singlePosition index="1252"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718905">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718905</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1253"/>
+</start>
+<end>
+<singlePosition index="1613"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718906">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718906</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1614"/>
+</start>
+<end>
+<singlePosition index="1637"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718907">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718907</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1638"/>
+</start>
+<end>
+<singlePosition index="1856"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122718908">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122718908</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1857"/>
+</start>
+<end>
+<singlePosition index="1857"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618487287687">
+<metadata>
+<author>a2</author>
+<creation-date>1618487287687</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621349607897</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">tensions</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="768"/>
+</start>
+<end>
+<singlePosition index="780"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618487291307">
+<metadata>
+<author>a2</author>
+<creation-date>1618487291307</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618487382933</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les États-Unis et la Russie</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="797"/>
+</start>
+<end>
+<singlePosition index="810"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1618487391901">
+<metadata>
+<author>a2</author>
+<creation-date>1618487391901</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618487287687"/>
+<term id="a2_1618487291307"/>
+</positioning>
+</relation>
+</annotations>

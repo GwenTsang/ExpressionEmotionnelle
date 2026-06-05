@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="1833-29197080"/>
+<unit id="unitex_1614594424369">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424369</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="45"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424370">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424370</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="46"/>
+</start>
+<end>
+<singlePosition index="747"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424371">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424371</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="748"/>
+</start>
+<end>
+<singlePosition index="1312"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594424372">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594424372</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1313"/>
+</start>
+<end>
+<singlePosition index="1731"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618586442048">
+<metadata>
+<author>a2</author>
+<creation-date>1618586442048</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618586467638</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">heureuse</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1537"/>
+</start>
+<end>
+<singlePosition index="1545"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618586445260">
+<metadata>
+<author>a2</author>
+<creation-date>1618586445260</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621430520399</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Jiashu, 12 ans</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">NP</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1521"/>
+</start>
+<end>
+<singlePosition index="1527"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1621430457787">
+<metadata>
+<author>a2</author>
+<creation-date>1621430457787</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621430481606</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Admiration</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">courageux</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1701"/>
+</start>
+<end>
+<singlePosition index="1728"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1621430497364">
+<metadata>
+<author>a2</author>
+<creation-date>1621430497364</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621430523613</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Jiashu, 12 ans</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1627"/>
+</start>
+<end>
+<singlePosition index="1629"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1618586499510">
+<metadata>
+<author>a2</author>
+<creation-date>1618586499510</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Discours indirect</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618586442048"/>
+<term id="a2_1618586445260"/>
+</positioning>
+</relation>
+<relation id="a2_1621430525532">
+<metadata>
+<author>a2</author>
+<creation-date>1621430525532</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1621430529058</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1621430457787"/>
+<term id="a2_1621430497364"/>
+</positioning>
+</relation>
+</annotations>

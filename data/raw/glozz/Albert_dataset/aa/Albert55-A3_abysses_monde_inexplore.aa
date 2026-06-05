@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2812-35766423"/>
+<unit id="unitex_1617122712693">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712693</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="38"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712694">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712694</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="39"/>
+</start>
+<end>
+<singlePosition index="251"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712695">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712695</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="252"/>
+</start>
+<end>
+<singlePosition index="492"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712696">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712696</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="493"/>
+</start>
+<end>
+<singlePosition index="911"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712697">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712697</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="912"/>
+</start>
+<end>
+<singlePosition index="951"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712698">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712698</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="952"/>
+</start>
+<end>
+<singlePosition index="1334"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712699">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712699</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1335"/>
+</start>
+<end>
+<singlePosition index="1356"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712700">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712700</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1357"/>
+</start>
+<end>
+<singlePosition index="1988"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712701">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712701</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1989"/>
+</start>
+<end>
+<singlePosition index="2202"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712702">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712702</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2203"/>
+</start>
+<end>
+<singlePosition index="2248"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122712703">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122712703</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2249"/>
+</start>
+<end>
+<singlePosition index="2703"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617364272511">
+<metadata>
+<author>a2</author>
+<creation-date>1617364272511</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617364292314</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">peur</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2309"/>
+</start>
+<end>
+<singlePosition index="2316"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1617364298563">
+<metadata>
+<author>a2</author>
+<creation-date>1617364298563</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1617364312644</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les hommes</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2317"/>
+</start>
+<end>
+<singlePosition index="2327"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620654269764">
+<metadata>
+<author>a2</author>
+<creation-date>1620654269764</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620654294242</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">créatures malfaisantes</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2361"/>
+</start>
+<end>
+<singlePosition index="2383"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1617364316163">
+<metadata>
+<author>a2</author>
+<creation-date>1617364316163</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. du nom</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1617364272511"/>
+<term id="a2_1617364298563"/>
+</positioning>
+</relation>
+<relation id="a2_1620654296600">
+<metadata>
+<author>a2</author>
+<creation-date>1620654296600</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620654299376</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620654269764"/>
+<term id="a2_1617364298563"/>
+</positioning>
+</relation>
+</annotations>

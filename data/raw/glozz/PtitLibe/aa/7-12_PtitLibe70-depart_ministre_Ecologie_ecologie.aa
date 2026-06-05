@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2130-83211678"/>
+<unit id="a1_1621579833575">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833575</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="26"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833576">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833576</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="26"/>
+</start>
+<end>
+<singlePosition index="231"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833577">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833577</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="231"/>
+</start>
+<end>
+<singlePosition index="466"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833578">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833578</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="466"/>
+</start>
+<end>
+<singlePosition index="909"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833579">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833579</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="909"/>
+</start>
+<end>
+<singlePosition index="1120"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833580">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833580</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1120"/>
+</start>
+<end>
+<singlePosition index="1490"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579833581">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833581</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1490"/>
+</start>
+<end>
+<singlePosition index="2002"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629460425255">
+<metadata>
+<author>a1</author>
+<creation-date>1629460425255</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629460446614</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Colere</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">échec</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1756"/>
+</start>
+<end>
+<singlePosition index="1774"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629460448582">
+<metadata>
+<author>a1</author>
+<creation-date>1629460448582</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Daniel Boy</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">NP</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1744"/>
+</start>
+<end>
+<singlePosition index="1754"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1629460459943">
+<metadata>
+<author>a1</author>
+<creation-date>1629460459943</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629460461730</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Discours direct</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629460425255"/>
+<term id="a1_1629460448582"/>
+</positioning>
+</relation>
+</annotations>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="801-23877612"/>
+<unit id="unitex_1617122719057">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122719057</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="11"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122719058">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122719058</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="12"/>
+</start>
+<end>
+<singlePosition index="768"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618492303021">
+<metadata>
+<author>a2</author>
+<creation-date>1618492303021</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618492336275</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">s'inquiètent</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="357"/>
+</start>
+<end>
+<singlePosition index="369"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1618492307691">
+<metadata>
+<author>a2</author>
+<creation-date>1618492307691</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618492350273</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les chercheurs</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="342"/>
+</start>
+<end>
+<singlePosition index="356"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1618492352813">
+<metadata>
+<author>a2</author>
+<creation-date>1618492352813</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1618492354811</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1618492303021"/>
+<term id="a2_1618492307691"/>
+</positioning>
+</relation>
+</annotations>

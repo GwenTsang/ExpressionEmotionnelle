@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2008-88051194"/>
+<unit id="a1_1621579828943">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828943</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="43"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828944">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828944</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="43"/>
+</start>
+<end>
+<singlePosition index="271"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828945">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828945</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="271"/>
+</start>
+<end>
+<singlePosition index="612"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828946">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828946</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="612"/>
+</start>
+<end>
+<singlePosition index="937"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828947">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828947</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="937"/>
+</start>
+<end>
+<singlePosition index="1385"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579828948">
+<metadata>
+<author>a1</author>
+<creation-date>1621579828948</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1385"/>
+</start>
+<end>
+<singlePosition index="1901"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628689439845">
+<metadata>
+<author>a1</author>
+<creation-date>1628689439845</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628689450537</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1405"/>
+</start>
+<end>
+<singlePosition index="1512"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628689450569">
+<metadata>
+<author>a1</author>
+<creation-date>1628689450569</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628689457747</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1692"/>
+</start>
+<end>
+<singlePosition index="1715"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628689464843">
+<metadata>
+<author>a1</author>
+<creation-date>1628689464843</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628689475569</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1893"/>
+</start>
+<end>
+<singlePosition index="1900"/>
+</end>
+</positioning>
+</unit>
+</annotations>

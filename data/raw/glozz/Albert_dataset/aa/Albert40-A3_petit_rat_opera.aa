@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="422-62853714"/>
+<unit id="unitex_1614594411536">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411536</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="21"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594411537">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411537</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="22"/>
+</start>
+<end>
+<singlePosition index="399"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620309274457">
+<metadata>
+<author>a2</author>
+<creation-date>1620309274457</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620309323247</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">plongée dans le noir</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="71"/>
+</start>
+<end>
+<singlePosition index="169"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620309326133">
+<metadata>
+<author>a2</author>
+<creation-date>1620309326133</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620309339378</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">une troupe de danseur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="48"/>
+</start>
+<end>
+<singlePosition index="70"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1620309341992">
+<metadata>
+<author>a2</author>
+<creation-date>1620309341992</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620309344028</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620309274457"/>
+<term id="a2_1620309326133"/>
+</positioning>
+</relation>
+</annotations>

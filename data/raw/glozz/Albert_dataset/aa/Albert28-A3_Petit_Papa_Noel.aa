@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="553-7929207"/>
+<unit id="unitex_1614594407537">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594407537</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="18"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594407538">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594407538</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="19"/>
+</start>
+<end>
+<singlePosition index="522"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620129757640">
+<metadata>
+<author>a2</author>
+<creation-date>1620129757640</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620129798187</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdv</feature>
+<feature name="Declencheur">Heureusement</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="418"/>
+</start>
+<end>
+<singlePosition index="430"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620129761650">
+<metadata>
+<author>a2</author>
+<creation-date>1620129761650</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620129806336</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="430"/>
+</start>
+<end>
+<singlePosition index="431"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620129873146">
+<metadata>
+<author>a2</author>
+<creation-date>1620129873146</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620129896490</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">cédé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="331"/>
+</start>
+<end>
+<singlePosition index="380"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620130048300">
+<metadata>
+<author>a2</author>
+<creation-date>1620130048300</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620130098635</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le Père Noël</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="270"/>
+</start>
+<end>
+<singlePosition index="272"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1620129809526">
+<metadata>
+<author>a2</author>
+<creation-date>1620129809526</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620129811598</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620129757640"/>
+<term id="a2_1620129761650"/>
+</positioning>
+</relation>
+<relation id="a2_1620130100301">
+<metadata>
+<author>a2</author>
+<creation-date>1620130100301</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620130102743</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620129873146"/>
+<term id="a2_1620130048300"/>
+</positioning>
+</relation>
+</annotations>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="488-86611338"/>
+<unit id="unitex_1617122713302">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122713302</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="17"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1617122713303">
+<metadata>
+<author>unitex</author>
+<creation-date>1617122713303</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="18"/>
+</start>
+<end>
+<singlePosition index="457"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620661682477">
+<metadata>
+<author>a2</author>
+<creation-date>1620661682477</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620661696987</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur"> Passer d’un HLM à un immense domaine de plus de 600 hectares et d’une valeur de 56 millions d’euros</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="18"/>
+</start>
+<end>
+<singlePosition index="117"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620661709849">
+<metadata>
+<author>a2</author>
+<creation-date>1620661709849</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620661721883</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">un Britannique de 31 ans, Jordan Adlard Rogers</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="144"/>
+</start>
+<end>
+<singlePosition index="190"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1620661725489">
+<metadata>
+<author>a2</author>
+<creation-date>1620661725489</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620661727081</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620661682477"/>
+<term id="a2_1620661709849"/>
+</positioning>
+</relation>
+</annotations>

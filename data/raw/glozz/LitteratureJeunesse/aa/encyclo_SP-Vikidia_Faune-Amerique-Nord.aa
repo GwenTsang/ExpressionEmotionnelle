@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2306-1459854"/>
+<unit id="a1a6_1620827604488">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604488</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="198"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604489">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604489</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="198"/>
+</start>
+<end>
+<singlePosition index="524"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604490">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604490</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="524"/>
+</start>
+<end>
+<singlePosition index="1190"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604491">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604491</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1190"/>
+</start>
+<end>
+<singlePosition index="2100"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604492">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604492</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2100"/>
+</start>
+<end>
+<singlePosition index="2232"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604493">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604493</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269329924</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Les animaux qui se trouvaient dans ces régions</feature>
+<feature name="Controle">Anime-NonHumain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="755"/>
+</start>
+<end>
+<singlePosition index="801"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604494">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604494</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269352598</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">séparés</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="802"/>
+</start>
+<end>
+<singlePosition index="809"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604497">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604497</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269365909</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">séparés</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="816"/>
+</start>
+<end>
+<singlePosition index="852"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604498">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604498</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269424603</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdv</feature>
+<feature name="Declencheur">tout simplement</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1158"/>
+</start>
+<end>
+<singlePosition index="1173"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604499">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604499</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269475605</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1173"/>
+</start>
+<end>
+<singlePosition index="1174"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604500">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604500</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269436932</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Montree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Point d'exclamation</feature>
+<feature name="Declencheur">!</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1188"/>
+</start>
+<end>
+<singlePosition index="1189"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604501">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604501</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269445706</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Scripteur</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1189"/>
+</start>
+<end>
+<singlePosition index="1190"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630269542120">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269542120</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269547200</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="755"/>
+</start>
+<end>
+<singlePosition index="895"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630269549502">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269549502</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269553561</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1059"/>
+</start>
+<end>
+<singlePosition index="1189"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1a6_1630269370248">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269370248</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604494"/>
+<term id="a1a6_1620827604497"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630269373131">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269373131</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269376184</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet passif</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604494"/>
+<term id="a1a6_1620827604493"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630269457715">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269457715</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269459219</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604498"/>
+<term id="a1a6_1620827604499"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630269463632">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269463632</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269465286</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604500"/>
+<term id="a1a6_1620827604501"/>
+</positioning>
+</relation>
+<schema id="a1a6_1630269570801">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269570801</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269580488</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">TRISTESSE des animaux</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630269542120"/>
+<embedded-unit id="a1a6_1620827604494"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630269584980">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630269584980</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630269603969</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">SURPRISE du Scripteur</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630269549502"/>
+<embedded-unit id="a1a6_1620827604498"/>
+<embedded-unit id="a1a6_1620827604500"/>
+</positioning>
+</schema>
+</annotations>

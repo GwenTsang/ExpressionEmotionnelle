@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2147-729927"/>
+<unit id="a1_1621579829638">
+<metadata>
+<author>a1</author>
+<creation-date>1621579829638</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="48"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579829639">
+<metadata>
+<author>a1</author>
+<creation-date>1621579829639</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="48"/>
+</start>
+<end>
+<singlePosition index="324"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579829640">
+<metadata>
+<author>a1</author>
+<creation-date>1621579829640</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="324"/>
+</start>
+<end>
+<singlePosition index="646"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579829641">
+<metadata>
+<author>a1</author>
+<creation-date>1621579829641</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="646"/>
+</start>
+<end>
+<singlePosition index="1296"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579829642">
+<metadata>
+<author>a1</author>
+<creation-date>1621579829642</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1296"/>
+</start>
+<end>
+<singlePosition index="2067"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628775058399">
+<metadata>
+<author>a1</author>
+<creation-date>1628775058399</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628775062313</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1880"/>
+</start>
+<end>
+<singlePosition index="1887"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1628775062371">
+<metadata>
+<author>a1</author>
+<creation-date>1628775062371</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1628775068382</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1892"/>
+</start>
+<end>
+<singlePosition index="1967"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1628775070051">
+<metadata>
+<author>a1</author>
+<creation-date>1628775070051</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1_1628775058399"/>
+<term id="a1_1628775062371"/>
+</positioning>
+</relation>
+</annotations>

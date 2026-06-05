@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="3175-18248175"/>
+<unit id="a1_1621579834748">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834748</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="42"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834749">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834749</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="42"/>
+</start>
+<end>
+<singlePosition index="466"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834750">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834750</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="466"/>
+</start>
+<end>
+<singlePosition index="706"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834751">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834751</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="706"/>
+</start>
+<end>
+<singlePosition index="1127"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834752">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834752</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1127"/>
+</start>
+<end>
+<singlePosition index="1843"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834753">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834753</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1843"/>
+</start>
+<end>
+<singlePosition index="2120"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834754">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834754</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2120"/>
+</start>
+<end>
+<singlePosition index="2499"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834755">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834755</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2499"/>
+</start>
+<end>
+<singlePosition index="2793"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834756">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834756</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2793"/>
+</start>
+<end>
+<singlePosition index="3006"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834758">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834758</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826635950</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Peur</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">choquantes</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="67"/>
+</start>
+<end>
+<singlePosition index="77"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834761">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834761</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826694101</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="429"/>
+</start>
+<end>
+<singlePosition index="464"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579834769">
+<metadata>
+<author>a1</author>
+<creation-date>1621579834769</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826769613</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">faire du mal</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1114"/>
+</start>
+<end>
+<singlePosition index="1126"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826638181">
+<metadata>
+<author>a1</author>
+<creation-date>1629826638181</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826645522</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="77"/>
+</start>
+<end>
+<singlePosition index="78"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826670367">
+<metadata>
+<author>a1</author>
+<creation-date>1629826670367</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826680180</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="378"/>
+</start>
+<end>
+<singlePosition index="386"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826722607">
+<metadata>
+<author>a1</author>
+<creation-date>1629826722607</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826736353</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="778"/>
+</start>
+<end>
+<singlePosition index="878"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826771903">
+<metadata>
+<author>a1</author>
+<creation-date>1629826771903</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826780403</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les Brésiliens</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1109"/>
+</start>
+<end>
+<singlePosition index="1113"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826812292">
+<metadata>
+<author>a1</author>
+<creation-date>1629826812292</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826818975</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1813"/>
+</start>
+<end>
+<singlePosition index="1821"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826843994">
+<metadata>
+<author>a1</author>
+<creation-date>1629826843994</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826853965</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">corruption</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2186"/>
+</start>
+<end>
+<singlePosition index="2196"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826856353">
+<metadata>
+<author>a1</author>
+<creation-date>1629826856353</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826864318</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2196"/>
+</start>
+<end>
+<singlePosition index="2197"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826897515">
+<metadata>
+<author>a1</author>
+<creation-date>1629826897515</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826908697</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">corruption</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2444"/>
+</start>
+<end>
+<singlePosition index="2454"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826910514">
+<metadata>
+<author>a1</author>
+<creation-date>1629826910514</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826917781</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2454"/>
+</start>
+<end>
+<singlePosition index="2455"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826936693">
+<metadata>
+<author>a1</author>
+<creation-date>1629826936693</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Beaucoup d’électeurs</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2754"/>
+</start>
+<end>
+<singlePosition index="2757"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826947950">
+<metadata>
+<author>a1</author>
+<creation-date>1629826947950</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826956796</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">en ont assez</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2758"/>
+</start>
+<end>
+<singlePosition index="2792"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826748556">
+<metadata>
+<author>a1</author>
+<creation-date>1629826748556</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826756669</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1098"/>
+</start>
+<end>
+<singlePosition index="1126"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826831002">
+<metadata>
+<author>a1</author>
+<creation-date>1629826831002</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826843035</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">accusé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2172"/>
+</start>
+<end>
+<singlePosition index="2196"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826888465">
+<metadata>
+<author>a1</author>
+<creation-date>1629826888465</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826897428</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">accusé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2430"/>
+</start>
+<end>
+<singlePosition index="2454"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629826737467">
+<metadata>
+<author>a1</author>
+<creation-date>1629826737467</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826743754</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Envie</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1005"/>
+</start>
+<end>
+<singlePosition index="1126"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1629826648385">
+<metadata>
+<author>a1</author>
+<creation-date>1629826648385</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826649741</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579834758"/>
+<term id="a1_1629826638181"/>
+</positioning>
+</relation>
+<relation id="a1_1629826782887">
+<metadata>
+<author>a1</author>
+<creation-date>1629826782887</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826788639</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. indirect</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579834769"/>
+<term id="a1_1629826771903"/>
+</positioning>
+</relation>
+<relation id="a1_1629826867942">
+<metadata>
+<author>a1</author>
+<creation-date>1629826867942</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826869619</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629826843994"/>
+<term id="a1_1629826856353"/>
+</positioning>
+</relation>
+<relation id="a1_1629826872121">
+<metadata>
+<author>a1</author>
+<creation-date>1629826872121</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826873909</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629826831002"/>
+<term id="a1_1629826856353"/>
+</positioning>
+</relation>
+<relation id="a1_1629826921424">
+<metadata>
+<author>a1</author>
+<creation-date>1629826921424</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826923130</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629826897515"/>
+<term id="a1_1629826910514"/>
+</positioning>
+</relation>
+<relation id="a1_1629826926105">
+<metadata>
+<author>a1</author>
+<creation-date>1629826926105</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826927704</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629826888465"/>
+<term id="a1_1629826910514"/>
+</positioning>
+</relation>
+<relation id="a1_1629826959343">
+<metadata>
+<author>a1</author>
+<creation-date>1629826959343</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629826960851</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629826947950"/>
+<term id="a1_1629826936693"/>
+</positioning>
+</relation>
+</annotations>

@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2279-91240875"/>
+<unit id="a1a6_1620827604675">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604675</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="178"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604676">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604676</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="178"/>
+</start>
+<end>
+<singlePosition index="582"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604677">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604677</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="582"/>
+</start>
+<end>
+<singlePosition index="1143"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604678">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604678</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1143"/>
+</start>
+<end>
+<singlePosition index="1550"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604679">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604679</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1550"/>
+</start>
+<end>
+<singlePosition index="1614"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604680">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604680</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1614"/>
+</start>
+<end>
+<singlePosition index="1646"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604681">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604681</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1646"/>
+</start>
+<end>
+<singlePosition index="1880"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604682">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604682</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1880"/>
+</start>
+<end>
+<singlePosition index="2012"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604683">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604683</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2012"/>
+</start>
+<end>
+<singlePosition index="2198"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604684">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604684</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272389360</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">effrayants</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="231"/>
+</start>
+<end>
+<singlePosition index="241"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604685">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604685</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272403473</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="241"/>
+</start>
+<end>
+<singlePosition index="242"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604686">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604686</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272415755</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Haine</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="281"/>
+</start>
+<end>
+<singlePosition index="290"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604688">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604688</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272433249</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">craintes</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="294"/>
+</start>
+<end>
+<singlePosition index="302"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604689">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604689</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272910007</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="302"/>
+</start>
+<end>
+<singlePosition index="303"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604690">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604690</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272458762</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">fantômes;vampires;sorcières</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="314"/>
+</start>
+<end>
+<singlePosition index="364"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604691">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604691</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272466017</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="364"/>
+</start>
+<end>
+<singlePosition index="365"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604692">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604692</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272579743</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">critiquée</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1154"/>
+</start>
+<end>
+<singlePosition index="1174"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604693">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604693</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272587204</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1174"/>
+</start>
+<end>
+<singlePosition index="1175"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604694">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604694</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272610170</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">gigantesque opération commerciale</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1222"/>
+</start>
+<end>
+<singlePosition index="1259"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604695">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604695</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272924231</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1259"/>
+</start>
+<end>
+<singlePosition index="1260"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604696">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604696</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272849909</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le diable</feature>
+<feature name="Controle">Anime-NonHumain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1774"/>
+</start>
+<end>
+<singlePosition index="1783"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604697">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604697</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272658157</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">refusé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1784"/>
+</start>
+<end>
+<singlePosition index="1789"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604698">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604698</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272667906</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">refusé</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1796"/>
+</start>
+<end>
+<singlePosition index="1822"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604699">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604699</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272846515</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le diable</feature>
+<feature name="Controle">Anime-NonHumain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1848"/>
+</start>
+<end>
+<singlePosition index="1851"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604700">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604700</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272715116</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">mauvais</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1852"/>
+</start>
+<end>
+<singlePosition index="1879"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604701">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604701</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272842703</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">le diable</feature>
+<feature name="Controle">Anime-NonHumain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1880"/>
+</start>
+<end>
+<singlePosition index="1889"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604702">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604702</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272759215</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">condamné</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1890"/>
+</start>
+<end>
+<singlePosition index="1893"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604703">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604703</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272769575</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">condamné</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1899"/>
+</start>
+<end>
+<singlePosition index="1978"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604704">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604704</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272796527</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">effrayant</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2107"/>
+</start>
+<end>
+<singlePosition index="2116"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604705">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604705</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272831538</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les esprits maléfiques</feature>
+<feature name="Controle">Anime-NonHumain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2175"/>
+</start>
+<end>
+<singlePosition index="2197"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630272800937">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272800937</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272805381</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2084"/>
+</start>
+<end>
+<singlePosition index="2086"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630272940192">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272940192</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272943903</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="178"/>
+</start>
+<end>
+<singlePosition index="242"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630272946203">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272946203</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272952705</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="243"/>
+</start>
+<end>
+<singlePosition index="445"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630272976756">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272976756</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272982437</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">parce qu</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1143"/>
+</start>
+<end>
+<singlePosition index="1260"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630272997293">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272997293</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273021191</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitConsequence</type>
+<featureSet>
+<feature name="IntroExplConsequence">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1143"/>
+</start>
+<end>
+<singlePosition index="1260"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630273028095">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273028095</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273032132</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">car</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1769"/>
+</start>
+<end>
+<singlePosition index="1880"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630273049911">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273049911</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273107550</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitConsequence</type>
+<featureSet>
+<feature name="IntroExplConsequence"/>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1769"/>
+</start>
+<end>
+<singlePosition index="1880"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630273055060">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273055060</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273060213</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitConsequence</type>
+<featureSet>
+<feature name="IntroExplConsequence">donc</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1880"/>
+</start>
+<end>
+<singlePosition index="1978"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630273128394">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273128394</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273195843</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2084"/>
+</start>
+<end>
+<singlePosition index="2198"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630273145501">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273145501</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273155116</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitConsequence</type>
+<featureSet>
+<feature name="IntroExplConsequence">pour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2084"/>
+</start>
+<end>
+<singlePosition index="2198"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1a6_1630272470270">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272470270</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272472007</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604684"/>
+<term id="a1a6_1620827604685"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272473932">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272473932</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272475721</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604688"/>
+<term id="a1a6_1620827604689"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272477832">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272477832</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272479545</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604690"/>
+<term id="a1a6_1620827604691"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272590920">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272590920</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272592589</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604692"/>
+<term id="a1a6_1620827604693"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272633028">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272633028</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272634785</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604694"/>
+<term id="a1a6_1620827604695"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272680003">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272680003</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604697"/>
+<term id="a1a6_1620827604698"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272689558">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272689558</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272691115</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604697"/>
+<term id="a1a6_1620827604696"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272744138">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272744138</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272747429</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. indirect</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604700"/>
+<term id="a1a6_1620827604699"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272772902">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272772902</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272774375</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604702"/>
+<term id="a1a6_1620827604701"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272777928">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272777928</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604702"/>
+<term id="a1a6_1620827604703"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272810056">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272810056</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272816449</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604704"/>
+<term id="a1a6_1630272800937"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630272835610">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272835610</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272838847</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604704"/>
+<term id="a1a6_1620827604705"/>
+</positioning>
+</relation>
+<schema id="a1a6_1630272955503">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630272955503</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630272967905</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">PEUR de la Doxa</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630272940192"/>
+<embedded-unit id="a1a6_1620827604684"/>
+<embedded-unit id="a1a6_1630272946203"/>
+<embedded-unit id="a1a6_1620827604688"/>
+<embedded-unit id="a1a6_1620827604690"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630273003086">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273003086</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273014781</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">COLERE de la Doxa</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630272976756"/>
+<embedded-unit id="a1a6_1620827604692"/>
+<embedded-unit id="a1a6_1630272997293"/>
+<embedded-unit id="a1a6_1620827604694"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630273076307">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273076307</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273094167</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">COLERE du diable</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630273028095"/>
+<embedded-unit id="a1a6_1620827604697"/>
+<embedded-unit id="a1a6_1630273049911"/>
+<embedded-unit id="a1a6_1620827604700"/>
+<embedded-unit id="a1a6_1620827604702"/>
+<embedded-unit id="a1a6_1630273055060"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630273120323">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630273120323</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630273186048</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">PEUR des esprits maléfiques et de la Doxa</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630273145501"/>
+<embedded-unit id="a1a6_1630273128394"/>
+<embedded-unit id="a1a6_1620827604704"/>
+</positioning>
+</schema>
+</annotations>

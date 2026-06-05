@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="1150-49635036"/>
+<unit id="a1_1621579825697">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825697</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="27"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579825698">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825698</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="27"/>
+</start>
+<end>
+<singlePosition index="131"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579825699">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825699</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="131"/>
+</start>
+<end>
+<singlePosition index="507"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579825700">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825700</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="507"/>
+</start>
+<end>
+<singlePosition index="684"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579825701">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825701</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="684"/>
+</start>
+<end>
+<singlePosition index="1102"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579825704">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825704</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368265920</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">peur</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="777"/>
+</start>
+<end>
+<singlePosition index="786"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579825705">
+<metadata>
+<author>a1</author>
+<creation-date>1621579825705</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368353879</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">blessés</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="904"/>
+</start>
+<end>
+<singlePosition index="951"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1624368268583">
+<metadata>
+<author>a1</author>
+<creation-date>1624368268583</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368273720</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Les gens qui se trouvaient sur la promenade des Anglais et dans d’autres rues de Nice</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="684"/>
+</start>
+<end>
+<singlePosition index="769"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1624368296192">
+<metadata>
+<author>a1</author>
+<creation-date>1624368296192</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368305070</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">courir</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="817"/>
+</start>
+<end>
+<singlePosition index="837"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1624368309300">
+<metadata>
+<author>a1</author>
+<creation-date>1624368309300</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368313613</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Les gens qui se trouvaient sur la promenade des Anglais et dans d’autres rues de Nice</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="839"/>
+</start>
+<end>
+<singlePosition index="842"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1624368316572">
+<metadata>
+<author>a1</author>
+<creation-date>1624368316572</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368333298</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">se sont cachés</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="843"/>
+</start>
+<end>
+<singlePosition index="902"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1624368358027">
+<metadata>
+<author>a1</author>
+<creation-date>1624368358027</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368361684</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Attribut du sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579825704"/>
+<term id="a1_1624368268583"/>
+</positioning>
+</relation>
+<relation id="a1_1624368363663">
+<metadata>
+<author>a1</author>
+<creation-date>1624368363663</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368365447</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1624368296192"/>
+<term id="a1_1624368268583"/>
+</positioning>
+</relation>
+<relation id="a1_1624368367161">
+<metadata>
+<author>a1</author>
+<creation-date>1624368367161</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368368558</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1624368316572"/>
+<term id="a1_1624368309300"/>
+</positioning>
+</relation>
+<relation id="a1_1624368370953">
+<metadata>
+<author>a1</author>
+<creation-date>1624368370953</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1624368372968</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1621579825705"/>
+<term id="a1_1624368309300"/>
+</positioning>
+</relation>
+</annotations>

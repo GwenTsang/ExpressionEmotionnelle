@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="2368-0"/>
+<unit id="a1a6_1620827604303">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604303</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="154"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604304">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604304</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="154"/>
+</start>
+<end>
+<singlePosition index="301"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604305">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604305</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="301"/>
+</start>
+<end>
+<singlePosition index="800"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604306">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604306</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="800"/>
+</start>
+<end>
+<singlePosition index="1400"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604307">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604307</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1400"/>
+</start>
+<end>
+<singlePosition index="2278"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604308">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604308</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265651089</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">meurt</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="439"/>
+</start>
+<end>
+<singlePosition index="452"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604309">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604309</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265663460</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">﻿Molière (de son vrai nom Jean-Baptiste Poquelin)</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="459"/>
+</start>
+<end>
+<singlePosition index="461"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604310">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604310</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265699401</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">se heurte</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1222"/>
+</start>
+<end>
+<singlePosition index="1231"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604311">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604311</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265707752</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">les troupes installées à Paris comme celles de l'Hôtel de Bourgogne ou du Marais</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1236"/>
+</start>
+<end>
+<singlePosition index="1312"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604314">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604314</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265736378</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Tristesse</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">Les dettes s'accumulent</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1314"/>
+</start>
+<end>
+<singlePosition index="1337"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604315">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604315</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265757952</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">﻿Molière (de son vrai nom Jean-Baptiste Poquelin)</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1351"/>
+</start>
+<end>
+<singlePosition index="1358"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604316">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604316</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265774454</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Tristesse</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">emprisonné</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1359"/>
+</start>
+<end>
+<singlePosition index="1362"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604317">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604317</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265864837</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Les comédiens</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1819"/>
+</start>
+<end>
+<singlePosition index="1822"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604318">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604318</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265887135</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">une vie+facile</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1823"/>
+</start>
+<end>
+<singlePosition index="1857"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604319">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604319</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265962542</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">﻿Molière (de son vrai nom Jean-Baptiste Poquelin)</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1918"/>
+</start>
+<end>
+<singlePosition index="1919"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604325">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604325</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266349403</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">opposition</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2148"/>
+</start>
+<end>
+<singlePosition index="2160"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630265778710">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630265778710</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265789072</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Peur</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Tristesse</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">emprisonné</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1368"/>
+</start>
+<end>
+<singlePosition index="1399"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266043623">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266043623</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266048973</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Les comédiens</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1945"/>
+</start>
+<end>
+<singlePosition index="1958"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266053096">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266053096</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266068792</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">se confronter</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1929"/>
+</start>
+<end>
+<singlePosition index="1942"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266155603">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266155603</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266250038</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Jalousie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">jalousies</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1967"/>
+</start>
+<end>
+<singlePosition index="1973"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266275729">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266275729</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266284902</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Jalousie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">jalousies</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1999"/>
+</start>
+<end>
+<singlePosition index="2008"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604323">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604323</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266108435</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">querelles</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1967"/>
+</start>
+<end>
+<singlePosition index="1991"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604324">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604324</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266270217</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Complexe</feature>
+<feature name="Categorie">Jalousie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">jalousies</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1995"/>
+</start>
+<end>
+<singlePosition index="2008"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1620827604320">
+<metadata>
+<author>a1a6</author>
+<creation-date>1620827604320</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266019240</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">se confronter</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1929"/>
+</start>
+<end>
+<singlePosition index="2008"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266353545">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266353545</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266364201</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">autorités locales qui souvent sont hostiles aux spectacles où l'on rit des vieux qui épousent des jeunes filles</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2165"/>
+</start>
+<end>
+<singlePosition index="2276"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266398518">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266398518</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266410034</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SAdj</feature>
+<feature name="Declencheur">hostiles</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2200"/>
+</start>
+<end>
+<singlePosition index="2276"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266413662">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266413662</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266418000</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">autorités locales qui souvent sont hostiles aux spectacles où l'on rit des vieux qui épousent des jeunes filles</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProRel</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2183"/>
+</start>
+<end>
+<singlePosition index="2186"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266427643">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266427643</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266432960</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">ProPerso</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2227"/>
+</start>
+<end>
+<singlePosition index="2231"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266437137">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266437137</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266445671</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">rit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2232"/>
+</start>
+<end>
+<singlePosition index="2276"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266478950">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266478950</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266484047</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="439"/>
+</start>
+<end>
+<singlePosition index="472"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266493651">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266493651</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266498882</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1217"/>
+</start>
+<end>
+<singlePosition index="1313"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266501248">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266501248</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266505239</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1314"/>
+</start>
+<end>
+<singlePosition index="1400"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266507530">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266507530</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266513526</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1819"/>
+</start>
+<end>
+<singlePosition index="1857"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266521975">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266521975</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause"/>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1859"/>
+</start>
+<end>
+<singlePosition index="2009"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266611125">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266611125</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266793618</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitConsequence</type>
+<featureSet>
+<feature name="IntroExplConsequence">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1859"/>
+</start>
+<end>
+<singlePosition index="2009"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266623502">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266623502</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266876604</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitCause</type>
+<featureSet>
+<feature name="IntroExplCause">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2124"/>
+</start>
+<end>
+<singlePosition index="2277"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1a6_1630266632756">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266632756</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266881850</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitConsequence</type>
+<featureSet>
+<feature name="IntroExplConsequence">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="2124"/>
+</start>
+<end>
+<singlePosition index="2276"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1a6_1630265667526">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630265667526</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265669034</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604308"/>
+<term id="a1a6_1620827604309"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630265720480">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630265720480</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265724297</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. indirect</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604310"/>
+<term id="a1a6_1620827604311"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630265794757">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630265794757</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604316"/>
+<term id="a1a6_1630265778710"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630265839162">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630265839162</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265840662</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet passif</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604316"/>
+<term id="a1a6_1620827604315"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630265891313">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630265891313</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630265892542</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604318"/>
+<term id="a1a6_1620827604317"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266023499">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266023499</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266025456</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604320"/>
+<term id="a1a6_1620827604319"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266074475">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266074475</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266077348</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. indirect</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1630266053096"/>
+<term id="a1a6_1630266043623"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266116768">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266116768</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266122556</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Epithete</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604323"/>
+<term id="a1a6_1630266043623"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266290201">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266290201</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1a6_1630266155603"/>
+<term id="a1a6_1620827604324"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266298075">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266298075</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266300867</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Epithete</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1630266155603"/>
+<term id="a1a6_1630266043623"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266304597">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266304597</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266306957</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1630266275729"/>
+<term id="a1a6_1630266043623"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266372697">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266372697</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266375993</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. du nom</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1620827604325"/>
+<term id="a1a6_1630266353545"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266420597">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266420597</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266424089</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Attribut du sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1630266398518"/>
+<term id="a1a6_1630266413662"/>
+</positioning>
+</relation>
+<relation id="a1a6_1630266451904">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266451904</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266453730</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Sujet</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1a6_1630266437137"/>
+<term id="a1a6_1630266427643"/>
+</positioning>
+</relation>
+<schema id="a1a6_1630266669710">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266669710</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266896592</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">TRISTESSE de Molière</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1620827604308"/>
+<embedded-unit id="a1a6_1630266478950"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630266692433">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266692433</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266920939</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">COLERE des troupes installées à Paris</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1620827604310"/>
+<embedded-unit id="a1a6_1630266493651"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630266719918">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266719918</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266932160</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">PEUR et TRISTESSE de Molière</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1620827604314"/>
+<embedded-unit id="a1a6_1620827604316"/>
+<embedded-unit id="a1a6_1630266501248"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630266741281">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266741281</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266942351</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">JOIE des comédiens</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1620827604318"/>
+<embedded-unit id="a1a6_1630266507530"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630266742204">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266742204</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266783022</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">COLERE de Molière et des comédiens + JALOUSIE des comédiens</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630266053096"/>
+<embedded-unit id="a1a6_1630266155603"/>
+<embedded-unit id="a1a6_1620827604323"/>
+<embedded-unit id="a1a6_1630266275729"/>
+<embedded-unit id="a1a6_1630266521975"/>
+<embedded-unit id="a1a6_1630266611125"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630266855239">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266855239</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266957048</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">COLERE des autorités locales</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1620827604325"/>
+<embedded-unit id="a1a6_1630266623502"/>
+<embedded-unit id="a1a6_1630266632756"/>
+<embedded-unit id="a1a6_1630266398518"/>
+</positioning>
+</schema>
+<schema id="a1a6_1630266855400">
+<metadata>
+<author>a1a6</author>
+<creation-date>1630266855400</creation-date>
+<lastModifier>a1a6</lastModifier>
+<lastModificationDate>1630266870092</lastModificationDate>
+</metadata>
+<characterisation>
+<type>PassageEmo</type>
+<featureSet>
+<feature name="Remarque">JOIE de la Doxa</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<embedded-unit id="a1a6_1630266623502"/>
+<embedded-unit id="a1a6_1630266632756"/>
+<embedded-unit id="a1a6_1630266437137"/>
+</positioning>
+</schema>
+</annotations>

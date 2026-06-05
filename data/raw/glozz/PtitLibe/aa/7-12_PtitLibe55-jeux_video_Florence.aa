@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="1642-66393360"/>
+<unit id="a1_1621579831600">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831600</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="46"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831601">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831601</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="46"/>
+</start>
+<end>
+<singlePosition index="275"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831602">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831602</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="275"/>
+</start>
+<end>
+<singlePosition index="444"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831603">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831603</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="444"/>
+</start>
+<end>
+<singlePosition index="835"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831604">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831604</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="835"/>
+</start>
+<end>
+<singlePosition index="1137"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831605">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831605</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1137"/>
+</start>
+<end>
+<singlePosition index="1399"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831606">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831606</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1399"/>
+</start>
+<end>
+<singlePosition index="1563"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831609">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831609</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221623940</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="286"/>
+</start>
+<end>
+<singlePosition index="299"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831616">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831616</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221679724</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="895"/>
+</start>
+<end>
+<singlePosition index="922"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831619">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831619</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221715334</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1103"/>
+</start>
+<end>
+<singlePosition index="1107"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831620">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831620</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221748303</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1142"/>
+</start>
+<end>
+<singlePosition index="1252"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1621579831622">
+<metadata>
+<author>a1</author>
+<creation-date>1621579831622</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221894937</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1408"/>
+</start>
+<end>
+<singlePosition index="1489"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629221693705">
+<metadata>
+<author>a1</author>
+<creation-date>1629221693705</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221700026</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="961"/>
+</start>
+<end>
+<singlePosition index="979"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629221716939">
+<metadata>
+<author>a1</author>
+<creation-date>1629221716939</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629221722574</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Autre</type>
+<featureSet>
+<feature name="Remarque">Amour</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1114"/>
+</start>
+<end>
+<singlePosition index="1136"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1629221725919">
+<metadata>
+<author>a1</author>
+<creation-date>1629221725919</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Discontinue</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<term id="a1_1621579831619"/>
+<term id="a1_1629221716939"/>
+</positioning>
+</relation>
+</annotations>

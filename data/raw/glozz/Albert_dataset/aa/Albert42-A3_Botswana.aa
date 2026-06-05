@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="869-70122987"/>
+<unit id="unitex_1614594411875">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411875</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="8"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594411876">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411876</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="9"/>
+</start>
+<end>
+<singlePosition index="152"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594411877">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411877</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="153"/>
+</start>
+<end>
+<singlePosition index="363"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594411878">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411878</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="364"/>
+</start>
+<end>
+<singlePosition index="539"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594411879">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594411879</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="540"/>
+</start>
+<end>
+<singlePosition index="811"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620311979266">
+<metadata>
+<author>a2</author>
+<creation-date>1620311979266</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620312017632</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Tristesse</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Colere</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">tués; défenses arrachées</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="278"/>
+</start>
+<end>
+<singlePosition index="362"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620311984335">
+<metadata>
+<author>a2</author>
+<creation-date>1620311984335</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620312029858</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">une ONG agissant pour la sauvegarde des éléphants</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="159"/>
+</start>
+<end>
+<singlePosition index="208"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1620312064485">
+<metadata>
+<author>a2</author>
+<creation-date>1620312064485</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620312102457</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Base</feature>
+<feature name="Categorie2">Tristesse</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">morts, victimes de braconnage</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="72"/>
+</start>
+<end>
+<singlePosition index="151"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1620312032378">
+<metadata>
+<author>a2</author>
+<creation-date>1620312032378</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620312035833</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620311979266"/>
+<term id="a2_1620311984335"/>
+</positioning>
+</relation>
+<relation id="a2_1620312103545">
+<metadata>
+<author>a2</author>
+<creation-date>1620312103545</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620312106074</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte droit</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1620312064485"/>
+<term id="a2_1620311984335"/>
+</positioning>
+</relation>
+</annotations>

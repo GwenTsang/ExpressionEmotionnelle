@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="598-85571442"/>
+<unit id="unitex_1614594410033">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594410033</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="15"/>
+</end>
+</positioning>
+</unit>
+<unit id="unitex_1614594410034">
+<metadata>
+<author>unitex</author>
+<creation-date>1614594410034</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="16"/>
+</start>
+<end>
+<singlePosition index="564"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1616753919240">
+<metadata>
+<author>a2</author>
+<creation-date>1616753919240</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1616754050801</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Designee</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Surprise</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">surprise</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="216"/>
+</start>
+<end>
+<singlePosition index="239"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1616754057264">
+<metadata>
+<author>a2</author>
+<creation-date>1616754057264</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1616754169096</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Les fonctionnaires de l'hôtel de police de la ville de Metz</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="129"/>
+</start>
+<end>
+<singlePosition index="188"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1616754198935">
+<metadata>
+<author>a2</author>
+<creation-date>1616754198935</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1616754235111</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Suggeree</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Colere</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">Proposition</feature>
+<feature name="Declencheur">n'a pas fait rire</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="530"/>
+</start>
+<end>
+<singlePosition index="547"/>
+</end>
+</positioning>
+</unit>
+<unit id="a2_1616754241023">
+<metadata>
+<author>a2</author>
+<creation-date>1616754241023</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1616754253497</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">tout le monde</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">SN</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="548"/>
+</start>
+<end>
+<singlePosition index="561"/>
+</end>
+</positioning>
+</unit>
+<relation id="a2_1616754175139">
+<metadata>
+<author>a2</author>
+<creation-date>1616754175139</creation-date>
+<lastModifier>a2</lastModifier>
+<lastModificationDate>1620209287732</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Contexte gauche</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1616753919240"/>
+<term id="a2_1616754057264"/>
+</positioning>
+</relation>
+<relation id="a2_1616754258237">
+<metadata>
+<author>a2</author>
+<creation-date>1616754258237</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">Compl. direct</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a2_1616754198935"/>
+<term id="a2_1616754241023"/>
+</positioning>
+</relation>
+</annotations>

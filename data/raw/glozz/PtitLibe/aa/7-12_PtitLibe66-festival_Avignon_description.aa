@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<annotations>
+<metadata corpusHashcode="384-49945005"/>
+<unit id="a1_1621579833034">
+<metadata>
+<author>a1</author>
+<creation-date>1621579833034</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="365"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629391406136">
+<metadata>
+<author>a1</author>
+<creation-date>1629391406136</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629391415086</lastModificationDate>
+</metadata>
+<characterisation>
+<type>SitEmo</type>
+<featureSet>
+<feature name="Mode">Comportementale</feature>
+<feature name="Type">Base</feature>
+<feature name="Categorie">Joie</feature>
+<feature name="Type2">Aucun</feature>
+<feature name="Categorie2">Aucune</feature>
+<feature name="Nature">SN</feature>
+<feature name="Declencheur">fête</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="36"/>
+</start>
+<end>
+<singlePosition index="62"/>
+</end>
+</positioning>
+</unit>
+<unit id="a1_1629391416657">
+<metadata>
+<author>a1</author>
+<creation-date>1629391416657</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629391420877</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Experienceur</type>
+<featureSet>
+<feature name="Entite">Doxa</feature>
+<feature name="Controle">Anime-Humain</feature>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="62"/>
+</start>
+<end>
+<singlePosition index="62"/>
+</end>
+</positioning>
+</unit>
+<relation id="a1_1629391424015">
+<metadata>
+<author>a1</author>
+<creation-date>1629391424015</creation-date>
+<lastModifier>a1</lastModifier>
+<lastModificationDate>1629391425413</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Affecte</type>
+<featureSet>
+<feature name="Nature">N/A</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<term id="a1_1629391406136"/>
+<term id="a1_1629391416657"/>
+</positioning>
+</relation>
+</annotations>
