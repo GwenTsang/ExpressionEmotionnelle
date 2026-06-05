@@ -11,9 +11,12 @@ Pipeline d'analyse computationnelle des **marqueurs linguistiques de l'émotion*
 - [2. Taxonomie émotionnelle](#2-taxonomie-émotionnelle)
   - [2.1 Les catégories émotionnelles](#21-les-catégories-émotionnelles)
   - [2.2 Les modes d'expression](#22-les-modes-dexpression)
-  - [2.3 Les trois types](#23-les-trois-types)
+  - [2.3 Les deux types](#23-les-deux-types)
 - [3. Architecture du pipeline](#3-architecture-du-pipeline)
   - [3.1 Flux de données](#31-flux-de-données)
+    - [Étape 1 — Build](#étape-1--build)
+    - [Étape 2 — Merge](#étape-2--merge)
+    - [Étape 3 — Analyse](#étape-3--analyse)
   - [3.2 Le schéma SimpleSitEmo](#32-le-schéma-simplesitemo)
 - [4. Installation](#4-installation)
   - [4.1 Prérequis](#41-prérequis)
@@ -31,22 +34,15 @@ Le schéma d'annotation utilisé est celui proposé par Etienne et Battistelli (
 
 ## 1.1 Corpus utilisés
 
-Le pipeline agrège cinq sous-corpus, issus de deux formats d'annotation distincts :
+Le pipeline agrège cinq sous-corpus, issus de deux formats d'annotation distincts (Glozz et XLSX), tous normalisés au format `.parquet` :
 
-**Corpus Glozz** (format `.aa` / `.ac`) :
-
-| Corpus | Description |
-|:---|:---|
-| **Albert** | Articles de presse du magazine *Albert* (presse jeunesse) |
-| **CorpusCovid** | Textes relatifs à la pandémie de COVID-19 |
-| **LittératureJeunesse** | Extraits de littérature pour la jeunesse |
-| **PtitLibé** | Articles du *P'tit Libé* (presse jeunesse) |
-
-**Corpus XLSX** :
-
-| Corpus | Description |
-|:---|:---|
-| **CyberAggAdo** | Messages de cyberharcèlement en français rédigés par des jeunes de 11 à 18 ans |
+| Corpus | Format d'origine | Description |
+|:---|:---|:---|
+| **Albert** | Glozz (`.aa` / `.ac`) | Articles de presse du magazine *Albert* (presse jeunesse) |
+| **CorpusCovid** | Glozz (`.aa` / `.ac`) | Textes relatifs à la pandémie de COVID-19 |
+| **LittératureJeunesse** | Glozz (`.aa` / `.ac`) | Extraits de littérature pour la jeunesse |
+| **PtitLibé** | Glozz (`.aa` / `.ac`) | Articles du *P'tit Libé* (presse jeunesse) |
+| **CyberAggAdo** | XLSX | Messages de cyberharcèlement en français rédigés par des jeunes de 11 à 18 ans |
 
 ## 1.2 Approche analytique
 
@@ -95,13 +91,13 @@ Le mode qualifie la *relation* entre le segment textuel (span) et l'émotion qu'
 
 Une unité SitEmo ne peut recevoir qu'un seul mode.
 
-## 2.3 Les trois types
+## 2.3 Les deux types
 
-Les 12 catégories émotionnelles sont regroupées en trois types :
+Les 11 catégories émotionnelles principales sont regroupées en deux types :
 
 ```mermaid
 graph TD
-    subgraph Base ["🔵 Base (6 émotions)"]
+    subgraph Base ["Base (6 émotions)"]
         B1["Colère"]
         B2["Dégoût"]
         B3["Joie"]
@@ -110,7 +106,7 @@ graph TD
         B6["Tristesse"]
     end
 
-    subgraph Complexe ["🟣 Complexe (5 émotions)"]
+    subgraph Complexe ["Complexe (5 émotions)"]
         C1["Admiration"]
         C2["Culpabilité"]
         C3["Embarras"]
@@ -118,18 +114,12 @@ graph TD
         C5["Jalousie"]
     end
 
-    subgraph Autre_type ["⚪ Autre"]
-        A1["Autre"]
-    end
-
     style Base fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
     style Complexe fill:#f3e5f5,stroke:#7b1fa2,color:#4a148c
-    style Autre_type fill:#f5f5f5,stroke:#757575,color:#424242
 ```
 
 - **Base** : les six émotions fondamentales (Colère, Dégoût, Joie, Peur, Surprise, Tristesse).
 - **Complexe** : cinq émotions dites « complexes » ou « secondaires » (Admiration, Culpabilité, Embarras, Fierté, Jalousie).
-- **Autre** : catégorie résiduelle regroupant les émotions ne relevant ni du type Base ni du type Complexe (amour, mépris, haine, soulagement, etc.).
 
 ---
 
@@ -137,53 +127,46 @@ graph TD
 
 ## 3.1 Flux de données
 
-Le pipeline suit trois étapes séquentielles, précédées de deux extractions indépendantes :
+Le pipeline suit trois étapes séquentielles :
+
+### Étape 1 — Build
+
+Deux extracteurs indépendants convertissent les annotations brutes (Glozz XML et XLSX) dans le schéma SimpleSitEmo. Les émotions et modes sont normalisés vers des formes canoniques accentuées (ex. `Colere` → `Colère`, `Designee` → `Désignée`).
 
 ```mermaid
 flowchart LR
-    subgraph Sources ["Sources annotées"]
-        G["Glozz (.aa / .ac)\n4 corpus"]
-        X["XLSX\nCyberAggAdo"]
-    end
+    G["Glozz (.aa / .ac)\n4 corpus"] --> BG["build_simplesitemo_glozz"]
+    BG --> PG["SimpleSitEmo_glozz.parquet"]
 
-    subgraph Étape_1 ["Étape 1 — Build"]
-        BG["build_simplesitemo_glozz"]
-        BX["build_simplesitemo_xlsx"]
-    end
-
-    subgraph Étape_2 ["Étape 2 — Merge"]
-        M["merge_simplesitemo"]
-    end
-
-    subgraph Étape_3 ["Étape 3 — Analyse"]
-        EM["extract_markers\n(mots, lemmes, ponctuations)"]
-        SP["marker_specificity\n(entropie, tests statistiques)"]
-    end
-
-    subgraph Sorties ["Résultats"]
-        MK["markers.csv"]
-        EN["entropy_per_marker_*.csv"]
-        HR["hypothesis_report.txt"]
-    end
-
-    G --> BG --> PG["SimpleSitEmo_glozz.parquet"]
-    X --> BX --> PX["SimpleSitEmo_xlsx.parquet"]
-    PG --> M
-    PX --> M
-    M --> SS["SimpleSitEmo.parquet"]
-    SS --> EM --> MK
-    MK --> SP
-    SP --> EN
-    SP --> HR
+    X["XLSX\nCyberAggAdo"] --> BX["build_simplesitemo_xlsx"]
+    BX --> PX["SimpleSitEmo_xlsx.parquet"]
 ```
 
-**Étape 1 — Build.** Deux extracteurs indépendants convertissent les annotations brutes (Glozz XML et XLSX) dans le schéma SimpleSitEmo. Les émotions et modes sont normalisés vers des formes canoniques accentuées (ex. `Colere` → `Colère`, `Designee` → `Désignée`).
+### Étape 2 — Merge
 
-**Étape 2 — Merge.** Les deux fichiers Parquet intermédiaires sont validés (colonnes, valeurs canoniques, absence de collision entre sources) puis concaténés en un fichier unifié `SimpleSitEmo.parquet`.
+Les deux fichiers Parquet intermédiaires sont validés (colonnes, valeurs canoniques, absence de collision entre sources) puis concaténés en un fichier unifié.
 
-**Étape 3 — Analyse.** L'analyse se décompose en deux sous-étapes :
+```mermaid
+flowchart LR
+    PG["SimpleSitEmo_glozz.parquet"] --> M["merge_simplesitemo"]
+    PX["SimpleSitEmo_xlsx.parquet"] --> M
+    M --> SS["SimpleSitEmo.parquet"]
+```
+
+### Étape 3 — Analyse
+
+L'analyse se décompose en deux sous-étapes :
 - **Extraction des marqueurs** : pour chaque span, les mots, lemmes (via SpaCy ou Stanza) et ponctuations sont extraits et associés à chaque émotion annotée sur ce span.
 - **Spécificité** : l'entropie de Shannon est calculée pour chaque marqueur, puis agrégée par mode d'expression. Les tests de Kruskal-Wallis et de Mann-Whitney comparent les distributions d'entropie entre modes.
+
+```mermaid
+flowchart LR
+    SS["SimpleSitEmo.parquet"] --> EM["extract_markers"]
+    EM --> MK["markers.csv"]
+    MK --> SP["marker_specificity"]
+    SP --> EN["entropy_per_marker_*.csv"]
+    SP --> HR["hypothesis_report.txt"]
+```
 
 ## 3.2 Le schéma SimpleSitEmo
 
