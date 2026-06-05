@@ -143,15 +143,15 @@ flowchart LR
 
 Le format intermédiaire `SimpleSitEmo` est un fichier Parquet à 7 colonnes, unifiant les annotations des deux sources :
 
-| Colonne | Type | Description |
-|:---|:---|:---|
-| `source_file` | string | Identifiant du corpus d'origine (ex. `"CyberAggAdo"`, `"Albert"`) |
-| `text_span` | string | Segment textuel annoté porteur de l'émotion |
-| `mode` | string | Mode d'expression (`Comportementale` \| `Désignée` \| `Montrée` \| `Suggérée`) |
-| `emotion1` | string | Émotion primaire (label canonique accentué) |
-| `emotion2` | string \| null | Émotion secondaire (le cas échéant) |
-| `emotion3` | string \| null | Émotion tertiaire (le cas échéant, max 3 par unité) |
-| `nature_linguistique` | string \| null | Nature syntaxique du segment (SN, SAdj, Proposition, etc.) |
+| Colonne | Description |
+|:---|:---|
+| `source_file` | Identifiant du corpus d'origine (ex. `"CyberAggAdo"`, `"Albert"`) |
+| `text_span` | Segment textuel annoté porteur de l'émotion |
+| `mode` | Mode d'expression (`Comportementale` \| `Désignée` \| `Montrée` \| `Suggérée`) |
+| `emotion1` | Émotion primaire (label canonique accentué) |
+| `emotion2` | Émotion secondaire (le cas échéant, nullable) |
+| `emotion3` | Émotion tertiaire (le cas échéant, nullable, max 3 par unité) |
+| `nature_linguistique` | Nature linguistique du segment (nullable). Valeurs possibles : `SAdj`, `SAdv`, `SN`, `SPrep`, `Proposition`, `Conj. de coordination`, `Conj. de subordination`, `Dislocation droite`, `Dislocation gauche`, `Enonce averbal`, `Enonce clive`, `Enonce elliptique`, `Enonce exclamatif`, `Interjection`, `Point d'exclamation`, `Points de suspension`, `Accumulation`, `Autre` |
 
 ---
 

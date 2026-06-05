@@ -1,46 +1,38 @@
 import pandas as pd
 import os
 
-# File paths
-XLSX_STANZA_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\xlsx\specificity_results_stanza\markers_stanza.csv"
-XLSX_SPACY_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\xlsx\specificity_results_spacy\markers_spacy.csv"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MARKERS_PATH = os.path.join(BASE_DIR, "results", "simplesitemo", "markers.csv")
 
-GLOZZ_STANZA_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\glozz\specificity_results_stanza\markers.csv"
-GLOZZ_SPACY_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\glozz\specificity_results_spacy\markers.csv"
+def load_and_filter_markers(file_path):
+    """Load unified markers and split by corpus for 'Désignée' mode."""
+    cyber_markers = set()
+    ttk_markers = set()
 
-def load_and_filter_xlsx(file_path):
-    """Load XLSX markers and filter for 'Désignée' mode (value 1.0)."""
     if not os.path.exists(file_path):
         print(f"File not found: {file_path}")
-        return set()
-    
-    # Try reading with low_memory=False to avoid DtypeWarnings
-    df = pd.read_csv(file_path, low_memory=False)
-    
-    if 'Désignée' in df.columns:
-        filtered = df[df['Désignée'] == 1.0]
-        markers = set(m for m in filtered['marker_value'].dropna().astype(str).str.lower().str.strip() if len(m) > 2)
-        return markers
-    else:
-        print(f"'Désignée' column missing in {file_path}")
-        return set()
-
-def load_and_filter_glozz(file_path):
-    """Load Glozz markers and filter for 'Designee' mode."""
-    if not os.path.exists(file_path):
-        print(f"File not found: {file_path}")
-        return set()
+        return cyber_markers, ttk_markers
         
     df = pd.read_csv(file_path, low_memory=False)
     
-    if 'mode' in df.columns:
-        # Glozz uses 'Designee' or potentially other variations
-        filtered = df[df['mode'].str.lower().str.strip() == 'designee']
-        markers = set(m for m in filtered['marker_value'].dropna().astype(str).str.lower().str.strip() if len(m) > 2)
-        return markers
+    if 'mode' in df.columns and 'source_file' in df.columns:
+        filtered = df[df['mode'].str.lower().str.strip() == 'désignée']
+        
+        for _, row in filtered.iterrows():
+            marker = str(row.get('marker_value', '')).strip().lower()
+            if not marker or marker == 'nan' or len(marker) <= 2:
+                continue
+                
+            source = str(row.get('source_file', '')).strip()
+            if source == 'CyberAggAdo':
+                cyber_markers.add(marker)
+            else:
+                ttk_markers.add(marker)
+                
     else:
-        print(f"'mode' column missing in {file_path}")
-        return set()
+        print(f"Required columns ('mode' or 'source_file') missing in {file_path}")
+        
+    return cyber_markers, ttk_markers
 
 def compare_sets(set1, name1, set2, name2, context_name):
     """Compare two sets of markers and print the results."""
@@ -71,20 +63,11 @@ def compare_sets(set1, name1, set2, name2, context_name):
     print("\n")
 
 def main():
-    print("Chargement et filtrage des données XLSX...")
-    xlsx_stanza = load_and_filter_xlsx(XLSX_STANZA_PATH)
-    xlsx_spacy = load_and_filter_xlsx(XLSX_SPACY_PATH)
+    print("Chargement et filtrage des données unifiées...")
+    cyber_markers, ttk_markers = load_and_filter_markers(MARKERS_PATH)
     
-    print("Chargement et filtrage des données Glozz...")
-    glozz_stanza = load_and_filter_glozz(GLOZZ_STANZA_PATH)
-    glozz_spacy = load_and_filter_glozz(GLOZZ_SPACY_PATH)
-    
-    # Union des marqueurs Stanza et SpaCy par corpus
-    xlsx_markers = xlsx_stanza.union(xlsx_spacy)
-    glozz_markers = glozz_stanza.union(glozz_spacy)
-    
-    # Comparaison entre le corpus XLSX et le corpus Glozz
-    compare_sets(xlsx_markers, "Corpus XLSX", glozz_markers, "Corpus Glozz", "Comparaison XLSX vs Glozz (Mode: Désigné)")
+    # Comparaison entre le corpus CyberAggAdoLarge et le corpus TextToKids
+    compare_sets(cyber_markers, "Corpus CyberAggAdoLarge", ttk_markers, "Corpus TextToKids", "Comparaison CyberAggAdoLarge vs TextToKids (Mode: Désigné)")
 
 if __name__ == "__main__":
     main()

@@ -2,52 +2,21 @@ import pandas as pd
 import json
 import os
 
-# Chemins des fichiers
-XLSX_STANZA_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\xlsx\specificity_results_stanza\markers_stanza.csv"
-XLSX_SPACY_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\xlsx\specificity_results_spacy\markers_spacy.csv"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-GLOZZ_STANZA_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\glozz\specificity_results_stanza\markers.csv"
-GLOZZ_SPACY_PATH = r"C:\Users\Philo\ExpressionEmotionnelle\results\glozz\specificity_results_spacy\markers.csv"
+MARKERS_PATH = os.path.join(BASE_DIR, "results", "simplesitemo", "markers.csv")
 
 EMOTIONS_12 = ['Colère', 'Dégoût', 'Joie', 'Peur', 'Surprise', 'Tristesse', 
                'Admiration', 'Culpabilité', 'Embarras', 'Fierté', 'Jalousie', 'Autre']
 
-def normalize_emotion(emo):
-    """Normalise le nom de l'émotion pour correspondre aux 12 émotions de base."""
-    if not isinstance(emo, str):
-        return None
-    emo = emo.strip().lower()
-    mapping = {
-        'colere': 'Colère',
-        'colère': 'Colère',
-        'degout': 'Dégoût',
-        'dégoût': 'Dégoût',
-        'joie': 'Joie',
-        'peur': 'Peur',
-        'surprise': 'Surprise',
-        'tristesse': 'Tristesse',
-        'admiration': 'Admiration',
-        'culpabilite': 'Culpabilité',
-        'culpabilité': 'Culpabilité',
-        'embarras': 'Embarras',
-        'fierte': 'Fierté',
-        'fierté': 'Fierté',
-        'jalousie': 'Jalousie',
-        'autre': 'Autre',
-        'aucun': None,
-        'aucune': None,
-        '': None
-    }
-    return mapping.get(emo, emo.capitalize())
-
-def get_xlsx_data(file_path):
+def get_markers_data(file_path):
     if not os.path.exists(file_path):
         return []
     df = pd.read_csv(file_path, low_memory=False)
-    if 'Désignée' not in df.columns:
+    if 'mode' not in df.columns or 'source_file' not in df.columns:
         return []
-    
-    filtered = df[df['Désignée'] == 1.0]
+        
+    filtered = df[df['mode'].astype(str).str.lower().str.strip() == 'désignée']
     
     data = []
     for _, row in filtered.iterrows():
@@ -55,48 +24,14 @@ def get_xlsx_data(file_path):
         if not marker or marker == 'nan' or len(marker) <= 2:
             continue
             
-        emotions = []
-        for emo in EMOTIONS_12:
-            if emo in row and row[emo] == 1:
-                emotions.append(emo)
-                
-        if not emotions:
-            emotions.append('Autre')
+        emotion = str(row.get('emotion', '')).strip()
+        if not emotion or emotion not in EMOTIONS_12:
+            emotion = 'Autre'
             
-        for emo in emotions:
-            data.append({'marker': marker, 'corpus': 'XLSX', 'emotion': emo})
-    return data
-
-def get_glozz_data(file_path):
-    if not os.path.exists(file_path):
-        return []
-    df = pd.read_csv(file_path, low_memory=False)
-    if 'mode' not in df.columns:
-        return []
-        
-    filtered = df[df['mode'].astype(str).str.lower().str.strip() == 'designee']
-    
-    data = []
-    for _, row in filtered.iterrows():
-        marker = str(row.get('marker_value', '')).strip().lower()
-        if not marker or marker == 'nan' or len(marker) <= 2:
-            continue
+        source = str(row.get('source_file', '')).strip()
+        corpus = 'CyberAggAdoLarge' if source == 'CyberAggAdo' else 'TextToKids'
             
-        emotions = set()
-        c1 = normalize_emotion(row.get('categorie1'))
-        c2 = normalize_emotion(row.get('categorie2'))
-        
-        if c1: emotions.add(c1)
-        if c2: emotions.add(c2)
-        
-        if not emotions:
-            emotions.add('Autre')
-            
-        for emo in emotions:
-            if emo in EMOTIONS_12:
-                data.append({'marker': marker, 'corpus': 'Glozz', 'emotion': emo})
-            else:
-                data.append({'marker': marker, 'corpus': 'Glozz', 'emotion': 'Autre'})
+        data.append({'marker': marker, 'corpus': corpus, 'emotion': emotion})
                 
     return data
 
@@ -202,10 +137,10 @@ def generate_html(data):
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }}
         /* Couleurs pour les corpus */
-        .corpus-xlsx {{
+        .corpus-cyber {{
             border-left: 5px solid #3498db;
         }}
-        .corpus-glozz {{
+        .corpus-ttk {{
             border-left: 5px solid #e74c3c;
         }}
         .corpus-both {{
@@ -265,8 +200,8 @@ def generate_html(data):
     <p class="subtitle">Mode d'expression : <strong>Désigné</strong></p>
     
     <div class="legend">
-        <div class="legend-item"><div class="color-box" style="background: #3498db;"></div> Uniquement dans XLSX</div>
-        <div class="legend-item"><div class="color-box" style="background: #e74c3c;"></div> Uniquement dans Glozz</div>
+        <div class="legend-item"><div class="color-box" style="background: #3498db;"></div> Uniquement dans CyberAggAdoLarge</div>
+        <div class="legend-item"><div class="color-box" style="background: #e74c3c;"></div> Uniquement dans TextToKids</div>
         <div class="legend-item"><div class="color-box" style="background: #9b59b6;"></div> Commun aux deux corpus</div>
     </div>
 
@@ -275,11 +210,11 @@ def generate_html(data):
             <label for="corpusFilter">Filtrer par Corpus :</label>
             <select id="corpusFilter">
                 <option value="all">Tous les corpus</option>
-                <option value="XLSX">Uniquement XLSX (exclusif)</option>
-                <option value="Glozz">Uniquement Glozz (exclusif)</option>
+                <option value="CyberAggAdoLarge">Uniquement CyberAggAdoLarge (exclusif)</option>
+                <option value="TextToKids">Uniquement TextToKids (exclusif)</option>
                 <option value="both">Communs aux deux corpus</option>
-                <option value="contains_xlsx">Contient dans XLSX</option>
-                <option value="contains_glozz">Contient dans Glozz</option>
+                <option value="contains_cyber">Contient dans CyberAggAdoLarge</option>
+                <option value="contains_ttk">Contient dans TextToKids</option>
             </select>
         </div>
         
@@ -322,13 +257,13 @@ def generate_html(data):
                     showCorpus = true;
                 }} else if (corpusVal === 'both' && item.corpus.length === 2) {{
                     showCorpus = true;
-                }} else if (corpusVal === 'XLSX' && item.corpus.length === 1 && item.corpus[0] === 'XLSX') {{
+                }} else if (corpusVal === 'CyberAggAdoLarge' && item.corpus.length === 1 && item.corpus[0] === 'CyberAggAdoLarge') {{
                     showCorpus = true;
-                }} else if (corpusVal === 'Glozz' && item.corpus.length === 1 && item.corpus[0] === 'Glozz') {{
+                }} else if (corpusVal === 'TextToKids' && item.corpus.length === 1 && item.corpus[0] === 'TextToKids') {{
                     showCorpus = true;
-                }} else if (corpusVal === 'contains_xlsx' && item.corpus.includes('XLSX')) {{
+                }} else if (corpusVal === 'contains_cyber' && item.corpus.includes('CyberAggAdoLarge')) {{
                     showCorpus = true;
-                }} else if (corpusVal === 'contains_glozz' && item.corpus.includes('Glozz')) {{
+                }} else if (corpusVal === 'contains_ttk' && item.corpus.includes('TextToKids')) {{
                     showCorpus = true;
                 }}
                 
@@ -346,7 +281,7 @@ def generate_html(data):
                     
                     let corpusClass = 'corpus-both';
                     if (item.corpus.length === 1) {{
-                        corpusClass = item.corpus[0] === 'XLSX' ? 'corpus-xlsx' : 'corpus-glozz';
+                        corpusClass = item.corpus[0] === 'CyberAggAdoLarge' ? 'corpus-cyber' : 'corpus-ttk';
                     }}
                     
                     div.className = `marker-chip tooltip ${{corpusClass}}`;
@@ -375,21 +310,14 @@ def generate_html(data):
 </body>
 </html>
 """
-    output_path = r"C:\Users\Philo\ExpressionEmotionnelle\results\dashboard_marqueurs_designe.html"
+    output_path = os.path.join(BASE_DIR, "results", "dashboard_marqueurs_designe.html")
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html_content)
     print(f"HTML généré avec succès: {output_path}")
 
 def main():
-    print("Lecture des données XLSX...")
-    data_xlsx_stanza = get_xlsx_data(XLSX_STANZA_PATH)
-    data_xlsx_spacy = get_xlsx_data(XLSX_SPACY_PATH)
-    
-    print("Lecture des données Glozz...")
-    data_glozz_stanza = get_glozz_data(GLOZZ_STANZA_PATH)
-    data_glozz_spacy = get_glozz_data(GLOZZ_SPACY_PATH)
-    
-    all_data = data_xlsx_stanza + data_xlsx_spacy + data_glozz_stanza + data_glozz_spacy
+    print("Lecture des données unifiées...")
+    all_data = get_markers_data(MARKERS_PATH)
     
     print(f"Génération du HTML avec {len(all_data)} correspondances extraites...")
     generate_html(all_data)

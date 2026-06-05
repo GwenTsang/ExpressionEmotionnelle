@@ -120,6 +120,7 @@ def build_marker_dataframe(
         text = str(row["text_span"])
         emotions = row["_emotions"]
         mode = row["mode"]
+        source_file = str(row.get("source_file", "unknown"))
 
         if not emotions:
             # Aucune émotion valide → on ignore la ligne
@@ -136,6 +137,7 @@ def build_marker_dataframe(
                 for emo in emotions:
                     all_rows.append(
                         {
+                            "source_file": source_file,
                             "text_span": text,
                             "mode": mode,
                             "emotion": emo,
@@ -163,6 +165,7 @@ def build_marker_dataframe(
             emotions = row["_emotions"]
             mode = row["mode"]
             text = str(row["text_span"])
+            source_file = str(row.get("source_file", "unknown"))
 
             if not emotions:
                 continue
@@ -173,6 +176,7 @@ def build_marker_dataframe(
                 for emo in emotions:
                     all_rows.append(
                         {
+                            "source_file": source_file,
                             "text_span": text,
                             "mode": mode,
                             "emotion": emo,
