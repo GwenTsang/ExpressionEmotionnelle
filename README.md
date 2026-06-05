@@ -11,20 +11,20 @@ Pipeline d'analyse computationnelle des **marqueurs linguistiques de l'émotion*
 - [2. Taxonomie émotionnelle](#2-taxonomie-émotionnelle)
   - [2.1 Les catégories émotionnelles](#21-les-catégories-émotionnelles)
   - [2.2 Les modes d'expression](#22-les-modes-dexpression)
-  - [2.3 Les deux types](#23-les-deux-types)
 - [3. Architecture du pipeline](#3-architecture-du-pipeline)
   - [3.1 Flux de données](#31-flux-de-données)
     - [Étape 1 — Build](#étape-1--build)
     - [Étape 2 — Merge](#étape-2--merge)
     - [Étape 3 — Analyse](#étape-3--analyse)
   - [3.2 Le schéma SimpleSitEmo](#32-le-schéma-simplesitemo)
-- [4. Installation](#4-installation)
-  - [4.1 Prérequis](#41-prérequis)
-  - [4.2 Installation rapide](#42-installation-rapide)
-- [5. Guide d'utilisation](#5-guide-dutilisation)
-  - [5.1 Lancer l'analyse complète](#51-lancer-lanalyse-complète)
-  - [5.2 Options disponibles](#52-options-disponibles)
-  - [5.3 Fichiers produits](#53-fichiers-produits)
+- [4. Les deux types d'émotions](#4-les-deux-types-démotions)
+- [5. Installation](#5-installation)
+  - [5.1 Prérequis](#51-prérequis)
+  - [5.2 Installation rapide](#52-installation-rapide)
+- [6. Guide d'utilisation](#6-guide-dutilisation)
+  - [6.1 Lancer l'analyse complète](#61-lancer-lanalyse-complète)
+  - [6.2 Options disponibles](#62-options-disponibles)
+  - [6.3 Fichiers produits](#63-fichiers-produits)
 - [Références](#références)
 
 
@@ -36,15 +36,16 @@ Le schéma d'annotation utilisé est celui proposé par Etienne et Battistelli (
 
 Le pipeline agrège cinq sous-corpus, issus de deux formats d'annotation distincts (Glozz et XLSX), tous normalisés au format `.parquet` :
 
-| Corpus | Format d'origine | Description |
-|:---|:---|:---|
-| **Albert** | Glozz (`.aa` / `.ac`) | Articles de presse du magazine *Albert* (presse jeunesse) |
-| **CorpusCovid** | Glozz (`.aa` / `.ac`) | Textes relatifs à la pandémie de COVID-19 |
-| **LittératureJeunesse** | Glozz (`.aa` / `.ac`) | Extraits de littérature pour la jeunesse |
-| **PtitLibé** | Glozz (`.aa` / `.ac`) | Articles du *P'tit Libé* (presse jeunesse) |
-| **CyberAggAdo** | XLSX | Messages de cyberharcèlement en français rédigés par des jeunes de 11 à 18 ans |
+| Corpus                  | Description                                                                    |
+| :---------------------- | :----------------------------------------------------------------------------- |
+| **Albert**              | Articles de presse du magazine *Albert* (presse jeunesse)                      |
+| **CorpusCovid**         | Textes relatifs à la pandémie de COVID-19                                      |
+| **LittératureJeunesse** | Extraits de différents ouvrages de littérature jeunesse                        |
+| **PtitLibé**            | Articles du *P'tit Libé* (presse jeunesse)                                     |
+| **CyberAggAdo**         | Messages de cyberharcèlement en français rédigés par des jeunes de 11 à 18 ans |
 
-## 1.2 Approche analytique
+
+## 1.2 Approche
 
 L'analyse repose sur l'extraction de **marqueurs linguistiques** (mots, lemmes, ponctuations) à partir des spans émotionnels annotés, puis sur la mesure de leur **spécificité** vis-à-vis des catégories émotionnelles et des modes d'expression.
 
@@ -90,36 +91,6 @@ Le mode qualifie la *relation* entre le segment textuel (span) et l'émotion qu'
 | **Montré** | L'émotion transparaît à travers les caractéristiques formelles de l'énoncé (interjections, ponctuation expressive, syntaxe fragmentée, etc.). | « *DEHORSSSSS* » → Colère |
 
 Une unité SitEmo ne peut recevoir qu'un seul mode.
-
-## 2.3 Les deux types
-
-Les 11 catégories émotionnelles principales sont regroupées en deux types :
-
-```mermaid
-graph TD
-    subgraph Base ["Base (6 émotions)"]
-        B1["Colère"]
-        B2["Dégoût"]
-        B3["Joie"]
-        B4["Peur"]
-        B5["Surprise"]
-        B6["Tristesse"]
-    end
-
-    subgraph Complexe ["Complexe (5 émotions)"]
-        C1["Admiration"]
-        C2["Culpabilité"]
-        C3["Embarras"]
-        C4["Fierté"]
-        C5["Jalousie"]
-    end
-
-    style Base fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
-    style Complexe fill:#f3e5f5,stroke:#7b1fa2,color:#4a148c
-```
-
-- **Base** : les six émotions fondamentales (Colère, Dégoût, Joie, Peur, Surprise, Tristesse).
-- **Complexe** : cinq émotions dites « complexes » ou « secondaires » (Admiration, Culpabilité, Embarras, Fierté, Jalousie).
 
 ---
 
@@ -182,16 +153,49 @@ Le format intermédiaire `SimpleSitEmo` est un fichier Parquet à 7 colonnes, un
 | `emotion3` | string \| null | Émotion tertiaire (le cas échéant, max 3 par unité) |
 | `nature_linguistique` | string \| null | Nature syntaxique du segment (SN, SAdj, Proposition, etc.) |
 
+---
 
-# 4. Installation
+# 4. Les deux types d'émotions
 
-## 4.1 Prérequis
+Les 11 catégories émotionnelles principales sont regroupées en deux types :
+
+```mermaid
+graph TD
+    subgraph Base ["Base (6 émotions)"]
+        B1["Colère"]
+        B2["Dégoût"]
+        B3["Joie"]
+        B4["Peur"]
+        B5["Surprise"]
+        B6["Tristesse"]
+    end
+
+    subgraph Complexe ["Complexe (5 émotions)"]
+        C1["Admiration"]
+        C2["Culpabilité"]
+        C3["Embarras"]
+        C4["Fierté"]
+        C5["Jalousie"]
+    end
+
+    style Base fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style Complexe fill:#f3e5f5,stroke:#7b1fa2,color:#4a148c
+```
+
+- **Base** : les six émotions fondamentales (Colère, Dégoût, Joie, Peur, Surprise, Tristesse).
+- **Complexe** : cinq émotions dites « complexes » ou « secondaires » (Admiration, Culpabilité, Embarras, Fierté, Jalousie).
+
+---
+
+# 5. Installation
+
+## 5.1 Prérequis
 
 - **Python 3.10+**
 - **pip**
 - (Optionnel) GPU CUDA pour le backend de lemmatisation Stanza
 
-## 4.2 Installation rapide
+## 5.2 Installation rapide
 
 ```bash
 git clone <url-du-dépôt>
@@ -206,23 +210,9 @@ pip install -r requirements.txt
 python -m spacy download fr_core_news_sm
 ```
 
-**Dépendances** (`requirements.txt`) :
+# 6. Guide d'utilisation
 
-| Paquet | Version minimale |
-|:---|:---|
-| pandas | ≥ 2.0 |
-| numpy | ≥ 1.24 |
-| scipy | ≥ 1.10 |
-| pyarrow | ≥ 14.0 |
-| openpyxl | ≥ 3.1 |
-| spacy | ≥ 3.7 |
-| torch | — |
-
----
-
-# 5. Guide d'utilisation
-
-## 5.1 Lancer l'analyse complète
+## 6.1 Lancer l'analyse complète
 
 ```bash
 python -m simplesitemo_pipeline.run_analysis --step all
@@ -240,7 +230,7 @@ python -m simplesitemo_pipeline.run_analysis --step markers
 python -m simplesitemo_pipeline.run_analysis --step specificity
 ```
 
-## 5.2 Options disponibles
+## 6.2 Options disponibles
 
 | Option | Description | Valeur par défaut |
 |:---|:---|:---|
@@ -257,7 +247,7 @@ python -m simplesitemo_pipeline.run_analysis --step specificity
 python -m simplesitemo_pipeline.run_analysis --step all --no-lemma --remove-stopwords --min-freq 5
 ```
 
-## 5.3 Fichiers produits
+## 6.3 Fichiers produits
 
 Les résultats sont écrits dans `results/simplesitemo/` :
 
