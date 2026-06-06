@@ -21,7 +21,6 @@ from __future__ import annotations
 import argparse
 import os
 import sys
-import time
 
 import pandas as pd
 
@@ -62,9 +61,7 @@ def step_extract_markers(
     pd.DataFrame
         Le dataframe de marqueurs (prêt pour l'étape 2).
     """
-    print("=" * 60)
     print("ÉTAPE 1 — Extraction des marqueurs")
-    print("=" * 60)
 
     if not os.path.isfile(input_path):
         print(f"Fichier introuvable : {input_path}", file=sys.stderr)
@@ -73,7 +70,6 @@ def step_extract_markers(
     df = pd.read_parquet(input_path)
     print(f"Parquet chargé : {len(df)} lignes")
 
-    t0 = time.perf_counter()
     markers_df = build_marker_dataframe(
         df,
         use_lemma=use_lemma,
@@ -81,8 +77,6 @@ def step_extract_markers(
         batch_size=batch_size,
         remove_stopwords=remove_stopwords,
     )
-    elapsed = time.perf_counter() - t0
-    print(f"Extraction terminée en {elapsed:.1f}s")
 
     if markers_df.empty:
         print("Aucun marqueur extrait. Arrêt.", file=sys.stderr)
@@ -118,9 +112,7 @@ def step_specificity(
         Fréquence minimale d'un marqueur pour les calculs.
     """
     print()
-    print("=" * 60)
     print("ÉTAPE 2 — Calcul de spécificité")
-    print("=" * 60)
 
     validate_normalized_markers(markers_df, table_name="markers for specificity")
 
@@ -220,11 +212,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    print("╔══════════════════════════════════════════════════════════╗")
-    print("║       ANALYSE SIMPLESITEMO — PIPELINE COMPLET          ║")
-    print("╚══════════════════════════════════════════════════════════╝")
-    print()
-
+    print("ANALYSE SIMPLESITEMO — PIPELINE COMPLET")
     markers_df: pd.DataFrame | None = None
 
     # ── Étape 1 ───────────────────────────────────────────────────────
@@ -259,7 +247,6 @@ def main() -> None:
             min_freq=args.min_freq,
         )
 
-    print()
     print("Pipeline terminé.")
 
 
