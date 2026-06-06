@@ -55,7 +55,7 @@ def build_simplesitemo_glozz() -> pd.DataFrame:
     """
     # Import du parser existant (chemin relatif au projet)
     sys.path.insert(0, _PROJECT_DIR)
-    from analysis_pipeline.glozz_parser import process_all_corpora
+    from glozz import process_all_corpora
 
     print("=== Extraction Glozz → SimpleSitEmo ===")
     raw_df = process_all_corpora()
