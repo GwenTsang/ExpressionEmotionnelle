@@ -198,7 +198,7 @@ graph TD
 ## 5.2 Installation rapide
 
 ```bash
-git clone <url-du-dépôt>
+git clone https://github.com/GwenTsang/ExpressionEmotionnelle
 cd ExpressionEmotionnelle
 bash setup.sh
 ```
@@ -260,8 +260,6 @@ results/simplesitemo/
     ├── entropy_by_mode_summary.csv      # Entropie moyenne agrégée par mode
     └── hypothesis_report.txt            # Rapport des tests statistiques
 ```
-
----
 
 # Références
 
