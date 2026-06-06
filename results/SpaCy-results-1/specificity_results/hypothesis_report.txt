@@ -9,37 +9,37 @@ que les marqueurs des émotions Désignée et Comportementale.
 ----------------------------------------------------------------------
 STATISTIQUES DESCRIPTIVES PAR MODE
 ----------------------------------------------------------------------
-  Comportementale      : n= 1790, moy=1.2492, méd=1.3516, σ=0.8202
-  Désignée             : n= 1375, moy=1.2648, méd=1.3166, σ=0.8636
-  Montrée              : n=  995, moy=1.6046, méd=1.6068, σ=0.7759
-  Suggérée             : n= 2612, moy=1.3426, méd=1.4591, σ=0.7235
+  Comportementale      : n= 1582, moy=1.1154, méd=1.0000, σ=0.7572
+  Désignée             : n= 1186, moy=1.0954, méd=1.0000, σ=0.7916
+  Montrée              : n=  768, moy=1.4446, méd=1.5219, σ=0.7419
+  Suggérée             : n= 2365, moy=1.2571, méd=1.3710, σ=0.6832
 
 ----------------------------------------------------------------------
 TEST DE KRUSKAL-WALLIS (4 modes)
 ----------------------------------------------------------------------
-  H = 141.8112, p = 0.000000
+  H = 133.5283, p = 0.000000
   → Différence significative entre les modes (p < 0.05)
 
 ----------------------------------------------------------------------
 TEST DE MANN-WHITNEY U (Montrée+Suggérée vs Désignée+Comportementale)
 ----------------------------------------------------------------------
   Hypothèse H1 : entropie(Montrée+Suggérée) > entropie(Désignée+Comportementale)
-  U = 6323887.0000, p (unilatéral) = 0.000000
-  Moyenne Montrée+Suggérée     : 1.4149 (n=3607)
-  Moyenne Désignée+Comportementale : 1.2560 (n=3165)
-  Différence de moyennes       : 0.1589
-  Taille d'effet (r)           : -0.1079
+  U = 4973205.0000, p (unilatéral) = 0.000000
+  Moyenne Montrée+Suggérée     : 1.3031 (n=3133)
+  Moyenne Désignée+Comportementale : 1.1068 (n=2768)
+  Différence de moyennes       : 0.1962
+  Taille d'effet (r)           : -0.1469
   → Hypothèse : TRÈS FORTEMENT supportée (p < 0.001)
 
 ----------------------------------------------------------------------
 COMPARAISONS PAR PAIRES (Mann-Whitney U, bilatéral)
 ----------------------------------------------------------------------
-  Comportementale vs Désignée : U=1216794.5, p=0.585884 [ns]
-  Comportementale vs Montrée : U=669746.5, p=0.000000 [***]
-  Comportementale vs Suggérée : U=2186752.5, p=0.000259 [***]
-  Désignée vs Montrée : U=529640.5, p=0.000000 [***]
-  Désignée vs Suggérée : U=1706128.5, p=0.009328 [**]
-  Montrée vs Suggérée : U=1569091.0, p=0.000000 [***]
+  Comportementale vs Désignée : U=952800.5, p=0.478165 [ns]
+  Comportementale vs Montrée : U=458436.0, p=0.000000 [***]
+  Comportementale vs Suggérée : U=1667792.5, p=0.000000 [***]
+  Désignée vs Montrée : U=340719.5, p=0.000000 [***]
+  Désignée vs Suggérée : U=1231991.0, p=0.000000 [***]
+  Montrée vs Suggérée : U=1050707.5, p=0.000000 [***]
 
 ======================================================================
 FIN DU RAPPORT
