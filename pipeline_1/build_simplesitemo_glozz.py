@@ -9,9 +9,6 @@ DataFrame conforme au schéma SimpleSitEmo.
 Schéma produit :
     source_file, text_span, mode, emotion1, emotion2, emotion3,
     nature_linguistique
-
-Usage :
-    python -m simplesitemo_pipeline.build_simplesitemo_glozz
 """
 
 from __future__ import annotations

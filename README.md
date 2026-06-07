@@ -215,7 +215,7 @@ python -m spacy download fr_core_news_sm
 ## 6.1 Lancer l'analyse complète
 
 ```bash
-python -m simplesitemo_pipeline.run_analysis --step all
+python -m pipeline_1.run_analysis --step all
 ```
 
 Cette commande exécute les deux sous-étapes de l'analyse (extraction de marqueurs puis calcul de spécificité) sur le fichier `SimpleSitEmo.parquet`.
@@ -224,10 +224,10 @@ Pour exécuter les étapes individuellement :
 
 ```bash
 # Extraction des marqueurs uniquement
-python -m simplesitemo_pipeline.run_analysis --step markers
+python -m pipeline_1.run_analysis --step markers
 
 # Calcul de spécificité uniquement (requiert markers.csv)
-python -m simplesitemo_pipeline.run_analysis --step specificity
+python -m pipeline_1.run_analysis --step specificity
 ```
 
 ## 6.2 Options disponibles
@@ -244,7 +244,7 @@ python -m simplesitemo_pipeline.run_analysis --step specificity
 **Exemple** — analyse sans lemmes, en filtrant les mots vides, avec une fréquence minimale de 5 :
 
 ```bash
-python -m simplesitemo_pipeline.run_analysis --step all --no-lemma --remove-stopwords --min-freq 5
+python -m pipeline_1.run_analysis --step all --no-lemma --remove-stopwords --min-freq 5
 ```
 
 ## 6.3 Fichiers produits

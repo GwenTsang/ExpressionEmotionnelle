@@ -11,12 +11,7 @@ Adapté de ``analysis_pipeline.marker_specificity`` :
 Ce script calcule :
   1. P(Emotion = e | Marqueur = x) et P(Mode = m | Marqueur = x)
   2. L'entropie de Shannon H(Emotion|x) et H(Mode|x) pour chaque marqueur
-  3. Le test de l'hypothèse : les marqueurs Montrée/Suggérée sont-ils plus
-     dispersés (entropie plus élevée) que Désignée/Comportementale ?
-
-Usage :
-    python -m simplesitemo_pipeline.marker_specificity
-    python -m simplesitemo_pipeline.marker_specificity -i results/simplesitemo/markers.csv --min-freq 5
+  3. La comparaison de la dispersion des marqueurs selon les modes d'expression
 """
 
 from __future__ import annotations
@@ -268,18 +263,18 @@ def test_hypothesis(
     entropy_emotion_df: pd.DataFrame,
     marker_col: str = "marker_value",
 ) -> str:
-    """Teste l'hypothèse : les marqueurs Montrée/Suggérée sont-ils plus dispersés ?
+    """Compare la dispersion des marqueurs selon les modes d'expression.
 
     Renvoie un rapport textuel avec les résultats.
     """
-    validate_normalized_markers(markers_df, table_name="markers for hypothesis test")
+    validate_normalized_markers(markers_df, table_name="markers for mode comparison")
 
     sitemo = markers_df[
         (markers_df["type"] == "SitEmo") & markers_df["mode"].isin(MODES)
     ].copy()
 
     if sitemo.empty or entropy_emotion_df.empty:
-        return "ERREUR : pas de données suffisantes pour tester l'hypothèse.\n"
+        return "ERREUR : pas de données suffisantes pour comparer les modes.\n"
 
     # Collecter les entropies par mode
     entropy_by_mode: dict[str, np.ndarray] = {}
@@ -297,17 +292,12 @@ def test_hypothesis(
 
     report_lines: list[str] = []
     report_lines.append("=" * 70)
-    report_lines.append("TEST D'HYPOTHÈSE SUR LA DISPERSION DES MARQUEURS")
+    report_lines.append("COMPARAISON DE LA DISPERSION DES MARQUEURS PAR MODE")
     report_lines.append("=" * 70)
     report_lines.append("")
     report_lines.append(
-        "Hypothèse : les marqueurs des émotions Montrée et Suggérée"
-    )
-    report_lines.append(
-        "présentent une plus grande dispersion (entropie plus élevée)"
-    )
-    report_lines.append(
-        "que les marqueurs des émotions Désignée et Comportementale."
+        "Objectif : comparer la dispersion des marqueurs entre les modes "
+        "d'expression à partir de leur entropie émotionnelle."
     )
     report_lines.append("")
     report_lines.append("-" * 70)
@@ -350,56 +340,6 @@ def test_hypothesis(
             )
         report_lines.append("")
 
-    # --- Mann-Whitney U (Montrée+Suggérée vs Désignée+Comportementale) ---
-    group_high = np.concatenate([
-        entropy_by_mode.get("Montrée", np.array([])),
-        entropy_by_mode.get("Suggérée", np.array([])),
-    ])
-    group_low = np.concatenate([
-        entropy_by_mode.get("Désignée", np.array([])),
-        entropy_by_mode.get("Comportementale", np.array([])),
-    ])
-
-    if len(group_high) > 0 and len(group_low) > 0:
-        stat_mw, p_mw = stats.mannwhitneyu(
-            group_high, group_low, alternative="greater"
-        )
-        report_lines.append("-" * 70)
-        report_lines.append(
-            "TEST DE MANN-WHITNEY U (Montrée+Suggérée vs Désignée+Comportementale)"
-        )
-        report_lines.append("-" * 70)
-        report_lines.append(
-            f"  Hypothèse H1 : entropie(Montrée+Suggérée) > entropie(Désignée+Comportementale)"
-        )
-        report_lines.append(f"  U = {stat_mw:.4f}, p (unilatéral) = {p_mw:.6f}")
-        report_lines.append(
-            f"  Moyenne Montrée+Suggérée     : {np.mean(group_high):.4f} (n={len(group_high)})"
-        )
-        report_lines.append(
-            f"  Moyenne Désignée+Comportementale : {np.mean(group_low):.4f} (n={len(group_low)})"
-        )
-        report_lines.append(
-            f"  Différence de moyennes       : {np.mean(group_high) - np.mean(group_low):.4f}"
-        )
-
-        # Taille d'effet (rank-biserial correlation)
-        n1, n2 = len(group_high), len(group_low)
-        r = 1 - (2 * stat_mw) / (n1 * n2)
-        report_lines.append(f"  Taille d'effet (r)           : {r:.4f}")
-
-        if p_mw < 0.001:
-            conclusion = "TRÈS FORTEMENT supportée (p < 0.001)"
-        elif p_mw < 0.01:
-            conclusion = "FORTEMENT supportée (p < 0.01)"
-        elif p_mw < 0.05:
-            conclusion = "SUPPORTÉE (p < 0.05)"
-        else:
-            conclusion = "NON SUPPORTÉE (p >= 0.05)"
-
-        report_lines.append(f"  → Hypothèse : {conclusion}")
-        report_lines.append("")
-
     # --- Tests par paires (Mann-Whitney U) ---
     report_lines.append("-" * 70)
     report_lines.append("COMPARAISONS PAR PAIRES (Mann-Whitney U, bilatéral)")
@@ -421,9 +361,7 @@ def test_hypothesis(
                 )
 
     report_lines.append("")
-    report_lines.append("=" * 70)
     report_lines.append("FIN DU RAPPORT")
-    report_lines.append("=" * 70)
 
     return "\n".join(report_lines)
 
@@ -440,12 +378,10 @@ def main() -> None:
     parser.add_argument(
         "--input", "-i",
         default=DEFAULT_INPUT,
-        help=f"Chemin du CSV de marqueurs (défaut: {DEFAULT_INPUT})",
     )
     parser.add_argument(
         "--outdir", "-o",
         default=DEFAULT_OUTDIR,
-        help=f"Dossier de sortie (défaut: {DEFAULT_OUTDIR})",
     )
     parser.add_argument(
         "--min-freq",
@@ -534,17 +470,14 @@ def main() -> None:
                 f"moy={row['mean_entropy']:.4f}, méd={row['median_entropy']:.4f}"
             )
 
-    # --- 4. Test de l'hypothèse ---
-    print("--- Test de l'hypothèse ---")
+    # --- 4. Comparaison de la dispersion par mode ---
+    print("--- Comparaison de la dispersion par mode ---")
     report = test_hypothesis(df, entropy_emotion)
     report_path = os.path.join(args.outdir, "hypothesis_report.txt")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report)
     print(f"Rapport exporté : {report_path}")
     print("\n" + report)
-
-    print("Calcul de spécificité terminé")
-
 
 if __name__ == "__main__":
     main()

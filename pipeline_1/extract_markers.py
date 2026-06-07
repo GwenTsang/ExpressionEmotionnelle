@@ -6,11 +6,6 @@ Lit le fichier Parquet unifié, extrait mots / ponctuations / lemmes de
 chaque ``text_span``, puis « explose » les combinaisons
 (marqueur × émotion × mode) en un CSV plat prêt pour l'analyse de
 spécificité.
-
-Usage :
-    python -m simplesitemo_pipeline.extract_markers
-    python -m simplesitemo_pipeline.extract_markers --no-lemma
-    python -m simplesitemo_pipeline.extract_markers -i data/SimpleSitEmo.parquet -o results/simplesitemo/markers.csv
 """
 
 from __future__ import annotations

@@ -6,14 +6,7 @@ Enchaîne les étapes :
   1. Extraction des marqueurs → ``results/simplesitemo/markers.csv``
   2. Calcul de spécificité    → ``results/simplesitemo/specificity_results/``
 
-Le fichier ``SimpleSitEmo.parquet`` doit déjà être construit (par les
-scripts de build séparés).
-
-Usage :
-    python -m simplesitemo_pipeline.run_analysis
-    python -m simplesitemo_pipeline.run_analysis --step markers
-    python -m simplesitemo_pipeline.run_analysis --step specificity --min-freq 5
-    python -m simplesitemo_pipeline.run_analysis --no-lemma --remove-stopwords
+Présuppose l'existence du fichier ``SimpleSitEmo.parquet``
 """
 
 from __future__ import annotations
@@ -169,12 +162,10 @@ def main() -> None:
     parser.add_argument(
         "--input", "-i",
         default=DEFAULT_INPUT,
-        help=f"Chemin du Parquet d'entrée (défaut: {DEFAULT_INPUT})",
     )
     parser.add_argument(
         "--output-dir", "-o",
         default=DEFAULT_OUTPUT_DIR,
-        help=f"Dossier de sortie (défaut: {DEFAULT_OUTPUT_DIR})",
     )
     parser.add_argument(
         "--step",
@@ -246,9 +237,6 @@ def main() -> None:
             args.output_dir,
             min_freq=args.min_freq,
         )
-
-    print("Pipeline terminé.")
-
 
 if __name__ == "__main__":
     main()

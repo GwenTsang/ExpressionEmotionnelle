@@ -4,10 +4,6 @@
 
 Lit les deux fichiers parquet intermédiaires (XLSX et Glozz), valide le
 schéma et les valeurs, puis produit le fichier unifié SimpleSitEmo.parquet.
-
-Usage :
-    python -m simplesitemo_pipeline.merge_simplesitemo
-    python -m simplesitemo_pipeline.merge_simplesitemo --xlsx data/SimpleSitEmo_xlsx.parquet --glozz data/SimpleSitEmo_glozz.parquet --output data/SimpleSitEmo.parquet
 """
 
 from __future__ import annotations
