@@ -4,8 +4,6 @@ import os
 
 def main():
     file_path = '/workspaces/codespaces-blank/ExpressionEmotionnelle/data/raw/xlsx/CyberAdoAgg_gold_global_total_latest.xlsx'
-
-    print(f"Chargement du fichier: {file_path}")
     df = pd.read_excel(file_path)
 
     # Colonnes
