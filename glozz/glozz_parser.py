@@ -11,10 +11,6 @@ Colonnes produites :
     corpus, file_id, unit_id, type, start_idx, end_idx, text_span,
     source_unit_ids, segments, is_discontinuous, discontinuous_group_id,
     mode, categorie1, categorie2, nature, remarque
-
-Usage :
-    python -m analysis_pipeline.glozz_parser
-    python -m analysis_pipeline.glozz_parser --output mon.csv
 """
 
 import os
@@ -157,6 +153,7 @@ def _extract_target_unit_record(
         "categorie1": None,
         "categorie2": None,
         "nature": None,
+        "declencheur": None,
         "remarque": None,
     }
 
@@ -165,6 +162,7 @@ def _extract_target_unit_record(
         record["categorie1"] = features.get("Categorie")
         record["categorie2"] = features.get("Categorie2")
         record["nature"] = features.get("Nature")
+        record["declencheur"] = features.get("Declencheur")
     elif unit_type == "Autre":
         record["remarque"] = features.get("Remarque")
 
@@ -254,22 +252,16 @@ def _merge_discontinuous_records(records: list[dict], *, file_id: str) -> dict:
         "categorie1": None,
         "categorie2": None,
         "nature": None,
+        "declencheur": None,
         "remarque": None,
     }
 
     if merged["type"] == "SitEmo":
-        merged["mode"] = _merge_feature_values(
-            ordered, "mode", unit_ids=unit_ids, file_id=file_id
-        )
-        merged["categorie1"] = _merge_feature_values(
-            ordered, "categorie1", unit_ids=unit_ids, file_id=file_id
-        )
-        merged["categorie2"] = _merge_feature_values(
-            ordered, "categorie2", unit_ids=unit_ids, file_id=file_id
-        )
-        merged["nature"] = _merge_feature_values(
-            ordered, "nature", unit_ids=unit_ids, file_id=file_id
-        )
+        merged["mode"] = _merge_feature_values(ordered, "mode", unit_ids=unit_ids, file_id=file_id)
+        merged["categorie1"] = _merge_feature_values(ordered, "categorie1", unit_ids=unit_ids, file_id=file_id)
+        merged["categorie2"] = _merge_feature_values(ordered, "categorie2", unit_ids=unit_ids, file_id=file_id)
+        merged["nature"] = _merge_feature_values(ordered, "nature", unit_ids=unit_ids, file_id=file_id)
+        merged["declencheur"] = _merge_feature_values(ordered, "declencheur", unit_ids=unit_ids, file_id=file_id)
     elif merged["type"] == "Autre":
         merged["remarque"] = _merge_feature_values(
             ordered, "remarque", unit_ids=unit_ids, file_id=file_id
@@ -516,7 +508,6 @@ def main():
         )
 
     export_to_csv(df, args.output)
-    print("=== Parsing terminé ===")
 
 
 if __name__ == "__main__":
