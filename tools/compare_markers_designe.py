@@ -36,7 +36,6 @@ def load_and_filter_markers(file_path):
 
 def compare_sets(set1, name1, set2, name2, context_name):
     """Compare two sets of markers and print the results."""
-    print("=" * 60)
     print(f"{context_name}")
     print(f"Marqueurs uniques dans {name1} : {len(set1)}")
     print(f"Marqueurs uniques dans {name2} : {len(set2)}")

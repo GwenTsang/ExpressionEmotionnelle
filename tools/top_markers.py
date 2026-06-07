@@ -10,12 +10,17 @@ conditionnelle P(Classe | Marqueur), en favorisant ceux qui apparaissent le plus
 
 Usage :
     python tools/top_markers.py
-    python tools/top_markers.py -e results/glozz/specificity_results/entropy_per_marker_emotion.csv -m results/glozz/specificity_results/entropy_per_marker_mode.csv --top 20
+    python tools/top_markers.py -e results/simplesitemo/specificity_results/entropy_per_marker_emotion.csv -m results/simplesitemo/specificity_results/entropy_per_marker_mode.csv --top 20
 """
 
 import os
 import argparse
 import pandas as pd
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SPECIFICITY_RESULTS_DIR = os.path.join(
+    BASE_DIR, "results", "simplesitemo", "specificity_results"
+)
 
 def print_top_markers_for_file(filepath: str, title: str, top_n: int = 20, export_path: str = None):
     """Affiche (et exporte optionnellement) les top N marqueurs pour chaque classe détectée dans le fichier."""
@@ -86,18 +91,18 @@ def main():
     parser = argparse.ArgumentParser(description="Affiche les meilleurs marqueurs par catégorie/mode.")
     parser.add_argument(
         "--emotion", "-e",
-        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "results", "glozz", "specificity_results", "entropy_per_marker_emotion.csv"),
+        default=os.path.join(SPECIFICITY_RESULTS_DIR, "entropy_per_marker_emotion.csv"),
         help="Chemin du CSV d'entropie par émotion"
     )
     parser.add_argument(
         "--mode", "-m",
-        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "results", "glozz", "specificity_results", "entropy_per_marker_mode.csv"),
+        default=os.path.join(SPECIFICITY_RESULTS_DIR, "entropy_per_marker_mode.csv"),
         help="Chemin du CSV d'entropie par mode"
     )
     parser.add_argument(
         "--outdir", "-o",
-        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "results", "glozz", "specificity_results"),
-        help="Dossier pour exporter les synthèses (défaut: ../results/glozz/specificity_results)"
+        default=SPECIFICITY_RESULTS_DIR,
+        help="Dossier pour exporter les synthèses (défaut: results/simplesitemo/specificity_results)"
     )
     parser.add_argument(
         "--top", "-t",
