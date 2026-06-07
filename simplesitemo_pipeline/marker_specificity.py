@@ -139,10 +139,9 @@ def compute_conditional_entropy(
         if val not in pivot.columns:
             pivot[val] = 0
 
-    pivot = pivot[valid_values]  # Ordonnancer les colonnes
-
     # Fréquence totale
-    pivot["total_count"] = pivot.sum(axis=1)
+    pivot[valid_values] = pivot[valid_values].astype(int)
+    pivot["total_count"] = pivot.sum(axis=1).astype(int)
 
     # Filtrer par fréquence minimale
     pivot = pivot[pivot["total_count"] >= min_freq]
@@ -298,7 +297,7 @@ def test_hypothesis(
 
     report_lines: list[str] = []
     report_lines.append("=" * 70)
-    report_lines.append("RAPPORT — TEST D'HYPOTHÈSE SUR LA DISPERSION DES MARQUEURS")
+    report_lines.append("TEST D'HYPOTHÈSE SUR LA DISPERSION DES MARQUEURS")
     report_lines.append("=" * 70)
     report_lines.append("")
     report_lines.append(
@@ -490,7 +489,7 @@ def main() -> None:
     )
     if not entropy_emotion.empty:
         path = os.path.join(args.outdir, "entropy_per_marker_emotion.csv")
-        entropy_emotion.to_csv(path, index=False, encoding="utf-8-sig")
+        entropy_emotion.to_csv(path, index=False, encoding="utf-8-sig", float_format="%.2f")
         print(f"Exporté : {path}")
 
         # Top 10 marqueurs les plus déterminés (entropie la plus basse)
@@ -518,7 +517,7 @@ def main() -> None:
     )
     if not entropy_mode.empty:
         path = os.path.join(args.outdir, "entropy_per_marker_mode.csv")
-        entropy_mode.to_csv(path, index=False, encoding="utf-8-sig")
+        entropy_mode.to_csv(path, index=False, encoding="utf-8-sig", float_format="%.2f")
         print(f"Exporté : {path}")
 
     # --- 3. Entropie moyenne par mode ---
@@ -526,7 +525,7 @@ def main() -> None:
     entropy_by_mode = compute_entropy_by_mode(df, entropy_emotion)
     if not entropy_by_mode.empty:
         path = os.path.join(args.outdir, "entropy_by_mode_summary.csv")
-        entropy_by_mode.to_csv(path, index=False, encoding="utf-8-sig")
+        entropy_by_mode.to_csv(path, index=False, encoding="utf-8-sig", float_format="%.2f")
         print(f"Exporté : {path}")
         print("Résumé par mode :")
         for _, row in entropy_by_mode.iterrows():
@@ -544,7 +543,7 @@ def main() -> None:
     print(f"Rapport exporté : {report_path}")
     print("\n" + report)
 
-    print("=== Calcul de spécificité terminé ===")
+    print("Calcul de spécificité terminé")
 
 
 if __name__ == "__main__":
