@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Calcul de spécificité des marqueurs linguistiques (pipeline SimpleSitEmo).
-
-Adapté de ``analysis_pipeline.marker_specificity`` :
-- Colonne condition : « emotion » (au lieu de « categorie1 »).
-- Modes accentués (Désignée, Montrée, Suggérée).
-- Pas de ``normalize_existing_marker_table()`` — les marqueurs sont déjà
-  normalisés par ``extract_markers.py``.
+"""Calcul de spécificité des marqueurs linguistiques
 
 Ce script calcule :
   1. P(Emotion = e | Marqueur = x) et P(Mode = m | Marqueur = x)
