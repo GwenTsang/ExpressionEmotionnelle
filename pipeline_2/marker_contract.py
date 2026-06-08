@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Contrat de schéma pour les marqueurs SimpleSitEmo normalisés.
-
-Version simplifiée du marker_contract d'analysis_pipeline :
-- La colonne condition est « emotion » (pas « categorie1 »).
-- Pas de normalize_existing_marker_table() ni xlsx_markers_to_normalized()
-  car l'extracteur gère toute la normalisation.
-"""
-
 from __future__ import annotations
 
 import sys

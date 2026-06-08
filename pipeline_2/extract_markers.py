@@ -206,12 +206,10 @@ def main() -> None:
     parser.add_argument(
         "--input", "-i",
         default=DEFAULT_INPUT,
-        help=f"Chemin du Parquet d'entrée (défaut: {DEFAULT_INPUT})",
     )
     parser.add_argument(
         "--output", "-o",
         default=DEFAULT_OUTPUT,
-        help=f"Chemin du CSV de sortie (défaut: {DEFAULT_OUTPUT})",
     )
     parser.add_argument(
         "--no-lemma",
@@ -234,13 +232,12 @@ def main() -> None:
         "--keep-stopwords",
         action="store_false",
         dest="remove_stopwords",
-        help="Désactive le filtrage des mots vides (stopwords) français ultra-fréquents (activé par défaut)",
+        help="Désactive le filtrage des mots vides (stopwords)",
     )
     parser.set_defaults(remove_stopwords=True)
     args = parser.parse_args()
 
-    print("=== Extraction des marqueurs SimpleSitEmo ===")
-    print(f"Lemmatiseur : {args.lemmatizer if not args.no_lemma else 'désactivé'}")
+    print("Extraction des marqueurs SimpleSitEmo")
 
     # Lecture du Parquet
     if not os.path.isfile(args.input):

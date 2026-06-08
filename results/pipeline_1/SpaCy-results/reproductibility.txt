@@ -1,5 +1,0 @@
-Commande exécutée :
-
-```bash
-python -m simplesitemo_pipeline.run_analysis --remove-stopwords --step all --lemmatizer spacy
-```

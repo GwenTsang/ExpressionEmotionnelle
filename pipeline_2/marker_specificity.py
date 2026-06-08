@@ -351,7 +351,7 @@ def test_hypothesis(
                     else "ns"
                 )
                 report_lines.append(
-                    f"  {m1} vs {m2} : U={stat:.1f}, p={p:.6f} [{sig}]"
+                    f"  {m1} vs {m2} : U={stat:.1f}, p={p:.2f} [{sig}]"
                 )
 
     report_lines.append("")
@@ -464,7 +464,7 @@ def main() -> None:
                 f"moy={row['mean_entropy']:.4f}, méd={row['median_entropy']:.4f}"
             )
 
-    # --- 4. Comparaison de la dispersion par mode ---
+    # Comparaison de la dispersion par mode
     print("--- Comparaison de la dispersion par mode ---")
     report = test_hypothesis(df, entropy_emotion)
     report_path = os.path.join(args.outdir, "hypothesis_report.txt")
