@@ -45,6 +45,7 @@ def build_marker_dataframe(
     use_lemma: bool = True,
     lemmatizer_backend: str = "spacy",
     batch_size: int = 256,
+    lemmatizer_workers: int = 1,
     remove_stopwords: bool = True,
 ) -> pd.DataFrame:
     """Construit le dataframe marqueur × émotion × mode.
@@ -66,6 +67,8 @@ def build_marker_dataframe(
         ``"spacy"`` ou ``"stanza"``.
     batch_size : int
         Taille de batch pour la lemmatisation.
+    lemmatizer_workers : int
+        Nombre de processus CPU pour Stanza. Ignoré par spaCy.
     remove_stopwords : bool
         Si True, filtre les stopwords français ultra-fréquents.
 
@@ -148,10 +151,15 @@ def build_marker_dataframe(
     # ── Lemmatisation en batch ────────────────────────────────────────
     if use_lemma:
         print(
-            f"Lemmatisation ({lemmatizer_backend}, batch_size={batch_size}) "
+            f"Lemmatisation ({lemmatizer_backend}, batch_size={batch_size}, "
+            f"workers={lemmatizer_workers}) "
             f"de {total} textes…"
         )
-        lemmatizer = get_lemmatizer(lemmatizer_backend, batch_size=batch_size)
+        lemmatizer = get_lemmatizer(
+            lemmatizer_backend,
+            batch_size=batch_size,
+            n_jobs=lemmatizer_workers,
+        )
         all_lemmas = lemmatizer.lemmatize_batch(texts)
         n_lemmas = sum(len(lst) for lst in all_lemmas)
         print(f"Lemmatisation terminée : {n_lemmas} lemmes")
@@ -229,10 +237,16 @@ def main() -> None:
         help="Taille de batch pour la lemmatisation (défaut: 256)",
     )
     parser.add_argument(
+        "--lemmatizer-workers",
+        type=int,
+        default=1,
+        help="Nombre de processus CPU pour Stanza (défaut: 1 ; ignoré par spaCy)",
+    )
+    parser.add_argument(
         "--keep-stopwords",
         action="store_false",
         dest="remove_stopwords",
-        help="Désactive le filtrage des mots vides (stopwords)",
+        help="Désactive le filtrage des stopwords",
     )
     parser.set_defaults(remove_stopwords=True)
     args = parser.parse_args()
@@ -253,6 +267,7 @@ def main() -> None:
         use_lemma=not args.no_lemma,
         lemmatizer_backend=args.lemmatizer,
         batch_size=args.batch_size,
+        lemmatizer_workers=args.lemmatizer_workers,
         remove_stopwords=args.remove_stopwords,
     )
 

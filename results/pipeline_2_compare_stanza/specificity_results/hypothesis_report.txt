@@ -1,0 +1,31 @@
+======================================================================
+COMPARAISON DE LA DISPERSION DES MARQUEURS PAR MODE
+======================================================================
+
+Objectif : comparer la dispersion des marqueurs entre les modes d'expression à partir de leur entropie émotionnelle.
+
+----------------------------------------------------------------------
+STATISTIQUES DESCRIPTIVES PAR MODE
+----------------------------------------------------------------------
+  Comportementale      : n=  601, moy=0.9186, méd=0.9183, σ=0.7482
+  Désignée             : n=  438, moy=0.6023, méd=0.3492, σ=0.6853
+  Montrée              : n=  540, moy=1.2371, méd=1.3710, σ=0.6997
+  Suggérée             : n= 1142, moy=1.1558, méd=1.1568, σ=0.6566
+
+----------------------------------------------------------------------
+TEST DE KRUSKAL-WALLIS (4 modes)
+----------------------------------------------------------------------
+  H = 229.998, p = 0.000
+  → Différence significative entre les modes (p < 0.05)
+
+----------------------------------------------------------------------
+COMPARAISONS PAR PAIRES (Mann-Whitney U, bilatéral)
+----------------------------------------------------------------------
+  Comportementale vs Désignée : U=163014.5, p=0.00 [***]
+  Comportementale vs Montrée : U=123256.0, p=0.00 [***]
+  Comportementale vs Suggérée : U=279211.5, p=0.00 [***]
+  Désignée vs Montrée : U=62748.0, p=0.00 [***]
+  Désignée vs Suggérée : U=142080.0, p=0.00 [***]
+  Montrée vs Suggérée : U=329816.0, p=0.02 [*]
+
+FIN DU RAPPORT

@@ -157,7 +157,7 @@ def compute_conditional_entropy(
     # Entropie maximale (pour normalisation)
     max_entropy = np.log2(len(valid_values))
     pivot["normalized_entropy"] = (
-        pivot["entropy"] / max_entropy if max_entropy > 0 else 0.0
+        pivot["entropy"] / max_entropy if max_entropy > 0 else 0
     )
 
     # Reset index
@@ -323,7 +323,7 @@ def test_hypothesis(
         report_lines.append("-" * 70)
         report_lines.append("TEST DE KRUSKAL-WALLIS (4 modes)")
         report_lines.append("-" * 70)
-        report_lines.append(f"  H = {stat_kw:.4f}, p = {p_kw:.6f}")
+        report_lines.append(f"  H = {stat_kw:.3f}, p = {p_kw:.3f}")
         if p_kw < 0.05:
             report_lines.append(
                 "  → Différence significative entre les modes (p < 0.05)"
@@ -387,7 +387,6 @@ def main() -> None:
         "--marker-type",
         choices=["word", "lemma", "punctuation", "all"],
         default="all",
-        help="Type de marqueur à analyser (défaut: all)",
     )
     args = parser.parse_args()
 

@@ -42,10 +42,11 @@ def step_extract_markers(
     input_path: str,
     output_dir: str,
     *,
-    use_lemma: bool = True,
-    lemmatizer_backend: str = "spacy",
-    batch_size: int = 256,
-    remove_stopwords: bool = True,
+    use_lemma: bool,
+    lemmatizer_backend: str,
+    batch_size: int,
+    lemmatizer_workers,
+    remove_stopwords,
 ) -> pd.DataFrame:
     """Extrait les marqueurs de SimpleSitEmo.parquet et exporte le CSV.
 
@@ -68,6 +69,7 @@ def step_extract_markers(
         use_lemma=use_lemma,
         lemmatizer_backend=lemmatizer_backend,
         batch_size=batch_size,
+        lemmatizer_workers=lemmatizer_workers,
         remove_stopwords=remove_stopwords,
     )
 
@@ -119,7 +121,7 @@ def step_specificity(
     )
     if not entropy_emotion.empty:
         path = os.path.join(spec_dir, "entropy_per_marker_emotion.csv")
-        entropy_emotion.to_csv(path, index=False, encoding="utf-8-sig")
+        entropy_emotion.to_csv(path, index=False, encoding="utf-8-sig", float_format="%.2f")
         print(f"Exporté : {path}")
 
     # 2b. H(Mode | Marqueur)
@@ -129,7 +131,7 @@ def step_specificity(
     )
     if not entropy_mode.empty:
         path = os.path.join(spec_dir, "entropy_per_marker_mode.csv")
-        entropy_mode.to_csv(path, index=False, encoding="utf-8-sig")
+        entropy_mode.to_csv(path, index=False, encoding="utf-8-sig", float_format="%.2f")
         print(f"Exporté : {path}")
 
     # 2c. Entropie moyenne par mode
@@ -137,7 +139,7 @@ def step_specificity(
     entropy_by_mode_df = compute_entropy_by_mode(markers_df, entropy_emotion)
     if not entropy_by_mode_df.empty:
         path = os.path.join(spec_dir, "entropy_by_mode_summary.csv")
-        entropy_by_mode_df.to_csv(path, index=False, encoding="utf-8-sig")
+        entropy_by_mode_df.to_csv(path, index=False, encoding="utf-8-sig", float_format="%.2f")
         print(f"Exporté : {path}")
 
     # 2d. Test d'hypothèse
@@ -187,14 +189,20 @@ def main() -> None:
     parser.add_argument(
         "--batch-size",
         type=int,
-        default=256,
-        help="Taille de batch pour la lemmatisation (défaut: 256)",
+        default=512,
+        help="Taille de batch pour la lemmatisation",
+    )
+    parser.add_argument(
+        "--lemmatizer-workers",
+        type=int,
+        default=1,
+        help="Nombre de processus CPU pour Stanza (défaut: 1 ; ignoré par spaCy)",
     )
     parser.add_argument(
         "--keep-stopwords",
         action="store_false",
         dest="remove_stopwords",
-        help="Désactive le filtrage des mots vides (stopwords) français ultra-fréquents (activé par défaut)",
+        help="Désactive le filtrage des mots vides stopwords",
     )
     parser.set_defaults(remove_stopwords=True)
     parser.add_argument(
@@ -216,6 +224,7 @@ def main() -> None:
             use_lemma=not args.no_lemma,
             lemmatizer_backend=args.lemmatizer,
             batch_size=args.batch_size,
+            lemmatizer_workers=args.lemmatizer_workers,
             remove_stopwords=args.remove_stopwords,
         )
 

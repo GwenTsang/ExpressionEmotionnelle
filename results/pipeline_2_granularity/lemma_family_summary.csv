@@ -1,0 +1,1270 @@
+﻿backend,lemma,n_surface_forms,surface_forms,total_count,dominant_surface,dominant_surface_share,dominant_emotion,dominant_emotion_share,emotion_entropy,n_forms_with_different_emotion
+spacy,peur,1,peur,131,peur,1.0,Peur,0.9924,0.0647,0
+spacy,manifestation,2,"manifestations, manifestation",70,manifestations,0.9,Colère,0.9714,0.1872,0
+spacy,accuser,7,"accusé, accusent, accusés, accusée, accusait, accusant, accuser",67,accusé,0.3433,Colère,0.9565,0.2979,0
+spacy,menacer,8,"menace, menacé, menacer, menacent, menacés, menaçait, menaçant, menacée",64,menace,0.3281,Peur,0.8806,0.5276,0
+spacy,dangereu,1,dangereux,56,dangereux,1.0,Peur,1.0,-0.0,0
+spacy,inquiet,3,"inquiète, inquiets, inquiet",55,inquiète,0.6364,Peur,0.9464,0.3014,0
+spacy,critiquer,5,"critiqué, critiquée, critiquent, critiquer, critiqués",54,critiqué,0.3333,Colère,1.0,-0.0,0
+spacy,colèr,1,colère,53,colère,1.0,Colère,1.0,-0.0,0
+spacy,fuir,3,"fuir, fuient, fui",52,fuir,0.4231,Peur,0.9615,0.2352,0
+spacy,drôle,2,"drôle, drôles",47,drôle,0.8936,Surprise,0.5532,1.3148,0
+spacy,gros,2,"gros, grosse",44,gros,0.6364,Colère,0.4773,1.5492,1
+spacy,choquer,4,"choqué, choqués, choquant, choquée",43,choqué,0.6977,Surprise,0.5,1.6617,1
+spacy,surprise,1,surprise,41,surprise,1.0,Surprise,0.9268,0.4448,0
+spacy,pleurer,4,"pleurer, pleuré, pleure, pleurant",40,pleurer,0.475,Tristesse,0.7111,1.1245,1
+spacy,bon,2,"bon, bonne",39,bon,0.641,Joie,0.6512,1.7293,0
+spacy,guerre,2,"guerre, guerres",37,guerre,0.9189,Peur,0.6486,1.273,1
+spacy,victime,2,"victime, victimes",36,victime,0.5556,Tristesse,0.4167,1.8071,1
+spacy,réclamer,5,"réclamer, réclament, réclamait, réclamaient, réclamé",36,réclamer,0.3889,Colère,1.0,-0.0,0
+spacy,grave,2,"grave, graves",36,grave,0.8056,Peur,0.3611,1.8307,1
+spacy,heureux,3,"heureux, heureuse, heureuses",35,heureux,0.7714,Joie,1.0,-0.0,0
+spacy,rien,1,rien,34,rien,1.0,Colère,0.4706,2.1565,0
+spacy,danger,1,danger,33,danger,1.0,Peur,1.0,-0.0,0
+spacy,hommage,1,hommage,31,hommage,1.0,Tristesse,0.5152,0.9993,0
+spacy,content,3,"contents, contente, content",30,contents,0.5333,Joie,1.0,-0.0,0
+spacy,fête,1,fête,30,fête,1.0,Joie,1.0,-0.0,0
+spacy,juste,1,juste,29,juste,1.0,Colère,0.5172,1.6894,0
+spacy,remporter,4,"remporté, remporter, remporte, remportée",29,remporté,0.3793,Joie,0.6207,1.4542,0
+spacy,triste,2,"triste, tristes",29,triste,0.7586,Tristesse,0.9655,0.2164,0
+spacy,jamais,1,jamais,29,jamais,1.0,Tristesse,0.3448,2.5999,0
+spacy,vie,1,vie,28,vie,1.0,Joie,0.3929,1.8064,0
+spacy,gagner,3,"gagné, gagnera, gagnent",28,gagné,0.7143,Joie,0.5806,1.3054,1
+spacy,mort,3,"mort, morts, mortes",28,mort,0.6071,Tristesse,0.4643,2.1017,1
+spacy,tuer,3,"tué, tués, tuer",27,tué,0.4444,Peur,0.3667,1.7311,2
+spacy,violence,2,"violences, violence",27,violences,0.5556,Peur,0.5556,1.3992,0
+spacy,difficile,2,"difficile, difficiles",27,difficile,0.6296,Tristesse,0.5185,2.0265,1
+spacy,protester,3,"protester, protesté, protestent",27,protester,0.6667,Colère,0.931,0.431,0
+spacy,assez,1,assez,26,assez,1.0,Colère,0.7692,0.9294,0
+spacy,plaisir,1,plaisir,26,plaisir,1.0,Joie,1.0,-0.0,0
+spacy,grand,4,"grand, grande, grandes, grands",25,grand,0.4,Joie,0.36,2.5125,2
+spacy,étonnant,2,"étonnant, étonnante",25,étonnant,0.6,Surprise,0.96,0.2423,0
+spacy,voir,4,"voir, vu, voit, voient",25,voir,0.44,Colère,0.3793,2.7091,1
+spacy,insulte,2,"insultes, insulte",24,insultes,0.6667,Embarras,0.7083,1.0434,1
+spacy,grever,1,grève,24,grève,1.0,Colère,1.0,-0.0,0
+spacy,protéger,1,protéger,24,protéger,1.0,Peur,0.9583,0.2499,0
+spacy,fou,3,"fou, fous, folle",23,fou,0.6087,Colère,0.3043,2.4013,2
+spacy,rir,1,rire,22,rire,1.0,Joie,0.9091,0.4395,0
+spacy,tg,1,tg,22,tg,1.0,Colère,1.0,-0.0,0
+spacy,attaquer,3,"attaqué, attaquer, attaquent",22,attaqué,0.5,Peur,0.5417,1.1964,1
+spacy,amuser,4,"amuser, amuse, amusé, amusent",21,amuser,0.5714,Joie,1.0,-0.0,0
+spacy,mauvais,3,"mauvaises, mauvais, mauvaise",21,mauvaises,0.381,Colère,0.4762,1.6909,1
+spacy,accord,1,accord,21,accord,1.0,Colère,0.8571,0.7229,0
+spacy,record,2,"record, records",21,record,0.7619,Fierté,0.2857,1.9814,1
+spacy,insulter,4,"insulter, insulté, insultent, insulte",21,insulter,0.5238,Colère,0.4783,1.2145,1
+spacy,impressionner,3,"impressionnant, impressionner, impressionné",20,impressionnant,0.55,Surprise,0.3913,1.946,2
+spacy,déjà,1,déjà,20,déjà,1.0,Surprise,0.5,1.9232,0
+spacy,découvrir,2,"découvert, découvre",20,découvert,0.7,Surprise,1.0,-0.0,0
+spacy,prendre,3,"pris, prend, prendre",20,pris,0.35,Peur,0.4091,2.0876,2
+spacy,accus,1,accuse,19,accuse,1.0,Colère,0.9474,0.2975,0
+spacy,craignent,1,craignent,19,craignent,1.0,Peur,1.0,-0.0,0
+spacy,prix,1,prix,19,prix,1.0,Fierté,0.3158,2.0043,0
+spacy,coup,2,"coups, coup",19,coups,0.5789,Colère,0.2632,2.3546,2
+spacy,exploit,2,"exploit, exploits",19,exploit,0.7368,Admiration,0.5789,1.6393,0
+spacy,inquiéter,2,"inquiètent, inquiétant",19,inquiètent,0.6842,Peur,1.0,-0.0,0
+spacy,manifester,3,"manifester, manifestaient, manifesté",19,manifester,0.7895,Colère,1.0,-0.0,0
+spacy,heureusement,1,heureusement,18,heureusement,1.0,Joie,1.0,-0.0,0
+spacy,bloquer,4,"bloqué, bloquer, bloquent, bloquant",18,bloqué,0.2778,Colère,1.0,-0.0,0
+spacy,mécontentement,2,"mécontentement, mécontentements",18,mécontentement,0.8333,Colère,1.0,-0.0,0
+spacy,dénoncer,3,"dénoncer, dénoncent, dénonçaient",18,dénoncer,0.4444,Colère,1.0,-0.0,0
+spacy,oh,1,oh,18,oh,1.0,Surprise,0.5556,1.4628,0
+spacy,victoire,1,victoire,17,victoire,1.0,Joie,0.8235,0.6723,0
+spacy,premier,2,"première, premier",17,première,0.7647,Joie,0.3158,2.3598,1
+spacy,argent,1,argent,17,argent,1.0,Colère,0.4706,2.2784,0
+spacy,étonner,3,"étonné, étonne, étonnés",17,étonné,0.4118,Surprise,1.0,-0.0,0
+spacy,petit,3,"petit, petite, petits",16,petit,0.5,Joie,0.5625,1.7947,0
+spacy,monde,1,monde,16,monde,1.0,Joie,0.5625,1.7169,0
+spacy,oeil,2,"yeux, oeil",16,yeux,0.625,Surprise,0.3125,2.4772,1
+spacy,protestation,2,"protestation, protestations",16,protestation,0.5,Colère,1.0,-0.0,0
+spacy,surpris,2,"surpris, surprises",16,surpris,0.6875,Surprise,1.0,-0.0,0
+spacy,fier,2,"fier, fière",16,fier,0.5,Fierté,1.0,-0.0,0
+spacy,réussir,2,"réussi, réussir",16,réussi,0.8125,Joie,0.2632,2.6498,1
+spacy,génial,1,génial,16,génial,1.0,Joie,0.625,1.5016,0
+spacy,arrêter,3,"arrêter, arrêté, arrête",16,arrêter,0.5625,Colère,0.5714,1.6005,0
+spacy,quitter,3,"quitter, quitté, quittent",16,quitter,0.5625,Peur,0.75,0.8113,0
+spacy,joie,1,joie,16,joie,1.0,Joie,1.0,-0.0,0
+spacy,meilleur,2,"meilleur, meilleure",15,meilleur,0.6667,Fierté,0.5,1.2718,1
+spacy,manifestent,1,manifestent,15,manifestent,1.0,Colère,1.0,-0.0,0
+spacy,malheur,1,malheur,15,malheur,1.0,Tristesse,0.6667,0.9183,0
+spacy,pute,1,pute,15,pute,1.0,Colère,0.6667,0.9183,0
+spacy,manifesté,1,manifesté,15,manifesté,1.0,Colère,1.0,-0.0,0
+spacy,horrible,2,"horrible, horribles",15,horrible,0.8,Peur,0.4667,1.2867,1
+spacy,souffrir,2,"souffrir, souffrent",15,souffrir,0.8,Tristesse,0.95,0.2864,0
+spacy,falloir,2,"faut, faudrait",15,faut,0.7333,Colère,0.2941,2.1334,2
+spacy,terrible,1,terrible,15,terrible,1.0,Peur,0.4706,1.2639,1
+spacy,bonheur,1,bonheur,14,bonheur,1.0,Joie,1.0,-0.0,0
+spacy,choquante,1,choquantes,14,choquantes,1.0,Surprise,0.5,1.4926,0
+spacy,mourir,3,"meurent, mourir, morts",14,meurent,0.5,Peur,0.4737,1.2448,1
+spacy,risque,2,"risque, risques",14,risque,0.5,Peur,1.0,-0.0,0
+spacy,critique,2,"critique, critiques",14,critique,0.5714,Colère,0.8571,0.5917,0
+spacy,beau,1,beau,14,beau,1.0,Joie,0.6429,1.2871,0
+spacy,perdre,3,"perdu, perdre, perdrait",13,perdu,0.5385,Tristesse,0.5,1.5744,1
+spacy,sourire,2,"sourire, souriant",13,sourire,0.6923,Joie,0.8824,0.6402,0
+spacy,parler,2,"parler, parle",13,parler,0.8462,Colère,0.5714,1.9502,0
+spacy,conflit,2,"conflit, conflits",13,conflit,0.6923,Colère,0.9231,0.3912,0
+spacy,crier,3,"crié, crient, crie",13,crié,0.6923,Peur,0.4211,2.3135,1
+spacy,violent,4,"violentes, violents, violente, violent",13,violentes,0.4615,Peur,0.7692,0.9913,0
+spacy,dangereux,1,dangereuse,13,dangereuse,1.0,Peur,1.0,-0.0,0
+spacy,chance,1,chance,13,chance,1.0,Joie,0.5385,1.6692,0
+spacy,aimer,3,"aimerais, aime, aimer",12,aimerais,0.3333,Tristesse,0.3158,2.3598,3
+spacy,craindre,2,"craint, craindre",12,craint,0.6667,Peur,1.0,-0.0,0
+spacy,mettre,2,"mettre, mis",12,mettre,0.5833,Colère,0.5,1.7806,1
+spacy,pourtant,1,pourtant,12,pourtant,1.0,Surprise,0.8333,0.8167,0
+spacy,merde,1,merde,12,merde,1.0,Colère,0.5714,0.9852,0
+spacy,contre,1,contre,12,contre,1.0,Colère,0.6667,1.4183,0
+spacy,refuser,2,"refuse, refusé",12,refuse,0.75,Colère,0.9375,0.3373,0
+spacy,réclame,1,réclame,12,réclame,1.0,Colère,1.0,-0.0,0
+spacy,fois,1,fois,12,fois,1.0,Joie,0.4167,1.65,0
+spacy,rêve,1,rêve,12,rêve,1.0,Joie,0.6667,1.585,0
+spacy,vivre,3,"vivent, vécue, vivre",12,vivent,0.3333,Tristesse,0.4167,2.2842,1
+spacy,encore,1,encore,12,encore,1.0,Peur,0.25,2.4591,0
+spacy,champion,2,"championne, champion",12,championne,0.6667,Fierté,0.5,1.2718,0
+spacy,injuste,1,injuste,12,injuste,1.0,Colère,0.9286,0.3712,0
+spacy,injustice,2,"injustice, injustices",12,injustice,0.5833,Colère,1.0,-0.0,0
+spacy,grève,2,"grève, grèves",11,grève,0.5455,Colère,1.0,-0.0,0
+spacy,inquiétude,2,"inquiétudes, inquiétude",11,inquiétudes,0.5455,Peur,1.0,-0.0,0
+spacy,mere,1,mere,11,mere,1.0,Colère,0.9231,0.3912,0
+spacy,panique,1,panique,11,panique,1.0,Peur,1.0,-0.0,0
+spacy,merci,1,merci,11,merci,1.0,Joie,0.5455,1.3222,0
+spacy,pauvre,2,"pauvres, pauvre",11,pauvres,0.5455,Tristesse,0.5455,1.4354,1
+spacy,amusant,2,"amusant, amusante",11,amusant,0.7273,Joie,0.8462,0.6194,0
+spacy,désaccord,1,désaccord,11,désaccord,1.0,Colère,0.9167,0.4138,0
+spacy,deux,1,deux,11,deux,1.0,Joie,0.2727,2.2313,0
+spacy,dangereuse,1,dangereuses,11,dangereuses,1.0,Peur,1.0,-0.0,0
+spacy,ftg,1,ftg,11,ftg,1.0,Colère,1.0,-0.0,0
+spacy,reprocher,1,reprochent,11,reprochent,1.0,Colère,1.0,-0.0,0
+spacy,rue,2,"rue, rues",11,rue,0.6364,Colère,0.7273,1.0958,0
+spacy,reproche,1,reproche,11,reproche,1.0,Colère,1.0,-0.0,0
+spacy,bande,1,bande,11,bande,1.0,Colère,0.5455,0.994,0
+spacy,trouver,2,"trouver, trouvé",11,trouver,0.5455,Peur,0.3571,2.4956,1
+spacy,marrant,2,"marrant, marrantes",11,marrant,0.7273,Joie,0.9091,0.4395,0
+spacy,attentat,1,attentats,11,attentats,1.0,Peur,0.6667,1.1887,0
+spacy,malade,2,"malade, malades",10,malade,0.7,Peur,0.5,1.961,0
+spacy,passer,2,"passe, passer",10,passe,0.5,Peur,0.4286,2.0202,1
+spacy,travailler,1,travailler,10,travailler,1.0,Colère,0.8182,0.8659,0
+spacy,tristesse,1,tristesse,10,tristesse,1.0,Tristesse,1.0,-0.0,0
+spacy,chose,1,chose,10,chose,1.0,Colère,0.4545,1.9717,0
+spacy,rendre,2,"rendre, rendu",10,rendre,0.5,Tristesse,0.5,1.6258,1
+spacy,idée,1,idée,10,idée,1.0,Joie,0.5455,1.4354,0
+spacy,incroyable,2,"incroyable, incroyables",10,incroyable,0.7,Surprise,0.9,0.469,0
+spacy,super,1,super,10,super,1.0,Joie,0.5,1.4855,0
+spacy,laisser,2,"laisser, laissez",10,laisser,0.8,Colère,0.6667,1.4183,0
+spacy,croire,3,"croire, cru, croit",10,croire,0.5,Surprise,0.4615,1.892,2
+spacy,frrrintek,1,frrrintek,10,frrrintek,1.0,Joie,0.5,1.761,0
+spacy,route,1,routes,10,routes,1.0,Colère,1.0,-0.0,0
+spacy,gens,1,gens,10,gens,1.0,Colère,0.6,1.2955,0
+spacy,casser,1,casse,10,casse,1.0,Colère,0.7857,0.7496,0
+spacy,dur,1,dur,10,dur,1.0,Tristesse,0.5833,1.5511,0
+spacy,tendre,2,"tendues, tendue",10,tendues,0.6,Colère,0.8462,0.7732,0
+spacy,danseur,3,"danseuse, danseurs, danseur",10,danseuse,0.4,Joie,0.5,1.961,1
+spacy,cher,1,cher,10,cher,1.0,Colère,0.6364,1.4911,0
+spacy,vraiment,1,vraiment,10,vraiment,1.0,Tristesse,0.4,2.3219,0
+spacy,affronter,3,"affrontés, affrontent, affronter",9,affrontés,0.3333,Colère,0.9,0.469,0
+spacy,aise,1,aise,9,aise,1.0,Embarras,0.5556,1.3516,0
+spacy,porc,1,porc,9,porc,1.0,Dégoût,0.6667,1.2244,0
+spacy,porter,2,"porter, porté",9,porter,0.5556,Colère,0.6,1.571,0
+spacy,révolte,1,révolte,9,révolte,1.0,Colère,0.8889,0.5033,0
+spacy,rire,3,"rit, riant, rire",9,rit,0.4444,Joie,0.9286,0.3712,0
+spacy,douer,1,douée,9,douée,1.0,Joie,0.4,1.571,0
+spacy,jour,2,"jour, jours",9,jour,0.5556,Joie,0.4444,2.281,0
+spacy,silence,1,silence,9,silence,1.0,Tristesse,0.4444,2.0588,0
+spacy,ferme,1,ferme,9,ferme,1.0,Colère,0.6667,1.4466,0
+spacy,v,1,vs,9,vs,1.0,Colère,0.9,0.469,0
+spacy,amus,1,amuse,9,amuse,1.0,Joie,1.0,-0.0,0
+spacy,troupe,1,troupe,9,troupe,1.0,Joie,0.7778,0.7642,0
+spacy,travail,1,travail,9,travail,1.0,Colère,0.4,1.8464,0
+spacy,tension,1,tensions,9,tensions,1.0,Colère,1.0,-0.0,0
+spacy,temps,1,temps,9,temps,1.0,Joie,0.3333,2.1133,0
+spacy,normal,1,normal,9,normal,1.0,Embarras,0.2222,2.7255,0
+spacy,mot,2,"mot, mots",9,mot,0.5556,Joie,0.4444,2.0588,0
+spacy,dérange,1,dérange,9,dérange,1.0,Tristesse,0.8889,0.5033,0
+spacy,sale,1,sale,9,sale,1.0,Dégoût,0.5556,0.9911,0
+spacy,pourquoi,1,pourquoi,9,pourquoi,1.0,Colère,0.6667,1.2244,0
+spacy,agression,2,"agressions, agression",8,agressions,0.625,Peur,0.375,1.5613,2
+spacy,école,1,école,8,école,1.0,Peur,0.375,1.8113,0
+spacy,amour,1,amour,8,amour,1.0,Joie,0.75,1.0613,0
+spacy,étrange,1,étrange,8,étrange,1.0,Surprise,1.0,-0.0,0
+spacy,jouer,2,"jouer, joué",8,jouer,0.625,Joie,0.3333,1.9749,1
+spacy,traiter,1,traité,8,traité,1.0,Embarras,0.6667,0.9183,0
+spacy,peine,1,peine,8,peine,1.0,Tristesse,0.4444,1.7527,1
+spacy,récompense,1,récompense,8,récompense,1.0,Fierté,0.5,1.0,0
+spacy,respecter,2,"respecter, respecté",8,respecter,0.625,Colère,0.7,1.1568,1
+spacy,sûr,1,sûr,8,sûr,1.0,Joie,0.75,1.0613,0
+spacy,contestation,1,contestation,8,contestation,1.0,Colère,1.0,-0.0,0
+spacy,peu,1,peu,8,peu,1.0,Colère,0.375,1.9056,0
+spacy,pile,1,piles,8,piles,1.0,Peur,0.4,1.5219,0
+spacy,surprenant,2,"surprenant, surprenante",8,surprenant,0.5,Surprise,1.0,-0.0,0
+spacy,violer,1,violent,8,violent,1.0,Peur,0.7778,0.9864,0
+spacy,pays,1,pays,8,pays,1.0,Peur,0.375,2.1556,0
+spacy,plainte,1,plainte,8,plainte,1.0,Colère,1.0,-0.0,0
+spacy,vite,1,vite,8,vite,1.0,Embarras,0.25,2.25,0
+spacy,mieux,1,mieux,8,mieux,1.0,Fierté,0.375,1.8113,0
+spacy,star,1,star,8,star,1.0,Admiration,0.5,1.75,0
+spacy,hont,1,honte,8,honte,1.0,Embarras,1.0,-0.0,0
+spacy,nouveau,2,"nouvelle, nouveau",8,nouvelle,0.625,Joie,0.8,0.9219,0
+spacy,problème,2,"problèmes, problème",8,problèmes,0.75,Colère,0.625,0.9544,0
+spacy,noir,2,"noir, noire",8,noir,0.625,Colère,0.2,2.5219,1
+spacy,mécontent,1,mécontents,8,mécontents,1.0,Colère,1.0,-0.0,0
+spacy,refuge,1,refuge,8,refuge,1.0,Peur,1.0,-0.0,0
+spacy,regretter,1,regrette,8,regrette,1.0,Tristesse,0.875,0.5436,0
+spacy,main,2,"mains, main",8,mains,0.625,Joie,0.5,1.75,0
+spacy,effrayer,2,"effrayé, effrayant",8,effrayé,0.625,Peur,1.0,-0.0,0
+spacy,confiance,1,confiance,7,confiance,1.0,Joie,0.2857,2.2359,0
+spacy,con,1,con,7,con,1.0,Colère,0.8889,0.5033,0
+spacy,agresser,2,"agressés, agressées",7,agressés,0.5714,Colère,0.375,1.5613,2
+spacy,paul,1,paul,7,paul,1.0,Colère,0.7143,0.8631,0
+spacy,plaisante,1,plaisante,7,plaisante,1.0,Joie,1.0,-0.0,0
+spacy,occasion,1,occasion,7,occasion,1.0,Joie,0.4286,1.8424,0
+spacy,air,1,air,7,air,1.0,Joie,0.4286,1.8424,0
+spacy,dormir,1,dormir,7,dormir,1.0,Peur,0.5,1.0,1
+spacy,julien,1,julien,7,julien,1.0,Colère,0.7143,1.1488,0
+spacy,marre,1,marre,7,marre,1.0,Colère,1.0,-0.0,0
+spacy,larme,1,larmes,7,larmes,1.0,Tristesse,0.8571,0.5917,0
+spacy,tranquille,1,tranquille,7,tranquille,1.0,Colère,0.875,0.5436,0
+spacy,malheureusement,1,malheureusement,7,malheureusement,1.0,Tristesse,1.0,-0.0,0
+spacy,arrete,1,arrete,7,arrete,1.0,Colère,1.0,-0.0,0
+spacy,new,2,"new, news",7,new,0.7143,Joie,0.5714,1.3788,1
+spacy,enfant,1,enfants,7,enfants,1.0,Joie,0.5,1.0,1
+spacy,menace,1,menaces,7,menaces,1.0,Peur,0.8571,0.5917,0
+spacy,merveilleux,1,merveilleux,7,merveilleux,1.0,Admiration,0.7143,1.1488,0
+spacy,arriver,2,"arrive, arrivent",7,arrive,0.5714,Surprise,0.4,2.0464,1
+spacy,terroriste,1,terroristes,7,terroristes,1.0,Colère,0.4286,1.4488,0
+spacy,cp,1,cp,7,cp,1.0,Colère,0.2857,1.9502,0
+spacy,cool,1,cool,7,cool,1.0,Admiration,0.5714,1.3788,0
+spacy,beaucoup,1,beaucoup,7,beaucoup,1.0,Colère,0.2857,2.2359,0
+spacy,hasard,1,hasard,7,hasard,1.0,Surprise,1.0,-0.0,0
+spacy,descendre,2,"descendus, descendues",7,descendus,0.5714,Colère,0.7,0.8813,0
+spacy,demande,1,demande,7,demande,1.0,Colère,0.2857,1.9502,0
+spacy,stop,1,stop,7,stop,1.0,Colère,0.8571,0.5917,0
+spacy,insolite,2,"insolite, insolites",7,insolite,0.5714,Surprise,1.0,-0.0,0
+spacy,spectaculaire,1,spectaculaire,7,spectaculaire,1.0,Admiration,0.5714,0.9852,0
+spacy,soupire,1,soupire,7,soupire,1.0,Tristesse,0.5714,1.6645,0
+spacy,honneur,1,honneur,7,honneur,1.0,Admiration,0.375,1.8113,1
+spacy,fierter,1,fierté,7,fierté,1.0,Fierté,1.0,-0.0,0
+spacy,réfugier,1,réfugier,7,réfugier,1.0,Peur,0.8,0.9219,0
+spacy,ca,1,ca,7,ca,1.0,Colère,0.7143,1.1488,0
+spacy,an,1,ans,7,ans,1.0,Colère,0.2857,2.2359,0
+spacy,venger,1,venger,7,venger,1.0,Colère,0.7143,0.8631,0
+spacy,plaindre,2,"plaignent, plaint",6,plaignent,0.5,Colère,0.5556,1.6577,0
+spacy,venir,1,venir,6,venir,1.0,Colère,0.3,2.371,0
+spacy,voler,2,"volé, voler",6,volé,0.5,Colère,0.375,2.4056,0
+spacy,ailey,1,ailey,6,ailey,1.0,Joie,0.6667,0.9183,0
+spacy,dictature,1,dictature,6,dictature,1.0,Peur,0.6667,1.2516,0
+spacy,héros,1,héros,6,héros,1.0,Admiration,0.8333,0.65,0
+spacy,histoire,1,histoire,6,histoire,1.0,Fierté,0.2857,1.9502,0
+spacy,famille,1,famille,6,famille,1.0,Joie,0.5,1.5,0
+spacy,souvenir,1,souvenir,6,souvenir,1.0,Joie,0.75,0.8113,0
+spacy,hausse,1,hausse,6,hausse,1.0,Colère,0.8333,0.65,0
+spacy,inégalité,1,inégalités,6,inégalités,1.0,Colère,1.0,-0.0,0
+spacy,hors,1,hors,6,hors,1.0,Surprise,1.0,-0.0,0
+spacy,gouine,1,gouine,6,gouine,1.0,Colère,0.5,1.0,0
+spacy,gagne,1,gagne,6,gagne,1.0,Fierté,0.5,1.0,0
+spacy,blague,2,"blagues, blague",6,blagues,0.8333,Joie,1.0,-0.0,1
+spacy,recevoir,1,reçu,6,reçu,1.0,Fierté,0.375,1.8113,0
+spacy,suffire,1,suffit,6,suffit,1.0,Colère,0.75,0.8113,0
+spacy,subir,2,"subissent, subir",6,subissent,0.5,Tristesse,0.8571,0.5917,0
+spacy,danse,1,danse,6,danse,1.0,Joie,1.0,-0.0,0
+spacy,danser,2,"dansé, danser",6,dansé,0.5,Joie,0.75,1.0613,0
+spacy,puissant,2,"puissante, puissants",6,puissante,0.5,Peur,0.6667,0.9183,0
+spacy,savoir,2,"savoir, sais",6,savoir,0.8333,Colère,0.7,1.3568,0
+spacy,sentir,2,"sent, senti",6,sent,0.5,Joie,0.4444,2.0588,1
+spacy,prestigieux,2,"prestigieux, prestigieuse",6,prestigieux,0.5,Admiration,0.6667,1.2516,0
+spacy,maison,1,maison,6,maison,1.0,Peur,0.5,1.75,0
+spacy,avant,1,avant,6,avant,1.0,Surprise,0.3333,2.2516,0
+spacy,attendre,2,"attendait, attendre",6,attendait,0.5,Surprise,0.5,1.6855,1
+spacy,enfermer,2,"enfermés, enfermer",6,enfermés,0.5,Tristesse,0.4286,1.5567,1
+spacy,persécuté,1,persécutés,6,persécutés,1.0,Peur,0.7143,1.1488,0
+spacy,énorme,1,énorme,6,énorme,1.0,Admiration,0.4286,1.8424,0
+spacy,sécheresse,1,sécheresse,6,sécheresse,1.0,Peur,1.0,-0.0,0
+spacy,déçue,1,déçue,6,déçue,1.0,Tristesse,1.0,-0.0,0
+spacy,effondrer,3,"effondrer, effondrés, effondrée",6,effondrer,0.5,Peur,0.7143,0.8631,0
+spacy,médaill,1,médaille,6,médaille,1.0,Fierté,0.5,1.0,0
+spacy,voix,1,voix,6,voix,1.0,Peur,0.5,1.7925,0
+spacy,alvin,1,alvin,6,alvin,1.0,Joie,0.6667,0.9183,0
+spacy,crasseuse,1,crasseuse,6,crasseuse,1.0,Dégoût,0.6667,0.9183,0
+spacy,couille,1,couilles,6,couilles,1.0,Colère,0.8333,0.65,0
+spacy,laisse,1,laisse,6,laisse,1.0,Colère,0.6667,0.9183,0
+spacy,grèv,1,grève,5,grève,1.0,Colère,1.0,-0.0,0
+spacy,jaloux,1,jaloux,5,jaloux,1.0,Jalousie,1.0,-0.0,0
+spacy,redoute,1,redoute,5,redoute,1.0,Peur,1.0,-0.0,0
+spacy,immense,1,immense,5,immense,1.0,Peur,0.4,1.9219,0
+spacy,gueul,1,gueule,5,gueule,1.0,Colère,1.0,-0.0,0
+spacy,harcèlemer,1,harcèlement,5,harcèlement,1.0,Peur,0.6,1.371,0
+spacy,sexuel,1,sexuelles,5,sexuelles,1.0,Peur,0.5,1.4591,0
+spacy,empêcher,1,empêcher,5,empêcher,1.0,Peur,0.375,1.9056,1
+spacy,moquer,1,moquer,5,moquer,1.0,Embarras,0.6667,1.2516,0
+spacy,niqu,1,nique,5,nique,1.0,Colère,1.0,-0.0,0
+spacy,méfiance,1,méfiance,5,méfiance,1.0,Peur,1.0,-0.0,0
+spacy,excuse,2,"excuses, excuse",5,excuses,0.6,Culpabilité,0.6,0.971,1
+spacy,effrayant,1,effrayants,5,effrayants,1.0,Peur,1.0,-0.0,0
+spacy,croit,1,croit,5,croit,1.0,Colère,0.4,1.5219,0
+spacy,célébrer,1,célébrer,5,célébrer,1.0,Joie,1.0,-0.0,0
+spacy,corruption,1,corruption,5,corruption,1.0,Colère,1.0,-0.0,0
+spacy,célébré,1,célébré,5,célébré,1.0,Joie,0.8,0.7219,0
+spacy,blagu,1,blague,5,blague,1.0,Colère,0.6,1.371,0
+spacy,ravir,1,ravie,5,ravie,1.0,Joie,1.0,-0.0,0
+spacy,rage,1,rage,5,rage,1.0,Peur,0.6,1.371,0
+spacy,appeler,1,appelé,5,appelé,1.0,Colère,1.0,-0.0,0
+spacy,york,1,york,5,york,1.0,Joie,0.8,0.7219,0
+spacy,pardon,1,pardon,5,pardon,1.0,Tristesse,0.4,1.9219,0
+spacy,parent,1,parents,5,parents,1.0,Joie,0.4,1.5219,0
+spacy,faute,1,faute,5,faute,1.0,Colère,0.5,1.0,1
+spacy,fort,1,fort,5,fort,1.0,Colère,0.375,2.1556,1
+spacy,ailleurs,1,ailleurs,5,ailleurs,1.0,Colère,0.4,1.5219,0
+spacy,ah,1,ah,5,ah,1.0,Surprise,0.8,0.7219,0
+spacy,fâché,1,fâchés,5,fâchés,1.0,Colère,1.0,-0.0,0
+spacy,fêter,1,fêter,5,fêter,1.0,Joie,0.6,0.971,0
+spacy,bravo,1,bravo,5,bravo,1.0,Fierté,0.6,1.371,0
+spacy,famine,1,famine,5,famine,1.0,Peur,0.6667,0.9183,0
+spacy,réjouir,1,réjouit,5,réjouit,1.0,Joie,1.0,-0.0,0
+spacy,fuite,1,fuite,5,fuite,1.0,Peur,1.0,-0.0,0
+spacy,cacher,1,cacher,5,cacher,1.0,Peur,0.7273,0.8454,1
+spacy,repas,1,repas,5,repas,1.0,Joie,0.8,0.7219,0
+spacy,impos,1,impose,5,impose,1.0,Colère,0.4,1.5219,0
+spacy,brice,1,brice,5,brice,1.0,Colère,1.0,-0.0,0
+spacy,renvoyer,1,renvoyé,5,renvoyé,1.0,Peur,0.5,1.4056,1
+spacy,anglais,1,anglais,5,anglais,1.0,Tristesse,0.6,0.971,0
+spacy,vrai,1,vrai,5,vrai,1.0,Admiration,0.2,2.3219,0
+spacy,parle,1,parle,5,parle,1.0,Colère,0.5,1.7925,0
+spacy,unique,1,unique,5,unique,1.0,Fierté,0.4,1.9219,0
+spacy,échapper,1,échapper,5,échapper,1.0,Peur,0.8333,0.65,0
+spacy,émerveiller,1,émerveillée,5,émerveillée,1.0,Admiration,0.5,1.4591,0
+spacy,pd,1,pd,5,pd,1.0,Colère,0.6,1.371,0
+spacy,mouvement,1,mouvement,5,mouvement,1.0,Colère,1.0,-0.0,0
+spacy,moment,1,moment,5,moment,1.0,Joie,0.7143,0.8631,0
+spacy,chien,1,chien,5,chien,1.0,Colère,0.4,1.5219,0
+spacy,avis,1,avis,5,avis,1.0,Colère,1.0,-0.0,0
+spacy,langue,1,langue,5,langue,1.0,Colère,0.4,1.5219,0
+spacy,scandale,1,scandale,5,scandale,1.0,Colère,1.0,-0.0,0
+spacy,pierre,1,pierre,5,pierre,1.0,Colère,1.0,-0.0,0
+spacy,déçu,1,déçu,5,déçu,1.0,Tristesse,1.0,-0.0,0
+spacy,perdu,1,perdu,5,perdu,1.0,Tristesse,0.8,0.7219,0
+spacy,photo,1,photos,5,photos,1.0,Colère,0.6667,0.9183,0
+spacy,partir,1,partir,5,partir,1.0,Tristesse,0.7143,1.1488,0
+spacy,détruire,1,détruire,5,détruire,1.0,Peur,0.5,1.5,0
+spacy,commun,1,commun,5,commun,1.0,Surprise,1.0,-0.0,0
+spacy,opposer,2,"opposent, oppose",5,opposent,0.8,Colère,0.8333,0.65,0
+spacy,olympique,1,olympiques,5,olympiques,1.0,Joie,0.5714,0.9852,0
+spacy,attaque,1,attaques,5,attaques,1.0,Peur,0.7143,1.1488,0
+spacy,moquerie,1,moqueries,5,moqueries,1.0,Embarras,0.8,0.7219,0
+spacy,dénonce,1,dénonce,5,dénonce,1.0,Colère,1.0,-0.0,0
+spacy,lutte,1,lutte,5,lutte,1.0,Colère,1.0,-0.0,0
+spacy,défendre,1,défendre,5,défendre,1.0,Peur,0.8,0.7219,0
+spacy,tas,1,tas,5,tas,1.0,Dégoût,0.4,1.9219,0
+spacy,mariage,1,mariage,5,mariage,1.0,Joie,0.6,1.371,0
+spacy,maltraité,1,maltraités,5,maltraités,1.0,Tristesse,0.6,1.371,0
+spacy,chasser,1,chassés,5,chassés,1.0,Peur,0.5556,1.4355,0
+spacy,exploser,1,explosé,5,explosé,1.0,Admiration,0.2,2.3219,0
+spacy,embête,1,embête,5,embête,1.0,Tristesse,0.5,1.4591,0
+spacy,bel,1,belle,5,belle,1.0,Joie,0.7143,1.1488,0
+spacy,découverte,1,découverte,5,découverte,1.0,Surprise,1.0,-0.0,0
+spacy,humeur,1,humeur,4,humeur,1.0,Colère,0.5,1.0,0
+spacy,heure,1,heure,4,heure,1.0,Joie,0.4,1.5219,0
+spacy,juif,1,juive,4,juive,1.0,Colère,0.5,1.75,0
+spacy,tête,1,tête,4,tête,1.0,Peur,0.5,1.7925,1
+spacy,émotion,1,émotion,4,émotion,1.0,Joie,0.5,1.5,0
+spacy,élire,1,élue,4,élue,1.0,Fierté,0.5,1.0,0
+spacy,place,1,place,4,place,1.0,Colère,0.6,1.371,0
+spacy,applaudi,1,applaudi,4,applaudi,1.0,Admiration,0.5,1.0,0
+spacy,pk,1,pk,4,pk,1.0,Colère,1.0,-0.0,0
+spacy,importer,1,importe,4,importe,1.0,Colère,0.5,1.5,0
+spacy,important,1,important,4,important,1.0,Fierté,0.4,1.9219,0
+spacy,rejeter,1,rejetés,4,rejetés,1.0,Tristesse,0.625,1.2988,0
+spacy,choc,1,choc,4,choc,1.0,Surprise,0.5,1.5,0
+spacy,bouche,1,bouche,4,bouche,1.0,Admiration,0.25,2.0,0
+spacy,devenir,1,devenir,4,devenir,1.0,Joie,0.3333,1.9183,0
+spacy,gueule,1,gueule,4,gueule,1.0,Colère,0.8333,0.65,0
+spacy,harcelé,1,harcelé,4,harcelé,1.0,Tristesse,0.75,0.8113,0
+spacy,grogner,1,grogné,4,grogné,1.0,Colère,0.75,0.8113,0
+spacy,humiliation,1,humiliations,4,humiliations,1.0,Embarras,0.75,0.8113,0
+spacy,seul,1,seul,4,seul,1.0,Tristesse,0.5,1.7925,1
+spacy,cauchemar,1,cauchemar,4,cauchemar,1.0,Peur,0.8,0.7219,0
+spacy,cause,1,cause,4,cause,1.0,Joie,0.5,1.5,0
+spacy,revendication,1,revendications,4,revendications,1.0,Colère,1.0,-0.0,0
+spacy,reprochaient,1,reprochaient,4,reprochaient,1.0,Colère,1.0,-0.0,0
+spacy,agréable,1,agréable,4,agréable,1.0,Joie,1.0,-0.0,0
+spacy,frustrer,1,frustrant,4,frustrant,1.0,Tristesse,0.6667,0.9183,1
+spacy,rigol,1,rigole,4,rigole,1.0,Joie,1.0,-0.0,0
+spacy,carrémer,1,carrément,4,carrément,1.0,Colère,0.25,2.0,0
+spacy,crise,1,crise,4,crise,1.0,Peur,0.5,1.5,0
+spacy,espionner,1,espionner,4,espionner,1.0,Colère,0.4,1.5219,0
+spacy,enthousiasme,1,enthousiasme,4,enthousiasme,1.0,Joie,1.0,-0.0,0
+spacy,râler,1,râler,4,râler,1.0,Colère,1.0,-0.0,0
+spacy,soeur,1,soeur,4,soeur,1.0,Colère,0.4,1.5219,1
+spacy,soleil,1,soleil,4,soleil,1.0,Tristesse,0.5,1.5,0
+spacy,angoisse,1,angoisse,4,angoisse,1.0,Peur,1.0,-0.0,0
+spacy,regarder,1,regarde,4,regarde,1.0,Colère,0.6,1.371,0
+spacy,inédit,1,inédite,4,inédite,1.0,Surprise,1.0,-0.0,0
+spacy,idol,1,idole,4,idole,1.0,Admiration,1.0,-0.0,0
+spacy,augmentation,1,augmentation,4,augmentation,1.0,Colère,0.75,0.8113,0
+spacy,timidement,1,timidement,4,timidement,1.0,Embarras,0.5,1.0,0
+spacy,manifeste,1,manifeste,4,manifeste,1.0,Colère,1.0,-0.0,0
+spacy,ami,1,amis,4,amis,1.0,Joie,0.6667,0.9183,0
+spacy,bah,1,bah,4,bah,1.0,Colère,1.0,-0.0,0
+spacy,eh,1,eh,4,eh,1.0,Surprise,0.75,0.8113,0
+spacy,embêtant,1,embêtant,4,embêtant,1.0,Tristesse,1.0,-0.0,0
+spacy,lever,1,lève,4,lève,1.0,Colère,0.4,1.5219,0
+spacy,loin,1,loin,4,loin,1.0,Colère,0.5,1.5,0
+spacy,battu,1,battu,4,battu,1.0,Joie,0.4,1.9219,0
+spacy,expulser,1,expulser,4,expulser,1.0,Colère,0.75,0.8113,0
+spacy,manger,1,manger,4,manger,1.0,Tristesse,0.4286,1.8424,1
+spacy,malgré,1,malgré,4,malgré,1.0,Tristesse,0.75,0.8113,0
+spacy,longtemps,1,longtemps,4,longtemps,1.0,Fierté,0.25,2.0,0
+spacy,suivie,1,suivie,4,suivie,1.0,Admiration,0.25,2.0,0
+spacy,exceptionnelle,1,exceptionnelle,4,exceptionnelle,1.0,Surprise,0.75,0.8113,0
+spacy,ete,1,etes,4,etes,1.0,Colère,1.0,-0.0,0
+spacy,exclame,1,exclame,4,exclame,1.0,Joie,0.5,1.0,0
+spacy,deuil,1,deuil,4,deuil,1.0,Tristesse,1.0,-0.0,0
+spacy,deuxième,1,deuxième,4,deuxième,1.0,Fierté,0.5,1.0,0
+spacy,décevoir,1,déçus,4,déçus,1.0,Tristesse,0.8333,0.65,0
+spacy,dansé,1,dansé,4,dansé,1.0,Joie,0.75,0.8113,0
+spacy,coupable,1,coupable,4,coupable,1.0,Culpabilité,0.75,0.8113,0
+spacy,ravi,1,ravi,4,ravi,1.0,Joie,1.0,-0.0,0
+spacy,exceptionnel,1,exceptionnel,4,exceptionnel,1.0,Surprise,0.6667,0.9183,1
+spacy,croisière,1,croisière,4,croisière,1.0,Joie,0.75,0.8113,0
+spacy,bille,1,billes,4,billes,1.0,Tristesse,0.5,1.5,0
+spacy,tomber,1,tomber,4,tomber,1.0,Tristesse,0.75,0.8113,0
+spacy,tombe,1,tombe,4,tombe,1.0,Embarras,0.25,2.0,0
+spacy,aucun,1,aucune,4,aucune,1.0,Colère,0.4,1.5219,0
+spacy,prison,1,prison,4,prison,1.0,Peur,0.75,0.8113,0
+spacy,emprisonner,1,emprisonné,4,emprisonné,1.0,Peur,0.5,1.0,0
+spacy,encourager,1,encourager,4,encourager,1.0,Joie,0.8333,0.65,0
+spacy,rétorqu,1,rétorque,4,rétorque,1.0,Colère,0.5,1.0,0
+spacy,dépression,1,dépression,4,dépression,1.0,Tristesse,1.0,-0.0,0
+spacy,satisfaire,1,satisfaire,4,satisfaire,1.0,Joie,1.0,-0.0,0
+spacy,sai,1,sais,4,sais,1.0,Colère,0.25,2.0,0
+spacy,meme,1,meme,4,meme,1.0,Colère,0.75,0.8113,0
+spacy,merd,1,merde,4,merde,1.0,Colère,0.5,1.0,0
+spacy,mentir,1,mentir,4,mentir,1.0,Colère,1.0,-0.0,0
+spacy,menaçante,1,menaçante,4,menaçante,1.0,Peur,1.0,-0.0,0
+spacy,protest,1,proteste,4,proteste,1.0,Colère,0.75,0.8113,0
+spacy,quel,2,"quel, quelle",4,quel,0.75,Joie,0.75,0.8113,0
+spacy,nobel,1,nobel,4,nobel,1.0,Fierté,0.5,1.0,0
+spacy,médaille,1,médaille,4,médaille,1.0,Fierté,0.5,1.0,0
+spacy,polémique,1,polémique,4,polémique,1.0,Colère,1.0,-0.0,0
+spacy,eau,1,eau,4,eau,1.0,Peur,0.5,1.0,0
+spacy,étonnement,1,étonnement,4,étonnement,1.0,Surprise,1.0,-0.0,0
+spacy,point,1,point,4,point,1.0,Colère,0.3333,1.585,1
+spacy,négative,1,négatives,4,négatives,1.0,Embarras,0.5,1.0,0
+spacy,disparu,1,disparu,4,disparu,1.0,Peur,0.3333,1.9183,0
+spacy,condition,1,conditions,4,conditions,1.0,Colère,0.5,1.5,0
+spacy,détruite,1,détruites,4,détruites,1.0,Peur,0.5,1.0,0
+spacy,sécurité,1,sécurité,4,sécurité,1.0,Peur,1.0,-0.0,0
+spacy,comment,1,comment,4,comment,1.0,Colère,0.25,2.0,0
+spacy,détresse,1,détresse,4,détresse,1.0,Peur,1.0,-0.0,0
+spacy,surtout,1,surtout,4,surtout,1.0,Colère,0.5,1.5,0
+spacy,agressé,1,agressées,4,agressées,1.0,Peur,0.5,1.5,1
+spacy,vexé,1,vexé,4,vexé,1.0,Embarras,0.5,1.0,0
+spacy,énerv,1,énerve,4,énerve,1.0,Colère,1.0,-0.0,0
+spacy,affrontement,1,affrontements,4,affrontements,1.0,Colère,1.0,-0.0,0
+spacy,aide,1,aide,3,aide,1.0,Peur,0.6667,0.9183,0
+spacy,alarme,1,alarme,3,alarme,1.0,Peur,0.6667,0.9183,0
+spacy,alerte,1,alerte,3,alerte,1.0,Peur,1.0,-0.0,0
+spacy,échec,1,échec,3,échec,1.0,Tristesse,0.6667,0.9183,0
+spacy,ému,1,émue,3,émue,1.0,Joie,0.6667,0.9183,0
+spacy,affaire,1,affaires,3,affaires,1.0,Colère,0.6667,0.9183,0
+spacy,penser,1,pensé,3,pensé,1.0,Colère,0.3333,2.4194,1
+spacy,persécution,1,persécutions,3,persécutions,1.0,Peur,0.6667,0.9183,0
+spacy,paris,1,paris,3,paris,1.0,Joie,0.6667,0.9183,0
+spacy,papa,1,papa,3,papa,1.0,Tristesse,0.6667,0.9183,0
+spacy,partager,1,partager,3,partager,1.0,Colère,0.6667,0.9183,0
+spacy,partout,1,partout,3,partout,1.0,Fierté,0.3333,1.585,0
+spacy,nuage,1,nuage,3,nuage,1.0,Joie,0.6667,0.9183,0
+spacy,party,1,party,3,party,1.0,Joie,1.0,-0.0,0
+spacy,pauvreter,1,pauvreté,3,pauvreté,1.0,Colère,0.3333,1.585,1
+spacy,pavé,1,pavé,3,pavé,1.0,Tristesse,0.6667,0.9183,0
+spacy,original,1,originale,3,originale,1.0,Surprise,1.0,-0.0,0
+spacy,offrir,1,offert,3,offert,1.0,Joie,1.0,-0.0,0
+spacy,ose,1,ose,3,ose,1.0,Embarras,0.6667,0.9183,0
+spacy,oser,1,osent,3,osent,1.0,Embarras,0.6667,0.9183,0
+spacy,précipiter,1,précipite,3,précipite,1.0,Joie,0.6667,0.9183,0
+spacy,ours,1,ours,3,ours,1.0,Peur,1.0,-0.0,0
+spacy,paix,1,paix,3,paix,1.0,Colère,0.6667,0.9183,0
+spacy,plaire,1,plaît,3,plaît,1.0,Joie,0.6,0.971,1
+spacy,méfier,1,méfier,3,méfier,1.0,Peur,1.0,-0.0,0
+spacy,pollution,1,pollution,3,pollution,1.0,Peur,0.6667,0.9183,0
+spacy,nom,1,nom,3,nom,1.0,Colère,0.3333,1.585,0
+spacy,national,1,national,3,national,1.0,Fierté,0.6667,0.9183,0
+spacy,pur,1,pure,3,pure,1.0,Colère,0.6667,0.9183,0
+spacy,préoccupation,1,préoccupations,3,préoccupations,1.0,Tristesse,0.75,0.8113,0
+spacy,noël,1,noël,3,noël,1.0,Joie,1.0,-0.0,0
+spacy,ntm,1,ntm,3,ntm,1.0,Colère,1.0,-0.0,0
+spacy,putain,1,putain,3,putain,1.0,Colère,1.0,-0.0,0
+spacy,quell,1,quelle,3,quelle,1.0,Admiration,0.3333,1.585,1
+spacy,pénible,1,pénible,3,pénible,1.0,Tristesse,1.0,-0.0,0
+spacy,pyjama,1,pyjama,3,pyjama,1.0,Joie,1.0,-0.0,0
+spacy,redouter,1,redoutent,3,redoutent,1.0,Peur,1.0,-0.0,0
+spacy,légend,1,légende,3,légende,1.0,Admiration,0.6667,0.9183,0
+spacy,magique,1,magique,3,magique,1.0,Surprise,1.0,-0.0,0
+spacy,minable,1,minable,3,minable,1.0,Culpabilité,0.3333,1.585,0
+spacy,misère,1,misère,3,misère,1.0,Tristesse,1.0,-0.0,0
+spacy,mobiliser,1,mobilisent,3,mobilisent,1.0,Colère,0.75,0.8113,0
+spacy,mondial,1,mondiale,3,mondiale,1.0,Fierté,0.3333,1.585,0
+spacy,montre,1,montre,3,montre,1.0,Dégoût,0.6667,0.9183,0
+spacy,muslim,1,muslim,3,muslim,1.0,Colère,1.0,-0.0,0
+spacy,mystérieux,1,mystérieux,3,mystérieux,1.0,Peur,0.6667,0.9183,0
+spacy,mère,1,mère,3,mère,1.0,Colère,1.0,-0.0,0
+spacy,maîtrise,1,maîtrise,3,maîtrise,1.0,Colère,0.3333,1.585,0
+spacy,million,1,millions,3,millions,1.0,Joie,0.6667,0.9183,0
+spacy,lancer,1,lancé,3,lancé,1.0,Colère,1.0,-0.0,0
+spacy,lettre,1,lettre,3,lettre,1.0,Joie,1.0,-0.0,0
+spacy,liberté,1,liberté,3,liberté,1.0,Joie,0.6667,0.9183,0
+spacy,jolie,1,jolies,3,jolies,1.0,Colère,0.3333,1.585,0
+spacy,insister,1,insiste,3,insiste,1.0,Colère,0.3333,1.585,0
+spacy,interdir,1,interdire,3,interdire,1.0,Colère,1.0,-0.0,0
+spacy,question,1,question,3,question,1.0,Colère,0.6667,0.9183,0
+spacy,r,1,r,3,r,1.0,Colère,1.0,-0.0,0
+spacy,raison,1,raison,3,raison,1.0,Fierté,1.0,-0.0,0
+spacy,rare,1,rare,3,rare,1.0,Surprise,0.6667,0.9183,0
+spacy,rat,1,rate,3,rate,1.0,Tristesse,0.5,1.5,0
+spacy,imposer,1,imposer,3,imposer,1.0,Peur,0.3333,2.2516,0
+spacy,joyeux,1,joyeux,3,joyeux,1.0,Joie,1.0,-0.0,0
+spacy,impressionnant,1,impressionnante,3,impressionnante,1.0,Admiration,0.4286,1.4488,0
+spacy,jeu,1,jeux,3,jeux,1.0,Joie,0.6667,0.9183,0
+spacy,gronder,1,gronder,3,gronder,1.0,Colère,0.6,1.371,0
+spacy,icône,1,icône,3,icône,1.0,Admiration,1.0,-0.0,0
+spacy,hein,1,hein,3,hein,1.0,Surprise,0.6667,0.9183,0
+spacy,inquiétante,1,inquiétantes,3,inquiétantes,1.0,Peur,1.0,-0.0,0
+spacy,cadeal,1,cadeaux,3,cadeaux,1.0,Joie,1.0,-0.0,0
+spacy,catastrophe,1,catastrophes,3,catastrophes,1.0,Peur,0.6,0.971,0
+spacy,train,1,train,3,train,1.0,Embarras,0.3333,1.585,0
+spacy,travers,1,travers,3,travers,1.0,Joie,0.6667,0.9183,0
+spacy,habit,1,habits,3,habits,1.0,Colère,0.3333,1.585,0
+spacy,harceler,1,harceler,3,harceler,1.0,Tristesse,0.6,1.371,1
+spacy,relation,1,relations,3,relations,1.0,Colère,1.0,-0.0,0
+spacy,revendique,1,revendique,3,revendique,1.0,Colère,1.0,-0.0,0
+spacy,ri,1,ri,3,ri,1.0,Joie,1.0,-0.0,0
+spacy,frappé,1,frappé,3,frappé,1.0,Peur,0.6667,0.9183,0
+spacy,furieux,1,furieux,3,furieux,1.0,Colère,1.0,-0.0,0
+spacy,graisse,1,graisse,3,graisse,1.0,Dégoût,0.6667,0.9183,0
+spacy,facilement,1,facilement,3,facilement,1.0,Embarras,0.3333,1.585,0
+spacy,fake,1,fake,3,fake,1.0,Colère,1.0,-0.0,0
+spacy,faux,1,fausses,3,fausses,1.0,Colère,1.0,-0.0,0
+spacy,feu,1,feu,3,feu,1.0,Colère,0.3333,1.585,0
+spacy,fille,1,filles,3,filles,1.0,Surprise,0.4,1.5219,1
+spacy,fière,1,fières,3,fières,1.0,Fierté,0.6667,0.9183,0
+spacy,formidable,1,formidable,3,formidable,1.0,Admiration,1.0,-0.0,0
+spacy,rigoler,1,rigolé,3,rigolé,1.0,Joie,1.0,-0.0,0
+spacy,rond,1,ronds,3,ronds,1.0,Colère,0.75,0.8113,0
+spacy,rupture,1,rupture,3,rupture,1.0,Peur,0.3333,1.585,0
+spacy,récupérer,1,récupérer,3,récupérer,1.0,Fierté,0.3333,1.585,0
+spacy,enthousiasmer,1,enthousiasme,3,enthousiasme,1.0,Joie,1.0,-0.0,0
+spacy,emploi,1,emploi,3,emploi,1.0,Colère,0.3333,1.585,0
+spacy,envie,1,envie,3,envie,1.0,Admiration,0.3333,1.585,0
+spacy,euro,1,euros,3,euros,1.0,Joie,0.75,0.8113,0
+spacy,excellent,1,excellent,3,excellent,1.0,Admiration,0.5,1.5,0
+spacy,facile,1,facile,3,facile,1.0,Tristesse,0.6667,0.9183,0
+spacy,enfuir,1,enfuir,3,enfuir,1.0,Peur,0.875,0.5436,0
+spacy,enfin,1,enfin,3,enfin,1.0,Colère,0.3333,1.585,0
+spacy,emporter,1,emporte,3,emporte,1.0,Colère,1.0,-0.0,0
+spacy,cul,1,cul,3,cul,1.0,Colère,0.6667,0.9183,0
+spacy,stage,1,stage,3,stage,1.0,Joie,0.5,1.5,0
+spacy,décourage,1,décourage,3,décourage,1.0,Tristesse,0.6667,0.9183,0
+spacy,réussite,1,réussite,3,réussite,1.0,Fierté,0.3333,1.585,0
+spacy,révolter,1,révoltée,3,révoltée,1.0,Colère,0.75,1.0613,0
+spacy,rêver,1,rêver,3,rêver,1.0,Joie,0.6667,0.9183,0
+spacy,sacrer,1,sacré,3,sacré,1.0,Admiration,0.6667,0.9183,0
+spacy,santé,1,santé,3,santé,1.0,Peur,0.6667,0.9183,0
+spacy,disputer,1,disputent,3,disputent,1.0,Colère,1.0,-0.0,0
+spacy,dégoût,1,dégoût,3,dégoût,1.0,Dégoût,0.6667,0.9183,0
+spacy,dîner,1,dîner,3,dîner,1.0,Joie,1.0,-0.0,0
+spacy,effet,1,effets,3,effets,1.0,Peur,1.0,-0.0,0
+spacy,drame,1,drame,3,drame,1.0,Colère,0.3333,1.585,0
+spacy,dommage,1,dommage,3,dommage,1.0,Tristesse,0.75,0.8113,0
+spacy,drole,1,drole,3,drole,1.0,Joie,1.0,-0.0,0
+spacy,droit,1,droit,3,droit,1.0,Colère,0.75,0.8113,0
+spacy,corps,1,corps,3,corps,1.0,Dégoût,0.3333,1.585,0
+spacy,cu,1,cu,3,cu,1.0,Dégoût,0.6667,0.9183,0
+spacy,cri,1,cris,3,cris,1.0,Peur,0.5,1.5,1
+spacy,demander,1,demander,3,demander,1.0,Colère,0.5,1.4591,0
+spacy,discriminer,1,discriminer,3,discriminer,1.0,Colère,0.3333,1.585,0
+spacy,sexuellement,1,sexuellement,3,sexuellement,1.0,Tristesse,0.6667,0.9183,0
+spacy,sortir,1,sortir,3,sortir,1.0,Colère,0.5,1.5,0
+spacy,sourir,1,sourire,3,sourire,1.0,Joie,0.6667,0.9183,0
+spacy,crie,1,crie,3,crie,1.0,Colère,0.3333,1.585,0
+spacy,stresser,1,stressé,3,stressé,1.0,Peur,1.0,-0.0,0
+spacy,craignaient,1,craignaient,3,craignaient,1.0,Peur,1.0,-0.0,0
+spacy,course,1,course,3,course,1.0,Fierté,0.3333,1.585,0
+spacy,courir,1,courir,3,courir,1.0,Colère,0.3333,1.585,0
+spacy,cour,1,cour,3,cour,1.0,Dégoût,0.3333,1.585,0
+spacy,coupe,1,coupe,3,coupe,1.0,Joie,0.3333,1.585,0
+spacy,couleur,1,couleurs,3,couleurs,1.0,Fierté,0.3333,1.585,0
+spacy,vache,1,vache,3,vache,1.0,Dégoût,0.3333,1.585,0
+spacy,viens,1,viens,3,viens,1.0,Joie,0.6667,0.9183,0
+spacy,état,1,état,3,état,1.0,Colère,0.6667,0.9183,0
+spacy,angoisser,1,angoissé,3,angoissé,1.0,Peur,0.8,0.7219,0
+spacy,trois,1,trois,3,trois,1.0,Colère,0.3333,1.585,0
+spacy,tribunal,1,tribunal,3,tribunal,1.0,Colère,0.3333,1.585,0
+spacy,trésor,1,trésor,3,trésor,1.0,Fierté,0.6667,0.9183,0
+spacy,succès,1,succès,3,succès,1.0,Joie,0.6667,0.9183,0
+spacy,suicider,1,suicider,3,suicider,1.0,Tristesse,0.6667,0.9183,0
+spacy,sympa,1,sympa,3,sympa,1.0,Joie,1.0,-0.0,0
+spacy,combat,1,combats,3,combats,1.0,Peur,0.6667,0.9183,0
+spacy,commettre,1,commettre,3,commettre,1.0,Colère,0.6667,0.9183,0
+spacy,complètement,1,complètement,3,complètement,1.0,Colère,0.3333,1.585,0
+spacy,condamné,1,condamné,3,condamné,1.0,Tristesse,0.5,1.5,1
+spacy,consterner,1,consterné,3,consterné,1.0,Tristesse,0.6667,0.9183,0
+spacy,conséquence,1,conséquences,3,conséquences,1.0,Peur,0.6667,0.9183,0
+spacy,continuer,1,continue,3,continue,1.0,Colère,0.3333,1.9183,0
+spacy,tellement,1,tellement,3,tellement,1.0,Admiration,0.3333,1.585,0
+spacy,tempête,1,tempête,3,tempête,1.0,Peur,0.6667,0.9183,0
+spacy,terrorisme,1,terrorisme,3,terrorisme,1.0,Peur,1.0,-0.0,0
+spacy,tirer,1,tiré,3,tiré,1.0,Peur,0.75,0.8113,0
+spacy,toit,1,toit,3,toit,1.0,Peur,0.6667,0.9183,0
+spacy,torturer,1,torturés,3,torturés,1.0,Peur,0.5,1.5,0
+spacy,champ,1,champs,3,champs,1.0,Colère,0.3333,1.585,0
+spacy,chienne,1,chienne,3,chienne,1.0,Dégoût,0.6667,0.9183,0
+spacy,chier,1,chier,3,chier,1.0,Colère,1.0,-0.0,0
+spacy,chouette,1,chouette,3,chouette,1.0,Joie,1.0,-0.0,0
+spacy,cible,1,cible,3,cible,1.0,Embarras,0.3333,1.585,0
+spacy,coeur,1,coeur,3,coeur,1.0,Joie,0.3333,1.585,0
+spacy,bonbon,1,bonbons,3,bonbons,1.0,Surprise,0.6667,0.9183,0
+spacy,boum,1,boum,3,boum,1.0,Peur,0.6667,0.9183,0
+spacy,bée,1,bée,3,bée,1.0,Admiration,0.3333,1.585,0
+spacy,admiration,1,admiration,3,admiration,1.0,Admiration,1.0,-0.0,0
+spacy,accident,1,accident,3,accident,1.0,Peur,0.75,0.8113,0
+spacy,abri,1,abri,3,abri,1.0,Peur,1.0,-0.0,0
+spacy,admirer,1,admirer,3,admirer,1.0,Admiration,1.0,-0.0,0
+spacy,animal,1,animaux,3,animaux,1.0,Peur,0.75,0.8113,0
+spacy,arabe,1,arabe,3,arabe,1.0,Dégoût,0.75,0.8113,0
+spacy,arme,1,arme,3,arme,1.0,Peur,0.5,1.5,1
+spacy,téléphone,1,téléphone,3,téléphone,1.0,Peur,0.6667,0.9183,0
+spacy,bombardement,1,bombardements,3,bombardements,1.0,Peur,1.0,-0.0,0
+spacy,banal,1,banal,3,banal,1.0,Surprise,1.0,-0.0,0
+spacy,battr,1,battre,3,battre,1.0,Embarras,0.3333,1.585,1
+spacy,beal,1,beaux,3,beaux,1.0,Joie,1.0,-0.0,0
+spacy,blessé,1,blessés,3,blessés,1.0,Peur,0.6667,0.9183,0
+spacy,baisser,1,baissant,3,baissant,1.0,Peur,0.5,1.5,0
+spacy,aïe,1,aïe,3,aïe,1.0,Colère,0.3333,1.585,0
+spacy,avouer,1,avouait,3,avouait,1.0,Culpabilité,0.5,1.0,0
+spacy,évacuer,1,évacuer,3,évacuer,1.0,Peur,1.0,-0.0,0
+spacy,arracher,1,arraché,3,arraché,1.0,Colère,0.3333,1.9183,0
+spacy,ouvrir,1,ouvert,2,ouvert,1.0,Colère,0.3333,1.585,0
+spacy,paniquer,1,paniqué,2,paniqué,1.0,Peur,0.6667,0.9183,0
+spacy,entrer,1,entrez,2,entrez,1.0,Colère,0.4,1.5219,1
+spacy,cadeau,1,cadeaux,2,cadeaux,1.0,Joie,1.0,-0.0,0
+spacy,servir,1,sert,2,sert,1.0,Colère,0.4,1.5219,0
+spacy,réduire,1,réduites,2,réduites,1.0,Tristesse,0.6,1.371,1
+spacy,battre,1,battre,2,battre,1.0,Colère,0.6,1.371,0
+spacy,disparaître,1,disparu,2,disparu,1.0,Tristesse,0.5,1.5,1
+spacy,marier,1,mariés,1,mariés,1.0,Joie,0.6,1.371,1
+spacy,énerver,1,énerve,1,énerve,1.0,Colère,1.0,-0.0,0
+spacy,crasseux,1,crasseuse,1,crasseuse,1.0,Dégoût,0.6667,0.9183,0
+spacy,réveiller,1,réveille,1,réveille,1.0,Colère,0.4,1.5219,0
+spacy,embêter,1,embête,1,embête,1.0,Tristesse,0.75,0.8113,0
+spacy,tué,1,tué,1,tué,1.0,Colère,0.3333,1.585,0
+stanza,peur,1,peur,131,peur,1.0,Peur,0.9924,0.0647,0
+stanza,accuser,8,"accusé, accusent, accuse, accusés, accusée, accusant, accusait, accuser",88,accusé,0.2727,Colère,0.9556,0.2984,0
+stanza,dangereux,3,"dangereux, dangereuse, dangereuses",80,dangereux,0.7,Peur,1.0,-0.0,0
+stanza,manifestation,2,"manifestations, manifestation",70,manifestations,0.9,Colère,0.9714,0.1872,0
+stanza,critiquer,5,"critiqué, critiquée, critiquent, critiquer, critiqués",55,critiqué,0.3455,Colère,1.0,-0.0,0
+stanza,colère,1,colère,54,colère,1.0,Colère,1.0,-0.0,0
+stanza,fuir,3,"fuir, fuient, fui",52,fuir,0.4231,Peur,0.9623,0.2318,0
+stanza,manifester,4,"manifesté, manifestent, manifester, manifestaient",49,manifesté,0.3265,Colère,1.0,-0.0,0
+stanza,réclamer,6,"réclamer, réclame, réclament, réclamaient, réclamait, réclamé",48,réclamer,0.2917,Colère,1.0,-0.0,0
+stanza,drôle,2,"drôle, drôles",47,drôle,0.8936,Surprise,0.5532,1.3148,0
+stanza,surprise,2,"surprise, surprises",46,surprise,0.8913,Surprise,0.9348,0.4077,0
+stanza,gros,2,"gros, grosse",44,gros,0.6364,Colère,0.4783,1.5328,1
+stanza,menacer,7,"menacé, menacer, menacent, menacés, menaçait, menaçant, menacée",43,menacé,0.2326,Peur,0.9149,0.4199,0
+stanza,inquiet,3,"inquiète, inquiets, inquiet",43,inquiète,0.5349,Peur,1.0,-0.0,0
+stanza,grève,2,"grève, grèves",40,grève,0.875,Colère,1.0,-0.0,0
+stanza,pleurer,4,"pleurer, pleuré, pleure, pleurant",40,pleurer,0.475,Tristesse,0.7111,1.1245,1
+stanza,bon,2,"bon, bonne",39,bon,0.641,Joie,0.6512,1.7293,0
+stanza,choquer,3,"choqué, choqués, choquée",38,choqué,0.7895,Surprise,0.5111,1.6815,0
+stanza,guerre,2,"guerre, guerres",37,guerre,0.9189,Peur,0.6486,1.273,1
+stanza,victime,2,"victime, victimes",36,victime,0.5556,Tristesse,0.4167,1.8071,1
+stanza,grave,2,"grave, graves",36,grave,0.8056,Peur,0.3611,1.8307,1
+stanza,heureux,3,"heureux, heureuse, heureuses",35,heureux,0.7714,Joie,1.0,-0.0,0
+stanza,craindre,4,"craignent, craint, craindre, craignaient",34,craignent,0.5588,Peur,1.0,-0.0,0
+stanza,gagner,4,"gagné, gagne, gagnera, gagnent",34,gagné,0.5882,Joie,0.5676,1.2759,2
+stanza,rien,1,rien,34,rien,1.0,Colère,0.4706,2.1565,0
+stanza,amuser,5,"amuse, amuser, amusent, amusé, amusant",34,amuse,0.3824,Joie,1.0,-0.0,0
+stanza,danger,1,danger,33,danger,1.0,Peur,1.0,-0.0,0
+stanza,inquiéter,3,"inquiètent, inquiète, inquiétant",32,inquiètent,0.4062,Peur,0.9189,0.406,0
+stanza,hommage,1,hommage,31,hommage,1.0,Tristesse,0.5152,0.9993,0
+stanza,protester,4,"protester, protesté, protestent, proteste",31,protester,0.5806,Colère,0.9091,0.5836,0
+stanza,remporter,4,"remporté, remporte, remporter, remportée",31,remporté,0.3548,Joie,0.6129,1.4474,0
+stanza,content,3,"contents, contente, content",30,contents,0.5333,Joie,1.0,-0.0,0
+stanza,fête,1,fête,30,fête,1.0,Joie,1.0,-0.0,0
+stanza,jamais,1,jamais,29,jamais,1.0,Tristesse,0.3448,2.5999,0
+stanza,triste,2,"triste, tristes",29,triste,0.7586,Tristesse,0.9655,0.2164,0
+stanza,juste,1,juste,29,juste,1.0,Colère,0.5172,1.6894,0
+stanza,vie,1,vie,28,vie,1.0,Joie,0.3929,1.8064,0
+stanza,tuer,3,"tué, tués, tuer",28,tué,0.4643,Colère,0.3529,1.7178,1
+stanza,rire,2,"rire, rit",28,rire,0.8571,Joie,0.9062,0.535,0
+stanza,menace,2,"menace, menaces",28,menace,0.75,Peur,0.8214,0.6769,0
+stanza,mort,3,"mort, morts, mortes",28,mort,0.6071,Tristesse,0.4643,2.1017,1
+stanza,difficile,2,"difficile, difficiles",27,difficile,0.6296,Tristesse,0.5185,2.0265,1
+stanza,voir,5,"voir, vu, voit, voient, vs",27,voir,0.4074,Colère,0.4062,2.637,1
+stanza,violence,2,"violences, violence",27,violences,0.5556,Peur,0.5556,1.3992,0
+stanza,reprocher,3,"reproche, reprochent, reprochaient",26,reproche,0.4231,Colère,1.0,-0.0,0
+stanza,plaisir,1,plaisir,26,plaisir,1.0,Joie,1.0,-0.0,0
+stanza,assez,1,assez,26,assez,1.0,Colère,0.7692,0.9294,0
+stanza,étonnant,2,"étonnant, étonnante",25,étonnant,0.6,Surprise,0.96,0.2423,0
+stanza,grand,4,"grand, grande, grandes, grands",25,grand,0.4,Joie,0.36,2.5125,2
+stanza,insulte,2,"insultes, insulte",25,insultes,0.64,Embarras,0.68,1.0783,1
+stanza,fou,3,"fou, fous, folle",24,fou,0.5833,Colère,0.3333,2.3699,2
+stanza,protéger,1,protéger,24,protéger,1.0,Peur,0.9615,0.2352,0
+stanza,dénoncer,4,"dénoncer, dénoncent, dénonce, dénonçaient",23,dénoncer,0.3478,Colère,1.0,-0.0,0
+stanza,attaquer,3,"attaqué, attaquer, attaquent",22,attaqué,0.5,Peur,0.5417,1.1964,1
+stanza,tg,1,tg,22,tg,1.0,Colère,1.0,-0.0,0
+stanza,beau,3,"beau, belle, beaux",22,beau,0.6364,Joie,0.7083,1.1582,0
+stanza,accord,1,accord,21,accord,1.0,Colère,0.8571,0.7229,0
+stanza,violent,4,"violent, violentes, violents, violente",21,violent,0.4286,Peur,0.8095,0.8929,0
+stanza,record,2,"record, records",21,record,0.7619,Fierté,0.2857,1.9814,1
+stanza,mauvais,3,"mauvaises, mauvais, mauvaise",21,mauvaises,0.381,Colère,0.4762,1.6909,1
+stanza,découvrir,2,"découvert, découvre",20,découvert,0.7,Surprise,1.0,-0.0,0
+stanza,prendre,3,"pris, prend, prendre",20,pris,0.35,Peur,0.4091,2.0876,2
+stanza,insulter,3,"insulter, insulté, insultent",20,insulter,0.55,Embarras,0.5,1.2197,2
+stanza,déjà,1,déjà,20,déjà,1.0,Surprise,0.5,1.9232,0
+stanza,exploit,2,"exploit, exploits",19,exploit,0.7368,Admiration,0.5789,1.6393,0
+stanza,coup,2,"coups, coup",19,coups,0.5789,Colère,0.2632,2.3546,2
+stanza,fier,3,"fière, fier, fières",19,fière,0.4211,Fierté,0.9524,0.2762,0
+stanza,choquant,2,"choquantes, choquant",19,choquantes,0.7368,Surprise,0.4762,1.4412,1
+stanza,prix,1,prix,19,prix,1.0,Fierté,0.3158,2.0043,0
+stanza,parler,2,"parler, parle",19,parler,0.5789,Colère,0.5714,2.1533,0
+stanza,étonner,3,"étonné, étonne, étonnés",18,étonné,0.3889,Surprise,1.0,-0.0,0
+stanza,heureusement,1,heureusement,18,heureusement,1.0,Joie,1.0,-0.0,0
+stanza,quitter,3,"quitter, quitté, quittent",18,quitter,0.5,Peur,0.7222,1.0529,0
+stanza,oh,1,oh,18,oh,1.0,Surprise,0.5556,1.4628,0
+stanza,mécontentement,2,"mécontentement, mécontentements",18,mécontentement,0.8333,Colère,1.0,-0.0,0
+stanza,victoire,1,victoire,17,victoire,1.0,Joie,0.8235,0.6723,0
+stanza,laisser,3,"laisser, laisse, laissez",17,laisser,0.4706,Colère,0.6842,1.3605,0
+stanza,argent,1,argent,17,argent,1.0,Colère,0.4706,2.2784,0
+stanza,arrêter,3,"arrêter, arrêté, arrête",17,arrêter,0.5294,Colère,0.5909,1.5633,0
+stanza,premier,2,"première, premier",16,première,0.75,Joie,0.3333,2.3774,1
+stanza,petit,3,"petit, petite, petits",16,petit,0.5,Joie,0.5625,1.7947,0
+stanza,crier,3,"crié, crie, crient",16,crié,0.5625,Peur,0.4091,2.2713,1
+stanza,merde,1,merde,16,merde,1.0,Colère,0.5556,0.9911,0
+stanza,monde,1,monde,16,monde,1.0,Joie,0.5625,1.7169,0
+stanza,protestation,2,"protestation, protestations",16,protestation,0.5,Colère,1.0,-0.0,0
+stanza,réussir,2,"réussi, réussir",16,réussi,0.8125,Joie,0.2632,2.6498,1
+stanza,œil,2,"yeux, oeil",16,yeux,0.625,Colère,0.2941,2.4419,1
+stanza,génial,1,génial,16,génial,1.0,Joie,0.625,1.5016,0
+stanza,joie,1,joie,16,joie,1.0,Joie,1.0,-0.0,0
+stanza,meilleur,2,"meilleur, meilleure",15,meilleur,0.6667,Fierté,0.5,1.2718,1
+stanza,horrible,2,"horrible, horribles",15,horrible,0.8,Peur,0.4667,1.2867,1
+stanza,souffrir,2,"souffrir, souffrent",15,souffrir,0.8,Tristesse,0.95,0.2864,0
+stanza,falloir,2,"faut, faudrait",15,faut,0.7333,Colère,0.2941,2.1334,2
+stanza,perdre,2,"perdu, perdre",15,perdu,0.8,Tristesse,0.5294,1.4969,1
+stanza,pute,1,pute,15,pute,1.0,Colère,0.6667,0.9183,0
+stanza,terrible,1,terrible,15,terrible,1.0,Peur,0.4706,1.2639,1
+stanza,décevoir,3,"déçue, déçu, déçus",15,déçue,0.4,Tristesse,0.9412,0.3228,0
+stanza,malheur,1,malheur,15,malheur,1.0,Tristesse,0.6667,0.9183,0
+stanza,croire,3,"croit, croire, cru",15,croit,0.4,Colère,0.3684,1.9291,1
+stanza,mourir,3,"meurent, mourir, morts",14,meurent,0.5,Peur,0.4737,1.2448,1
+stanza,critique,2,"critique, critiques",14,critique,0.5714,Colère,0.8571,0.5917,0
+stanza,bonheur,1,bonheur,14,bonheur,1.0,Joie,1.0,-0.0,0
+stanza,impressionnant,2,"impressionnant, impressionnante",14,impressionnant,0.7857,Admiration,0.4286,1.58,1
+stanza,bloquer,3,"bloquer, bloqué, bloquent",14,bloquer,0.3571,Colère,1.0,-0.0,0
+stanza,risque,2,"risque, risques",14,risque,0.5,Peur,1.0,-0.0,0
+stanza,vivre,3,"vivre, vécue, vivent",13,vivre,0.3846,Tristesse,0.3846,2.2878,1
+stanza,chance,1,chance,13,chance,1.0,Joie,0.5385,1.6692,0
+stanza,aimer,3,"aimerais, aimer, aime",13,aimerais,0.3846,Colère,0.2857,2.3671,0
+stanza,conflit,2,"conflit, conflits",13,conflit,0.6923,Colère,0.9231,0.3912,0
+stanza,rêve,1,rêve,12,rêve,1.0,Joie,0.6667,1.585,0
+stanza,sourire,1,sourire,12,sourire,1.0,Joie,0.8125,0.9934,0
+stanza,encore,1,encore,12,encore,1.0,Peur,0.25,2.4591,0
+stanza,injuste,1,injuste,12,injuste,1.0,Colère,0.9286,0.3712,0
+stanza,contre,1,contre,12,contre,1.0,Colère,0.6667,1.4183,0
+stanza,mettre,2,"mettre, mis",12,mettre,0.5833,Colère,0.5,1.7652,1
+stanza,pourtant,1,pourtant,12,pourtant,1.0,Surprise,0.8333,0.8167,0
+stanza,fois,1,fois,12,fois,1.0,Joie,0.4167,1.65,0
+stanza,refuser,2,"refuse, refusé",12,refuse,0.75,Colère,0.9375,0.3373,0
+stanza,injustice,2,"injustice, injustices",12,injustice,0.5833,Colère,1.0,-0.0,0
+stanza,pauvre,2,"pauvres, pauvre",11,pauvres,0.5455,Tristesse,0.5455,1.4354,1
+stanza,panique,1,panique,11,panique,1.0,Peur,1.0,-0.0,0
+stanza,mere,1,mere,11,mere,1.0,Colère,0.9231,0.3912,0
+stanza,merci,1,merci,11,merci,1.0,Joie,0.5455,1.3222,0
+stanza,blague,2,"blague, blagues",11,blague,0.5455,Joie,0.5455,1.6172,1
+stanza,marrant,2,"marrant, marrantes",11,marrant,0.7273,Joie,0.9091,0.4395,0
+stanza,bande,1,bande,11,bande,1.0,Colère,0.5455,0.994,0
+stanza,agresser,2,"agressées, agressés",11,agressées,0.6364,Colère,0.3333,1.585,2
+stanza,attentat,1,attentats,11,attentats,1.0,Peur,0.6667,1.1887,0
+stanza,inquiétude,2,"inquiétudes, inquiétude",11,inquiétudes,0.5455,Peur,1.0,-0.0,0
+stanza,ftg,1,ftg,11,ftg,1.0,Colère,1.0,-0.0,0
+stanza,surprendre,1,surpris,11,surpris,1.0,Surprise,1.0,-0.0,0
+stanza,idée,1,idée,11,idée,1.0,Joie,0.5833,1.3844,0
+stanza,rue,2,"rue, rues",11,rue,0.6364,Colère,0.7273,1.0958,0
+stanza,désaccord,1,désaccord,11,désaccord,1.0,Colère,0.9167,0.4138,0
+stanza,deux,1,deux,11,deux,1.0,Joie,0.2727,2.2313,0
+stanza,danser,3,"dansé, danser, danse",11,dansé,0.6364,Joie,0.7692,0.9913,0
+stanza,trouver,2,"trouver, trouvé",11,trouver,0.5455,Peur,0.3571,2.4956,1
+stanza,passer,2,"passe, passer",10,passe,0.5,Peur,0.4286,2.0202,1
+stanza,gens,1,gens,10,gens,1.0,Colère,0.6,1.2955,0
+stanza,frrrintek,1,frrrintek,10,frrrintek,1.0,Joie,0.5,1.761,0
+stanza,célébrer,2,"célébrer, célébré",10,célébrer,0.5,Joie,0.9,0.469,0
+stanza,travailler,1,travailler,10,travailler,1.0,Colère,0.8182,0.8659,0
+stanza,malade,2,"malade, malades",10,malade,0.7,Peur,0.5,1.961,0
+stanza,chose,1,chose,10,chose,1.0,Colère,0.4545,1.9717,0
+stanza,médaille,1,médaille,10,médaille,1.0,Fierté,0.5,1.0,0
+stanza,dur,1,dur,10,dur,1.0,Tristesse,0.5833,1.5511,0
+stanza,demander,2,"demande, demander",10,demande,0.7,Colère,0.3846,1.8843,0
+stanza,vraiment,1,vraiment,10,vraiment,1.0,Tristesse,0.4,2.3219,0
+stanza,route,1,routes,10,routes,1.0,Colère,1.0,-0.0,0
+stanza,tristesse,1,tristesse,10,tristesse,1.0,Tristesse,1.0,-0.0,0
+stanza,savoir,2,"savoir, sais",10,savoir,0.5,Colère,0.5714,1.9502,0
+stanza,tendu,2,"tendues, tendue",10,tendues,0.6,Colère,0.9167,0.4138,0
+stanza,super,1,super,10,super,1.0,Joie,0.5,1.4855,0
+stanza,honte,1,honte,10,honte,1.0,Embarras,1.0,-0.0,0
+stanza,incroyable,2,"incroyable, incroyables",10,incroyable,0.7,Surprise,0.9,0.469,0
+stanza,cher,1,cher,10,cher,1.0,Colère,0.6364,1.4911,0
+stanza,rendre,2,"rendre, rendu",10,rendre,0.5,Tristesse,0.4615,1.892,1
+stanza,amusant,2,"amusant, amusante",9,amusant,0.6667,Joie,0.8182,0.684,0
+stanza,affronter,3,"affrontent, affrontés, affronter",9,affrontent,0.3333,Colère,0.9,0.469,0
+stanza,révolte,1,révolte,9,révolte,1.0,Colère,0.8889,0.5033,0
+stanza,effondrer,3,"effondrer, effondrée, effondrés",9,effondrer,0.3333,Peur,0.7,1.1568,0
+stanza,sale,1,sale,9,sale,1.0,Dégoût,0.5556,0.9911,0
+stanza,doué,1,douée,9,douée,1.0,Joie,0.4,1.571,0
+stanza,détruire,2,"détruire, détruites",9,détruire,0.5556,Peur,0.5,1.4591,0
+stanza,troupe,1,troupe,9,troupe,1.0,Joie,0.7778,0.7642,0
+stanza,pays,1,pays,9,pays,1.0,Peur,0.3333,2.1972,0
+stanza,aise,1,aise,9,aise,1.0,Embarras,0.5556,1.3516,0
+stanza,silence,1,silence,9,silence,1.0,Tristesse,0.4444,2.0588,0
+stanza,tension,1,tensions,9,tensions,1.0,Colère,1.0,-0.0,0
+stanza,impressionner,2,"impressionner, impressionné",9,impressionner,0.5556,Admiration,0.4167,2.0546,1
+stanza,jour,2,"jour, jours",9,jour,0.5556,Joie,0.4444,2.281,0
+stanza,déranger,1,dérange,9,dérange,1.0,Tristesse,0.9,0.469,0
+stanza,pourquoi,1,pourquoi,9,pourquoi,1.0,Colère,0.6667,1.2244,0
+stanza,mot,2,"mot, mots",9,mot,0.5556,Joie,0.4444,2.0588,0
+stanza,problème,2,"problèmes, problème",9,problèmes,0.6667,Colère,0.6667,0.9183,0
+stanza,porter,2,"porter, porté",9,porter,0.5556,Colère,0.6,1.571,0
+stanza,battre,2,"battre, battu",9,battre,0.5556,Colère,0.3077,2.3158,1
+stanza,noir,2,"noir, noire",9,noir,0.5556,Tristesse,0.2727,2.4817,2
+stanza,porc,1,porc,9,porc,1.0,Dégoût,0.6667,1.2244,0
+stanza,normal,1,normal,9,normal,1.0,Embarras,0.2222,2.7255,0
+stanza,travail,1,travail,9,travail,1.0,Colère,0.4,1.8464,0
+stanza,gueule,1,gueule,9,gueule,1.0,Colère,0.8889,0.5033,0
+stanza,refuge,1,refuge,9,refuge,1.0,Peur,1.0,-0.0,0
+stanza,temps,1,temps,9,temps,1.0,Joie,0.3333,2.1133,0
+stanza,étrange,1,étrange,8,étrange,1.0,Surprise,1.0,-0.0,0
+stanza,venir,2,"venir, viens",8,venir,0.75,Joie,0.3333,2.3554,1
+stanza,école,1,école,8,école,1.0,Peur,0.375,1.8113,0
+stanza,pile,1,piles,8,piles,1.0,Peur,0.4,1.5219,0
+stanza,championne,1,championne,8,championne,1.0,Fierté,0.5,1.0,0
+stanza,amour,1,amour,8,amour,1.0,Joie,0.75,1.0613,0
+stanza,plainte,1,plainte,8,plainte,1.0,Colère,1.0,-0.0,0
+stanza,new,2,"new, news",8,new,0.625,Joie,0.5,1.4056,1
+stanza,traité,1,traité,8,traité,1.0,Embarras,0.625,0.9544,0
+stanza,mieux,1,mieux,8,mieux,1.0,Fierté,0.375,1.8113,0
+stanza,agression,2,"agressions, agression",8,agressions,0.625,Peur,0.375,1.5613,2
+stanza,mécontent,1,mécontents,8,mécontents,1.0,Colère,1.0,-0.0,0
+stanza,star,1,star,8,star,1.0,Admiration,0.5,1.75,0
+stanza,imposer,2,"impose, imposer",8,impose,0.625,Peur,0.3636,2.1181,1
+stanza,main,2,"mains, main",8,mains,0.625,Joie,0.5,1.75,0
+stanza,jouer,2,"jouer, joué",8,jouer,0.625,Joie,0.3333,1.9749,1
+stanza,regretter,1,regrette,8,regrette,1.0,Tristesse,0.8889,0.5033,0
+stanza,surprenant,2,"surprenant, surprenante",8,surprenant,0.5,Surprise,1.0,-0.0,0
+stanza,sûr,1,sûr,8,sûr,1.0,Joie,0.75,1.0613,0
+stanza,respecter,2,"respecter, respecté",8,respecter,0.625,Colère,0.7,1.1568,1
+stanza,effrayant,2,"effrayants, effrayant",8,effrayants,0.625,Peur,1.0,-0.0,0
+stanza,exceptionnel,2,"exceptionnelle, exceptionnel",8,exceptionnelle,0.5,Surprise,0.7,1.1568,1
+stanza,enthousiasme,1,enthousiasme,8,enthousiasme,1.0,Joie,1.0,-0.0,0
+stanza,récompense,1,récompense,8,récompense,1.0,Fierté,0.5,1.0,0
+stanza,peu,1,peu,8,peu,1.0,Colère,0.375,1.9056,0
+stanza,peine,1,peine,8,peine,1.0,Tristesse,0.4444,1.7527,1
+stanza,vite,1,vite,8,vite,1.0,Embarras,0.25,2.25,0
+stanza,contestation,1,contestation,8,contestation,1.0,Colère,1.0,-0.0,0
+stanza,air,1,air,7,air,1.0,Joie,0.4286,1.8424,0
+stanza,venger,1,venger,7,venger,1.0,Colère,0.7143,0.8631,0
+stanza,an,1,ans,7,ans,1.0,Colère,0.2857,2.2359,0
+stanza,ça,1,ca,7,ca,1.0,Colère,0.7143,1.1488,0
+stanza,con,1,con,7,con,1.0,Colère,0.8571,0.5917,0
+stanza,confiance,1,confiance,7,confiance,1.0,Joie,0.2857,2.2359,0
+stanza,voler,2,"volé, voler",7,volé,0.5714,Colère,0.5,1.75,0
+stanza,paul,1,paul,7,paul,1.0,Colère,0.7143,0.8631,0
+stanza,fierté,1,fierté,7,fierté,1.0,Fierté,1.0,-0.0,0
+stanza,sentir,2,"sent, senti",7,sent,0.5714,Joie,0.4167,2.2842,1
+stanza,honneur,1,honneur,7,honneur,1.0,Admiration,0.375,1.8113,1
+stanza,hasard,1,hasard,7,hasard,1.0,Surprise,1.0,-0.0,0
+stanza,casser,1,casse,7,casse,1.0,Colère,0.8182,0.684,0
+stanza,réfugier,1,réfugier,7,réfugier,1.0,Peur,0.8889,0.5033,0
+stanza,harceler,2,"harcelé, harceler",7,harcelé,0.5714,Tristesse,0.6429,1.4838,1
+stanza,cp,1,cp,7,cp,1.0,Colère,0.2857,1.9502,0
+stanza,dormir,1,dormir,7,dormir,1.0,Peur,0.5,1.0,1
+stanza,suffire,1,suffit,7,suffit,1.0,Colère,0.7143,1.1488,0
+stanza,marre,1,marre,7,marre,1.0,Colère,1.0,-0.0,0
+stanza,terroriste,1,terroristes,7,terroristes,1.0,Colère,0.4286,1.4488,0
+stanza,tomber,2,"tomber, tombe",7,tomber,0.5714,Tristesse,0.5714,1.6645,1
+stanza,tranquille,1,tranquille,7,tranquille,1.0,Colère,0.875,0.5436,0
+stanza,avis,1,avis,7,avis,1.0,Colère,1.0,-0.0,0
+stanza,arriver,2,"arrive, arrivent",7,arrive,0.5714,Surprise,0.4,2.0464,1
+stanza,larme,1,larmes,7,larmes,1.0,Tristesse,0.8571,0.5917,0
+stanza,enfant,1,enfants,7,enfants,1.0,Joie,0.5,1.0,1
+stanza,spectaculaire,1,spectaculaire,7,spectaculaire,1.0,Admiration,0.5714,0.9852,0
+stanza,soupirer,1,soupire,7,soupire,1.0,Tristesse,0.5,1.75,0
+stanza,stop,1,stop,7,stop,1.0,Colère,0.8571,0.5917,0
+stanza,insolite,2,"insolite, insolites",7,insolite,0.5714,Surprise,1.0,-0.0,0
+stanza,mariage,1,mariage,7,mariage,1.0,Joie,0.7143,1.1488,0
+stanza,malheureusement,1,malheureusement,7,malheureusement,1.0,Tristesse,1.0,-0.0,0
+stanza,merveilleux,1,merveilleux,7,merveilleux,1.0,Admiration,0.7143,1.1488,0
+stanza,beaucoup,1,beaucoup,7,beaucoup,1.0,Colère,0.2857,2.2359,0
+stanza,plaisant,1,plaisante,7,plaisante,1.0,Joie,1.0,-0.0,0
+stanza,cool,1,cool,7,cool,1.0,Admiration,0.5714,1.3788,0
+stanza,oser,2,"ose, osent",7,ose,0.5714,Embarras,0.625,1.2988,0
+stanza,opposer,2,"opposent, oppose",7,opposent,0.5714,Colère,0.875,0.5436,0
+stanza,occasion,1,occasion,7,occasion,1.0,Joie,0.4286,1.8424,0
+stanza,quel,2,"quelle, quel",7,quelle,0.5714,Joie,0.5714,1.6645,0
+stanza,descendre,2,"descendus, descendues",7,descendus,0.5714,Colère,0.7,0.8813,0
+stanza,attendre,2,"attendait, attendre",6,attendait,0.5,Surprise,0.5833,1.5511,1
+stanza,enfermer,2,"enfermés, enfermer",6,enfermés,0.5,Tristesse,0.4286,1.5567,1
+stanza,subir,2,"subissent, subir",6,subissent,0.5,Tristesse,0.8889,0.5033,0
+stanza,inégalité,1,inégalités,6,inégalités,1.0,Colère,1.0,-0.0,0
+stanza,prestigieux,2,"prestigieux, prestigieuse",6,prestigieux,0.5,Admiration,0.7143,1.1488,0
+stanza,disparaître,1,disparu,6,disparu,1.0,Peur,0.375,1.8113,0
+stanza,histoire,1,histoire,6,histoire,1.0,Fierté,0.2857,1.9502,0
+stanza,hausse,1,hausse,6,hausse,1.0,Colère,0.8333,0.65,0
+stanza,avant,1,avant,6,avant,1.0,Surprise,0.3333,2.2516,0
+stanza,famille,1,famille,6,famille,1.0,Joie,0.5,1.5,0
+stanza,gouine,1,gouine,6,gouine,1.0,Colère,0.5,1.0,0
+stanza,recevoir,1,reçu,6,reçu,1.0,Fierté,0.375,1.8113,0
+stanza,héros,1,héros,6,héros,1.0,Admiration,0.8333,0.65,0
+stanza,ferme,1,ferme,6,ferme,1.0,Colère,0.5,1.7925,0
+stanza,sécheresse,1,sécheresse,6,sécheresse,1.0,Peur,1.0,-0.0,0
+stanza,hors,1,hors,6,hors,1.0,Surprise,1.0,-0.0,0
+stanza,couille,1,couilles,6,couilles,1.0,Colère,0.8333,0.65,0
+stanza,vs,1,vs,6,vs,1.0,Colère,1.0,-0.0,0
+stanza,dictature,1,dictature,6,dictature,1.0,Peur,0.6667,1.2516,0
+stanza,danseur,2,"danseur, danseurs",6,danseur,0.5,Joie,0.3333,2.2516,1
+stanza,vexer,2,"vexé, vexe",6,vexé,0.6667,Tristesse,0.5,1.4591,2
+stanza,plaindre,2,"plaignent, plaint",6,plaignent,0.5,Colère,0.5556,1.6577,0
+stanza,ailey,1,ailey,6,ailey,1.0,Joie,0.6667,0.9183,0
+stanza,souvenir,1,souvenir,6,souvenir,1.0,Joie,0.75,0.8113,0
+stanza,embêter,1,embête,6,embête,1.0,Tristesse,0.6364,1.2407,0
+stanza,persécuter,1,persécutés,6,persécutés,1.0,Peur,0.7273,1.0958,0
+stanza,voix,1,voix,6,voix,1.0,Peur,0.5,1.7925,0
+stanza,énorme,1,énorme,6,énorme,1.0,Admiration,0.4286,1.8424,0
+stanza,alvin,1,alvin,6,alvin,1.0,Joie,0.6667,0.9183,0
+stanza,anglais,1,anglais,5,anglais,1.0,Tristesse,0.6,0.971,0
+stanza,commun,1,commun,5,commun,1.0,Surprise,1.0,-0.0,0
+stanza,ailleurs,1,ailleurs,5,ailleurs,1.0,Colère,0.4,1.5219,0
+stanza,redoute,1,redoute,5,redoute,1.0,Peur,1.0,-0.0,0
+stanza,renvoyer,1,renvoyé,5,renvoyé,1.0,Peur,0.5,1.4056,1
+stanza,regarder,1,regarde,5,regarde,1.0,Colère,0.6667,1.2516,0
+stanza,bravo,1,bravo,5,bravo,1.0,Fierté,0.6,1.371,0
+stanza,ravir,1,ravie,5,ravie,1.0,Joie,1.0,-0.0,0
+stanza,repas,1,repas,5,repas,1.0,Joie,0.8,0.7219,0
+stanza,tas,1,tas,5,tas,1.0,Dégoût,0.4,1.9219,0
+stanza,exploser,1,explosé,5,explosé,1.0,Admiration,0.2,2.3219,0
+stanza,cacher,1,cacher,5,cacher,1.0,Peur,0.75,0.8113,1
+stanza,brice,1,brice,5,brice,1.0,Colère,1.0,-0.0,0
+stanza,rigole,1,rigole,5,rigole,1.0,Joie,0.8,0.7219,0
+stanza,famine,1,famine,5,famine,1.0,Peur,0.6667,0.9183,0
+stanza,faute,1,faute,5,faute,1.0,Colère,0.5,1.0,1
+stanza,fuite,1,fuite,5,fuite,1.0,Peur,1.0,-0.0,0
+stanza,fêter,1,fêter,5,fêter,1.0,Joie,0.6,0.971,0
+stanza,fâcher,1,fâchés,5,fâchés,1.0,Colère,1.0,-0.0,0
+stanza,unique,1,unique,5,unique,1.0,Fierté,0.4,1.9219,0
+stanza,pd,1,pd,5,pd,1.0,Colère,0.6,1.371,0
+stanza,fort,1,fort,5,fort,1.0,Colère,0.375,2.1556,1
+stanza,scandale,1,scandale,5,scandale,1.0,Colère,1.0,-0.0,0
+stanza,réjouir,1,réjouit,5,réjouit,1.0,Joie,1.0,-0.0,0
+stanza,émerveiller,1,émerveillée,5,émerveillée,1.0,Admiration,0.5,1.5,0
+stanza,ah,1,ah,5,ah,1.0,Surprise,0.8,0.7219,0
+stanza,échapper,1,échapper,5,échapper,1.0,Peur,0.8571,0.5917,0
+stanza,corruption,1,corruption,5,corruption,1.0,Colère,1.0,-0.0,0
+stanza,découverte,1,découverte,5,découverte,1.0,Surprise,1.0,-0.0,0
+stanza,défendre,1,défendre,5,défendre,1.0,Peur,0.8,0.7219,0
+stanza,puissant,2,"puissants, puissante",5,puissants,0.6,Peur,0.6,0.971,0
+stanza,rage,1,rage,5,rage,1.0,Peur,0.6,1.371,0
+stanza,moquerie,1,moqueries,5,moqueries,1.0,Embarras,0.8,0.7219,0
+stanza,pardon,1,pardon,5,pardon,1.0,Tristesse,0.4,1.9219,0
+stanza,parent,1,parents,5,parents,1.0,Joie,0.4,1.5219,0
+stanza,photo,1,photos,5,photos,1.0,Colère,0.6667,0.9183,0
+stanza,partir,1,partir,5,partir,1.0,Tristesse,0.5556,1.6577,0
+stanza,mouvement,1,mouvement,5,mouvement,1.0,Colère,1.0,-0.0,0
+stanza,moquer,1,moquer,5,moquer,1.0,Embarras,0.4444,2.0588,0
+stanza,olympique,1,olympiques,5,olympiques,1.0,Joie,0.5714,0.9852,0
+stanza,danse,1,danse,5,danse,1.0,Joie,1.0,-0.0,0
+stanza,moment,1,moment,5,moment,1.0,Joie,0.7143,0.8631,0
+stanza,maison,1,maison,5,maison,1.0,Peur,0.5714,1.3788,0
+stanza,appeler,1,appelé,5,appelé,1.0,Colère,1.0,-0.0,0
+stanza,applaudir,1,applaudi,5,applaudi,1.0,Admiration,0.5,1.0,0
+stanza,méfiance,1,méfiance,5,méfiance,1.0,Peur,1.0,-0.0,0
+stanza,immense,1,immense,5,immense,1.0,Peur,0.4,1.9219,0
+stanza,lutte,1,lutte,5,lutte,1.0,Colère,1.0,-0.0,0
+stanza,attaque,1,attaques,5,attaques,1.0,Peur,0.7143,1.1488,0
+stanza,arreter,1,arrete,5,arrete,1.0,Colère,0.8333,0.65,0
+stanza,langue,1,langue,5,langue,1.0,Colère,0.4,1.5219,0
+stanza,julien,1,julien,5,julien,1.0,Colère,0.8,0.7219,0
+stanza,harcèlement,1,harcèlement,5,harcèlement,1.0,Peur,0.6,1.371,0
+stanza,chasser,1,chassés,5,chassés,1.0,Peur,0.5,1.4855,0
+stanza,chien,1,chien,5,chien,1.0,Colère,0.4,1.5219,0
+stanza,jalou,1,jaloux,5,jaloux,1.0,Jalousie,1.0,-0.0,0
+stanza,pierre,1,pierre,5,pierre,1.0,Colère,1.0,-0.0,0
+stanza,cadeau,1,cadeaux,5,cadeaux,1.0,Joie,1.0,-0.0,0
+stanza,effrayer,1,effrayé,5,effrayé,1.0,Peur,1.0,-0.0,0
+stanza,empêcher,1,empêcher,5,empêcher,1.0,Peur,0.375,1.9056,1
+stanza,sexuel,1,sexuelles,5,sexuelles,1.0,Peur,0.5,1.4591,0
+stanza,maltraiter,1,maltraités,5,maltraités,1.0,Tristesse,0.625,1.2988,0
+stanza,vrai,1,vrai,5,vrai,1.0,Fierté,0.2857,2.2359,1
+stanza,york,1,york,5,york,1.0,Joie,0.8,0.7219,0
+stanza,continuer,1,continue,4,continue,1.0,Colère,0.4286,1.8424,0
+stanza,idole,1,idole,4,idole,1.0,Admiration,1.0,-0.0,0
+stanza,bouche,1,bouche,4,bouche,1.0,Admiration,0.25,2.0,0
+stanza,revendication,1,revendications,4,revendications,1.0,Colère,1.0,-0.0,0
+stanza,espionner,1,espionner,4,espionner,1.0,Colère,0.4,1.5219,0
+stanza,exclamer,1,exclame,4,exclame,1.0,Joie,0.6,0.971,0
+stanza,expulser,1,expulser,4,expulser,1.0,Colère,0.75,0.8113,0
+stanza,seul,1,seul,4,seul,1.0,Tristesse,0.5,1.7925,1
+stanza,eh,1,eh,4,eh,1.0,Surprise,0.75,0.8113,0
+stanza,embêtant,1,embêtant,4,embêtant,1.0,Tristesse,1.0,-0.0,0
+stanza,carrément,1,carrément,4,carrément,1.0,Colère,0.25,2.0,0
+stanza,frustrant,1,frustrant,4,frustrant,1.0,Colère,0.5,1.0,0
+stanza,rétorquer,1,rétorque,4,rétorque,1.0,Colère,0.6,0.971,0
+stanza,gloire,1,gloire,4,gloire,1.0,Fierté,0.5,1.0,0
+stanza,grogner,1,grogné,4,grogné,1.0,Colère,0.75,0.8113,0
+stanza,râler,1,râler,4,râler,1.0,Colère,1.0,-0.0,0
+stanza,emprisonner,1,emprisonné,4,emprisonné,1.0,Peur,0.5,1.0,0
+stanza,angoisse,1,angoisse,4,angoisse,1.0,Peur,1.0,-0.0,0
+stanza,tête,1,tête,4,tête,1.0,Peur,0.5,1.7925,1
+stanza,comment,1,comment,4,comment,1.0,Colère,0.25,2.0,0
+stanza,pauvreté,1,pauvreté,4,pauvreté,1.0,Peur,0.5,1.5,0
+stanza,condamner,1,condamné,4,condamné,1.0,Colère,0.5,1.4591,0
+stanza,condition,1,conditions,4,conditions,1.0,Colère,0.5,1.5,0
+stanza,satisfaire,1,satisfaire,4,satisfaire,1.0,Joie,1.0,-0.0,0
+stanza,heure,1,heure,4,heure,1.0,Joie,0.4,1.5219,0
+stanza,homme,1,homme,4,homme,1.0,Colère,0.5,1.5,0
+stanza,suivre,1,suivie,4,suivie,1.0,Admiration,0.2,2.3219,0
+stanza,surtout,1,surtout,4,surtout,1.0,Colère,0.5,1.5,0
+stanza,sécurité,1,sécurité,4,sécurité,1.0,Peur,1.0,-0.0,0
+stanza,coupable,1,coupable,4,coupable,1.0,Culpabilité,0.75,0.8113,0
+stanza,humiliation,1,humiliations,4,humiliations,1.0,Embarras,0.75,0.8113,0
+stanza,humeur,1,humeur,4,humeur,1.0,Colère,0.5,1.0,0
+stanza,rejeter,1,rejetés,4,rejetés,1.0,Tristesse,0.6667,1.2244,0
+stanza,timidement,1,timidement,4,timidement,1.0,Embarras,0.5,1.0,0
+stanza,ravi,1,ravi,4,ravi,1.0,Joie,1.0,-0.0,0
+stanza,manifeste,1,manifeste,4,manifeste,1.0,Colère,1.0,-0.0,0
+stanza,croisière,1,croisière,4,croisière,1.0,Joie,0.75,0.8113,0
+stanza,crise,1,crise,4,crise,1.0,Peur,0.5,1.5,0
+stanza,crasseux,1,crasseuse,4,crasseuse,1.0,Dégoût,0.6667,0.9183,0
+stanza,menaçant,1,menaçante,4,menaçante,1.0,Peur,1.0,-0.0,0
+stanza,encourager,1,encourager,4,encourager,1.0,Joie,0.8333,0.65,0
+stanza,soeur,1,soeur,4,soeur,1.0,Colère,0.4,1.5219,1
+stanza,important,1,important,4,important,1.0,Fierté,0.4,1.9219,0
+stanza,lever,1,lève,4,lève,1.0,Colère,0.4,1.5219,0
+stanza,juif,1,juive,4,juive,1.0,Colère,0.4286,1.8424,0
+stanza,inédit,1,inédite,4,inédite,1.0,Surprise,1.0,-0.0,0
+stanza,soleil,1,soleil,4,soleil,1.0,Tristesse,0.5,1.5,0
+stanza,drole,1,drole,4,drole,1.0,Joie,0.75,0.8113,0
+stanza,aucun,1,aucune,4,aucune,1.0,Colère,0.4,1.5219,0
+stanza,importer,1,importe,4,importe,1.0,Colère,0.5,1.5,0
+stanza,augmentation,1,augmentation,4,augmentation,1.0,Colère,0.75,0.8113,0
+stanza,manger,1,manger,4,manger,1.0,Tristesse,0.4286,1.8424,1
+stanza,longtemps,1,longtemps,4,longtemps,1.0,Fierté,0.25,2.0,0
+stanza,malgré,1,malgré,4,malgré,1.0,Tristesse,0.75,0.8113,0
+stanza,loin,1,loin,4,loin,1.0,Colère,0.5,1.5,0
+stanza,mentir,1,mentir,4,mentir,1.0,Colère,1.0,-0.0,0
+stanza,avancer,1,avance,4,avance,1.0,Dégoût,0.25,2.0,0
+stanza,bah,1,bah,4,bah,1.0,Colère,1.0,-0.0,0
+stanza,bloquant,1,bloquant,4,bloquant,1.0,Colère,1.0,-0.0,0
+stanza,bille,1,billes,4,billes,1.0,Tristesse,0.5,1.5,0
+stanza,polémique,1,polémique,4,polémique,1.0,Colère,1.0,-0.0,0
+stanza,pk,1,pk,4,pk,1.0,Colère,1.0,-0.0,0
+stanza,place,1,place,4,place,1.0,Colère,0.6,1.371,0
+stanza,point,1,point,4,point,1.0,Surprise,0.5,1.0,0
+stanza,danseuse,1,danseuse,4,danseuse,1.0,Joie,0.75,0.8113,0
+stanza,dépression,1,dépression,4,dépression,1.0,Tristesse,1.0,-0.0,0
+stanza,devenir,1,devenir,4,devenir,1.0,Joie,0.375,2.1556,0
+stanza,deuxième,1,deuxième,4,deuxième,1.0,Fierté,0.5,1.0,0
+stanza,deuil,1,deuil,4,deuil,1.0,Tristesse,1.0,-0.0,0
+stanza,même,1,meme,4,meme,1.0,Colère,0.75,0.8113,0
+stanza,choc,1,choc,4,choc,1.0,Surprise,0.5,1.5,0
+stanza,prison,1,prison,4,prison,1.0,Peur,0.75,0.8113,0
+stanza,négatif,1,négatives,4,négatives,1.0,Tristesse,0.6,0.971,1
+stanza,eau,1,eau,4,eau,1.0,Peur,0.5,1.0,0
+stanza,détresse,1,détresse,4,détresse,1.0,Peur,1.0,-0.0,0
+stanza,cause,1,cause,4,cause,1.0,Joie,0.5,1.5,0
+stanza,agréable,1,agréable,4,agréable,1.0,Joie,1.0,-0.0,0
+stanza,champion,1,champion,4,champion,1.0,Fierté,0.5,1.4056,0
+stanza,nouveau,2,"nouveau, nouvelle",4,nouveau,0.75,Joie,0.8,0.7219,0
+stanza,nouvelle,1,nouvelle,4,nouvelle,1.0,Joie,0.8,0.7219,0
+stanza,nobel,1,nobel,4,nobel,1.0,Fierté,0.5,1.0,0
+stanza,nique,1,nique,4,nique,1.0,Colère,1.0,-0.0,0
+stanza,cauchemar,1,cauchemar,4,cauchemar,1.0,Peur,0.8,0.7219,0
+stanza,émotion,1,émotion,4,émotion,1.0,Joie,0.5,1.5,0
+stanza,élire,1,élue,4,élue,1.0,Fierté,0.5,1.0,0
+stanza,ami,1,amis,4,amis,1.0,Joie,0.6667,0.9183,0
+stanza,étonnement,1,étonnement,4,étonnement,1.0,Surprise,1.0,-0.0,0
+stanza,affrontement,1,affrontements,4,affrontements,1.0,Colère,1.0,-0.0,0
+stanza,adorer,1,adore,3,adore,1.0,Joie,1.0,-0.0,0
+stanza,affaire,1,affaires,3,affaires,1.0,Colère,0.6667,0.9183,0
+stanza,agacer,1,agace,3,agace,1.0,Colère,1.0,-0.0,0
+stanza,angoisser,1,angoissé,3,angoissé,1.0,Peur,0.75,0.8113,0
+stanza,animal,1,animaux,3,animaux,1.0,Peur,0.75,0.8113,0
+stanza,paix,1,paix,3,paix,1.0,Colère,0.6667,0.9183,0
+stanza,vache,1,vache,3,vache,1.0,Dégoût,0.3333,1.585,0
+stanza,admirer,1,admirer,3,admirer,1.0,Admiration,1.0,-0.0,0
+stanza,pavé,1,pavé,3,pavé,1.0,Tristesse,0.6667,0.9183,0
+stanza,penser,1,pensé,3,pensé,1.0,Colère,0.3,2.4464,1
+stanza,persécution,1,persécutions,3,persécutions,1.0,Peur,0.6667,0.9183,0
+stanza,original,1,originale,3,originale,1.0,Surprise,1.0,-0.0,0
+stanza,ours,1,ours,3,ours,1.0,Peur,1.0,-0.0,0
+stanza,partout,1,partout,3,partout,1.0,Fierté,0.3333,1.585,0
+stanza,paniquer,1,paniqué,3,paniqué,1.0,Peur,0.75,0.8113,0
+stanza,papa,1,papa,3,papa,1.0,Tristesse,0.6667,0.9183,0
+stanza,paris,1,paris,3,paris,1.0,Joie,0.6667,0.9183,0
+stanza,party,1,party,3,party,1.0,Joie,1.0,-0.0,0
+stanza,partager,1,partager,3,partager,1.0,Colère,0.6667,0.9183,0
+stanza,noël,1,noël,3,noël,1.0,Joie,1.0,-0.0,0
+stanza,nom,1,nom,3,nom,1.0,Colère,0.3333,1.585,0
+stanza,blessé,1,blessés,3,blessés,1.0,Peur,0.6,1.371,0
+stanza,pur,1,pure,3,pure,1.0,Colère,0.6667,0.9183,0
+stanza,ntm,1,ntm,3,ntm,1.0,Colère,1.0,-0.0,0
+stanza,nuage,1,nuage,3,nuage,1.0,Joie,0.6667,0.9183,0
+stanza,offrir,1,offert,3,offert,1.0,Joie,1.0,-0.0,0
+stanza,plaire,1,plaît,3,plaît,1.0,Joie,0.7143,0.8631,1
+stanza,pollution,1,pollution,3,pollution,1.0,Peur,0.6667,0.9183,0
+stanza,pordre,1,perdrait,3,perdrait,1.0,Tristesse,0.6667,0.9183,0
+stanza,mondial,1,mondiale,3,mondiale,1.0,Fierté,0.3333,1.585,0
+stanza,muslim,1,muslim,3,muslim,1.0,Colère,1.0,-0.0,0
+stanza,mystérieux,1,mystérieux,3,mystérieux,1.0,Peur,0.6667,0.9183,0
+stanza,mère,1,mère,3,mère,1.0,Colère,1.0,-0.0,0
+stanza,national,1,national,3,national,1.0,Fierté,0.6667,0.9183,0
+stanza,méfier,1,méfier,3,méfier,1.0,Peur,1.0,-0.0,0
+stanza,précipiter,1,précipite,3,précipite,1.0,Joie,0.6667,0.9183,0
+stanza,préoccupation,1,préoccupations,3,préoccupations,1.0,Tristesse,0.75,0.8113,0
+stanza,minable,1,minable,3,minable,1.0,Culpabilité,0.3333,1.585,0
+stanza,aïe,1,aïe,3,aïe,1.0,Colère,0.3333,1.585,0
+stanza,putain,1,putain,3,putain,1.0,Colère,1.0,-0.0,0
+stanza,pyjama,1,pyjama,3,pyjama,1.0,Joie,1.0,-0.0,0
+stanza,pénible,1,pénible,3,pénible,1.0,Tristesse,1.0,-0.0,0
+stanza,question,1,question,3,question,1.0,Colère,0.6667,0.9183,0
+stanza,r,1,r,3,r,1.0,Colère,1.0,-0.0,0
+stanza,avouer,1,avouait,3,avouait,1.0,Culpabilité,0.5,1.0,0
+stanza,misère,1,misère,3,misère,1.0,Tristesse,1.0,-0.0,0
+stanza,million,1,millions,3,millions,1.0,Joie,0.6667,0.9183,0
+stanza,baisser,1,baissant,3,baissant,1.0,Peur,0.5,1.5,0
+stanza,banal,1,banal,3,banal,1.0,Surprise,1.0,-0.0,0
+stanza,raison,1,raison,3,raison,1.0,Fierté,1.0,-0.0,0
+stanza,magique,1,magique,3,magique,1.0,Surprise,1.0,-0.0,0
+stanza,légende,1,légende,3,légende,1.0,Admiration,0.6667,0.9183,0
+stanza,mobiliser,1,mobilisent,3,mobilisent,1.0,Colère,0.8,0.7219,0
+stanza,cu,1,cu,3,cu,1.0,Dégoût,0.6667,0.9183,0
+stanza,cul,1,cul,3,cul,1.0,Colère,0.6667,0.9183,0
+stanza,emploi,1,emploi,3,emploi,1.0,Colère,0.3333,1.585,0
+stanza,emporter,1,emporte,3,emporte,1.0,Colère,1.0,-0.0,0
+stanza,rater,1,rate,3,rate,1.0,Tristesse,0.5,1.5,0
+stanza,rare,1,rare,3,rare,1.0,Surprise,0.6667,0.9183,0
+stanza,arabe,1,arabe,3,arabe,1.0,Dégoût,0.75,0.8113,0
+stanza,arme,1,arme,3,arme,1.0,Peur,0.5,1.5,1
+stanza,joyeux,1,joyeux,3,joyeux,1.0,Joie,1.0,-0.0,0
+stanza,arracher,1,arraché,3,arraché,1.0,Colère,0.3333,1.9183,0
+stanza,jeu,1,jeux,3,jeux,1.0,Joie,0.6667,0.9183,0
+stanza,joli,1,jolies,3,jolies,1.0,Joie,0.5,1.5,1
+stanza,lettre,1,lettre,3,lettre,1.0,Joie,1.0,-0.0,0
+stanza,lancer,1,lancé,3,lancé,1.0,Colère,0.6,1.371,0
+stanza,liberté,1,liberté,3,liberté,1.0,Joie,0.6667,0.9183,0
+stanza,inquiétant,1,inquiétantes,3,inquiétantes,1.0,Peur,1.0,-0.0,0
+stanza,bombardement,1,bombardements,3,bombardements,1.0,Peur,1.0,-0.0,0
+stanza,insister,1,insiste,3,insiste,1.0,Colère,0.3333,1.585,0
+stanza,interdire,1,interdire,3,interdire,1.0,Colère,0.7143,1.1488,0
+stanza,hein,1,hein,3,hein,1.0,Surprise,0.6667,0.9183,0
+stanza,icône,1,icône,3,icône,1.0,Admiration,1.0,-0.0,0
+stanza,redouter,1,redoutent,3,redoutent,1.0,Peur,1.0,-0.0,0
+stanza,relation,1,relations,3,relations,1.0,Colère,1.0,-0.0,0
+stanza,revendiquer,1,revendique,3,revendique,1.0,Colère,0.8333,0.65,0
+stanza,casse,1,casse,3,casse,1.0,Colère,0.6667,0.9183,0
+stanza,bonbon,1,bonbons,3,bonbons,1.0,Surprise,0.6667,0.9183,0
+stanza,boum,1,boum,3,boum,1.0,Peur,0.6667,0.9183,0
+stanza,bé,1,bée,3,bée,1.0,Admiration,0.3333,1.585,0
+stanza,furieux,1,furieux,3,furieux,1.0,Colère,1.0,-0.0,0
+stanza,catastrophe,1,catastrophes,3,catastrophes,1.0,Peur,0.6,0.971,0
+stanza,graisse,1,graisse,3,graisse,1.0,Dégoût,0.6667,0.9183,0
+stanza,gronder,1,gronder,3,gronder,1.0,Colère,0.5,1.5,0
+stanza,réussite,1,réussite,3,réussite,1.0,Fierté,0.3333,1.585,0
+stanza,habit,1,habits,3,habits,1.0,Colère,0.3333,1.585,0
+stanza,ri,1,ri,3,ri,1.0,Joie,1.0,-0.0,0
+stanza,riant,1,riant,3,riant,1.0,Joie,1.0,-0.0,0
+stanza,rigoler,1,rigolé,3,rigolé,1.0,Joie,1.0,-0.0,0
+stanza,rupture,1,rupture,3,rupture,1.0,Peur,0.3333,1.585,0
+stanza,récupérer,1,récupérer,3,récupérer,1.0,Fierté,0.3333,1.585,0
+stanza,réduire,1,réduites,3,réduites,1.0,Tristesse,0.5,1.4591,1
+stanza,fake,1,fake,3,fake,1.0,Colère,1.0,-0.0,0
+stanza,faux,1,fausses,3,fausses,1.0,Colère,1.0,-0.0,0
+stanza,fermer,1,ferme,3,ferme,1.0,Colère,0.5714,0.9852,0
+stanza,feu,1,feu,3,feu,1.0,Colère,0.25,2.0,0
+stanza,fille,1,filles,3,filles,1.0,Surprise,0.4,1.5219,1
+stanza,formidable,1,formidable,3,formidable,1.0,Admiration,1.0,-0.0,0
+stanza,foutrer,1,foutre,3,foutre,1.0,Colère,0.6667,0.9183,0
+stanza,frapper,1,frappé,3,frappé,1.0,Peur,0.8333,0.65,0
+stanza,excellent,1,excellent,3,excellent,1.0,Admiration,0.5,1.5,0
+stanza,révolter,1,révoltée,3,révoltée,1.0,Colère,0.7143,1.1488,0
+stanza,rêver,1,rêver,3,rêver,1.0,Joie,0.6,1.371,0
+stanza,santé,1,santé,3,santé,1.0,Peur,0.6667,0.9183,0
+stanza,sexuellement,1,sexuellement,3,sexuellement,1.0,Tristesse,0.6667,0.9183,0
+stanza,servir,1,sert,3,sert,1.0,Colère,0.625,1.2988,0
+stanza,enfuir,1,enfuir,3,enfuir,1.0,Peur,0.8889,0.5033,0
+stanza,ensemble,1,ensemble,3,ensemble,1.0,Joie,0.6667,0.9183,0
+stanza,fabuleux,1,fabuleux,3,fabuleux,1.0,Admiration,0.3333,1.585,0
+stanza,entrer,1,entrez,3,entrez,1.0,Joie,0.5,1.4591,0
+stanza,envie,1,envie,3,envie,1.0,Admiration,0.3333,1.585,0
+stanza,euro,1,euros,3,euros,1.0,Joie,0.75,0.8113,0
+stanza,facile,1,facile,3,facile,1.0,Tristesse,0.6667,0.9183,0
+stanza,excuse,1,excuses,3,excuses,1.0,Culpabilité,0.6667,0.9183,0
+stanza,effet,1,effets,3,effets,1.0,Peur,1.0,-0.0,0
+stanza,facilement,1,facilement,3,facilement,1.0,Embarras,0.3333,1.585,0
+stanza,énerver,1,énerve,3,énerve,1.0,Colère,1.0,-0.0,0
+stanza,état,1,état,3,état,1.0,Colère,0.75,0.8113,0
+stanza,terrorisme,1,terrorisme,3,terrorisme,1.0,Peur,1.0,-0.0,0
+stanza,tirer,1,tiré,3,tiré,1.0,Joie,0.5,1.0,1
+stanza,enfin,1,enfin,3,enfin,1.0,Colère,0.3333,1.585,0
+stanza,sortir,1,sortir,3,sortir,1.0,Colère,0.5,1.5,0
+stanza,souriant,1,souriant,3,souriant,1.0,Joie,1.0,-0.0,0
+stanza,stage,1,stage,3,stage,1.0,Joie,0.5,1.5,0
+stanza,stresser,1,stressé,3,stressé,1.0,Peur,1.0,-0.0,0
+stanza,succès,1,succès,3,succès,1.0,Joie,0.6667,0.9183,0
+stanza,droit,1,droit,3,droit,1.0,Colère,0.75,0.8113,0
+stanza,décourager,1,décourage,3,décourage,1.0,Tristesse,0.75,0.8113,0
+stanza,dégoût,1,dégoût,3,dégoût,1.0,Dégoût,0.6667,0.9183,0
+stanza,désolé,1,désolée,3,désolée,1.0,Embarras,0.75,0.8113,0
+stanza,dîner,1,dîner,3,dîner,1.0,Joie,1.0,-0.0,0
+stanza,drame,1,drame,3,drame,1.0,Colère,0.3333,1.585,0
+stanza,champ,1,champs,3,champs,1.0,Colère,0.3333,1.585,0
+stanza,chienne,1,chienne,3,chienne,1.0,Dégoût,0.6667,0.9183,0
+stanza,chier,1,chier,3,chier,1.0,Colère,1.0,-0.0,0
+stanza,chouette,1,chouette,3,chouette,1.0,Joie,1.0,-0.0,0
+stanza,discriminer,1,discriminer,3,discriminer,1.0,Colère,0.3333,1.585,0
+stanza,disputer,1,disputent,3,disputent,1.0,Colère,1.0,-0.0,0
+stanza,dommage,1,dommage,3,dommage,1.0,Tristesse,0.75,0.8113,0
+stanza,suicider,1,suicider,3,suicider,1.0,Tristesse,0.6667,0.9183,0
+stanza,sympa,1,sympa,3,sympa,1.0,Joie,1.0,-0.0,0
+stanza,tellement,1,tellement,3,tellement,1.0,Admiration,0.3333,1.585,0
+stanza,tempête,1,tempête,3,tempête,1.0,Peur,0.6667,0.9183,0
+stanza,cour,1,cour,3,cour,1.0,Dégoût,0.3333,1.585,0
+stanza,courir,1,courir,3,courir,1.0,Colère,0.25,2.0,0
+stanza,course,1,course,3,course,1.0,Fierté,0.3333,1.585,0
+stanza,crasseuse,1,crasseuse,3,crasseuse,1.0,Dégoût,0.6667,0.9183,0
+stanza,cri,1,cris,3,cris,1.0,Peur,0.5,1.5,1
+stanza,téléphone,1,téléphone,3,téléphone,1.0,Peur,0.6667,0.9183,0
+stanza,alarme,1,alarme,3,alarme,1.0,Peur,0.6667,0.9183,0
+stanza,cible,1,cible,3,cible,1.0,Embarras,0.3333,1.585,0
+stanza,coeur,1,coeur,3,coeur,1.0,Joie,0.3333,1.585,0
+stanza,toit,1,toit,3,toit,1.0,Peur,0.6667,0.9183,0
+stanza,torturer,1,torturés,3,torturés,1.0,Peur,0.5,1.5,0
+stanza,train,1,train,3,train,1.0,Embarras,0.3333,1.585,0
+stanza,travers,1,travers,3,travers,1.0,Joie,0.6667,0.9183,0
+stanza,tribunal,1,tribunal,3,tribunal,1.0,Colère,0.3333,1.585,0
+stanza,complètement,1,complètement,3,complètement,1.0,Colère,0.3333,1.585,0
+stanza,consterner,1,consterné,3,consterné,1.0,Tristesse,0.6667,0.9183,0
+stanza,conséquence,1,conséquences,3,conséquences,1.0,Peur,0.6667,0.9183,0
+stanza,corps,1,corps,3,corps,1.0,Dégoût,0.3333,1.585,0
+stanza,couleur,1,couleurs,3,couleurs,1.0,Fierté,0.3333,1.585,0
+stanza,échec,1,échec,3,échec,1.0,Tristesse,0.6667,0.9183,0
+stanza,émouer,1,émue,3,émue,1.0,Joie,0.6667,0.9183,0
+stanza,admiration,1,admiration,3,admiration,1.0,Admiration,1.0,-0.0,0
+stanza,évacuer,1,évacuer,3,évacuer,1.0,Peur,1.0,-0.0,0
+stanza,alerte,1,alerte,3,alerte,1.0,Peur,1.0,-0.0,0
+stanza,abri,1,abri,3,abri,1.0,Peur,1.0,-0.0,0
+stanza,combat,1,combats,3,combats,1.0,Peur,0.6667,0.9183,0
+stanza,commettre,1,commettre,3,commettre,1.0,Colère,0.6667,0.9183,0
+stanza,trois,1,trois,3,trois,1.0,Colère,0.3333,1.585,0
+stanza,trésor,1,trésor,3,trésor,1.0,Fierté,0.6667,0.9183,0
+stanza,accident,1,accident,3,accident,1.0,Peur,0.75,0.8113,0
+stanza,raconter,1,raconte,2,raconte,1.0,Colère,0.6667,0.9183,0
+stanza,ouvrir,1,ouvert,2,ouvert,1.0,Colère,0.3333,1.585,0
+stanza,montrer,1,montre,2,montre,1.0,Fierté,0.4,1.9219,1
+stanza,être,1,etes,2,etes,1.0,Colère,1.0,-0.0,0
+stanza,réveiller,1,réveille,2,réveille,1.0,Colère,0.5,1.4591,0
+stanza,aider,1,aide,1,aide,1.0,Joie,0.75,0.8113,1
+stanza,marier,1,mariés,1,mariés,1.0,Joie,0.6,1.371,1

@@ -99,7 +99,7 @@ def EmotionVectorPhrase(phrase, Lexicon_term_cat):
 
 def CsvMakerPhrases(ListOfPhrases):
     print(os.getcwd())
-    Lexicon = getLexicon("../tools/Lexique/lexique_emotionnel.tsv")[1]
+    Lexicon = getLexicon("")[1]
     ListfeaturesPhrases = ['score_de_polarite', 'score_de_subjectitvite'] + DiffEmotionsList(Lexicon)
     ListfeaturesEX = []
     for i in range(len(ListOfPhrases)):

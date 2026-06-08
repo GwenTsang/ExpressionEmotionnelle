@@ -1,7 +1,5 @@
 from stanza.pipeline.processor import Processor, register_processor
 from stanza.models.common.doc import Document
-from inria_processors.extractors import Sentiment
-from tools.processor_export import processor_export_format
 
 processor_name = 'emotions'
 

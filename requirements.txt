@@ -4,4 +4,5 @@ scipy>=1.10
 pyarrow>=14.0
 openpyxl>=3.1
 spacy>=3.7
+stanza>=1.8
 torch

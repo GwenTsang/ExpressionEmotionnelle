@@ -6,10 +6,7 @@ Utilise le parser Glozz existant (analysis_pipeline.glozz_parser) pour
 extraire les annotations SitEmo des quatre corpus et produire un
 DataFrame conforme au schéma SimpleSitEmo.
 
-Pipeline 2 : utilise prioritairement le segment *déclencheur* (la
-portion de texte qui porte ou déclenche l'émotion) plutôt que le
-segment textuel complet, afin de concentrer l'analyse sur
-l'information émotionnelle pertinente.
+Pipeline 2 : utilise le segment *déclencheur*
 
 Schéma produit :
     source_file, text_span, text_span_source, mode, emotion1,
