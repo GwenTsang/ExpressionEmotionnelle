@@ -1,6 +1,7 @@
 # Expression Émotionnelle
 
-Pipeline d'analyse computationnelle des **marqueurs linguistiques de l'émotion** dans des textes français. Le projet unifie cinq corpus annotés selon le schéma d'Etienne, ([2023](https://bdr.parisnanterre.fr/theses/internet/2023/2023PA100047/2023PA100047.pdf)) dans un format tabulaire inspiré de ses travaux . L'objectif est d'extraire les marqueurs lexicaux ayant un haut niveau de spécificité.
+Pipeline d'analyse computationnelle des **marqueurs linguistiques de l'émotion** dans des textes français. Le projet unifie cinq corpus annotés selon le schéma d'Etienne, ([2023](https://bdr.parisnanterre.fr/theses/internet/2023/2023PA100047/2023PA100047.pdf)).
+L'objectif est de comprendre comment les émotions sont exprimées.
 
 
 ## Table des matières
@@ -30,7 +31,7 @@ Pipeline d'analyse computationnelle des **marqueurs linguistiques de l'émotion*
 
 # 1. Contexte scientifique
 
-Le schéma d'annotation utilisé est celui proposé par Etienne et Battistelli ([2021](https://hal.science/hal-03263194v1/document)) et développé dans Etienne ([2023](https://bdr.parisnanterre.fr/theses/internet/2023/2023PA100047/2023PA100047.pdf)). Il modélise l'expression émotionnelle dans les textes à travers la notion de « Situation Émotionnelle » (*SitEmo*).
+Le schéma d'annotation utilisé est celui proposé par Etienne et Battistelli ([2021](https://hal.science/hal-03263194v1/document)), ([2023](https://bdr.parisnanterre.fr/theses/internet/2023/2023PA100047/2023PA100047.pdf)). Il modélise l'expression émotionnelle dans les textes à travers la notion de « Situation Émotionnelle » (*SitEmo*).
 
 ## 1.1 Corpus utilisés
 
@@ -56,7 +57,6 @@ Les tests statistiques suivants sont utilisés pour comparer la distribution de 
 - **Test de Kruskal-Wallis** : test global de différences entre les 4 modes.
 - **Test de Mann-Whitney U** : comparaisons par paires entre modes, avec calcul de la taille d'effet (corrélation rang-bisériale).
 
----
 
 # 2. Taxonomie émotionnelle
 
@@ -91,8 +91,6 @@ Le mode qualifie la *relation* entre le segment textuel (span) et l'émotion qu'
 | **Montré** | L'émotion transparaît à travers les caractéristiques formelles de l'énoncé (interjections, ponctuation expressive, syntaxe fragmentée, etc.). | « *DEHORSSSSS* » → Colère |
 
 Une unité SitEmo ne peut recevoir qu'un seul mode.
-
----
 
 # 3. Architecture du pipeline
 
@@ -153,7 +151,6 @@ Le format intermédiaire `SimpleSitEmo` est un fichier Parquet à 7 colonnes, un
 | `emotion3` | Émotion tertiaire (le cas échéant, nullable, max 3 par unité) |
 | `nature_linguistique` | Nature linguistique du segment (nullable). Valeurs possibles : `SAdj`, `SAdv`, `SN`, `SPrep`, `Proposition`, `Conj. de coordination`, `Conj. de subordination`, `Dislocation droite`, `Dislocation gauche`, `Enonce averbal`, `Enonce clive`, `Enonce elliptique`, `Enonce exclamatif`, `Interjection`, `Point d'exclamation`, `Points de suspension`, `Accumulation`, `Autre` |
 
----
 
 # 4. Les deux types d'émotions
 
@@ -185,7 +182,6 @@ graph TD
 - **Base** : les six émotions fondamentales (Colère, Dégoût, Joie, Peur, Surprise, Tristesse).
 - **Complexe** : cinq émotions dites « complexes » ou « secondaires » (Admiration, Culpabilité, Embarras, Fierté, Jalousie).
 
----
 
 # 5. Installation
 
