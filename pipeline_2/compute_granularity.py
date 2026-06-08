@@ -838,13 +838,11 @@ def main() -> None:
         "--input",
         "-i",
         default=DEFAULT_INPUT,
-        help=f"Table token-level CSV (défaut: {DEFAULT_INPUT})",
     )
     parser.add_argument(
         "--output-dir",
         "-o",
         default=DEFAULT_OUTPUT_DIR,
-        help=f"Répertoire de sortie (défaut: {DEFAULT_OUTPUT_DIR})",
     )
     parser.add_argument(
         "--min-freq",
@@ -859,9 +857,9 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    print("═" * 60)
+    print("")
     print("Analyse de granularité forme/lemme")
-    print("═" * 60)
+    print("")
 
     if not os.path.isfile(args.input):
         print(f"Fichier introuvable : {args.input}", file=sys.stderr)
@@ -874,9 +872,9 @@ def main() -> None:
         skip_viz=args.skip_viz,
     )
 
-    print("\n" + "═" * 60)
+    print("")
     print("Analyse terminée.")
-    print("═" * 60)
+    print("")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,3 @@
-
-
 Dans la grande majorité des cas, dans le Glozz, l'expérienceur est annoté sur un segment textuel (un pronom, un nom propre, un groupe nominal, etc.). Cependant, il existe une exception majeure détaillée à la Page 50 (Section 3.4.4).
 Lorsque l'émotion est ressentie par la Doxa (l'opinion publique), le Scripteur ou le Narrateur, il arrive fréquemment que ces entités ne soient mentionnées par aucun mot dans la phrase. Le guide prévoit alors la création d'une Unité « fantôme ».
 

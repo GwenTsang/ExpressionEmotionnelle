@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 import pandas as pd
 import numpy as np
@@ -11,11 +8,6 @@ def main():
     file_path = os.path.join(BASE_DIR, 'data', 'raw', 'xlsx', 'CyberAdoAgg_gold_global_total_latest.xlsx')
     results_dir = os.path.join(BASE_DIR, 'results', 'correlation')
     os.makedirs(results_dir, exist_ok=True)
-    
-    if not os.path.exists(file_path):
-        print(f"le fichier n'existe pas")
-        return
-        
     df = pd.read_excel(file_path)
     
     col_role = 'ROLE'
@@ -67,16 +59,13 @@ def main():
         
     df_means = pd.DataFrame(mean_matrix).set_index("Role")
     means_csv_path = os.path.join(results_dir, "distribution_emotions_par_role.csv")
-    df_means.to_csv(means_csv_path)
+    df_means.to_csv(means_csv_path, float_format='%.2f')
     
-    print("\n" + "="*80)
     print(" 1. DISTRIBUTION DES EMOTIONS PAR ROLE (Proportions de présence)")
-    print("="*80)
+    print("")
     print((df_means * 100).round(2).astype(str) + "%")
     
-    # -------------------------------------------------------------
     # 2. Coefficients de corrélation (Pearson r / coefficient Phi) & p-values
-    # -------------------------------------------------------------
     corr_matrix = []
     pval_matrix = []
     
@@ -97,26 +86,24 @@ def main():
         corr_matrix.append(corr_row)
         pval_matrix.append(pval_row)
         
-    df_corrs = pd.DataFrame(corr_matrix).set_index("Role")
+    # Arrondi des coefficients de corrélation à 2 décimales pour l'affichage et l'export
+    df_corrs = pd.DataFrame(corr_matrix).set_index("Role").round(2)
     df_pvals = pd.DataFrame(pval_matrix).set_index("Role")
     
     corrs_csv_path = os.path.join(results_dir, "correlation_pearson_role_emotions.csv")
     pvals_csv_path = os.path.join(results_dir, "correlation_pvalue_role_emotions.csv")
     
-    df_corrs.to_csv(corrs_csv_path)
-    df_pvals.to_csv(pvals_csv_path)
-    
-    print("\n" + "="*80)
+    df_corrs.to_csv(corrs_csv_path, float_format='%.2f')
+    df_pvals.to_csv(pvals_csv_path, float_format='%.2f')
+    print("")
     print(" 2. COEFFICIENTS DE CORRELATION (Pearson r / Coefficient Phi) PAR PAIR ROLE-EMOTION")
-    print("="*80)
-    print(df_corrs.round(3))
-    
-    print("\n" + "="*80)
+    print("")
+    print(df_corrs) # arrondi à 2 décimales
+    print("")
     print(" 3. VALEURS DE SIGNIFICATIVITE (p-values) PAR PAIR ROLE-EMOTION")
-    print("="*80)
     print(df_pvals.round(4))
     
-    print(f"\n[+] Les résultats détaillés ont été sauvegardés sous forme de fichiers CSV dans :")
+    print(f"\n[+] Résultats sauvegardés dans :")
     print(f"    - {means_csv_path}")
     print(f"    - {corrs_csv_path}")
     print(f"    - {pvals_csv_path}")

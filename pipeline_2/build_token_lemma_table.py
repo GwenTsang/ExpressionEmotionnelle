@@ -417,9 +417,9 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    print("═" * 60)
+    print("")
     print("Construction de la table token-level forme/lemme")
-    print("═" * 60)
+    print("")
 
     # Lecture du Parquet
     if not os.path.isfile(args.input):
@@ -440,7 +440,7 @@ def main() -> None:
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
     result.to_csv(args.output, index=False, encoding="utf-8-sig")
     print(f"\nTable exportée : {args.output} ({len(result)} lignes)")
-    print("═" * 60)
+    print("")
 
 
 if __name__ == "__main__":

@@ -207,12 +207,6 @@ def generate_html(families: list[dict], backend: str) -> str:
             all_emotions.update(form["emotions"].keys())
     emotions_list = json.dumps(sorted(all_emotions), ensure_ascii=False)
 
-    # Statistiques globales
-    n_families = len(families)
-    n_coherent = sum(1 for f in families if f["coherence"] == "cohérente")
-    n_mixed = sum(1 for f in families if f["coherence"] == "mixte")
-    n_hetero = sum(1 for f in families if f["coherence"] == "hétérogène")
-
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -225,61 +219,34 @@ def generate_html(families: list[dict], backend: str) -> str:
 
 body {{
     font-family: 'Inter', sans-serif;
-    background: #0f0f1a;
-    color: #e0e0e0;
+    background: #f8fafc;
+    color: #1f2937;
     line-height: 1.5;
 }}
 
 .header {{
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    padding: 2rem 2rem 1.5rem;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
+    background: #ffffff;
+    padding: 1.25rem 2rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
 }}
 
 .header h1 {{
     font-size: 1.6rem;
     font-weight: 600;
-    color: #fff;
+    color: #111827;
     margin-bottom: 0.3rem;
 }}
 
 .header .subtitle {{
     font-size: 0.85rem;
-    color: #8899aa;
+    color: #5f6b7a;
     font-weight: 300;
-}}
-
-.stats-bar {{
-    display: flex;
-    gap: 1.5rem;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-}}
-
-.stat {{
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-}}
-
-.stat .num {{
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #fff;
-    display: block;
-}}
-
-.stat .label {{
-    color: #8899aa;
-    font-size: 0.75rem;
 }}
 
 .controls {{
     padding: 1rem 2rem;
-    background: rgba(255,255,255,0.02);
-    border-bottom: 1px solid rgba(255,255,255,0.06);
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
@@ -288,13 +255,13 @@ body {{
 
 .controls label {{
     font-size: 0.8rem;
-    color: #8899aa;
+    color: #4b5563;
 }}
 
 .controls input, .controls select {{
-    background: #1a1a2e;
-    color: #e0e0e0;
-    border: 1px solid rgba(255,255,255,0.15);
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #cfd6df;
     border-radius: 6px;
     padding: 0.4rem 0.7rem;
     font-size: 0.8rem;
@@ -303,7 +270,8 @@ body {{
 
 .controls input:focus, .controls select:focus {{
     outline: none;
-    border-color: #1abc9c;
+    border-color: #0f766e;
+    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.12);
 }}
 
 .controls input[type="search"] {{
@@ -317,16 +285,16 @@ body {{
 }}
 
 .family-card {{
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.07);
-    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e1e7ef;
+    border-radius: 8px;
     margin-bottom: 1.2rem;
     overflow: hidden;
     transition: border-color 0.2s;
 }}
 
 .family-card:hover {{
-    border-color: rgba(255,255,255,0.15);
+    border-color: #b9c4d0;
 }}
 
 .family-header {{
@@ -334,20 +302,20 @@ body {{
     align-items: center;
     justify-content: space-between;
     padding: 0.8rem 1.2rem;
-    background: rgba(255,255,255,0.02);
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background: #ffffff;
+    border-bottom: 1px solid #edf1f5;
     cursor: pointer;
     user-select: none;
 }}
 
 .family-header:hover {{
-    background: rgba(255,255,255,0.04);
+    background: #f3f6fa;
 }}
 
 .lemma-label {{
     font-size: 1.05rem;
     font-weight: 600;
-    color: #fff;
+    color: #111827;
 }}
 
 .lemma-meta {{
@@ -355,7 +323,7 @@ body {{
     gap: 0.8rem;
     align-items: center;
     font-size: 0.75rem;
-    color: #8899aa;
+    color: #64748b;
 }}
 
 .tag {{
@@ -366,21 +334,21 @@ body {{
 }}
 
 .tag-coherente {{
-    background: rgba(39, 174, 96, 0.15);
-    color: #27ae60;
-    border: 1px solid rgba(39, 174, 96, 0.3);
+    background: #e8f7ef;
+    color: #1f8a4c;
+    border: 1px solid #b7e4cb;
 }}
 
 .tag-mixte {{
-    background: rgba(243, 156, 18, 0.15);
-    color: #f39c12;
-    border: 1px solid rgba(243, 156, 18, 0.3);
+    background: #fff4db;
+    color: #a86200;
+    border: 1px solid #f5d99b;
 }}
 
 .tag-hétérogène {{
-    background: rgba(231, 76, 60, 0.15);
-    color: #e74c3c;
-    border: 1px solid rgba(231, 76, 60, 0.3);
+    background: #fdeceb;
+    color: #c0392b;
+    border: 1px solid #f3beb8;
 }}
 
 .family-body {{
@@ -399,7 +367,7 @@ body {{
     align-items: center;
     gap: 0.8rem;
     padding: 0.35rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.03);
+    border-bottom: 1px solid #eef2f6;
 }}
 
 .form-row:last-child {{
@@ -407,17 +375,17 @@ body {{
 }}
 
 .form-row.is-lemma {{
-    background: rgba(255,255,255,0.03);
+    background: #f3f6fa;
     border-radius: 6px;
     padding: 0.5rem 0.5rem;
     margin-bottom: 0.4rem;
-    border-bottom: 2px solid rgba(255,255,255,0.08);
+    border-bottom: 2px solid #d9e1ea;
 }}
 
 .form-name {{
     font-size: 0.85rem;
     font-weight: 500;
-    color: #ddd;
+    color: #263241;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -425,13 +393,13 @@ body {{
 
 .form-row.is-lemma .form-name {{
     font-weight: 700;
-    color: #fff;
+    color: #111827;
     font-size: 0.9rem;
 }}
 
 .form-count {{
     font-size: 0.75rem;
-    color: #8899aa;
+    color: #64748b;
     text-align: right;
     font-variant-numeric: tabular-nums;
 }}
@@ -441,7 +409,7 @@ body {{
     display: flex;
     border-radius: 4px;
     overflow: hidden;
-    background: rgba(255,255,255,0.03);
+    background: #eef2f6;
 }}
 
 .form-row.is-lemma .bar-container {{
@@ -460,7 +428,7 @@ body {{
 
 .entropy-badge {{
     font-size: 0.7rem;
-    color: #8899aa;
+    color: #64748b;
     text-align: right;
     font-variant-numeric: tabular-nums;
 }}
@@ -471,8 +439,8 @@ body {{
     flex-wrap: wrap;
     gap: 0.6rem;
     padding: 0.8rem 1.2rem;
-    border-top: 1px solid rgba(255,255,255,0.05);
-    background: rgba(0,0,0,0.15);
+    border-top: 1px solid #edf1f5;
+    background: #fbfcfe;
 }}
 
 .legend-item {{
@@ -480,7 +448,7 @@ body {{
     align-items: center;
     gap: 0.3rem;
     font-size: 0.7rem;
-    color: #8899aa;
+    color: #64748b;
 }}
 
 .legend-swatch {{
@@ -492,22 +460,22 @@ body {{
 /* Tooltip */
 .tooltip {{
     position: fixed;
-    background: #1a1a2e;
-    border: 1px solid rgba(255,255,255,0.2);
+    background: #ffffff;
+    border: 1px solid #cfd6df;
     border-radius: 8px;
     padding: 0.6rem 0.8rem;
     font-size: 0.75rem;
-    color: #e0e0e0;
+    color: #1f2937;
     pointer-events: none;
     z-index: 1000;
     max-width: 250px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.16);
     display: none;
 }}
 
 .tooltip .tt-title {{
     font-weight: 600;
-    color: #fff;
+    color: #111827;
     margin-bottom: 0.3rem;
 }}
 
@@ -548,24 +516,6 @@ body {{
         Distribution émotionnelle comparée des formes fléchies —
         Backend : <strong>{backend}</strong>
     </p>
-    <div class="stats-bar">
-        <div class="stat">
-            <span class="num">{n_families}</span>
-            <span class="label">familles multi-formes</span>
-        </div>
-        <div class="stat">
-            <span class="num">{n_coherent}</span>
-            <span class="label">cohérentes</span>
-        </div>
-        <div class="stat">
-            <span class="num">{n_mixed}</span>
-            <span class="label">mixtes</span>
-        </div>
-        <div class="stat">
-            <span class="num">{n_hetero}</span>
-            <span class="label">hétérogènes</span>
-        </div>
-    </div>
 </div>
 
 <div class="controls">
@@ -810,9 +760,9 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    print("═" * 60)
+    print("")
     print("Visualisation des variations flexionnelles")
-    print("═" * 60)
+    print("")
 
     if not os.path.isfile(args.input):
         print(f"Fichier introuvable : {args.input}", file=sys.stderr)
@@ -843,7 +793,7 @@ def main() -> None:
         fh.write(html)
 
     print(f"  → {args.output}")
-    print("═" * 60)
+    print("")
 
 
 if __name__ == "__main__":
