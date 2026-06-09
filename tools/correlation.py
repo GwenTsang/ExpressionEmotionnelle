@@ -11,7 +11,7 @@ import os
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
-C
+
 # Groupes résolus par préfixe (colonnes one-hot commençant par PREFIX_)
 PREFIX_GROUPS = ["ROLE", "HATE", "INTENTION", "VERBAL_ABUSE"]
 
