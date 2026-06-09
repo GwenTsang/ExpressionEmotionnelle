@@ -1,5 +1,5 @@
 categorical_var,binary_var,chi2,p_value,cramers_v,df,n
-ROLE,Suggeree,0.66,0.96,0.03,4,781
-ROLE,Montree,15.37,0.00,0.14,4,781
-ROLE,Comportementale,3.21,0.52,0.06,4,781
-ROLE,Designee,4.60,0.33,0.08,4,781
+ROLE,Suggeree,0.66,0.9566,0.03,4,781
+ROLE,Montree,15.37,0.0040,0.14,4,781
+ROLE,Comportementale,3.21,0.5234,0.06,4,781
+ROLE,Designee,4.60,0.3313,0.08,4,781

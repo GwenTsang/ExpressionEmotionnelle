@@ -1,14 +1,8 @@
-"""Script unifié de corrélation — remplace les 6 scripts spécialisés.
+"""Script de corrélation entre features
 
 Teste les corrélations entre deux groupes de colonnes binaires (mode pairwise)
 et/ou l'association globale entre une variable catégorielle et des colonnes
 binaires (mode global).
-
-Usage :
-    python tools/correlation.py ROLE EMOTIONS
-    python tools/correlation.py HATE MODES --mode pairwise
-    python tools/correlation.py INTENTION EMOTIONS --mode global
-    python tools/correlation.py VERBAL_ABUSE MODES --mode all
 """
 
 import argparse
@@ -17,11 +11,6 @@ import os
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
-
-
-# ---------------------------------------------------------------------------
-# Constantes
-# ---------------------------------------------------------------------------
 
 # Groupes résolus par préfixe (colonnes one-hot commençant par PREFIX_)
 PREFIX_GROUPS = ["ROLE", "HATE", "INTENTION", "VERBAL_ABUSE"]
@@ -229,9 +218,9 @@ def run_global(df, group_a, group_b, cols_b, output_dir):
 
 def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
     """Affiche un résumé concis des résultats dans le terminal."""
-    print(f"\n{'=' * 60}")
+    print("")
     print(f" Corrélation {group_a} × {group_b} (mode: {mode})")
-    print(f"{'=' * 60}")
+    print("")
 
     if df_pairwise is not None and len(df_pairwise) > 0:
         n_total = len(df_pairwise)
@@ -254,7 +243,7 @@ def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
         n_sig = df_global["p_value"].dropna().lt(0.05).sum()
         print(f"\nGlobal : {n_total} tests effectués, {n_sig} significatifs (p < 0.05)")
 
-        # Top 5 par V de Cramér
+        # ceci n'est pas très informatif, je trouve
         df_sorted = df_global.dropna(subset=["cramers_v"]).copy()
         top5 = df_sorted.nlargest(5, "cramers_v")
         if len(top5) > 0:
@@ -318,11 +307,8 @@ def parse_args():
 def main():
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
-
     # Lecture du dataset préparé
-    print(f"[+] Lecture du fichier : {args.input}")
     df = pd.read_excel(args.input)
-    print(f"[+] {len(df)} lignes, {len(df.columns)} colonnes")
 
     # Résolution des groupes
     group_a = args.group_a.upper()
@@ -330,8 +316,8 @@ def main():
     cols_a = resolve_group(group_a, df.columns)
     cols_b = resolve_group(group_b, df.columns)
 
-    print(f"[+] {group_a} → {len(cols_a)} colonnes : {cols_a}")
-    print(f"[+] {group_b} → {len(cols_b)} colonnes : {cols_b}")
+    print(f"{group_a} → {cols_a}")
+    print(f"{group_b} → {cols_b}")
 
     mode = args.mode
     df_pairwise = None

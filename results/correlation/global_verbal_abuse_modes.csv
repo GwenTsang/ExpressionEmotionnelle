@@ -1,5 +1,5 @@
 categorical_var,binary_var,chi2,p_value,cramers_v,df,n
-VERBAL_ABUSE,Suggeree,4.37,0.36,0.09,4,520
-VERBAL_ABUSE,Montree,12.44,0.01,0.15,4,520
-VERBAL_ABUSE,Comportementale,17.60,0.00,0.18,4,520
-VERBAL_ABUSE,Designee,10.04,0.04,0.14,4,520
+VERBAL_ABUSE,Suggeree,4.37,0.3580,0.09,4,520
+VERBAL_ABUSE,Montree,12.44,0.0143,0.15,4,520
+VERBAL_ABUSE,Comportementale,17.60,0.0015,0.18,4,520
+VERBAL_ABUSE,Designee,10.04,0.0398,0.14,4,520

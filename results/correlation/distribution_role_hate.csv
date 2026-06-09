@@ -1,0 +1,6 @@
+variable,n,HATE_CAG,HATE_NAG,HATE_OAG
+ROLE_bully,111,0.15,0.13,0.72
+ROLE_bully_support,267,0.15,0.16,0.69
+ROLE_conciliator,156,0.06,0.60,0.34
+ROLE_victim,88,0.06,0.53,0.41
+ROLE_victim_support,159,0.13,0.40,0.47

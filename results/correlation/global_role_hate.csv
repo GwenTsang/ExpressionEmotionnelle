@@ -1,0 +1,4 @@
+categorical_var,binary_var,chi2,p_value,cramers_v,df,n
+ROLE,HATE_CAG,11.64,0.0203,0.12,4,781
+ROLE,HATE_NAG,124.82,0.0000,0.40,4,781
+ROLE,HATE_OAG,73.35,0.0000,0.31,4,781
