@@ -103,7 +103,7 @@ def main():
     print(" 3. VALEURS DE SIGNIFICATIVITE (p-values) PAR PAIR ROLE-EMOTION")
     print(df_pvals.round(4))
     
-    print(f"\n[+] Résultats sauvegardés dans :")
+    print(f"\n Résultats sauvegardés dans :")
     print(f"    - {means_csv_path}")
     print(f"    - {corrs_csv_path}")
     print(f"    - {pvals_csv_path}")
