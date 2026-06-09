@@ -225,18 +225,18 @@ def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
     if df_pairwise is not None and len(df_pairwise) > 0:
         n_total = len(df_pairwise)
         n_sig = df_pairwise["p_value"].dropna().lt(0.05).sum()
-        print(f"\nPairwise : {n_total} paires testées, {n_sig} significatives (p < 0.05)")
+        print(f"\nPairwise : {n_total} paires testées")
 
         # Top 5 par |Phi|
         df_sorted = df_pairwise.dropna(subset=["phi"]).copy()
         df_sorted["abs_phi"] = df_sorted["phi"].abs()
         top5 = df_sorted.nlargest(5, "abs_phi")
         if len(top5) > 0:
-            print("Top 5 corrélations (par |Phi|) :")
+            print("Top 5 des corrélations :")
             for i, (_, row) in enumerate(top5.iterrows(), 1):
                 p_str = f"{row['p_value']:.2e}" if row["p_value"] < 0.01 else f"{row['p_value']:.2f}"
                 print(f"  {i}. {row['col_a']} × {row['col_b']}"
-                      f"    Phi={row['phi']:.2f}  p={p_str}")
+                      f"Corrélation Phi={row['phi']:.2f}  p={p_str}")
 
     if df_global is not None and len(df_global) > 0:
         n_total = len(df_global)
@@ -339,7 +339,6 @@ def main():
 
     # Résumé
     print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files)
-
 
 if __name__ == "__main__":
     main()
