@@ -85,6 +85,16 @@ def is_prefix_group(group_name):
     return group_name.upper() in PREFIX_GROUPS
 
 
+def format_p_values_for_csv(df):
+    """Formate uniquement les p-values pour l'export CSV."""
+    df_export = df.copy()
+    if "p_value" in df_export.columns:
+        df_export["p_value"] = df_export["p_value"].map(
+            lambda value: "" if pd.isna(value) else f"{value:.4f}"
+        )
+    return df_export
+
+
 # ---------------------------------------------------------------------------
 # Mode pairwise
 # ---------------------------------------------------------------------------
@@ -143,7 +153,9 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir):
     pairwise_path = os.path.join(output_dir, f"pairwise_{ga}_{gb}.csv")
     dist_path = os.path.join(output_dir, f"distribution_{ga}_{gb}.csv")
 
-    df_result.to_csv(pairwise_path, index=False, float_format="%.2f")
+    format_p_values_for_csv(df_result).to_csv(
+        pairwise_path, index=False, float_format="%.2f"
+    )
     df_dist.to_csv(dist_path, float_format="%.2f")
 
     return df_result, [pairwise_path, dist_path]
@@ -204,7 +216,9 @@ def run_global(df, group_a, group_b, cols_b, output_dir):
     ga = group_a.lower()
     gb = group_b.lower()
     global_path = os.path.join(output_dir, f"global_{ga}_{gb}.csv")
-    df_result.to_csv(global_path, index=False, float_format="%.2f")
+    format_p_values_for_csv(df_result).to_csv(
+        global_path, index=False, float_format="%.2f"
+    )
 
     return df_result, [global_path]
 

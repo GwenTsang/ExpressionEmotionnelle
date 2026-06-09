@@ -75,7 +75,8 @@ def main():
     for col in CATEGORICAL_COLS:
         if col not in df.columns:
             continue
-        dummies = pd.get_dummies(df[col], prefix=col, dtype=int)
+        dummies = pd.get_dummies(df[col], prefix=col, dtype=float)
+        dummies.loc[df[col].isna(), :] = np.nan
         onehot_frames.append(dummies)
         print(f"[+] {col} : {dummies.shape[1]} colonnes one-hot créées → {list(dummies.columns)}")
 
