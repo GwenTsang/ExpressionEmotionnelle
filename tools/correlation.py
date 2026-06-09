@@ -11,7 +11,7 @@ import os
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
-
+C
 # Groupes résolus par préfixe (colonnes one-hot commençant par PREFIX_)
 PREFIX_GROUPS = ["ROLE", "HATE", "INTENTION", "VERBAL_ABUSE"]
 
@@ -236,7 +236,7 @@ def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
             for i, (_, row) in enumerate(top5.iterrows(), 1):
                 p_str = f"{row['p_value']:.2e}" if row["p_value"] < 0.01 else f"{row['p_value']:.2f}"
                 print(f"  {i}. {row['col_a']} × {row['col_b']}"
-                      f"Corrélation Phi={row['phi']:.2f}  p={p_str}")
+                      f"          Corrélation Phi={row['phi']:.2f}  p={p_str}")
 
     if df_global is not None and len(df_global) > 0:
         n_total = len(df_global)
