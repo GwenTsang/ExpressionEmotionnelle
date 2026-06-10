@@ -6,7 +6,7 @@ Utilise le parser Glozz existant (analysis_pipeline.glozz_parser) pour
 extraire les annotations SitEmo des quatre corpus et produire un
 DataFrame conforme au schéma SimpleSitEmo.
 
-Pipeline 2 : utilise le segment *déclencheur*
+Pipeline qui utilise le segment *déclencheur*
 
 Schéma produit :
     source_file, text_span, text_span_source, mode, emotion1,
@@ -144,7 +144,6 @@ def main() -> None:
     parser.add_argument(
         "--output", "-o",
         default=_DEFAULT_OUTPUT,
-        help=f"Fichier parquet de sortie (défaut : {_DEFAULT_OUTPUT})",
     )
     args = parser.parse_args()
 

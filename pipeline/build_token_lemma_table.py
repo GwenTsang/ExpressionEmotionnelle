@@ -64,7 +64,6 @@ def _process_spacy(texts: list[str], batch_size: int) -> list[list[dict]]:
     import spacy
 
     nlp = spacy.load("fr_core_news_sm", disable=["parser", "ner"])
-    print(f"  spaCy chargé (fr_core_news_sm, batch_size={batch_size})")
 
     all_results: list[list[dict]] = []
     for doc in nlp.pipe(texts, batch_size=batch_size):

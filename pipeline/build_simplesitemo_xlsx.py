@@ -191,7 +191,6 @@ def main() -> None:
     parser.add_argument(
         "--output", "-o",
         default=_DEFAULT_OUTPUT,
-        help=f"Fichier parquet de sortie (défaut : {_DEFAULT_OUTPUT})",
     )
     args = parser.parse_args()
 
