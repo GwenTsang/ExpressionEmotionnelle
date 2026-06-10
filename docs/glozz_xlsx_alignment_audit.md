@@ -15,7 +15,7 @@ plus récente ou plus complète des annotations.
 ## Données examinées
 
 - Corpus Glozz brut : `data/raw/glozz/`
-- Parseur Glozz : `analysis_pipeline/glozz_parser.py`
+- Parseur Glozz : `glozz/glozz_parser.py`
 - Exports existants :
   - `results/glozz/specificity_results_spacy/annotations.csv`
   - `results/glozz/specificity_results_stanza/annotations.csv`
@@ -38,7 +38,7 @@ Résultats :
 - Pour les 164 unités concernées, la feature `Mode` existe mais sa valeur est
   vide.
 
-Conclusion : rien n'indique que `analysis_pipeline/glozz_parser.py` rate des modes
+Conclusion : rien n'indique que `glozz/glozz_parser.py` rate des modes
 existants. Les 164 absences de mode semblent présentes dans les fichiers Glozz
 eux-mêmes.
 
@@ -149,7 +149,7 @@ Les 3 unités sans mode non couvertes par une ligne `TEXT` unique sont :
 
 ## Implication technique
 
-Le filtrage des `SitEmo` sans mode dans `analysis_pipeline/extract_markers_glozz.py` est
+Le filtrage des `SitEmo` sans mode dans `pipeline/build_simplesitemo_glozz.py` est
 cohérent avec l'objectif actuel d'analyser les marqueurs par mode d'expression :
 ces 164 unités ne fournissent pas de label de mode exploitable. En revanche, ces
 unités couvrent des spans textuels réels et doivent être conservées pour une éventuelle

@@ -14,9 +14,9 @@ Usage
 -----
 ::
 
-    python -m pipeline_2.compute_granularity \\
-        --input results/pipeline_2_granularity/token_lemmas.csv \\
-        --output-dir results/pipeline_2_granularity \\
+    python -m pipeline.compute_granularity \\
+        --input results/simplesitemo_granularity/token_lemmas.csv \\
+        --output-dir results/simplesitemo_granularity \\
         --min-freq 3
 """
 
@@ -39,10 +39,10 @@ from .nlp_utils import FR_STOPWORDS
 _PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
 DEFAULT_INPUT = os.path.join(
-    _PROJECT_ROOT, "results", "pipeline_2_granularity", "token_lemmas.csv"
+    _PROJECT_ROOT, "results", "simplesitemo_granularity", "token_lemmas.csv"
 )
 DEFAULT_OUTPUT_DIR = os.path.join(
-    _PROJECT_ROOT, "results", "pipeline_2_granularity"
+    _PROJECT_ROOT, "results", "simplesitemo_granularity"
 )
 
 

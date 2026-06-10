@@ -5,8 +5,8 @@
 Lit les deux fichiers parquet intermédiaires (XLSX et Glozz), valide le
 schéma et les valeurs, puis produit le fichier unifié SimpleSitEmo.parquet.
 
-Pipeline 2 : le schéma inclut une colonne ``text_span_source`` qui
-indique si le text_span provient du déclencheur ou du segment complet.
+Le schéma peut inclure une colonne ``text_span_source`` qui indique si
+le text_span provient du déclencheur ou du segment complet.
 """
 
 from __future__ import annotations

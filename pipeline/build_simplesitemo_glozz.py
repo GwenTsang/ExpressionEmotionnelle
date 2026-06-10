@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """build_simplesitemo_glozz.py — Extraction Glozz → SimpleSitEmo.
 
-Utilise le parser Glozz existant (analysis_pipeline.glozz_parser) pour
+Utilise le parser Glozz existant (`glozz.glozz_parser`) pour
 extraire les annotations SitEmo des quatre corpus et produire un
 DataFrame conforme au schéma SimpleSitEmo.
 
@@ -44,14 +44,14 @@ SCHEMA_COLUMNS = [
 def build_simplesitemo_glozz() -> pd.DataFrame:
     """Construit le DataFrame SimpleSitEmo à partir des corpus Glozz.
 
-    Utilise ``analysis_pipeline.glozz_parser.process_all_corpora()`` pour
+    Utilise ``glozz.process_all_corpora()`` pour
     lire les 4 corpus, puis filtre et transforme les unités SitEmo.
 
-    Pipeline 2 : lorsque la feature *Declencheur* est renseignée pour
-    une annotation SitEmo, le ``text_span`` produit contient le texte
-    du déclencheur (le sous-segment porteur de l'émotion) plutôt que
-    le segment complet.  La colonne ``text_span_source`` indique la
-    provenance (``"declencheur"`` ou ``"segment_complet"``).
+    Lorsque la feature *Declencheur* est renseignée pour une annotation
+    SitEmo, le ``text_span`` produit contient le texte du déclencheur
+    (le sous-segment porteur de l'émotion) plutôt que le segment complet.
+    La colonne ``text_span_source`` indique la provenance
+    (``"declencheur"`` ou ``"segment_complet"``).
 
     Returns
     -------
@@ -101,7 +101,7 @@ def build_simplesitemo_glozz() -> pd.DataFrame:
         elif nature is not None:
             nature = str(nature).strip() or None
 
-        # --- Pipeline 2 : utiliser le déclencheur si disponible ---
+        # Utiliser le déclencheur si disponible.
         declencheur = row.get("declencheur")
         if (
             declencheur is not None

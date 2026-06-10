@@ -211,7 +211,7 @@ python -m spacy download fr_core_news_sm
 ## 6.1 Lancer l'analyse complète
 
 ```bash
-python -m pipeline_1.run_analysis --step all
+python -m pipeline.run_analysis --step all
 ```
 
 Cette commande exécute les deux sous-étapes de l'analyse (extraction de marqueurs puis calcul de spécificité) sur le fichier `SimpleSitEmo.parquet`.
@@ -220,10 +220,10 @@ Pour exécuter les étapes individuellement :
 
 ```bash
 # Extraction des marqueurs uniquement
-python -m pipeline_1.run_analysis --step markers
+python -m pipeline.run_analysis --step markers
 
 # Calcul de spécificité uniquement (requiert markers.csv)
-python -m pipeline_1.run_analysis --step specificity
+python -m pipeline.run_analysis --step specificity
 ```
 
 ## 6.2 Options disponibles
@@ -233,14 +233,15 @@ python -m pipeline_1.run_analysis --step specificity
 | `--step` | Étape à exécuter : `markers`, `specificity` ou `all` | `all` |
 | `--no-lemma` | Désactive la lemmatisation | `False` |
 | `--lemmatizer` | Backend de lemmatisation : `spacy` ou `stanza` | `spacy` |
-| `--batch-size` | Taille des lots pour la lemmatisation | — |
-| `--remove-stopwords` | Filtre les mots vides français | `False` |
+| `--batch-size` | Taille des lots pour la lemmatisation | `512` |
+| `--lemmatizer-workers` | Nombre de processus CPU pour Stanza | `1` |
+| `--keep-stopwords` | Conserve les mots vides français au lieu de les filtrer | `False` |
 | `--min-freq` | Fréquence minimale d'un marqueur pour le calcul de spécificité | `3` |
 
-**Exemple** — analyse sans lemmes, en filtrant les mots vides, avec une fréquence minimale de 5 :
+**Exemple** — analyse sans lemmes, avec une fréquence minimale de 5 :
 
 ```bash
-python -m pipeline_1.run_analysis --step all --no-lemma --remove-stopwords --min-freq 5
+python -m pipeline.run_analysis --step all --no-lemma --min-freq 5
 ```
 
 ## 6.3 Fichiers produits
@@ -256,6 +257,9 @@ results/simplesitemo/
     ├── entropy_by_mode_summary.csv      # Entropie moyenne agrégée par mode
     └── hypothesis_report.txt            # Rapport des tests statistiques
 ```
+
+L'inventaire des scripts maintenus, exploratoires et historiques est documenté
+dans `docs/script_inventory.md`.
 
 # Références
 

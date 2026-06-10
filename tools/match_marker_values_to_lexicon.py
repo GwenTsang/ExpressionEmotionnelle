@@ -11,19 +11,17 @@ Examples:
     python tools/match_marker_values_to_lexicon.py
 
     python tools/match_marker_values_to_lexicon.py \
-        --global-markers results/pipeline_1/comparison_marker_value/global_marker_value_counts.csv \
+        --markers results/simplesitemo/markers.csv \
         --lexicon emotions/lexique_emotionnel.tsv
 
     python tools/match_marker_values_to_lexicon.py \
-        --spacy-markers results/pipeline_1/SpaCy-results/markers_designee.csv \
-        --stanza-markers results/pipeline_1/Stanza-results-1/markers_designee.csv
+        --global-markers results/simplesitemo_lexicon_matching/global_marker_value_counts.csv
 """
 
 from __future__ import annotations
 
 import argparse
 import csv
-import os
 import unicodedata
 from collections import Counter, defaultdict
 from dataclasses import dataclass
@@ -35,10 +33,8 @@ import pandas as pd
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-DEFAULT_OUTDIR = BASE_DIR / "results" / "pipeline_1" / "comparison_marker_value"
-DEFAULT_GLOBAL_MARKERS = DEFAULT_OUTDIR / "global_marker_value_counts.csv"
-DEFAULT_SPACY_MARKERS = BASE_DIR / "results" / "pipeline_1" / "SpaCy-results" / "markers_designee.csv"
-DEFAULT_STANZA_MARKERS = BASE_DIR / "results" / "pipeline_1" / "Stanza-results-1" / "markers_designee.csv"
+DEFAULT_OUTDIR = BASE_DIR / "results" / "simplesitemo_lexicon_matching"
+DEFAULT_MARKERS = BASE_DIR / "results" / "simplesitemo" / "markers.csv"
 DEFAULT_LEXICON = BASE_DIR / "emotions" / "lexique_emotionnel.tsv"
 
 
@@ -197,16 +193,57 @@ def build_global_counts_from_marker_files(
     return global_counts.sort_values(["total_count", "marker_value"], ascending=[False, True])
 
 
+def build_global_counts_from_markers(
+    markers_path: Path,
+    marker_col: str,
+    mode_col: str,
+    mode_value: str,
+) -> pd.DataFrame:
+    markers = read_csv(markers_path)
+    if marker_col not in markers.columns:
+        raise ValueError(f"Marker file has no '{marker_col}' column: {markers_path}")
+
+    selected = markers
+    if mode_col in markers.columns:
+        selected = markers[markers[mode_col].astype(str).str.strip().eq(mode_value)]
+
+    counts = Counter(str(value) for value in selected[marker_col].tolist())
+    rows = [
+        {
+            "marker_value": value,
+            "spacy_count": 0,
+            "stanza_count": 0,
+            "total_count": count,
+        }
+        for value, count in counts.items()
+    ]
+    global_counts = pd.DataFrame(rows)
+    if global_counts.empty:
+        return pd.DataFrame(columns=["marker_value", "spacy_count", "stanza_count", "total_count"])
+    return global_counts.sort_values(["total_count", "marker_value"], ascending=[False, True])
+
+
 def load_global_counts(args: argparse.Namespace) -> pd.DataFrame:
     if args.global_markers:
         global_counts = read_csv(Path(args.global_markers))
-    else:
+    elif args.spacy_markers and args.stanza_markers:
         global_counts = build_global_counts_from_marker_files(
             Path(args.spacy_markers),
             Path(args.stanza_markers),
             args.marker_col,
             args.mode_col,
             args.mode_value,
+        )
+    elif args.markers:
+        global_counts = build_global_counts_from_markers(
+            Path(args.markers),
+            args.marker_col,
+            args.mode_col,
+            args.mode_value,
+        )
+    else:
+        raise ValueError(
+            "Provide --global-markers, --markers, or both --spacy-markers and --stanza-markers."
         )
 
     if args.marker_col not in global_counts.columns:
@@ -490,9 +527,10 @@ def parse_args() -> argparse.Namespace:
             "high-confidence repairs for truncated or morphologically varied forms."
         )
     )
-    parser.add_argument("--global-markers", default=str(DEFAULT_GLOBAL_MARKERS), help="CSV with marker_value counts.")
-    parser.add_argument("--spacy-markers", default=str(DEFAULT_SPACY_MARKERS), help="SpaCy markers CSV fallback.")
-    parser.add_argument("--stanza-markers", default=str(DEFAULT_STANZA_MARKERS), help="Stanza markers CSV fallback.")
+    parser.add_argument("--global-markers", default="", help="Optional CSV with precomputed marker_value counts.")
+    parser.add_argument("--markers", default=str(DEFAULT_MARKERS), help="Normalized SimpleSitEmo markers CSV.")
+    parser.add_argument("--spacy-markers", default="", help="Optional SpaCy markers CSV fallback.")
+    parser.add_argument("--stanza-markers", default="", help="Optional Stanza markers CSV fallback.")
     parser.add_argument("--lexicon", default=str(DEFAULT_LEXICON), help="TSV emotional lexicon.")
     parser.add_argument("--outdir", default=str(DEFAULT_OUTDIR), help="Output directory.")
     parser.add_argument("--marker-col", default="marker_value", help="Marker value column.")
@@ -519,13 +557,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    global_marker_path = Path(args.global_markers)
-
-    if args.global_markers and global_marker_path.is_file():
-        markers = load_global_counts(args)
-    else:
-        args.global_markers = ""
-        markers = load_global_counts(args)
+    markers = load_global_counts(args)
 
     _, lexicon_entries = read_lexicon(Path(args.lexicon), args.lexicon_term_col, args.lexicon_category_col)
     annotated = exact_annotate(markers, args.marker_col, lexicon_entries, strip_accents=not args.keep_accents)

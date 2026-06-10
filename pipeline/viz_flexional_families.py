@@ -10,9 +10,9 @@ Usage
 -----
 ::
 
-    python -m pipeline_2.viz_flexional_families \\
-        --input results/pipeline_2_granularity/token_lemmas.csv \\
-        --output results/pipeline_2_granularity/flexional_families.html \\
+    python -m pipeline.viz_flexional_families \\
+        --input results/simplesitemo_granularity/token_lemmas.csv \\
+        --output results/simplesitemo_granularity/flexional_families.html \\
         --min-freq 3 \\
         --backend spacy
 """
@@ -36,10 +36,10 @@ from .emotion_taxonomy import EMOTIONS
 _PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
 DEFAULT_INPUT = os.path.join(
-    _PROJECT_ROOT, "results", "pipeline_2_granularity", "token_lemmas.csv"
+    _PROJECT_ROOT, "results", "simplesitemo_granularity", "token_lemmas.csv"
 )
 DEFAULT_OUTPUT = os.path.join(
-    _PROJECT_ROOT, "results", "pipeline_2_granularity", "flexional_families.html"
+    _PROJECT_ROOT, "results", "simplesitemo_granularity", "flexional_families.html"
 )
 
 

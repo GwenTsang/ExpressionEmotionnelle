@@ -10,9 +10,9 @@ Usage
 -----
 ::
 
-    python -m pipeline_2.build_token_lemma_table \\
-        --input data/pipeline_2/SimpleSitEmo.parquet \\
-        --output results/pipeline_2_granularity/token_lemmas.csv \\
+    python -m pipeline.build_token_lemma_table \\
+        --input data/SimpleSitEmo.parquet \\
+        --output results/simplesitemo_granularity/token_lemmas.csv \\
         --batch-size 256
 
 Colonnes produites
@@ -43,9 +43,9 @@ from .nlp_utils import FR_STOPWORDS
 
 _PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
-DEFAULT_INPUT = os.path.join(_PROJECT_ROOT, "data", "pipeline_2", "SimpleSitEmo.parquet")
+DEFAULT_INPUT = os.path.join(_PROJECT_ROOT, "data", "SimpleSitEmo.parquet")
 DEFAULT_OUTPUT = os.path.join(
-    _PROJECT_ROOT, "results", "pipeline_2_granularity", "token_lemmas.csv"
+    _PROJECT_ROOT, "results", "simplesitemo_granularity", "token_lemmas.csv"
 )
 
 

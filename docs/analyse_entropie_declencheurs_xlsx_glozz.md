@@ -1,5 +1,10 @@
 # Analyse : effet du span declencheur sur les entropies Glozz/XLSX
 
+Statut : document de migration uniquement. Les chemins et imports
+`pipeline_1` / `pipeline_2` ci-dessous décrivent une comparaison historique
+entre deux variantes aujourd'hui fusionnées dans le package actif `pipeline`.
+Ils ne sont pas des points d'entrée maintenus.
+
 ## Objet du compte rendu
 
 Ce document rend compte des analyses menees pour tester l'hypothese suivante :
