@@ -6,7 +6,7 @@ import pandas as pd
 import scipy.stats as stats
 
 # Groupes résolus par préfixe (colonnes one-hot commençant par PREFIX_)
-PREFIX_GROUPS = ["ROLE", "HATE", "INTENTION", "VERBAL_ABUSE"]
+PREFIX_GROUPS = ["ROLE", "TARGET", "HATE", "INTENTION", "VERBAL_ABUSE"]
 
 # Groupes résolus par liste fixe
 FIXED_GROUPS = {
@@ -195,13 +195,9 @@ def run_global(df, group_a, group_b, cols_b, output_dir, save_csv):
     return df_result, saved_files
 
 
-# ---------------------------------------------------------------------------
 # Affichage console
-# ---------------------------------------------------------------------------
 
 def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
-    """Affiche un résumé concis des résultats dans le terminal."""
-    print("")
     print(f" Corrélation {group_a} × {group_b} (mode: {mode})")
     print("")
 
