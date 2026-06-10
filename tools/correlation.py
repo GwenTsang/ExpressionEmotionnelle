@@ -1,10 +1,3 @@
-"""Script de corrélation entre features
-
-Teste les corrélations entre deux groupes de colonnes binaires (mode pairwise)
-et/ou l'association globale entre une variable catégorielle et des colonnes
-binaires (mode global).
-"""
-
 import argparse
 import os
 
@@ -31,17 +24,6 @@ ALL_GROUP_NAMES = PREFIX_GROUPS + list(FIXED_GROUPS.keys())
 # ---------------------------------------------------------------------------
 # Fonctions utilitaires
 # ---------------------------------------------------------------------------
-
-def cramers_v(chi2, n, table_shape):
-    """Calcule le V de Cramér (formule correcte)."""
-    rows, cols = table_shape
-    denominator = n * min(rows - 1, cols - 1)
-    if denominator == 0:
-        return np.nan
-    return np.sqrt(chi2 / denominator)
-    # Formule simplifiee (correcte uniquement pour tables 2x2) :
-    # return np.sqrt(chi2 / n)
-
 
 def resolve_group(group_name, df_columns):
     """Résout un nom de groupe en liste de colonnes du DataFrame."""
@@ -88,7 +70,7 @@ def format_p_values_for_csv(df):
 # Mode pairwise
 # ---------------------------------------------------------------------------
 
-def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir):
+def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
     """Corrélation pairwise entre colonnes binaires."""
     rows = []
     for col_a in cols_a:
@@ -101,7 +83,7 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir):
                 rows.append({
                     "col_a": col_a, "col_b": col_b,
                     "phi": np.nan, "chi2": np.nan,
-                    "p_value": np.nan, "cramers_v": np.nan, "n": n,
+                    "p_value": np.nan, "n": n,
                 })
                 continue
 
@@ -111,15 +93,14 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir):
             # Chi-square 2×2
             contingency = pd.crosstab(sub[col_a], sub[col_b])
             if contingency.shape[0] < 2 or contingency.shape[1] < 2:
-                chi2_val, p_val, cv = np.nan, np.nan, np.nan
+                chi2_val, p_val = np.nan, np.nan
             else:
                 chi2_val, p_val, dof, _ = stats.chi2_contingency(contingency)
-                cv = cramers_v(chi2_val, n, contingency.shape)
 
             rows.append({
                 "col_a": col_a, "col_b": col_b,
                 "phi": phi, "chi2": chi2_val,
-                "p_value": p_val, "cramers_v": cv, "n": n,
+                "p_value": p_val, "n": n,
             })
 
     df_result = pd.DataFrame(rows)
@@ -135,27 +116,30 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir):
 
     df_dist = pd.DataFrame(dist_rows).set_index("variable")
 
-    # Sauvegarde
-    ga = group_a.lower()
-    gb = group_b.lower()
+    # Sauvegarde conditionnelle
+    saved_files = []
+    if save_csv:
+        ga = group_a.lower()
+        gb = group_b.lower()
 
-    pairwise_path = os.path.join(output_dir, f"pairwise_{ga}_{gb}.csv")
-    dist_path = os.path.join(output_dir, f"distribution_{ga}_{gb}.csv")
+        pairwise_path = os.path.join(output_dir, f"pairwise_{ga}_{gb}.csv")
+        dist_path = os.path.join(output_dir, f"distribution_{ga}_{gb}.csv")
 
-    format_p_values_for_csv(df_result).to_csv(
-        pairwise_path, index=False, float_format="%.2f"
-    )
-    df_dist.to_csv(dist_path, float_format="%.2f")
+        format_p_values_for_csv(df_result).to_csv(
+            pairwise_path, index=False, float_format="%.2f"
+        )
+        df_dist.to_csv(dist_path, float_format="%.2f")
+        saved_files = [pairwise_path, dist_path]
 
-    return df_result, [pairwise_path, dist_path]
+    return df_result, saved_files
 
 
 # ---------------------------------------------------------------------------
 # Mode global
 # ---------------------------------------------------------------------------
 
-def run_global(df, group_a, group_b, cols_b, output_dir):
-    """Chi-square global et V de Cramér (catégorielle vs binaire)."""
+def run_global(df, group_a, group_b, cols_b, output_dir, save_csv):
+    """Chi-square global (catégorielle vs binaire)."""
     # Déterminer quel groupe est catégoriel
     if is_prefix_group(group_a):
         cat_col = group_a.upper()
@@ -164,8 +148,6 @@ def run_global(df, group_a, group_b, cols_b, output_dir):
         cat_col = group_b.upper()
         binary_cols = resolve_group(group_a, df.columns)
     else:
-        print(f"[!] Mode global ignoré : aucun des deux groupes "
-              f"({group_a}, {group_b}) n'est une variable catégorielle.")
         return None, []
 
     if cat_col not in df.columns:
@@ -182,34 +164,35 @@ def run_global(df, group_a, group_b, cols_b, output_dir):
         n = contingency.to_numpy().sum()
 
         if contingency.shape[0] < 2 or contingency.shape[1] < 2:
-            chi2_val, p_val, dof, cv = np.nan, np.nan, np.nan, np.nan
+            chi2_val, p_val, dof = np.nan, np.nan, np.nan
         else:
             try:
                 chi2_val, p_val, dof, _ = stats.chi2_contingency(contingency)
-                cv = cramers_v(chi2_val, n, contingency.shape)
             except Exception:
-                chi2_val, p_val, dof, cv = np.nan, np.nan, np.nan, np.nan
+                chi2_val, p_val, dof = np.nan, np.nan, np.nan
 
         rows.append({
             "categorical_var": cat_col,
             "binary_var": bin_col,
             "chi2": chi2_val,
             "p_value": p_val,
-            "cramers_v": cv,
             "df": dof,
             "n": n,
         })
 
     df_result = pd.DataFrame(rows)
 
-    ga = group_a.lower()
-    gb = group_b.lower()
-    global_path = os.path.join(output_dir, f"global_{ga}_{gb}.csv")
-    format_p_values_for_csv(df_result).to_csv(
-        global_path, index=False, float_format="%.2f"
-    )
+    saved_files = []
+    if save_csv:
+        ga = group_a.lower()
+        gb = group_b.lower()
+        global_path = os.path.join(output_dir, f"global_{ga}_{gb}.csv")
+        format_p_values_for_csv(df_result).to_csv(
+            global_path, index=False, float_format="%.2f"
+        )
+        saved_files = [global_path]
 
-    return df_result, [global_path]
+    return df_result, saved_files
 
 
 # ---------------------------------------------------------------------------
@@ -225,14 +208,13 @@ def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
     if df_pairwise is not None and len(df_pairwise) > 0:
         n_total = len(df_pairwise)
         n_sig = df_pairwise["p_value"].dropna().lt(0.05).sum()
-        print(f"\nPairwise : {n_total} paires testées")
 
-        # Top 5 par |Phi|
+        # Top 5
         df_sorted = df_pairwise.dropna(subset=["phi"]).copy()
         df_sorted["abs_phi"] = df_sorted["phi"].abs()
         top5 = df_sorted.nlargest(5, "abs_phi")
         if len(top5) > 0:
-            print("Top 5 des corrélations :")
+            print(f"Top 5 des corrélations parmi {n_total} paires testées :")
             for i, (_, row) in enumerate(top5.iterrows(), 1):
                 p_str = f"{row['p_value']:.2e}" if row["p_value"] < 0.01 else f"{row['p_value']:.2f}"
                 print(f"  {i}. {row['col_a']} × {row['col_b']}"
@@ -243,39 +225,30 @@ def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
         n_sig = df_global["p_value"].dropna().lt(0.05).sum()
         print(f"\nGlobal : {n_total} tests effectués, {n_sig} significatifs (p < 0.05)")
 
-        # ceci n'est pas très informatif, je trouve
-        df_sorted = df_global.dropna(subset=["cramers_v"]).copy()
-        top5 = df_sorted.nlargest(5, "cramers_v")
+        df_sorted = df_global.dropna(subset=["chi2"]).copy()
+        top5 = df_sorted.nlargest(5, "chi2")
         if len(top5) > 0:
-            print("Top 5 associations (par V de Cramér) :")
+            print("Top 5 associations (par chi2) :")
             for i, (_, row) in enumerate(top5.iterrows(), 1):
                 p_str = f"{row['p_value']:.2e}" if row["p_value"] < 0.01 else f"{row['p_value']:.2f}"
                 print(f"  {i}. {row['categorical_var']} × {row['binary_var']}"
-                      f"    V={row['cramers_v']:.2f}  p={p_str}")
+                      f"    chi2={row['chi2']:.2f}  p={p_str}")
 
     if saved_files:
         print(f"\nFichiers sauvegardés :")
         for f in saved_files:
-            print(f"  → {f}")
+            print(f"- {f}")
     print()
 
 
-# ---------------------------------------------------------------------------
 # Point d'entrée
-# ---------------------------------------------------------------------------
-
 def parse_args():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    default_input = os.path.join(
-        base_dir, "data", "processed",
-        "correlation_binary_dataset.xlsx",
-    )
     default_output_dir = os.path.join(base_dir, "results", "correlation")
 
     parser = argparse.ArgumentParser(
         description=(
-            "Script unifié de corrélation. Compare deux groupes de colonnes.\n"
-            f"Groupes valides : {', '.join(ALL_GROUP_NAMES)}"
+            f"Script de corrélation groupes valides : {', '.join(ALL_GROUP_NAMES)}"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -291,15 +264,12 @@ def parse_args():
         "--mode",
         choices=["pairwise", "global", "all"],
         default="all",
-        help="Mode d'analyse (défaut: all).",
-    )
-    parser.add_argument(
-        "--input", default=default_input,
-        help="Fichier Excel préparé (défaut: data/processed/correlation_binary_dataset.xlsx).",
     )
     parser.add_argument(
         "--output-dir", default=default_output_dir,
-        help="Dossier de sortie des CSV (défaut: results/correlation/).",
+    )
+    parser.add_argument(
+        "--save-csv", action="store_true",
     )
     return parser.parse_args()
 
@@ -307,8 +277,12 @@ def parse_args():
 def main():
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
-    # Lecture du dataset préparé
-    df = pd.read_excel(args.input)
+
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    input_path = os.path.join(
+        base_dir, "data", "processed", "correlation_binary_dataset.xlsx"
+    )
+    df = pd.read_excel(input_path)
 
     # Résolution des groupes
     group_a = args.group_a.upper()
@@ -327,13 +301,13 @@ def main():
     # Exécution
     if mode in ("pairwise", "all"):
         df_pairwise, files = run_pairwise(
-            df, cols_a, cols_b, group_a, group_b, args.output_dir,
+            df, cols_a, cols_b, group_a, group_b, args.output_dir, args.save_csv,
         )
         saved_files.extend(files)
 
     if mode in ("global", "all"):
         df_global, files = run_global(
-            df, group_a, group_b, cols_b, args.output_dir,
+            df, group_a, group_b, cols_b, args.output_dir, args.save_csv,
         )
         saved_files.extend(files)
 
