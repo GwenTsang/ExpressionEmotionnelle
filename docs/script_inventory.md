@@ -1,12 +1,4 @@
-# Script inventory
 
-This inventory defines the maintained surface of the repository after the
-SimpleSitEmo consolidation. "Active pipeline" means the module is part of the
-current build or analysis path. "Analysis tool" means retained for secondary
-reports, dashboards, or exploratory analyses. "Legacy/archive candidate" means
-retained for now because it may still document an old analysis, but it is not a
-maintained entrypoint. "Migration-only" means historical context for a past
-transition, not a runnable current workflow.
 
 ## Active pipeline
 
@@ -52,5 +44,4 @@ transition, not a runnable current workflow.
 
 No retained Python or shell script is migration-only. The migration-only
 material is documentation, mainly
-`docs/analyse_entropie_declencheurs_xlsx_glozz.md`, which records the old
-variant comparison and is not an active entrypoint.
+`docs/analyse_entropie_declencheurs_xlsx_glozz.md`, which records the old variant comparison and is not an active entrypoint.
