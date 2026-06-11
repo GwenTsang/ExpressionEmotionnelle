@@ -263,8 +263,6 @@ def main():
     output_df.to_excel(output_path, index=False)
 
     print(f"\n[+] Dataset préparé sauvegardé : {output_path}")
-    print(f"    - {len(output_df)} lignes")
-    print(f"    - {len(output_df.columns)} colonnes")
     print(f"    - Colonnes catégorielles : {existing_cat}")
     print(
         "    - Colonnes catégorielles binaires : "

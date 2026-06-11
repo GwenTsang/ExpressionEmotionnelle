@@ -21,10 +21,7 @@ FIXED_GROUPS = {
 ALL_GROUP_NAMES = PREFIX_GROUPS + list(FIXED_GROUPS.keys())
 
 
-# ---------------------------------------------------------------------------
 # Fonctions utilitaires
-# ---------------------------------------------------------------------------
-
 def resolve_group(group_name, df_columns):
     """Résout un nom de groupe en liste de colonnes du DataFrame."""
     name = group_name.upper()
@@ -32,7 +29,7 @@ def resolve_group(group_name, df_columns):
         cols = [c for c in FIXED_GROUPS[name] if c in df_columns]
         if not cols:
             raise ValueError(
-                f"Aucune colonne du groupe '{name}' trouvée dans le dataset."
+                f"Aucune colonne'{name}' trouvée dans le dataset."
             )
         return cols
 
@@ -208,7 +205,7 @@ def print_group_sizes(df, group_name, cols):
     for col in cols:
         n_valid = int(df[col].notna().sum())
         n_pos = int((df[col] == 1).sum())
-        print(f"    {col:30s}  n=1: {n_pos:4d} / {n_valid}")
+        print(f"    {col:30s}  n={n_pos}")
 
 
 def print_summary(df, group_a, group_b, cols_a, cols_b, mode,
