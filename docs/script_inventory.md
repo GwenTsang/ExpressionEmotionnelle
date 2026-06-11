@@ -27,7 +27,7 @@
 | `tools/top_markers.py` | Analysis tool | Prints/export top markers from specificity outputs. CLI supports `--help`. |
 | `tools/prepare_correlation_dataset.py` | Analysis tool | Builds the CyberAdoAgg binary correlation dataset from the raw XLSX. |
 | `tools/correlation.py` | Analysis tool | Runs pairwise/global correlation analyses. CLI supports `--help`. |
-| `tools/run_correlations.py` | Analysis tool | Batch-runs `tools/correlation.py`. CLI supports `--help`. |
+| `tools/run_correlation_pairs.sh` | Analysis tool | Batch-runs the 12 EMOTIONS/MODES x categorical correlation commands. |
 | `tools/generate_cyberado_role_target_visualization.py` | Analysis tool | Generates the ROLE -> TARGET flow HTML. CLI supports `--help`. |
 
 ## Legacy/archive candidates

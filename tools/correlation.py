@@ -247,7 +247,7 @@ def print_summary(df, group_a, group_b, cols_a, cols_b, mode,
                       f"    chi2={row['chi2']:.2f}  p={p_str}")
 
     if saved_files:
-        print(f"\nFichiers sauvegardés :")
+        print("Fichiers sauvegardés :")
         for f in saved_files:
             print(f"- {f}")
     print()

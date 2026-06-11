@@ -100,7 +100,7 @@ Le pipeline suit trois étapes séquentielles :
 
 ### Étape 1 — Build
 
-Deux extracteurs indépendants convertissent les annotations brutes (Glozz XML et XLSX) dans le schéma SimpleSitEmo. Les émotions et modes sont normalisés vers des formes canoniques accentuées (ex. `Colere` → `Colère`, `Designee` → `Désignée`).
+Deux extracteurs indépendants convertissent les annotations brutes (Glozz XML et XLSX) dans le schéma SimpleSitEmo :
 
 ```mermaid
 flowchart LR
