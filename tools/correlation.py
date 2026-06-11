@@ -83,7 +83,7 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
                 rows.append({
                     "col_a": col_a, "col_b": col_b,
                     "phi": np.nan, "chi2": np.nan,
-                    "p_value": np.nan, "n": n,
+                    "p_value": np.nan,
                     "n_a": n_a, "n_b": n_b, "n_intersect": n_intersect,
                 })
                 continue
@@ -101,7 +101,7 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
             rows.append({
                 "col_a": col_a, "col_b": col_b,
                 "phi": phi, "chi2": chi2_val,
-                "p_value": p_val, "n": n,
+                "p_value": p_val,
                 "n_a": n_a, "n_b": n_b, "n_intersect": n_intersect,
             })
 
@@ -111,7 +111,7 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
     dist_rows = []
     for col_a in cols_a:
         mask_a = df[col_a] == 1
-        row = {"variable": col_a, "n": int(mask_a.sum())}
+        row = {"variable": col_a}
         for col_b in cols_b:
             row[col_b] = df.loc[mask_a, col_b].mean() if mask_a.sum() > 0 else np.nan
         dist_rows.append(row)
@@ -134,7 +134,6 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
         saved_files = [pairwise_path, dist_path]
 
     return df_result, saved_files
-
 
 # ---------------------------------------------------------------------------
 # Mode global
@@ -163,23 +162,21 @@ def run_global(df, group_a, group_b, cols_b, output_dir, save_csv):
 
     for bin_col in binary_cols:
         contingency = pd.crosstab(df_valid[cat_col], df_valid[bin_col])
-        n = contingency.to_numpy().sum()
 
         if contingency.shape[0] < 2 or contingency.shape[1] < 2:
-            chi2_val, p_val, dof = np.nan, np.nan, np.nan
+            chi2_val, p_val = np.nan, np.nan
         else:
             try:
-                chi2_val, p_val, dof, _ = stats.chi2_contingency(contingency)
+                # On utilise "_" pour ignorer la valeur df renvoyée par la fonction
+                chi2_val, p_val, _, _ = stats.chi2_contingency(contingency)
             except Exception:
-                chi2_val, p_val, dof = np.nan, np.nan, np.nan
+                chi2_val, p_val = np.nan, np.nan
 
         rows.append({
             "categorical_var": cat_col,
             "binary_var": bin_col,
             "chi2": chi2_val,
             "p_value": p_val,
-            "df": dof,
-            "n": n,
         })
 
     df_result = pd.DataFrame(rows)
@@ -195,7 +192,6 @@ def run_global(df, group_a, group_b, cols_b, output_dir, save_csv):
         saved_files = [global_path]
 
     return df_result, saved_files
-
 
 # Affichage console
 
