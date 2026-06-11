@@ -20,6 +20,7 @@ CATEGORY_VALUES = {
     "HATE": ["OAG", "CAG", "NAG"],
     "INTENTION": ["ATK", "DFN", "CNS", "AIN", "GSL", "EMP", "CR", "OTH"],
     "VERBAL_ABUSE": ["BLM", "NCG", "THR", "DNG", "OTH"],
+    "CONTEXT": ["ATK", "DFN", "CNS", "AIN", "GSL", "EMP", "CR", "OTH"],
 }
 CATEGORICAL_COLS = list(CATEGORY_VALUES)
 

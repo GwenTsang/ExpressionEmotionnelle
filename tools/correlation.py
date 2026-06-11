@@ -6,7 +6,7 @@ import pandas as pd
 import scipy.stats as stats
 
 # Groupes résolus par préfixe (colonnes one-hot commençant par PREFIX_)
-PREFIX_GROUPS = ["ROLE", "TARGET", "HATE", "INTENTION", "VERBAL_ABUSE"]
+PREFIX_GROUPS = ["ROLE", "TARGET", "HATE", "INTENTION", "VERBAL_ABUSE", "CONTEXT"]
 
 # Groupes résolus par liste fixe
 FIXED_GROUPS = {
@@ -78,12 +78,16 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
             mask = df[col_a].notna() & df[col_b].notna()
             sub = df.loc[mask, [col_a, col_b]]
             n = len(sub)
+            n_a = int((sub[col_a] == 1).sum())
+            n_b = int((sub[col_b] == 1).sum())
+            n_intersect = int(((sub[col_a] == 1) & (sub[col_b] == 1)).sum())
 
             if n < 2 or sub[col_a].std() == 0 or sub[col_b].std() == 0:
                 rows.append({
                     "col_a": col_a, "col_b": col_b,
                     "phi": np.nan, "chi2": np.nan,
                     "p_value": np.nan, "n": n,
+                    "n_a": n_a, "n_b": n_b, "n_intersect": n_intersect,
                 })
                 continue
 
@@ -101,6 +105,7 @@ def run_pairwise(df, cols_a, cols_b, group_a, group_b, output_dir, save_csv):
                 "col_a": col_a, "col_b": col_b,
                 "phi": phi, "chi2": chi2_val,
                 "p_value": p_val, "n": n,
+                "n_a": n_a, "n_b": n_b, "n_intersect": n_intersect,
             })
 
     df_result = pd.DataFrame(rows)
@@ -197,9 +202,25 @@ def run_global(df, group_a, group_b, cols_b, output_dir, save_csv):
 
 # Affichage console
 
-def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
-    print(f" Corrélation {group_a} × {group_b} (mode: {mode})")
-    print("")
+def print_group_sizes(df, group_name, cols):
+    """Affiche la taille d'échantillon pour chaque colonne d'un groupe."""
+    print(f"  Effectifs {group_name} :")
+    for col in cols:
+        n_valid = int(df[col].notna().sum())
+        n_pos = int((df[col] == 1).sum())
+        print(f"    {col:30s}  n=1: {n_pos:4d} / {n_valid}")
+
+
+def print_summary(df, group_a, group_b, cols_a, cols_b, mode,
+                  df_pairwise, df_global, saved_files):
+    print(f"\n Corrélation {group_a} × {group_b} (mode: {mode})")
+    print()
+
+    # Effectifs par groupe
+    print_group_sizes(df, group_a, cols_a)
+    print()
+    print_group_sizes(df, group_b, cols_b)
+    print()
 
     if df_pairwise is not None and len(df_pairwise) > 0:
         n_total = len(df_pairwise)
@@ -214,7 +235,9 @@ def print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files):
             for i, (_, row) in enumerate(top5.iterrows(), 1):
                 p_str = f"{row['p_value']:.2e}" if row["p_value"] < 0.01 else f"{row['p_value']:.2f}"
                 print(f"  {i}. {row['col_a']} × {row['col_b']}"
-                      f"          Corrélation Phi={row['phi']:.2f}  p={p_str}")
+                      f"          Phi={row['phi']:.2f}  p={p_str}"
+                      f"  n_a={int(row['n_a'])}  n_b={int(row['n_b'])}"
+                      f"  n(A∩B)={int(row['n_intersect'])}")
 
     if df_global is not None and len(df_global) > 0:
         n_total = len(df_global)
@@ -308,7 +331,8 @@ def main():
         saved_files.extend(files)
 
     # Résumé
-    print_summary(group_a, group_b, mode, df_pairwise, df_global, saved_files)
+    print_summary(df, group_a, group_b, cols_a, cols_b, mode,
+                  df_pairwise, df_global, saved_files)
 
 if __name__ == "__main__":
     main()
