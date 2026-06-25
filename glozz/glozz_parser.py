@@ -17,6 +17,7 @@ import os
 import sys
 import argparse
 import json
+import re
 import xml.etree.ElementTree as ET
 from typing import Optional
 
@@ -65,6 +66,36 @@ def _get_feature_value(feature_node) -> Optional[str]:
 def _clean_span(text: str) -> str:
     """Normalise les retours ligne sans modifier le contenu lexical."""
     return text.replace("\n", " ").replace("\r", " ")
+
+
+def _normalize_values(text: Optional[str]) -> Optional[str]:
+    """Normalise, corrige les typos et dé-duplique les valeurs multiples."""
+    if not text:
+        return None
+    # Splitter sur /, ; et ,
+    parts = re.split(r'[/;,]', text)
+    normalized = []
+    for p in parts:
+        p = p.strip().lower()
+        if not p:
+            continue
+        # Corrections
+        if p == "emour":
+            p = "amour"
+        elif p == "stresse":
+            p = "stress"
+        elif p == "amour (apprécier)":
+            p = "amour"
+        elif p == "déterminsation":
+            p = "détermination"
+        
+        # Ajout aux valeurs uniques
+        if p not in normalized:
+            normalized.append(p)
+            
+    if not normalized:
+        return None
+    return ", ".join(normalized)
 
 
 def _merge_feature_values(
@@ -164,7 +195,7 @@ def _extract_target_unit_record(
         record["nature"] = features.get("Nature")
         record["declencheur"] = features.get("Declencheur")
     elif unit_type == "Autre":
-        record["remarque"] = features.get("Remarque")
+        record["remarque"] = _normalize_values(features.get("Remarque"))
 
     return record
 
@@ -509,6 +540,7 @@ def main():
 
     export_to_csv(df, args.output)
 
+print()
 
 if __name__ == "__main__":
     main()

@@ -12,6 +12,14 @@ from .glozz_parser import (
     process_all_corpora,
     process_corpus,
 )
+from .remarque_parser import (
+    parse_all_remarques,
+    parse_remarques_from_pair,
+    get_unique_remarques,
+)
+from .extract_remarques import (
+    SentenceExtractor,
+)
 
 __all__ = [
     "CORPUS_DIRS",
@@ -20,4 +28,9 @@ __all__ = [
     "parse_aa_ac_pair",
     "process_all_corpora",
     "process_corpus",
+    "parse_all_remarques",
+    "parse_remarques_from_pair",
+    "get_unique_remarques",
+    "SentenceExtractor",
 ]
+
