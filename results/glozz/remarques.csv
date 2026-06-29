@@ -1,0 +1,1538 @@
+﻿corpus,file_id,unit_id,start_idx,end_idx,text_span,remarque
+Albert_dataset,Albert11_Somalie,a2_1615815360777,268,276,l’espoir,espoir
+Albert_dataset,Albert15_Castor_vacher,a2_1619191877092,393,402,curiosité,curiosité
+Albert_dataset,Albert2-art_odeur,a2_1614678597659,82,94,la curiosité,curiosité
+Albert_dataset,Albert21-A3_Carotte_miraculeuse,a2_1619516548732,288,296,soulagée,soulagement
+Albert_dataset,Albert25-A3_LUnesco_gardienne_de_la_culture_mondiale,a2_1616492129771,497,508,traumatisme,traumatisme
+Albert_dataset,Albert29-A3_Oumuamua_letrange_visiteur_de_notre_galaxie,a2_1616581290095,1495,1507,la curiosité,curiosité
+Albert_dataset,Albert29-A3_Oumuamua_letrange_visiteur_de_notre_galaxie,a2_1620132490436,722,730,intrigue,curiosité
+Albert_dataset,Albert29-A3_Oumuamua_letrange_visiteur_de_notre_galaxie,a2_1620132510694,1369,1379,a intrigué,curiosité
+Albert_dataset,Albert31-A3_vache_qui_rit,a2_1616594846607,354,364,compassion,compassion
+Albert_dataset,Albert32-A3_machine_avenir_homme,a2_1616598043869,274,283,fascinent,fascination
+Albert_dataset,Albert33-A3_nouveau_debat_armes_feu,a2_1616600398896,3995,3998,ému,émotion
+Albert_dataset,Albert34-A3_mysteres_momie_Ata_reveles,a2_1616667345374,262,270,intrigué,curiosité
+Albert_dataset,Albert73-A3_a-t-on_decouvert_tombeau_Romulus,a2_1618229988207,225,230,a ému,émotion
+CorpusCovid,covid_10-13_MonQuotidien_Temoignages_Martin-raconte,a2_1621433000072,2021,2028,soulagé,soulagement
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618517052781,649,665,un petit sourire,empathie
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618586822148,10774,10779,aimer,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618589410081,16847,16872,C'est quoi des tombeaux ?,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618589742132,17213,17218,adore,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618589852957,17361,17365,aime,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618589880436,17523,17527,aime,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618590083755,18289,18300,'a remercié,gratitude
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618591041662,20621,20625,aime,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618591175090,20697,20719,C'est quoi le phœnix ?,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1618591178097,20759,20784,C'est quoi Mythologique ?,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620324974441,24376,24382,cruels,haine
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620585806165,25549,25564,ça m'arrangeait,soulagement
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620588547699,27378,27436,"Une fois que Frrrintek irait mieux, tout le reste suivrait",espoir
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620588930404,27343,27376,Il fallait que je sauve mon frère,détermination
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620588519743,27294,27341,"Il fallait que je trouve une solution, une idée",détermination
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620589659270,27742,27807,"Je me suis dit qu'il faudrait que je trouve un signe, un indice.",détermination
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620591413296,28754,28790,TU ES MON ARRIERE-PETIT FILS PREFERE,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620738581847,30199,30203,aime,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620741883661,37646,37673,Maman m'a caressé les mains,empathie
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620741897093,38103,38117,a été soulagé.,soulagement
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620757807116,29965,30003,"Tiens, tu peux la lire de toute façon.",résignation
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620758041233,30171,30175,aimé,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620758203082,30413,30443,C'est une fille de ta classe ?,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620758206082,30451,30485,Elle a un problème d'orthographe ?,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620758616044,30784,30798,crise de folie,folie
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620762107393,32582,32586,aimé,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620764348778,34196,34200,aimé,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620764351748,34224,34228,aime,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620899696637,37675,37731,Elle m'a dit que les grandes personnes avaient été bêtes,empathie
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620901609825,39077,39134,je lui ai demandé pourquoi il ne m'en avait jamais parlé.,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1621372315961,9523,9528,adore,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1621372405499,7122,7127,adore,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1621372450246,10114,10119,adore,amour
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620758267109,30493,30514,C'est ton amoureuse ?,curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1622746524339,16227,16246,"Et là, c'est quoi ?",curiosité
+LitteratureJeunesse,Desarthe_Frrrintek,a4_1620758665996,30847,30872,"Ça me faisait moins peur,",soulagement
+LitteratureJeunesse,Friot_francais,a3_1616088766121,5907,5917,Par chance,soulagement
+LitteratureJeunesse,Friot_francais,a3_1616088783876,5931,5979,le système auditif de la prof n’avait rien capté,soulagement
+LitteratureJeunesse,Friot_francais,a3_1616179157717,4491,4501,surprise !,ironie
+LitteratureJeunesse,Friot_francais,a3_1622218070903,15,19,aime,amour
+LitteratureJeunesse,Friot_francais,a3_1622218072211,23,30,déteste,haine
+LitteratureJeunesse,Friot_francais,a3_1622219690588,1705,1711,désirs,désir
+LitteratureJeunesse,Friot_francais,a3_1622221506403,2870,2872,!,détermination
+LitteratureJeunesse,Friot_francais,a3_1622222551850,3521,3535,repiqué du nez,ennui
+LitteratureJeunesse,Friot_francais,a3_1622296936259,7021,7042,nettement moins épais,soulagement
+LitteratureJeunesse,Friot_francais,a4_1616098370813,13201,13255,"C’était super, madame, qu’est-ce que vous lisez bien !",hypocrisie
+LitteratureJeunesse,Friot_francais,a4_1616098374077,13257,13288,"Oui, oui, trop génial, madame !",hypocrisie
+LitteratureJeunesse,Friot_francais,a4_1616102888372,11008,11023,tombe amoureuse,amour
+LitteratureJeunesse,Friot_francais,a4_1616188185661,12489,12530,un FRISSON se répandit sur TOUT son corps,désir
+LitteratureJeunesse,Friot_francais,a4_1621726373980,8749,8753,aime,amour
+LitteratureJeunesse,Friot_francais,a4_1621778133370,9233,9238,bravo,ironie
+LitteratureJeunesse,Friot_francais,a4_1621778138014,9160,9170,Très drôle,ironie
+LitteratureJeunesse,Friot_francais,a5_1616099360057,15719,15737,un regard énamouré,amour
+LitteratureJeunesse,Friot_francais,a5_1616348497754,15013,15030,Typique des profs,mépris
+LitteratureJeunesse,Friot_francais,a5_1616349091933,15454,15470,a éclaté de rire,moquerie
+LitteratureJeunesse,Friot_francais,a5_1616349184527,15472,15488,Quelle horreur,ironie
+LitteratureJeunesse,Morgenstern_Anna,a5_1618517865532,2810,2819,adorerait,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1618519797258,5086,5093,déteste,haine
+LitteratureJeunesse,Morgenstern_Anna,a5_1621363911211,730,796,Mais alors comment font les parents Arthur avec tous ces enfants ?,curiosité
+LitteratureJeunesse,Morgenstern_Anna,a5_1621365710037,1488,1512,"n’aime pas se lever tôt,",detester
+LitteratureJeunesse,Morgenstern_Anna,a5_1621369078797,2520,2532,Heureusement,soulagement
+LitteratureJeunesse,Morgenstern_Anna,a5_1621371318842,3557,3566,encourage,soutien
+LitteratureJeunesse,Morgenstern_Anna,a5_1621372170199,4342,4347,adore,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1621372234112,4494,4498,aime,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1618519214182,4258,4301,le stage de radio qu’elles aimeraient faire,envie
+LitteratureJeunesse,Morgenstern_Anna,a5_1621441845319,5166,5170,aime,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1621444482294,6083,6105,avec un gentil sourire,empathie
+LitteratureJeunesse,Morgenstern_Anna,a5_1621445806720,6903,6911,aimerait,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1621446007343,7008,7030,se dépêcher d’expédier,"empressement, stress"
+LitteratureJeunesse,Morgenstern_Anna,a5_1621447687397,8302,8313,l’encourage,soutien
+LitteratureJeunesse,Morgenstern_Anna,a5_1621448351606,8823,8830,Alors ?,curiosité
+LitteratureJeunesse,Morgenstern_Anna,a5_1621449128006,9158,9164,promis,devoir
+LitteratureJeunesse,Morgenstern_Anna,a5_1621449355373,9403,9460,"Si je ne peux pas venir à la fête, la fête viendra à moi.",détermination
+LitteratureJeunesse,Morgenstern_Anna,a5_1621449541213,9548,9560,est folle du,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1621450056508,9759,9767,aimerait,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1621450489832,10101,10131,Il voudrait être un grand chef,envie
+LitteratureJeunesse,Morgenstern_Anna,a5_1621455592441,12397,12403,n’aime,amour
+LitteratureJeunesse,Morgenstern_Anna,a5_1621455617566,12443,12451,aimerait,envie
+LitteratureJeunesse,Morgenstern_Anna,a5_1621457205486,12613,12655,un petit bisou tendre au coin de la bouche,affection
+LitteratureJeunesse,Morgenstern_Anna,a5_1621457233810,12695,12733,aimerait un jour recevoir un tel bisou,envie
+LitteratureJeunesse,Morgenstern_Anna,a5_1621532115420,12135,12148,applaudissent,pitié
+LitteratureJeunesse,Morgenstern_Anna,a5_1621532249472,12345,12382,voudrait rester avec eux toute sa vie,envie
+LitteratureJeunesse,Morgenstern_Anna,a5_1621442862612,5373,5380,déteste,haine
+LitteratureJeunesse,Morgenstern_Anna,a3_1622312717106,9467,9472,adore,amour
+LitteratureJeunesse,Morgenstern_Anna,a3_1622312838895,11531,11536,adore,amour
+LitteratureJeunesse,Morgenstern_Elisa,a3_1620894388847,930,942,elle aussi !,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1620894896435,967,1002,elle voudrait danser avec la troupe,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1620907825753,1126,1194,Elle se demande s’il n’existe pas une pilule pour changer de couleur,espoir
+LitteratureJeunesse,Morgenstern_Elisa,a3_1620908105301,1398,1439,aimerait rester jusqu’à la fi n des temps,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1620908387032,1793,1817,espérant des autographes,"espoir, envie"
+LitteratureJeunesse,Morgenstern_Elisa,a3_1620908598191,1949,1957,aimerait,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621065554074,2633,2639,adorer,amour
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621066158007,4272,4284,Heureusement,soulagement
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621071997993,4740,4744,Love,politesse
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621360460417,5162,5169,supplie,espoir
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621361353940,5475,5488,aimerait bien,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621533312517,6170,6176,espère,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621534568978,283,288,merci,gratitude
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621543705958,4262,4266,Love,politesse
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621549455919,6510,6528,ce n’est pas grave,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621549883237,6721,6750,sait ce qui lui reste à faire,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621550810159,7385,7403,toujours confiante,confiante
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621551423630,7640,7648,bien sûr,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621551436292,7705,7715,absolument,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621551491110,8016,8053,comment diton « ballet » en anglais ?,curiosité
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621551518030,8478,8514,connaît aussi le langage du ballet ?,curiosité
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621584890102,9311,9343,aimerais faire un stage de danse,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621588451122,5430,5436,promet,devoir
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621609693529,8061,8111,aussi oublié de noter les vêtements pour la danse,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621610844250,9266,9278,le remercier,gratitude
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621615330239,10743,10750,voulais,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621619656339,10819,10845,j’aimerais être un chameau,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621620211938,10943,10968,j’aimerais être une fille,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621620501792,10996,11004,pourquoi,curiosité
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621621054246,11295,11300,Merci,gratitude
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621621190146,11341,11346,aimes,amour
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621622154517,11459,11469,j’aimerais,amour
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621625010288,12453,12471,décide de vérifier,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621626742292,12589,12645,pourquoi tout le vocabulaire de ballet est en français.,curiosité
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621626815829,12711,12714,Bon,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621626998166,13043,13076,du mal à garder les yeux ouverts,ennui
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621627068420,13090,13105,être passionnée,amour
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621627086243,13155,13177,la fait piquer du nez.,ennui
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621627567728,13254,13255,!,ennui
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621627584983,13267,13290,s’endormir complètement,ennui
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621628400423,13567,13572,Ouf !,soulagement
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621633090532,14558,14569,se consoler,soulagement
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621633866260,14988,15004,sèche ses larmes,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621634616961,9400,9412,persévérante,détermination
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621739194329,15678,15682,rêvé,envie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621760092444,13412,13423,excusez-moi,autre
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621760093569,13412,13423,excusez-moi,politesse
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621760308012,13598,13629,Je n’en pouvais plus non plus !,soulagement
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621761495970,14672,14700,penser au fi lm Billy Elliot,nostalgie
+LitteratureJeunesse,Morgenstern_Elisa,a3_1621538841299,1351,1391,voudrait que le ballet ne finisse jamais,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1618562671402,9774,9840,« Vous êtes des incompétents mais vous avez bien joué quand même »,ironie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1618563158056,11022,11030,se moque,moquerie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1618564189670,14482,14503,se sent toute flagada,amour
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620911782528,1013,1019,adorer,amour
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620912315583,1513,1523,sa passion,passion
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620912337077,1474,1489,donnerait envie,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620913641970,2112,2121,pas envie,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620915065316,3032,3036,aimé,amour
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620915188147,3125,3132,déteste,haine
+LitteratureJeunesse,Morgenstern_Flavia,a5_1620915319357,3436,3472,"Qu’est-ce que tu as vu, ma chérie ?",curiosité
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621095620460,4245,4261,lui tombe dessus,"exitation, impatience"
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621095637408,4264,4290,Qu’est-ce que tu as fait ?,curiosité
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621095641424,4294,4304,questionne,curiosité
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621095644898,4313,4347,Qu’est-ce qu’il y a dans ton sac ?,curiosité
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621095647578,4348,4359,veut savoir,curiosité
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621097461433,7220,7242,le garçon de ses rêves,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621097473572,7353,7360,d’amour,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621097535797,7398,7402,rêve,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621097776715,7773,7791,l’aime encore plus,amour
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621099350999,9608,9670,"les traiter de « nuls », de « minus » ou de « moins que rien »",mépris
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621099387812,9915,9924,remercies,gratitude
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621100855492,13166,13174,gentille,gentillesse
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621101249444,13507,13524,lui porter chance,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621101470573,14368,14391,le champion de son cœur,amour
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621101509538,14596,14600,aime,amour
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621101692118,14969,14977,félicite,encouragement
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621185599496,4923,4940,propose gentiment,compassion
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621189507978,7830,7859,ne fait pas dans le sentiment,insensibilité
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621189842351,8250,8267,tant bien que mal,difficulté
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621276093604,9135,9143,"Hum, hum",gêne
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621278357847,10107,10115,aimerais,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621280472804,10810,10844,tu veux bien faire une partie avec,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621280500668,10850,10863,s’il te plaît,politesse
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621282133778,12399,12437,"Celles-là, jamais elle ne les perdra !",détermination
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621285353917,14535,14565,ne veut pas manquer l’occasion,envie
+LitteratureJeunesse,Morgenstern_Flavia,a5_1621285590833,14832,14844,se concentre,détermination
+LitteratureJeunesse,Morgenstern_mariage,a3_1621742327760,2271,2279,Et moi ?,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621744302676,3136,3141,adore,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621744311014,3077,3117,Qu’est-ce que tu vas porter comme robe ?,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621745458544,3997,4009,rêve le plus,envie
+LitteratureJeunesse,Morgenstern_mariage,a3_1621747109146,4979,5025,aimerait bien en profiter pour sécher l’école.,envie
+LitteratureJeunesse,Morgenstern_mariage,a3_1621748128238,5454,5462,aimerait,envie
+LitteratureJeunesse,Morgenstern_mariage,a3_1621748836051,6258,6269,préférerait,envie
+LitteratureJeunesse,Morgenstern_mariage,a3_1621749514150,6972,6980,amoureux,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621749520347,6993,7000,l’amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621749524877,7016,7023,passion,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621749778542,7465,7474,remercier,gratitude
+LitteratureJeunesse,Morgenstern_mariage,a3_1621766239542,1371,1384,C’est vrai ça,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621766900313,1836,1841,amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621768599599,2832,2838,Promis,devoir
+LitteratureJeunesse,Morgenstern_mariage,a3_1621768737130,3024,3032,embrasse,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621769151137,3186,3210,on s’habillera comment ?,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621769158799,3177,3184,Et nous,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621771860467,10707,10714,rassuré,soulagement
+LitteratureJeunesse,Morgenstern_mariage,a3_1621776417685,4511,4532,Avec un peu de chance,espoir
+LitteratureJeunesse,Morgenstern_mariage,a3_1621776871959,4740,4747,l’amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1621776919966,4884,4912,mille questions à lui poser.,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621780119821,9061,9067,Promis,devoir
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782105285,11309,11320,s’intéresse,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782112725,11263,11282,Qu’est-ce qu’il y a,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782694823,11706,11713,rassure,soulagement
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782732999,11765,11776,l’interroge,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782753175,11757,11762,alors,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782833621,11850,11856,promet,devoir
+LitteratureJeunesse,Morgenstern_mariage,a3_1621782969375,12024,12030,espère,envie
+LitteratureJeunesse,Morgenstern_mariage,a3_1622407732327,12236,12248,se renseigne,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1622407826437,12295,12301,J’aime,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622407942814,12423,12430,demande,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1622407959220,12383,12422,montera en haut de la montagne à pied ?,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1622408441452,13042,13048,s’aime,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622408820805,14314,14321,rassure,soulagement
+LitteratureJeunesse,Morgenstern_mariage,a3_1622408862472,14420,14428,embrasse,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622409158245,15130,15136,aimait,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622409185290,15344,15351,s’aimer,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622409284385,15530,15536,s’aime,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622464613945,13108,13115,tralala,ennui
+LitteratureJeunesse,Morgenstern_mariage,a3_1622477895115,13342,13351,embrasser,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1622478099620,13418,13435,envie de partager,envie
+LitteratureJeunesse,Morgenstern_mariage,a3_1622478136134,13526,13533,au fait,curiosité
+LitteratureJeunesse,Morgenstern_mariage,a3_1623172227761,12710,12732,la tempête s’est calmé,soulagement
+LitteratureJeunesse,Morgenstern_mariage,a3_1623215381000,15702,15707,amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1623215391668,15729,15733,aime,amour
+LitteratureJeunesse,Morgenstern_mariage,a3_1623220264156,17722,17757,ils ont tout un mariage à organiser,détermination
+LitteratureJeunesse,Morgenstern_mariage,a3_1623228442974,23018,23026,s’aiment,amour
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742323182,23112,23119,L’amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742334130,23181,23218,débordent d’affection et de tendresse,amour
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742343410,23274,23281,L’amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742396329,23370,23377,L’amour,amour
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742403949,23450,23461,vous aimons,amour
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742413582,23488,23496,très ému,indéterminée
+LitteratureJeunesse,Morgenstern_mariage,a1_1639742423135,23508,23517,en larmes,indéterminée
+LitteratureJeunesse,Morgenstern_mariage,a3_1621753471367,8421,8434,"Heureusement,",soulagement
+LitteratureJeunesse,Morgenstern_mariage,a3_1621753753551,8569,8587,voulait faire rire,envie
+LitteratureJeunesse,encyclo_HV23_Elizabeth,a1a6_1620827604253,1794,1811,La grande passion,amour
+LitteratureJeunesse,encyclo_HV23_Elizabeth,a1a6_1620827604254,1854,1870,adore les chiens,amour
+LitteratureJeunesse,encyclo_HV23_Elizabeth,a1a6_1630249300775,1526,1541,soit très aimée,amour
+LitteratureJeunesse,encyclo_SP-Vikidia_Ara-Spix,a1a6_1620827604387,1981,2091,"l'espoir qu'elles rejoignent le mâle et qu'ils s'accouplent, et qu'ils aient de nouveaux petits dans la nature",espoir
+LitteratureJeunesse,encyclo_SP-Vikidia_Royaume-de-France,a1a6_1630269819911,206,274,veut étendre son domaine (le domaine royal) au détriment des princes,envie
+LitteratureJeunesse,encyclo_SP-Vikidia_Royaume-de-France,a1a6_1630270444835,2320,2327,veulent,envie
+LitteratureJeunesse,encyclo_SP-Vikidia_Royaume-de-France,a1a6_1630270445885,2332,2380,que le royaume tombe sous une influence anglaise,envie
+LitteratureJeunesse,encyclo_SP-Vikidia_Royaume-de-France,a1a6_1630270467140,485,509,veut regagner ses terres,envie
+LitteratureJeunesse,encyclo_Vikidia_Catherine-de-Russie,a1a6_1620827604658,1007,1017,séduisante,désir
+LitteratureJeunesse,encyclo_Vikidia_Catherine-de-Russie,a1a6_1620827604664,1593,1645,"l'espoir qu'un jour, elle pourra gouverner la Russie",espoir
+LitteratureJeunesse,encyclo_Vikidia_Catherine-de-Russie,a1a6_1630271702515,287,305,espéraient un fils,espoir
+LitteratureJeunesse,encyclo_Vikidia_Catherine-de-Russie,a1a6_1630271717495,328,435,souhaitent la fiancer à un prince d'un État voisin pour renforcer la puissance et le prestige de la famille,envie
+LitteratureJeunesse,encyclo_Vikidia_Halloween,a1a6_1620827604686,281,290,détestées,haine
+LitteratureJeunesse,encyclo_Vikidia_Napoleon,a1a6_1620827604790,735,744,détestent,haine
+LitteratureJeunesse,encyclo_Vikidia_Tintin,a1a6_1620827604843,942,951,courageux,courage
+LitteratureJeunesse,fiction_Alector_Diable-et-paysan_Rabelais,a1a6_1630854973895,2132,2141,moqueries,mépris
+LitteratureJeunesse,fiction_Alector_Diable-et-paysan_Rabelais,a1a6_1630855121022,690,699,veux bien,envie
+LitteratureJeunesse,fiction_Alector_Dragonne-de-minuit_Laroche,a1a6_1620827604946,530,575,passionné par l’étude des plantes médicinales,amour
+LitteratureJeunesse,fiction_Alector_Dragonne-de-minuit_Laroche,a1a6_1620827604953,762,800,chérissait son fils au plus haut point,amour
+LitteratureJeunesse,fiction_Alector_Dragonne-de-minuit_Laroche,a1a6_1630855738738,299,360,bouleverserait définitivement l’existence de l’un d’entre eux,indéterminée
+LitteratureJeunesse,fiction_Alector_Dragonne-de-minuit_Laroche,a1a6_1630857000397,2104,2129,s’était nullement apaisée,soulagement
+LitteratureJeunesse,fiction_Alector_Emilie-et-le-crayon_Bichonnier,a1a6_1620827604987,565,574,passionne,amour
+LitteratureJeunesse,fiction_Alector_Harry_Rowling,a1a6_1620827605013,1325,1335,bon à rien,mépris
+LitteratureJeunesse,fiction_Alector_Harry_Rowling,a1a6_1630870223344,890,899,voulaient,envie
+LitteratureJeunesse,fiction_Alector_Les-boites-de-peinture_Ayme,a1a6_1620827605076,1250,1258,Bien sûr,détermination
+LitteratureJeunesse,fiction_Alector_Les-boites-de-peinture_Ayme,a1a6_1630870659185,356,364,souhaita,envie
+LitteratureJeunesse,fiction_Alector_Les-boites-de-peinture_Ayme,a1a6_1630870663402,373,377,veux,envie
+LitteratureJeunesse,fiction_Alector_Les-boites-de-peinture_Ayme,a1a6_1630870700916,436,445,veux bien,envie
+LitteratureJeunesse,fiction_ChienPourriFaitDuSki,a1a6_1620827605116,63,95,J’aurai mon Chameau d’or même si,détermination
+LitteratureJeunesse,fiction_ChienPourriFaitDuSki,a1a6_1620827605117,229,234,brave,courage
+LitteratureJeunesse,fiction_ChienPourriFaitDuSki,a1a6_1630872573469,246,259,imperturbable,détermination
+LitteratureJeunesse,fiction_ChienPourriFaitDuSki,a1a6_1630919749438,1507,1548,peux mordre dans l’anorak de cet enfant !,détermination
+LitteratureJeunesse,fiction_ChienPourriJoyeuxAnniv,a1a6_1620827605187,1605,1635,louche avec amour sur sa maman,amour
+LitteratureJeunesse,fiction_ChienPourriJoyeuxAnniv,a1a6_1630921532843,482,515,espère que ce n’est pas la mienne,espoir
+LitteratureJeunesse,fiction_ChienPourriJoyeuxAnniv,a1a6_1630922766873,1938,1942,aime,amour
+LitteratureJeunesse,fiction_ChienPourriJoyeuxAnniv,a1a6_1630922775490,1947,1956,les chats,amour
+LitteratureJeunesse,fiction_LaBandeATristan_Murail,a1a6_1630929830339,662,671,se moquer,mépris
+LitteratureJeunesse,fiction_LaBandeATristan_Murail,a1a6_1630930770360,305,310,rêvez,envie
+LitteratureJeunesse,fiction_Oeil-du-loup_Pennac,a1a6_1620827605312,393,401,intrigue,curiosité
+LitteratureJeunesse,fiction_Oeil-du-loup_Pennac,a1a6_1620827605317,457,465,intrigue,curiosité
+LitteratureJeunesse,fiction_Oeil-du-loup_Pennac,a1a6_1630934136996,1647,1657,se lassera,ennui
+LitteratureJeunesse,fiction_Verte,a1a6_1620827605358,168,174,l'aime,amour
+LitteratureJeunesse,fiction_Verte,a1a6_1620827605359,183,234,envie de lui offrir des vacances de rêve à Honolulu,envie
+LitteratureJeunesse,fiction_Verte,a1a6_1630936353973,1438,1482,aimais autant qu'elle reste à bonne distance,amour
+LitteratureJeunesse,fiction_Verte,a1a6_1630935140334,116,146,envie de l'attaquer en justice,envie
+PtitLibe,7-12_PtitLibe1-migrants_Calais,a1_1621579210610,288,320,très envie d’aller en Angleterre,envie
+PtitLibe,7-12_PtitLibe1-migrants_D_ou_viennent_migrants,a1_1631085027044,1371,1397,veulent prendre le pouvoir,envie
+PtitLibe,7-12_PtitLibe1-migrants_Ou_vont_migrants,a1_1631085086120,749,826,veulent surtout vivre en Allemagne (parce qu’il y a peu de chômage notamment),envie
+PtitLibe,7-12_PtitLibe1-migrants_Pourquoi_pas_aller_ou_ils_veulent,a1_1621579825422,1584,1641,tellement envie de partir et de rejoindre notre continent,envie
+PtitLibe,7-12_PtitLibe1-migrants_Pourquoi_pas_aller_ou_ils_veulent,a1_1621589768832,1655,1689,prêts à passer par tous les moyens,détermination
+PtitLibe,7-12_PtitLibe1-migrants_Pourquoi_pas_aller_ou_ils_veulent,a1_1631085110358,41,48,veulent,envie
+PtitLibe,7-12_PtitLibe1-migrants_Pourquoi_pas_aller_ou_ils_veulent,a1_1631085213765,1482,1520,veulent empêcher les migrants de venir,envie
+PtitLibe,7-12_PtitLibe1-migrants_Suyrana,a1_1621579825434,1258,1353,"rêve de retourner un jour en Syrie, où vit encore le reste de sa famille, qui n’a pas pu partir",espoir
+PtitLibe,7-12_PtitLibe1-migrants_un_migrant_,a1_1621592096777,181,217,envie de découvrir une autre culture,envie
+PtitLibe,7-12_PtitLibe1-migrants_un_migrant_,a1_1631086521094,354,386,auraient préféré rester chez eux,envie
+PtitLibe,7-12_PtitLibe1-migrants_un_migrant_,a1_1631086564939,853,921,souhaitent alors se rendre dans un autre Etat pour qu’il les protège,envie
+PtitLibe,7-12_PtitLibe10-Euro_foot_Neyla,a1_1621579825551,457,539,"aime plusieurs joueurs de l’équipe d’Angleterre, comme Wayne Rooney ou Jamie Vardy",amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_Neyla,a1_1624024104819,995,1016,Ses équipes préférées,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_Neyla,a1_1631107208105,934,993,son rêve de pouvoir y aller et de tenir la main d’un joueur,espoir
+PtitLibe,7-12_PtitLibe10-Euro_foot_Ou_voir_match_Euro,a1_1624024227705,446,465,des émotions fortes,indéterminée
+PtitLibe,7-12_PtitLibe10-Euro_foot_Ou_voir_match_Euro,a1_1631107337387,89,113,les amateurs de football,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_Ou_voir_match_Euro,a1_1631107348797,252,268,les fans de foot,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_Pourquoi_foot_populaire,a1_1621579825614,1626,1640,adore le rugby,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_Pourquoi_foot_populaire,a1_1624024942887,1669,1739,"ne jure que par le cricket, un sport qui ressemble un peu au base-ball",amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_joueurs_equipe_France,a1_1621579825541,2118,2163,son rêve de devenir footballeur professionnel,espoir
+PtitLibe,7-12_PtitLibe10-Euro_foot_joueurs_equipe_France,a1_1621579825549,3482,3493,une passion,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_joueurs_equipe_France,a1_1621579825550,3620,3624,aime,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_joueurs_equipe_France,a1_1631106996021,3631,3659,beaucoup changer de coiffure,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_stars_Euro,a1_1621579825642,2560,2586,les aimerait beaucoup trop,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_stars_Euro,a1_1621579825643,2628,2643,s’aime beaucoup,amour
+PtitLibe,7-12_PtitLibe10-Euro_foot_stars_Euro,a1_1624257978551,3316,3330,compte sur lui,"espoir, confiance"
+PtitLibe,7-12_PtitLibe10-Euro_foot_stars_Euro,a1_1624258040707,2954,2978,travaille aussi beaucoup,détermination
+PtitLibe,7-12_PtitLibe11-attaque_Nice_Pourquoi_conducteur,a1_1624369087351,952,1016,veulent leur imposer leur vision de la religion ou de la société,détermination
+PtitLibe,7-12_PtitLibe11-attaque_Nice_Pourquoi_conducteur,a1_1631109285380,613,671,espèrent leur faire peur pour imposer leur vision du monde,espoir
+PtitLibe,7-12_PtitLibe11-attaque_Nice_Pourquoi_conducteur,a1_1631109304173,789,854,veulent posséder un morceau de pays déjà occupé par d’autres gens,envie
+PtitLibe,7-12_PtitLibe11-attaque_Nice_decisions,a1_1631108812354,659,669,solidaires,amour
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Jeux_universels,a1_1624434303581,1643,1651,l’amitié,amour
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Jeux_universels,a1_1624434310082,1655,1668,la fraternité,amour
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Oreane,a1_1621579825829,272,278,l’aime,amour
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Oreane,a1_1624434988943,368,398,ça demande beaucoup de travail,détermination
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Oreane,a1_1624435054443,1326,1367,espère déjà être qualifiée pour la finale,espoir
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Oreane,a1_1624435155241,1564,1573,une envie,envie
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_Oreane,a1_1631109910831,210,218,son rêve,espoir
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_evenements_JO,a1_1624375702477,5969,6004,vise exactement la même chose à Rio,détermination
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_organiser_JO,a1_1624435210963,76,113,envie d’organiser les Jeux olympiques,envie
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_organiser_JO,a1_1631109994769,381,406,veulent accueillir les JO,envie
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_programme_JO,a1_1621579825925,4232,4260,espérer monter sur le podium,espoir
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_programme_JO,a1_1624437045175,2895,2941,veulent cette fois ramener une médaille de Rio,détermination
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_programme_JO,a1_1624440573277,9463,9495,a de grandes chances de médaille,espoir
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_programme_JO,a1_1631110121594,622,630,émouvant,indéterminée
+PtitLibe,7-12_PtitLibe12-Jeux_olympiques_programme_JO,a1_1631110418284,8045,8072,plaît généralement beaucoup,amour
+PtitLibe,7-12_PtitLibe13-coulisses_de_ecole_Florent,a1_1621579825967,1228,1243,aime son métier,amour
+PtitLibe,7-12_PtitLibe13-coulisses_de_ecole_Qui_decide,a1_1624441593235,1511,1520,préfèrent,amour
+PtitLibe,7-12_PtitLibe13-coulisses_de_ecole_Qui_decide,a1_1631110762951,840,858,veut faire étudier,envie
+PtitLibe,7-12_PtitLibe13-coulisses_de_ecole_Qui_fait_quoi_a_ecole,a1_1631110881151,2201,2205,veut,envie
+PtitLibe,7-12_PtitLibe13-coulisses_de_ecole_Qui_fait_quoi_a_ecole,a1_1631110907491,3089,3102,le souhaitent,envie
+PtitLibe,7-12_PtitLibe13-coulisses_de_ecole_Qui_fait_quoi_a_ecole,a1_1631111018243,9892,9906,veulent manger,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1621579826143,3580,3626,aime bien donner une image de Président «cool»,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1624443410495,1135,1154,beaucoup de racisme,haine
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1624448605972,1458,1483,faisant de grands efforts,détermination
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1624449827266,2698,2723,voulaient que ça s’arrête,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1631112351962,606,627,quelque chose de fort,indéterminée
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1631112480298,3384,3400,veut être «cool»,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_Obama,a1_1631112505047,3893,3901,plaisent,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112142485,2363,2438,veut limiter autant que possible l’influence du gouvernement des Etats-Unis,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112150203,2442,2544,préfère que les décisions soient prises par les régions (on parle d’Etats) ou même par chaque personne,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112156961,2550,2613,"veulent des impôts moins élevés, notamment pour les plus riches",envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112166023,2728,2786,voudraient que les armes soient autorisées dans les écoles,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112213042,3301,3310,voulaient,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112216488,3317,3334,devenir président,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Pourquoi_election_americaine,a1_1631112256510,3924,3933,préfèrent,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1621579826201,575,622,"aime beaucoup Barack Obama, le président actuel",amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1621579826204,938,946,l’espoir,espoir
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1621579826207,1446,1454,les aime,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1621579826210,1715,1721,l’aime,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1626791370567,268,312,aimerait être admis dans un lycée spécialisé,espoir
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1626791384704,405,425,passionné de musique,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1626791614700,923,931,la force,détermination
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1631113393619,811,824,très émouvant,indéterminée
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1631113417437,1371,1401,veulent remplacer Barack Obama,envie
+PtitLibe,7-12_PtitLibe14-election_americaine_Tarik,a1_1631113439199,1726,1734,beaucoup,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_president_americain_star,a1_1624461216364,47,55,l’aiment,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_president_americain_star,a1_1624461227081,84,129,"très attachés à leur président, à sa fonction",amour
+PtitLibe,7-12_PtitLibe14-election_americaine_president_americain_star,a1_1624461794841,930,936,aiment,amour
+PtitLibe,7-12_PtitLibe14-election_americaine_president_americain_star,a1_1624462024859,2019,2028,ridicules,mépris
+PtitLibe,7-12_PtitLibe14-election_americaine_president_americain_star,a1_1631113118887,943,967,visiter le mont Rushmore,amour
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_Ainara,a1_1631170976068,260,305,veut se présenter à l’élection présidentielle,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_Ainara,a1_1631170990058,786,790,veut,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_Ainara,a1_1631170994521,795,846,vraiment que des étrangers viennent vivre en France,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_enfants_gauche_ou_droite,a1_1626793185771,141,243,"préférer un camp politique plutôt qu’un autre, un parti ou un responsable politique plutôt qu’un autre",amour
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_enfants_gauche_ou_droite,a1_1626793471776,2903,2922,préfèrent la droite,amour
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_enfants_gauche_ou_droite,a1_1631171256539,2963,2967,veut,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_idee,a1_1631171339966,1473,1480,veulent,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_idee,a1_1631171344718,1485,1498,la même chose,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_idee,a1_1631171361081,1509,1577,souhaitent que tous les étrangers aient le droit de devenir français,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_idee,a1_1631171378252,1952,2081,"veulent complètement changer la société, qu’il n’y ait plus de riches ni de pauvres et que les travailleurs aient plus de pouvoir",envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_idee,a1_1631171413628,2934,2959,veulent plus de policiers,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_primaires,a1_1631171527192,1147,1156,préfèrent,amour
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_primaires,a1_1631171538185,1590,1606,souhaitent voter,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_primaires,a1_1631171563897,2526,2542,souhaitent voter,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_separation_gauche_droite,a1_1631172272873,562,598,voulaient qu’il ait moins de pouvoir,envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_separation_gauche_droite,a1_1631172318033,1730,1817,"voulait que tous les citoyens soient égaux, qu’il n’existe plus de riches et de pauvres",envie
+PtitLibe,7-12_PtitLibe15-gauche_et_droite_separation_gauche_droite,a1_1631172325265,1896,2079,"voulait qu’il y en ait un de nouveau plutôt qu’il y ait une République (le roi n’est pas choisi par le peuple, alors que, dans une République, les citoyens choisissent leur dirigeant)",envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_Comment_est_ne_Disney,a1_1627026490450,1391,1417,se lancer dans un pari fou,audace
+PtitLibe,7-12_PtitLibe16-empire_Disney_Comment_est_ne_Disney,a1_1627026747553,1823,1835,passionnante,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Comment_est_ne_Disney,a1_1631194634645,5415,5422,voulait,envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_Comment_est_ne_Disney,a1_1631194640517,5427,5456,se limiter aux dessins animés,envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826463,19,32,fan de Disney,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826464,142,159,les aime beaucoup,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826466,576,584,émouvant,indéterminée
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826467,591,632,aime beaucoup les dessins et les chansons,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826475,1306,1315,aime bien,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826478,1446,1481,aime beaucoup le Livre de la jungle,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1621579826479,1600,1604,aime,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1627090494906,406,417,Son préféré,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1627090722922,1032,1045,beaucoup aimé,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1627090753975,1072,1076,aime,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1627090806806,1546,1581,"préfère Cars, qui est sorti en 2006",amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1627090963684,1081,1169,"trop les 101 Dalmatiens, qui date de 1961, et surtout pas Hercule, qui est sorti en 1997",amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1627090984126,1609,1728,"trop les dessins animés récents, ceux qui sont entièrement faits en images de synthèse, c’est-à-dire avec un ordinateur",amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1631195186353,692,710,a beaucoup marquée,indéterminée
+PtitLibe,7-12_PtitLibe16-empire_Disney_Francoise,a1_1631195221765,1365,1414,envie qu’ils connaissent les mêmes choses qu’elle,envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_concurrents_Disney,a1_1631194785265,338,373,voulait beaucoup ressembler à Pixar,envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_concurrents_Disney,a1_1621579826418,2299,2307,émouvant,indéterminée
+PtitLibe,7-12_PtitLibe16-empire_Disney_que_fait_Disney,a1_1627460679755,2288,2292,fans,amour
+PtitLibe,7-12_PtitLibe16-empire_Disney_que_fait_Disney,a1_1627460718969,2305,2357,envie d’agrandir leur collection de produits dérivés,envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_que_fait_Disney,a1_1631195684380,279,286,veulent,envie
+PtitLibe,7-12_PtitLibe16-empire_Disney_que_fait_Disney,a1_1631195690010,293,409,"imposer leur univers auprès d’un maximum de personnes dans le monde entier, sans laisser de place à d’autres studios",envie
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Donald_Trump,a1_1621579826559,1494,1498,aime,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Donald_Trump,a1_1621579826564,2339,2361,aime beaucoup le catch,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Lincoln,a1_1621579826582,944,1144,"l’apprécie tellement qu’il possède une casquette sur laquelle est écrit «Make America Great Again» («rendre à l’Amérique sa grandeur»), la phrase que Donald Trump a utilisée comme slogan pour être élu",amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Lincoln,a1_1627654299901,1583,1602,détestent cet homme,haine
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Lincoln,a1_1627654434063,1497,1501,aime,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Lincoln,a1_1631196077653,583,678,préfèrent faire travailler des personnes qui viennent de pays pauvres plutôt que des Américains,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Lincoln,a1_1631196089821,847,939,veut notamment limiter davantage le nombre d’étrangers qui viennent s’installer dans le pays,envie
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Lincoln,a1_1631196114771,1506,1546,trop dire qu’il a voté pour Donald Trump,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_Donald_Trump,a1_1627655268699,989,1081,"préfère que les décisions soient prises par chaque Etat du pays, ou même par chaque personne",amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_Donald_Trump,a1_1631196516299,904,985,veut limiter autant que possible l’influence du gouvernement dans la vie des gens,envie
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_Donald_Trump,a1_1631196523612,1138,1208,souhaite que le gouvernement aide financièrement les gens à se soigner,envie
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_amuse,a1_1621579826606,1206,1229,aime se faire remarquer,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_amuse,a1_1621579826610,1879,1883,aime,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_amuse,a1_1631196329203,1933,1940,voulait,envie
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_amuse,a1_1631196333451,1946,1992,voir une photo sur laquelle il se trouve moche,envie
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_amuse,a1_1631196317561,1888,1909,qu’on se moque de lui,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_amuse,a1_1631196438962,1894,1902,se moque,mépris
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_gagne,a1_1627656156099,767,776,a séduits,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_Pourquoi_gagne,a1_1631196816536,2019,2035,ont beaucoup plu,amour
+PtitLibe,7-12_PtitLibe17-Donald_Trump_description,a1_1627460878692,359,366,détesté,haine
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Pourquoi_d_autres_pays,a1_1627886340855,1359,1386,espéraient davantage d’aide,espoir
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Pourquoi_d_autres_pays,a1_1631200853564,871,875,veut,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Pourquoi_d_autres_pays,a1_1631200857946,886,946,profiter de l’absence des Etats-Unis en Syrie pour s’imposer,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Pourquoi_d_autres_pays,a1_1631200877482,1400,1409,voulaient,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Pourquoi_d_autres_pays,a1_1631200881525,1420,1512,que les Etats-Unis interviennent en Syrie après une attaque dont on a beaucoup parlé en 2013,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Qui_se_fait_guerre,a1_1631201354781,992,1078,veulent que des règles sévères inspirées de l’islam gèrent la vie quotidienne des gens,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Qui_se_fait_guerre,a1_1631201396796,1173,1238,veulent se débarrasser de Bachar al-Assad pour prendre le pouvoir,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Qui_se_fait_guerre,a1_1631201402611,1268,1330,veulent imposer l’islam dans le monde en utilisant la violence,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Qui_se_fait_guerre,a1_1631201433771,2353,2387,veulent s’installer dans leur zone,envie
+PtitLibe,7-12_PtitLibe18-guerre_en_Syrie_Rania,a1_1627889103067,1544,1572,aimerait retourner à l’école,espoir
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Delphine,a1_1621579826848,960,969,aime bien,amour
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Delphine,a1_1631216098995,266,281,un grand moment,indéterminée
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1621579826959,3044,3048,aime,amour
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1627972211838,3053,3106,qu’on dise que le Front national est d’extrême droite,amour
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216522129,892,912,veulent lui succéder,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216553702,1773,1781,aimerait,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216557683,1792,1827,qu’il y ait moins de fonctionnaires,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216594540,2361,2369,aimerait,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216598834,2380,2405,créer un revenu universel,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216624065,3121,3216,"veut se différencier de son père, qui a une mauvaise image auprès d’une partie de la population",envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216636139,3300,3308,souhaite,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216639903,3319,3398,que les Français aient plus de droits que les étrangers qui vivent dans le pays,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216690960,4525,4533,voudrait,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216695197,4544,4595,supprimer la fonction de président de la République,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_Qui_se_presente,a1_1631216704488,4600,4720,"voudrait que les lois ne soient pas votées que par les députés élus à l’Assemblée nationale, mais aussi par des citoyens",envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_campagne,a1_1627932778977,2123,2156,envie de voter pour leur candidat,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_campagne,a1_1631216005112,1545,1568,envie de voter pour lui,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_campagne,a1_1631216041504,2556,2572,voudraient voter,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_campagne,a1_1631216049564,2760,2807,veut absolument changer les menus de la cantine,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_participer_election,a1_1631216279198,870,918,veulent que ce candidat se présente à l’élection,envie
+PtitLibe,7-12_PtitLibe19-election_presidentielle_participer_election,a1_1631216295739,1221,1230,préfèrent,amour
+PtitLibe,7-12_PtitLibe19-election_presidentielle_participer_election,a1_1631216333280,1684,1708,souhaite pour la société,envie
+PtitLibe,7-12_PtitLibe2-COP21_Ils_agissent,a1_1631087250774,4650,4766,voudrait remplacer toutes ses voitures à essence par des voitures électriques rechargées grâce aux panneaux solaires,envie
+PtitLibe,7-12_PtitLibe2-COP21_Nantenaina,a1_1621922534481,1520,1597,espère qu’un jour son environnement sera à l’abri des catastrophes naturelles,espoir
+PtitLibe,7-12_PtitLibe2-COP21_Pourquoi_discussions_si_longues,a1_1621923133081,87,92,enfin,soulagement
+PtitLibe,7-12_PtitLibe2-COP21_Pourquoi_discussions_si_longues,a1_1621923164187,36,46,si longues,ennui
+PtitLibe,7-12_PtitLibe2-COP21_Pourquoi_discussions_si_longues,a1_1631087420632,506,510,veut,envie
+PtitLibe,7-12_PtitLibe2-COP21_Pourquoi_discussions_si_longues,a1_1631087425224,519,532,se développer,envie
+PtitLibe,7-12_PtitLibe2-COP21_Pourquoi_discussions_si_longues,a1_1631087484417,1092,1129,très envie qu’on arrête de l’utiliser,envie
+PtitLibe,7-12_PtitLibe2-COP21_Pourquoi_discussions_si_longues,a1_1631087497778,1532,1607,préfèrent s’occuper de problèmes dont on peut voir tout de suite les effets,envie
+PtitLibe,7-12_PtitLibe2-COP21_effets,a1_1621919840938,2759,2776,aime la fraîcheur,amour
+PtitLibe,7-12_PtitLibe2-COP21_effets,a1_1631087018280,1268,1285,aiment la chaleur,amour
+PtitLibe,7-12_PtitLibe2-COP21_effets,a1_1631087023577,1376,1391,aiment le froid,amour
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216820073,1163,1185,voulaient quitter l’UE,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216832860,1488,1493,envie,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216838537,1503,1521,de voter comme eux,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216849903,1548,1555,veulent,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216859181,1560,1566,partir,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216870673,1608,1615,veulent,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Brexit,a1_1631216879448,1621,1670,que l’Union européenne leur impose certaines lois,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Que_peut_changer_Brexit,a1_1631217042496,213,261,vont vouloir régler une question très rapidement,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Que_peut_changer_Brexit,a1_1631217054195,649,673,voudrait venir en France,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Que_peut_changer_Brexit,a1_1631217083669,1462,1511,veut acheter des produits à d’autres pays de l’UE,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Royaume-Uni,a1_1631545450544,86,87,a,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Royaume-Uni,a1_1631545459091,92,143,"voulu utiliser l’euro, la monnaie unique européenne",envie
+PtitLibe,7-12_PtitLibe20-Brexit_Thomas,a1_1627973708587,1185,1202,aimaient l’Europe,amour
+PtitLibe,7-12_PtitLibe20-Brexit_Thomas,a1_1631545543564,409,454,voulaient sortir de l’Union européenne ou pas,envie
+PtitLibe,7-12_PtitLibe20-Brexit_Thomas,a1_1631545551317,586,663,voulaient rester dans l’Union européenne (on dit «l’UE» pour aller plus vite),envie
+PtitLibe,7-12_PtitLibe20-Brexit_Thomas,a1_1631545586113,1457,1462,envie,envie
+PtitLibe,7-12_PtitLibe20-Brexit_description,a1_1631216967165,213,222,voulaient,envie
+PtitLibe,7-12_PtitLibe20-Brexit_description,a1_1631216976188,227,277,quitter ce groupe qui réunit plusieurs pays ou pas,envie
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1621579827169,100,131,aimeraient bien en faire partie,envie
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1627973150168,268,274,aiment,amour
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1627973159688,279,283,l’UE,amour
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1627973228008,953,961,souhaite,envie
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1627973233668,972,1043,que la France arrête d’utiliser l’euro et se serve de sa propre monnaie,envie
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1631217142989,287,352,voudraient qu’elle se mêle un peu moins des affaires de leur pays,envie
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1631217157116,568,625,voudraient que leur pays la quitte purement et simplement,envie
+PtitLibe,7-12_PtitLibe20-Brexit_quitter_UE,a1_1631217172900,895,946,veulent rester dans l’Union européenne ou en sortir,envie
+PtitLibe,7-12_PtitLibe21-dessous_cinema_Comment_fait_film,a1_1621579827264,1255,1264,aime bien,amour
+PtitLibe,7-12_PtitLibe21-dessous_cinema_Comment_finance_film,a1_1621579827285,2193,2200,passion,amour
+PtitLibe,7-12_PtitLibe21-dessous_cinema_D_ou_vient_cinema,a1_1621579827306,787,831,aime beaucoup l’invention des frères Lumière,amour
+PtitLibe,7-12_PtitLibe21-dessous_cinema_D_ou_vient_cinema,a1_1631546352276,885,890,rêver,espoir
+PtitLibe,7-12_PtitLibe21-dessous_cinema_Mahe,a1_1631546650943,1241,1246,a plu,amour
+PtitLibe,7-12_PtitLibe21-dessous_cinema_star_cinema,a1_1621579827356,903,909,plaira,amour
+PtitLibe,7-12_PtitLibe21-dessous_cinema_star_cinema,a1_1631546728122,340,374,"aiment Kev Adams, Louane ou Norman",amour
+PtitLibe,7-12_PtitLibe21-dessous_cinema_star_cinema,a1_1631546741334,811,816,rêver,espoir
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Assemblee,a1_1621579827380,2165,2210,des grands discours qui ont marqué l’histoire,indéterminée
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Assemblee,a1_1628060371660,2127,2148,des moments d’émotion,indéterminée
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Comment_cree_loi,a1_1621579827436,1397,1400,Ouf,soulagement
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Comment_cree_loi,a1_1628066037856,1402,1442,notre texte sur les bonbons a été retenu,soulagement
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Comment_cree_loi,a1_1628066053938,1443,1444,!,soulagement
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Comment_cree_loi,a1_1631547117899,462,474,veut changer,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Comment_cree_loi,a1_1631547124357,677,754,veut obliger les enseignants à distribuer des bonbons aux élèves chaque matin,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Comment_cree_loi,a1_1631547147185,1696,1712,voudrait changer,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Elsa,a1_1628070561056,147,155,souhaite,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Elsa,a1_1628070566507,165,180,devenir députée,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Qui_sont_deputes,a1_1628088661468,334,345,le souhaite,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Qui_sont_deputes,a1_1631547452184,1440,1451,le souhaite,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_Qui_sont_deputes,a1_1631547512301,2119,2140,veulent que ça change,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_elections_legislatives,a1_1621579827452,1905,1911,l’aime,amour
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_elections_legislatives,a1_1628070453939,1916,1924,beaucoup,amour
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_elections_legislatives,a1_1631547307568,1756,1792,veut gouverner sans être trop embêté,envie
+PtitLibe,7-12_PtitLibe22-Assemblee_nationale_elections_legislatives,a1_1631547324033,2397,2408,le souhaite,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_10_plus_grands_tubes,a1_1621579827537,1020,1025,plaît,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_10_plus_grands_tubes,a1_1628089015223,1333,1338,amour,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_10_plus_grands_tubes,a1_1628089025802,1400,1414,aimer un homme,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_10_plus_grands_tubes,a1_1631547550598,182,190,plaisent,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_10_plus_grands_tubes,a1_1631547627176,1507,1537,voulait de cette chanson disco,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_D_ou_viennent_tubes_ete,a1_1621579827583,618,637,aime bien fredonner,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_D_ou_viennent_tubes_ete,a1_1621579827585,644,649,plaît,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_D_ou_viennent_tubes_ete,a1_1628090245075,927,1018,"aimaient beaucoup le disco, une musique sur laquelle on pouvait danser de manière énergique",amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_D_ou_viennent_tubes_ete,a1_1631547872658,1305,1341,voulait transformer en tube de l’été,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_Erza,a1_1621579827597,398,413,l’aime beaucoup,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_Erza,a1_1621579827607,1732,1751,aime bien ce métier,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_Erza,a1_1628142074697,456,471,envie de danser,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_Erza,a1_1631548117840,1503,1513,se reposer,soulagement
+PtitLibe,7-12_PtitLibe23-tubes_ete_Erza,a1_1631548123744,1644,1719,souhaite «toujours chanter tout en faisant des études pour devenir dentiste,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_description,a1_1621579827558,15,91,"aime écouter en boucle la même chanson, la chanter à tue-tête, danser dessus",amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_recettes_pour_faire_tube,a1_1621579827613,96,104,les aime,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_recettes_pour_faire_tube,a1_1628142563514,313,322,les aimer,amour
+PtitLibe,7-12_PtitLibe23-tubes_ete_recettes_pour_faire_tube,a1_1631548237694,466,491,veulent vendre un produit,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_recettes_pour_faire_tube,a1_1631548343439,2032,2077,veulent toujours trouver une nouvelle chanson,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_recettes_pour_faire_tube,a1_1631548360407,2807,2815,souhaite,envie
+PtitLibe,7-12_PtitLibe23-tubes_ete_tube_cet_ete,a1_1621579827654,2437,2445,ridicule,mépris
+PtitLibe,7-12_PtitLibe23-tubes_ete_tube_cet_ete,a1_1631548489859,2638,2693,envie de chanter à la gloire des claquettes-chaussettes,envie
+PtitLibe,7-12_PtitLibe24-JO_Paris_Comment_Paris_obtenu_Jeux,a1_1631548587319,1039,1083,envie de recevoir ce grand événement sportif,envie
+PtitLibe,7-12_PtitLibe24-JO_Paris_Pourquoi_certains_contre,a1_1628171383014,52,60,souhaite,envie
+PtitLibe,7-12_PtitLibe24-JO_Paris_Pourquoi_certains_contre,a1_1628171387050,65,103,accueillir les Jeux olympiques à Paris,envie
+PtitLibe,7-12_PtitLibe24-JO_Paris_Pourquoi_certains_pour,a1_1621579827749,2169,2184,un peu d’espoir,espoir
+PtitLibe,7-12_PtitLibe24-JO_Paris_Pourquoi_certains_pour,a1_1628172154646,90,149,souhaitent que les Jeux olympiques soient organisés à Paris,envie
+PtitLibe,7-12_PtitLibe24-JO_Paris_Pourquoi_certains_pour,a1_1628172179012,474,490,l’envie de venir,envie
+PtitLibe,7-12_PtitLibe24-JO_Paris_Pourquoi_certains_pour,a1_1628172567779,1983,2051,espère que les Jeux olympiques vont redonner le sourire aux Français,espoir
+PtitLibe,7-12_PtitLibe24-JO_Paris_Regiane,a1_1628173137999,879,933,une passion que je me suis découverte pendant les Jeux,amour
+PtitLibe,7-12_PtitLibe24-JO_Paris_Regiane,a1_1628173147925,936,944,Son rêve,espoir
+PtitLibe,7-12_PtitLibe24-JO_Paris_Regiane,a1_1628173123221,836,933,"préfère aller à mes leçons de volley-ball, une passion que je me suis découverte pendant les Jeux",amour
+PtitLibe,7-12_PtitLibe25-Ouragans_Tashania,a1_1628232643198,1412,1490,aimerait avoir «une maison plus solide» pour être protégée des futurs ouragans,espoir
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Kehkashan,a1_1621579827964,1601,1607,espoir,espoir
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Kehkashan,a1_1628245145411,1115,1146,ai décidé que ça devait changer,détermination
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Pourquoi_resultat_ne_plait_pas_toujours,a1_1621579828006,24,29,plaît,amour
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Pourquoi_resultat_ne_plait_pas_toujours,a1_1631606819022,309,373,avoir voulu aider les peuples du Moyen-Orient à mieux s’entendre,envie
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Pourquoi_resultat_ne_plait_pas_toujours,a1_1631606852274,1013,1068,la fraternité pour laquelle ils avaient été récompensés,amour
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Qui_a_gagne,a1_1621579828065,1431,1444,aimerait bien,envie
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_Qui_a_gagne,a1_1628263403099,118,164,veulent que les armes nucléaires disparaissent,envie
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_personnalites,a1_1621579827990,553,560,un rêve,espoir
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_personnalites,a1_1621579827991,596,674,rêve d’un monde où toutes les femmes et les hommes sont égaux et se respectent,espoir
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_personnalites,a1_1628245624016,2496,2497,a,amour
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_personnalites,a1_1628245633318,2502,2505,plu,amour
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_personnalites,a1_1631606603918,1277,1287,le racisme,haine
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_personnalites,a1_1631606641028,2232,2236,veut,envie
+PtitLibe,7-12_PtitLibe26-prix_Nobel_paix_prix_Nobel_de_paix,a1_1621579828048,1650,1689,espérer gagner le prix Nobel de la paix,espoir
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_Que_se_passe_Espagne,a1_1631607410283,294,298,veut,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_Que_se_passe_Espagne,a1_1631607411183,307,409,reprendre le dialogue avec le gouvernement espagnol qui n’est pas du tout d’accord avec cette décision,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_Uma,a1_1628265609408,875,925,voulaient que la Catalogne s’en aille de l’Espagne,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_Uma,a1_1628265786477,1379,1434,veulent que la région ne fasse plus partie de l’Espagne,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_Uma,a1_1628265823529,1507,1516,préférées,amour
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_Uma,a1_1621579828172,1538,1703,"aime beaucoup la «Festa Major», une fête de village où les hommes, les femmes et les enfants forment des pyramides impressionnantes en montant les uns sur les autres",amour
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_demander_plus_pouvoirs,a1_1628264425308,169,196,souhaitent plus d’autonomie,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_demander_plus_pouvoirs,a1_1628264458878,705,740,veulent continuer à en faire partie,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_demander_plus_pouvoirs,a1_1628264504232,1270,1323,souhaitent plus d’autonomie plutôt que l’indépendance,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_demander_plus_pouvoirs,a1_1628264544160,1497,1503,calmer,soulagement
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_demander_plus_pouvoirs,a1_1628264578826,2089,2131,veulent que leur région soit plus autonome,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_demander_plus_pouvoirs,a1_1631631834949,537,582,veut leur poser une nouvelle fois la question,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_description,a1_1631607205442,152,156,veut,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_description,a1_1631607206124,162,185,faire partie de ce pays,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_description,a1_1631607224558,244,248,veut,envie
+PtitLibe,7-12_PtitLibe27-independance_Catalogne_description,a1_1631607225111,254,273,être un pays à part,envie
+PtitLibe,7-12_PtitLibe28-Weinstein_harcelement_sexuel_Que_faire_en_cas_d_agression,a1_1631608309791,217,221,veux,envie
+PtitLibe,7-12_PtitLibe28-Weinstein_harcelement_sexuel_consequences_revelation,a1_1628266996480,855,864,encouragé,courage
+PtitLibe,7-12_PtitLibe28-Weinstein_harcelement_sexuel_consequences_revelation,a1_1631607532209,80,91,a encouragé,courage
+PtitLibe,7-12_PtitLibe28-Weinstein_harcelement_sexuel_consequences_revelation,a1_1631607656168,1770,1788,préfèrent se taire,amour
+PtitLibe,7-12_PtitLibe29-dangers_glyphosate_Pourquoi_glyphosate,a1_1628580848397,607,645,souhaite qu’on empêche son utilisation,envie
+PtitLibe,7-12_PtitLibe29-dangers_glyphosate_vraiment_dangereux,a1_1628581473874,744,768,voudront plus en acheter,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_13_novembre,a1_1631087645287,315,350,espèrent faire peur à tout le monde,espoir
+PtitLibe,7-12_PtitLibe3-attentats_Paris_13_novembre,a1_1631087759839,1360,1411,voulaient surprendre les personnes qui dormaient là,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_Pourquoi_terroristes,a1_1631088207934,102,164,veulent posséder un bout de pays déjà occupé par d’autres gens,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_Pourquoi_terroristes,a1_1631088214332,175,263,souhaitent forcer tout le monde à suivre leur religion ou à avoir les mêmes idées qu’eux,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_Pourquoi_terroristes,a1_1631088269179,1173,1187,aiment la paix,amour
+PtitLibe,7-12_PtitLibe3-attentats_Paris_Pourquoi_terroristes,a1_1631088282806,1345,1394,veulent que les femmes soient entièrement voilées,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_Pourquoi_terroristes,a1_1631088288710,1403,1410,veulent,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_Pourquoi_terroristes,a1_1631088301758,1415,1473,que les gens boivent de l’alcool ou écoutent de la musique,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_change_quotidien,a1_1622021800367,240,293,envie d’être ensemble et de partager ce qu’on ressent,envie
+PtitLibe,7-12_PtitLibe3-attentats_Paris_change_quotidien,a1_1622022686649,1165,1175,solidaires,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1621579828478,1800,1810,a bien plu,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628587510227,104,113,préfèrent,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628587539167,511,518,voulait,envie
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628587543092,528,535,voulait,envie
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628587569045,789,813,a donné envie de le lire,envie
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628587587417,855,865,avoir aimé,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628589753100,1336,1344,préférés,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628589771280,1608,1620,aimer à lire,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Alessandro,a1_1628589778185,1721,1727,aimait,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Comment_choisit_gagnants,a1_1628608984800,862,870,plaisent,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Comment_choisit_gagnants,a1_1628609066412,1018,1026,préférés,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Comment_choisit_gagnants,a1_1628609077138,1282,1300,préfèrent vraiment,amour
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Comment_fait_livre,a1_1628609233950,533,556,aurais aimé lire enfant,envie
+PtitLibe,7-12_PtitLibe30-grands_prix_litteraires_Comment_fait_livre,a1_1628609285035,1479,1498,ai voulu adoucir ça,envie
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_Mael,a1_1628624517528,680,687,voulais,envie
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_Pourquoi_grave,a1_1628625307378,1245,1258,les moqueries,mépris
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_Que_faire_en_cas_harcelement,a1_1628626543489,1171,1189,envie de continuer,envie
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_description,a1_1621579828567,49,58,moqueries,mépris
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_harcelement_ecole_,a1_1621579828603,182,195,ces moqueries,mépris
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_harcelement_ecole_,a1_1628614930155,1048,1054,aimait,amour
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_harcelement_ecole_,a1_1628614937530,1059,1065,le rap,amour
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_harcelement_ecole_,a1_1628614941469,1069,1099,préférait la musique classique,amour
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_harcelement_ecole_,a1_1628615004997,1251,1276,se moquer de leur victime,mépris
+PtitLibe,7-12_PtitLibe31-harcelement_ecole_harcelement_ecole_,a1_1628614802942,632,655,se moquer d’un camarade,mépris
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_Pourquoi_ce_numero_philosophes,a1_1628673344298,601,608,l’amour,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_Pourquoi_ce_numero_philosophes,a1_1628673348444,612,620,l’amitié,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_Pourquoi_nature_dangereuse,a1_1628683106425,3012,3019,l’aimer,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_Pourquoi_nature_dangereuse,a1_1628683381900,3272,3280,apaisant,soulagement
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_description,a1_1628626656606,183,188,aimer,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_description,a1_1628626666046,248,267,amour de la sagesse,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_description,a1_1628626675596,273,288,amour du savoir,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1621579828776,1776,1780,aime,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1628626788656,441,459,veut gagner sa vie,envie
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1628673004554,2535,2563,vouloir se passer du travail,envie
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1628673023859,2809,2816,l’amour,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1628673028288,2823,2831,l’amitié,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1628673033577,2836,2868,aime quelqu’un d’autre par choix,amour
+PtitLibe,7-12_PtitLibe32-P_tit_Libe_philosophes_oblige_travailler_pour_avoir_argent,a1_1628673152563,1558,1565,voulons,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Nour,a1_1621579828874,758,789,ai bien aimé comment il a parlé,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_Jean-Luc_Melenchon,a1_1628689439845,1405,1512,"veut montrer qu’elle ne fonctionne pas comme les autres partis politiques, qu’elle est plus proche des gens",envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_Jean-Luc_Melenchon,a1_1628689450569,1692,1715,veulent mettre en place,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_Jean-Luc_Melenchon,a1_1628689464843,1893,1900,préfère,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_apprecie,a1_1628686656500,81,86,a plu,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_apprecie,a1_1628686668664,16,24,apprécié,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_apprecie,a1_1628686702007,291,320,voulaient un grand changement,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_apprecie,a1_1628686723780,795,804,séduisent,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_apprecie,a1_1628686768183,1069,1124,voudrait qu’il y ait davantage d’égalité entre les gens,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_apprecie,a1_1628686807814,1370,1378,a séduit,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628686995264,343,351,plaisent,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687000418,445,451,aiment,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687341772,456,481,beaucoup ce qu’il propose,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687588922,1049,1056,veulent,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687592537,1061,1074,la même chose,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687604273,1091,1121,veut que la France quitte l’UE,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687608838,1151,1182,veut avant tout que l’UE change,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687647227,1535,1608,préférait demander leur avis aux gens qui soutiennent La France insoumise,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Pourquoi_critique,a1_1628687701414,1839,1845,espère,espoir
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Qui_Jean-Luc_Melenchon,a1_1621579828974,1736,1740,aime,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Qui_Jean-Luc_Melenchon,a1_1628689768012,1745,1801,"les idées et les décisions du Président, Emmanuel Macron",amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_Qui_Jean-Luc_Melenchon,a1_1628689780487,1809,1860,veut réussir à réunir les gens qui s’opposent à lui,envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_description,a1_1628685574916,152,294,"vouloir fonctionner différemment des autres partis, faire en sorte qu’il n’y ait pas un seul chef mais que tout le monde puisse un peu décider",envie
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_description,a1_1628685594006,618,629,passionnées,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_description,a1_1628685598046,641,650,l’adorent,amour
+PtitLibe,7-12_PtitLibe33-Jean-Luc_Melenchon_description,a1_1628685602016,661,673,le détestent,haine
+PtitLibe,7-12_PtitLibe34-Coree_Nord_Qui_est_Kim_Jong-un,a1_1621579829057,274,288,aime le basket,amour
+PtitLibe,7-12_PtitLibe34-Coree_Nord_Qui_est_Kim_Jong-un,a1_1628692171484,820,827,préfère,envie
+PtitLibe,7-12_PtitLibe34-Coree_Nord_Qui_est_Kim_Jong-un,a1_1628692191495,833,860,ressembler à son grand-père,envie
+PtitLibe,7-12_PtitLibe34-Coree_Nord_Ui-sung,a1_1621579829079,1163,1219,aime les gens du petit village de pêcheurs où je suis né,amour
+PtitLibe,7-12_PtitLibe34-Coree_Nord_Ui-sung,a1_1621579829084,1631,1645,plaît beaucoup,amour
+PtitLibe,7-12_PtitLibe34-Coree_Nord_Ui-sung,a1_1628693795519,726,757,envie de faire de bonnes études,envie
+PtitLibe,7-12_PtitLibe34-Coree_Nord_bombe_nucleaire,a1_1621579828996,699,721,veuillent les attaquer,envie
+PtitLibe,7-12_PtitLibe35-jeux_societe_D_ou_viennent_jeux_societe,a1_1628694197273,413,430,aiment les échecs,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829109,19,41,fan de jeux de société,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829110,49,60,une passion,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829113,266,295,préfère affronter ses copains,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829116,527,551,aime les jeux de société,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829119,922,929,passion,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829121,1342,1371,aime bien partager sa passion,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1621579829123,1364,1371,passion,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1628694488708,1383,1391,aimerait,envie
+PtitLibe,7-12_PtitLibe35-jeux_societe_Denis,a1_1628694494675,1396,1426,qu’il y ait un club au collège,envie
+PtitLibe,7-12_PtitLibe35-jeux_societe_Pourquoi_aime,a1_1621579829199,9,13,aime,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Pourquoi_aime,a1_1621579829207,1239,1243,aime,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Pourquoi_aime,a1_1628695319649,1248,1267,les jeux de société,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Pourquoi_aime,a1_1628695335376,1325,1331,aiment,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_Pourquoi_aime,a1_1628695343618,1336,1342,perdre,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_description,a1_1621579829128,258,262,aime,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_description,a1_1628694659404,126,136,adorent ça,amour
+PtitLibe,7-12_PtitLibe35-jeux_societe_jeux_societe_stars_Noel,a1_1628694894290,1394,1409,beaucoup plaire,amour
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_Pourquoi,a1_1628758706575,1163,1259,rêvaient de se retrouver sur cette terre sur laquelle leurs ancêtres habitaient il y a 3 000 ans,espoir
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_Pourquoi,a1_1628758679666,1122,1157,ont voulu se réfugier hors d’Europe,envie
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_Que_se_passe,a1_1628759002289,548,589,aimeraient avoir Jérusalem comme capitale,envie
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_Que_se_passe,a1_1628759210078,2304,2340,veut montrer qu’il fait ce qu’il dit,envie
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_Tavor_Areen,a1_1628759275974,520,558,"aimeraient avoir un pays, la Palestine",envie
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_Tavor_Areen,a1_1628759782800,2257,2340,"espère qu’un jour, on vivra tous ensemble dans le même pays, comme dans cette école",espoir
+PtitLibe,7-12_PtitLibe36-conflit_Israel-Palestine_description,a1_1628758553802,346,386,veulent que Jérusalem soit leur capitale,envie
+PtitLibe,7-12_PtitLibe37-repas_fetes_Comment_reussir_son_gouter_Noel,a1_1621579829367,2586,2594,apprécie,amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Comment_reussir_son_gouter_Noel,a1_1628759993466,1351,1357,voulez,envie
+PtitLibe,7-12_PtitLibe37-repas_fetes_Comment_reussir_son_gouter_Noel,a1_1628760068180,2519,2568,"ai aimé faire la décoration, et enrouler la bûche",amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_D_ou_viennent_plats_traditionnels_francais,a1_1628760261912,2033,2051,préféré le dessert,amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Jean,a1_1621579829439,43,76,adore préparer des butter bredele,amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Jean,a1_1621579829440,451,479,aimerait bien être pâtissier,envie
+PtitLibe,7-12_PtitLibe37-repas_fetes_Jean,a1_1621579829441,484,535,"aime bien malaxer, mélanger, mettre les ingrédients",amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Jean,a1_1621579829444,1420,1458,aime bien quand je peux manger la pâte,amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Jean,a1_1628760693615,629,649,préfère les desserts,amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Que_mange_etranger,a1_1621579829452,800,822,aime beaucoup la morue,amour
+PtitLibe,7-12_PtitLibe37-repas_fetes_Que_mange_etranger,a1_1628760912157,1901,1912,le souhaite,envie
+PtitLibe,7-12_PtitLibe38-youtubeurs_Adele,a1_1621579829457,305,323,aime faire le show,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_Adele,a1_1621579829460,470,474,aime,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_Adele,a1_1628772179001,690,738,se moquait des youtubeuses qui parlent de beauté,mépris
+PtitLibe,7-12_PtitLibe38-youtubeurs_Adele,a1_1628772187995,834,852,espérais ce succès,espoir
+PtitLibe,7-12_PtitLibe38-youtubeurs_Adele,a1_1628772367424,1676,1706,veut devenir actrice plus tard,envie
+PtitLibe,7-12_PtitLibe38-youtubeurs_Comment_youtubeur_gagner_sa_vie,a1_1621579829480,1129,1155,aiment bien les youtubeurs,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_Comment_youtubeur_gagner_sa_vie,a1_1628772582020,1982,2044,préfèrent demander à leurs fans de leur donner un peu d’argent,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_YouTube_nouvelle_facon_d_apprendre,a1_1628773054383,1370,1392,passionnés de sciences,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_YouTube_nouvelle_facon_d_apprendre,a1_1628773077201,1817,1826,les aimer,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_Youtubeur_metier,a1_1628773307186,105,111,aiment,amour
+PtitLibe,7-12_PtitLibe38-youtubeurs_Youtubeur_metier,a1_1628773456083,1828,1847,veulent être connus,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_obligatoires_en_2018,a1_1628774900831,1552,1559,voulait,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_obligatoires_en_2018,a1_1628774905632,1593,1600,veulent,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_obligatoires_en_2018,a1_1628774910235,1605,1627,vacciner leurs enfants,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_obligatoires_en_2018,a1_1628774811469,946,989,envie qu’on leur impose des vaccins en plus,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_obligatoires_en_2018,a1_1628774887670,1564,1627,condamner les parents qui ne veulent pas vacciner leurs enfants,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_partout_dans_monde,a1_1628775058399,1880,1887,veulent,envie
+PtitLibe,7-12_PtitLibe39-vaccins_vaccins_partout_dans_monde,a1_1628775062371,1892,1967,dépenser de l’argent en fabriquant un vaccin que personne ne pourra acheter,envie
+PtitLibe,7-12_PtitLibe4-regionales_Comment_se_deroule_election,a1_1631088480642,1941,1951,veut voter,envie
+PtitLibe,7-12_PtitLibe4-regionales_Comment_se_deroule_election,a1_1631088531275,2763,2768,plaît,amour
+PtitLibe,7-12_PtitLibe4-regionales_Gabin,a1_1621579829756,1329,1386,aime beaucoup faire partie du conseil régional des jeunes,amour
+PtitLibe,7-12_PtitLibe4-regionales_Gabin,a1_1631088736086,1307,1312,envie,envie
+PtitLibe,7-12_PtitLibe4-regionales_une_region,a1_1631088918180,2956,2986,a voulu redécouper les régions,envie
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Comment_fonctionne_ce_pays,a1_1628843066784,1316,1338,voulait une démocratie,envie
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Comment_fonctionne_ce_pays,a1_1628843130770,2416,2483,aimeraient que l’Etat et la religion soient séparés comme en France,envie
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Comment_fonctionne_ce_pays,a1_1629390318369,1664,1671,voulait,envie
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Comment_fonctionne_ce_pays,a1_1629390329418,1916,1923,veulent,envie
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Comment_opposition_s_exprime,a1_1628848814614,293,360,veut faire des reproches aux dirigeants et demander des changements,envie
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Gelare,a1_1621579829838,200,259,"aime beaucoup le surf, qu’elle pratique dès qu’elle le peut",amour
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Gelare,a1_1621579829840,476,488,adore l’Iran,amour
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Gelare,a1_1628849305421,956,963,préfère,amour
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Gelare,a1_1628849327590,969,977,me taire,amour
+PtitLibe,7-12_PtitLibe40-manifestations_Iran_Gelare,a1_1628849364639,1479,1524,aimerais que le hijab ne soit pas obligatoire,envie
+PtitLibe,7-12_PtitLibe41-theories_complot_Comment_complotistes_convaincre,a1_1628850150955,1360,1369,l’émotion,indéterminée
+PtitLibe,7-12_PtitLibe41-theories_complot_Comment_complotistes_convaincre,a1_1628850331634,2023,2093,rassurant de croire que des groupes secrets ont organisé des attentats,soulagement
+PtitLibe,7-12_PtitLibe41-theories_complot_Comment_reconnaitre_theorie_complot,a1_1621579829915,1676,1694,aime cette couleur,amour
+PtitLibe,7-12_PtitLibe41-theories_complot_Comment_reconnaitre_theorie_complot,a1_1628850424710,426,468,détestent qu’on les traite de complotistes,haine
+PtitLibe,7-12_PtitLibe41-theories_complot_Lesly,a1_1628850747485,1742,1746,veut,envie
+PtitLibe,7-12_PtitLibe41-theories_complot_Pourquoi_probleme,a1_1621579829959,1022,1058,de la haine envers un groupe de gens,haine
+PtitLibe,7-12_PtitLibe41-theories_complot_Pourquoi_probleme,a1_1628862932133,90,94,veut,envie
+PtitLibe,7-12_PtitLibe41-theories_complot_Pourquoi_probleme,a1_1628863412485,1367,1393,envie de leur faire du mal,envie
+PtitLibe,7-12_PtitLibe41-theories_complot_Pourquoi_probleme,a1_1628863576636,1728,1776,envie de se venger et de commettre des attentats,envie
+PtitLibe,7-12_PtitLibe41-theories_complot_description,a1_1628850595138,205,212,veulent,envie
+PtitLibe,7-12_PtitLibe41-theories_complot_theorie_complot,a1_1628867234068,609,616,veulent,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_Comment_dessine_BD,a1_1621579830016,1279,1284,plaît,amour
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_Comment_vit_BD,a1_1628867917800,1463,1472,aimerions,amour
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1621579830043,257,276,fou amoureux d’elle,amour
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1621579830044,307,336,rêve d’être sa meilleure amie,espoir
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1621579830045,385,408,adore faire des bêtises,amour
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868213552,86,107,déteste tout le monde,haine
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868306462,227,234,odieuse,haine
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868317628,351,355,veut,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868322959,368,381,être gentille,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868604421,1030,1054,a souhaité publier Adèle,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868613047,1067,1207,"voulait proposer aux lectrices des livres qui ne leur montrent pas «qu’on attend seulement d’elles qu’elles soient jolies, douces et tendres",envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868623261,1249,1259,souhaitent,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868627173,1292,1329,veut devenir présidente de la galaxie,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868716848,1435,1443,souhaite,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868721130,1450,1594,montrer aux enfants «qu’on a tous une part de bizarrerie et qu’on peut aussi faire des choses incroyables avec ce grain de folie qui nous habite,envie
+PtitLibe,7-12_PtitLibe42-BD_Mortelle_Adele_naissance_Mortelle_Adele,a1_1628868771971,1604,1623,beaucoup de courage,courage
+PtitLibe,7-12_PtitLibe43-Rohingyas_Birmanie,a1_1621579830064,1257,1277,un grand soulagement,soulagement
+PtitLibe,7-12_PtitLibe43-Rohingyas_Birmanie,a1_1628868861548,602,672,voulait que tous les peuples ne forment plus qu’un seul et même peuple,envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Birmanie,a1_1628868918252,746,753,espoirs,espoir
+PtitLibe,7-12_PtitLibe43-Rohingyas_Birmanie,a1_1628868932068,913,932,beaucoup de courage,courage
+PtitLibe,7-12_PtitLibe43-Rohingyas_Birmanie,a1_1628869196087,1653,1757,"vouloir fâcher les militaires, qui veulent récupérer les terres des Rohingyas pour construire des usines",envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Mayyu,a1_1628869672018,326,333,veulent,envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Mayyu,a1_1628869675671,338,385,que les Rohingyas aient les mêmes droits qu’eux,envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Mayyu,a1_1628869689666,449,477,rêvait de devenir professeur,espoir
+PtitLibe,7-12_PtitLibe43-Rohingyas_Ou_sont_alles_Rohingyas_,a1_1628888097086,1725,1770,aimeraient retrouver leur maison et leur pays,envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Pourquoi,a1_1628888799404,878,939,ont voulu punir toute la population musulmane très sévèrement,envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Qui_sont_Rohingyas,a1_1621579830120,1811,1819,la haine,haine
+PtitLibe,7-12_PtitLibe43-Rohingyas_Qui_sont_Rohingyas,a1_1628889125103,491,525,voulaient chasser les envahisseurs,envie
+PtitLibe,7-12_PtitLibe43-Rohingyas_Qui_sont_Rohingyas,a1_1628889243085,291,321,beaucoup de racisme contre eux,haine
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_JO_hiver,a1_1628922060790,1695,1735,veulent apaiser les tensions pour les JO,envie
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_Tessa_Worley,a1_1621579830191,746,754,apprécie,amour
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_Tessa_Worley,a1_1621579830194,1182,1210,des émotions vraiment fortes,indéterminée
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_Tessa_Worley,a1_1628923693975,898,909,se détendre,soulagement
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_Tessa_Worley,a1_1628924005143,1699,1737,veux juste vivre à fond la compétition,envie
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_Tessa_Worley,a1_1628924026226,1753,1759,espère,espoir
+PtitLibe,7-12_PtitLibe44-Jeux_olympiques_hiver_nouveautes_JO_2018,a1_1628922878603,1013,1074,une volonté de permettre aux femmes d’être mieux représentées,envie
+PtitLibe,7-12_PtitLibe45-plan_loup_Melia,a1_1628924795360,1317,1433,"voudraient que cet animal sauvage disparaisse du parc national des Cévennes et, pour cela, avoir le droit de le tuer",envie
+PtitLibe,7-12_PtitLibe45-plan_loup_Melia,a1_1628924805887,1459,1491,veulent au contraire le protéger,envie
+PtitLibe,7-12_PtitLibe45-plan_loup_Pourquoi_eleveurs_en_veulent_loups,a1_1628925602954,289,316,aiment les animaux sauvages,amour
+PtitLibe,7-12_PtitLibe45-plan_loup_Pourquoi_eleveurs_en_veulent_loups,a1_1628926077352,1844,1871,voudrait en être débarrassé,envie
+PtitLibe,7-12_PtitLibe45-plan_loup_Pourquoi_loup_fait_peur,a1_1628926535198,787,794,voulait,envie
+PtitLibe,7-12_PtitLibe45-plan_loup_Pourquoi_loup_fait_peur,a1_1628927392348,2256,2271,se moque de lui,mépris
+PtitLibe,7-12_PtitLibe45-plan_loup_plan_loup,a1_1621579830296,2271,2295,veulent protéger le loup,envie
+PtitLibe,7-12_PtitLibe45-plan_loup_plan_loup,a1_1628925376675,1936,1950,souhaiteraient,envie
+PtitLibe,7-12_PtitLibe45-plan_loup_plan_loup,a1_1628925392976,1956,2059,que l’animal sauvage soit moins protégé et que le nombre de tirs autorisés pour le tuer soit plus élevé,envie
+PtitLibe,7-12_PtitLibe46-Salon_agriculture_Corinne,a1_1621579830346,42,93,"aime passer toute la journée dehors, dans la nature",amour
+PtitLibe,7-12_PtitLibe46-Salon_agriculture_Corinne,a1_1628928001756,1271,1278,rassure,soulagement
+PtitLibe,7-12_PtitLibe46-Salon_agriculture_Corinne,a1_1628928026710,1769,1784,envie de manger,envie
+PtitLibe,7-12_PtitLibe46-Salon_agriculture_Que_devient_lait_de_vache,a1_1628928647562,1715,1758,n’ont pas assez de pouvoir pour s’y opposer,impuissance
+PtitLibe,7-12_PtitLibe46-Salon_agriculture_Salon_de_agriculture,a1_1628928754867,771,836,veulent goûter les produits des régions qu’ils ne connaissent pas,envie
+PtitLibe,7-12_PtitLibe47-SNCF_A_quoi_ressemble_reseau_chemin_fer,a1_1628928856048,326,365,veut voyager à l’intérieur d’une région,envie
+PtitLibe,7-12_PtitLibe47-SNCF_A_quoi_ressemble_reseau_chemin_fer,a1_1628928928789,1343,1371,veut que le train aille vite,envie
+PtitLibe,7-12_PtitLibe47-SNCF_Jean-Philippe,a1_1621579830519,565,572,un rêve,espoir
+PtitLibe,7-12_PtitLibe47-SNCF_Jean-Philippe,a1_1621579830523,1578,1583,plaît,amour
+PtitLibe,7-12_PtitLibe47-SNCF_Jean-Philippe,a1_1628929477145,530,557,voulais conduire des trains,envie
+PtitLibe,7-12_PtitLibe47-SNCF_Pourquoi_SNCF,a1_1628929787145,1683,1702,veulent faire grève,envie
+PtitLibe,7-12_PtitLibe47-SNCF_avenir_train,a1_1628929133852,1362,1371,des rêves,espoir
+PtitLibe,7-12_PtitLibe48-fake_news_C_est_quoi_fake_news,a1_1628930140044,1071,1105,détestent d’autres groupes de gens,haine
+PtitLibe,7-12_PtitLibe48-fake_news_C_est_quoi_fake_news,a1_1628930391438,1759,1765,espère,espoir
+PtitLibe,7-12_PtitLibe48-fake_news_C_est_quoi_fake_news,a1_1628930397812,1772,1838,que les citoyens ne croiront pas les gens qui disent du mal de lui,espoir
+PtitLibe,7-12_PtitLibe48-fake_news_Pourquoi_probleme,a1_1628931261531,472,537,veut obliger les enfants à manger des choux de Bruxelles le mardi,envie
+PtitLibe,7-12_PtitLibe48-fake_news_Pourquoi_probleme,a1_1628931267817,555,609,"vouloir voter pour son concurrent, Monsieur P’tit Libé",envie
+PtitLibe,7-12_PtitLibe48-fake_news_Pourquoi_probleme,a1_1628931273812,643,653,souhaitait,envie
+PtitLibe,7-12_PtitLibe48-fake_news_Pourquoi_probleme,a1_1628931376412,1129,1136,veulent,envie
+PtitLibe,7-12_PtitLibe48-fake_news_quoi_ressemblent_fake_news,a1_1628931649147,636,651,était très aimé,amour
+PtitLibe,7-12_PtitLibe48-fake_news_quoi_ressemblent_fake_news,a1_1628931774702,1926,1937,«racailles»,mépris
+PtitLibe,7-12_PtitLibe48-fake_news_quoi_ressemblent_fake_news,a1_1628931783869,1974,2063,dire du mal des personnes qui habitent dans des quartiers pauvres et ne sont pas blanches,mépris
+PtitLibe,7-12_PtitLibe48-fake_news_quoi_ressemblent_fake_news,a1_1628931819101,2472,2480,racistes,haine
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Comment_image,a1_1621579830733,1194,1213,aime qu’on le sache,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Comment_image,a1_1628932115874,105,169,"veut que les gens le voient comme «un homme fort, en bonne santé",envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Comment_image,a1_1628932135288,344,395,veut donner l’impression qu’il est proche du peuple,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Comment_image,a1_1628932190474,1001,1062,voulait montrer à son peuple qu’il n’était pas du tout pareil,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Comment_image,a1_1628932227118,1641,1724,veut aussi donner «l’image un peu héroïque de quelqu’un qui va au-devant du danger»,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Qui_est_Poutine,a1_1629100281355,242,266,rêvait de devenir espion,espoir
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Qui_se_presente_a_election_presidentielle,a1_1629100654681,497,509,est apprécié,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Qui_se_presente_a_election_presidentielle,a1_1629100941249,1185,1233,voulait se présenter à l’élection présidentielle,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Qui_se_presente_a_election_presidentielle,a1_1629101038181,1669,1708,veut que beaucoup de gens aillent voter,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Qui_se_presente_a_election_presidentielle,a1_1629101048621,1779,1792,est très aimé,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Russes_aiment_vraiment,a1_1629101122156,11,19,l’aiment,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Russes_aiment_vraiment,a1_1629101137541,382,400,apprécient Poutine,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Russes_aiment_vraiment,a1_1629101211475,580,593,veut entendre,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Russes_aiment_vraiment,a1_1629101331429,1677,1718,veulent sauver leur usine de la fermeture,envie
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Vassili_et_Dacha,a1_1621579830837,824,832,apprécie,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Vassili_et_Dacha,a1_1621579830838,842,917,aime avant tout sa façon d'agir quand la Russie fait face à des difficultés,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_Vassili_et_Dacha,a1_1629102209004,659,672,est très aimé,amour
+PtitLibe,7-12_PtitLibe49-Vladimir_Poutine_description,a1_1629100168795,312,320,l'aiment,amour
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_Gerald,a1_1621579830895,639,647,rassurés,soulagement
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_Gerald,a1_1631089362380,522,556,veulent lire ou emprunter un livre,envie
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_Gerald,a1_1631089389977,895,899,veut,envie
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_Gerald,a1_1631089394105,904,910,partir,envie
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_mes_droits,a1_1631089530059,605,609,veut,envie
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_notre_quotidien,a1_1631089903642,975,989,veulent entrer,envie
+PtitLibe,7-12_PtitLibe5-Securite_vie_apres_attentats_surveillance,a1_1631090382225,1893,1906,le souhaitent,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Izaiah,a1_1621579831026,1335,1392,souhaitent plus de règles sur les armes que leurs parents,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Izaiah,a1_1629102762504,958,969,ont rassuré,soulagement
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_armes_importantes,a1_1629103261036,2079,2087,racistes,haine
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_ca_ne_change_pas,a1_1621579831062,311,330,aime bien les armes,amour
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_ca_ne_change_pas,a1_1621579831088,2238,2254,aiment les armes,amour
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_ca_ne_change_pas,a1_1629103543105,455,478,veut attaquer une école,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_ca_ne_change_pas,a1_1629103678563,922,929,veulent,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_ca_ne_change_pas,a1_1629103686221,936,964,enlever les plus dangereuses,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_Pourquoi_marche_organisee,a1_1629105641316,894,1000,veulent que les responsables politiques modifient les lois pour qu’il soit plus difficile d’avoir une arme,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_description,a1_1621579830998,538,559,veulent moins d’armes,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_description,a1_1629102435447,256,280,veulent en tuer d'autres,envie
+PtitLibe,7-12_PtitLibe50-armes_feu_Etats-Unis_description,a1_1629102511325,573,585,veulent plus,envie
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Comment_proteger_nos_donnees,a1_1621579831230,101,129,aime les gâteaux au chocolat,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Comment_proteger_nos_donnees,a1_1629152970618,1497,1528,envie d’avoir beaucoup d’«amis»,envie
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Comment_proteger_nos_donnees,a1_1629152991247,1579,1585,aiment,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Facebook_accuse,a1_1621579831272,886,897,aiment bien,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Facebook_accuse,a1_1629186373940,1195,1212,aimait les chiens,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Ou_se_trouvent_nos_donnees,a1_1621579831295,1597,1620,adore utiliser Snapchat,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_Ou_se_trouvent_nos_donnees,a1_1621579831297,2198,2206,plairait,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_eleves_6e,a1_1621579831267,1645,1655,adore trop,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_quoi_servent_nos_donnees_personnelles,a1_1621579831321,1373,1377,aime,amour
+PtitLibe,7-12_PtitLibe52-donnees_personnelles_quoi_servent_nos_donnees_personnelles,a1_1629214107128,1851,1915,espère que des utilisateurs d’Instagram abonneront leurs enfants,espoir
+PtitLibe,7-12_PtitLibe53-greves_D_ou_vient_greve,a1_1629215412612,1597,1648,souhaitaient moins d’inégalités et plus de libertés,envie
+PtitLibe,7-12_PtitLibe53-greves_Robin,a1_1629219173330,1717,1747,a décidé d’aller jusqu’au bout,détermination
+PtitLibe,7-12_PtitLibe53-greves_Robin,a1_1629219182855,1682,1712,espère que la grève sera utile,espoir
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_Abdoulaye,a1_1629219545193,1376,1480,aimerait jouer dans une équipe de foot et devenir peintre en bâtiment pour envoyer de l’argent à sa mère,espoir
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_difference_migrant_refugie,a1_1629220174371,679,717,veulent découvrir une nouvelle culture,envie
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_difference_migrant_refugie,a1_1629220185372,842,874,auraient préféré rester chez eux,envie
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_difference_migrant_refugie,a1_1629220203848,1129,1133,veut,envie
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_difference_migrant_refugie,a1_1629220544348,2077,2088,le souhaite,envie
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_difference_migrant_refugie,a1_1629220549117,2137,2144,le veut,envie
+PtitLibe,7-12_PtitLibe54-accueil_migrants_France_loi_immigration,a1_1629220710505,949,977,veut renvoyer dans leur pays,envie
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1621579831609,286,299,cette passion,amour
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1621579831616,895,922,aime bien jouer à plusieurs,amour
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1621579831619,1103,1107,aime,amour
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1621579831620,1142,1252,"apprécie beaucoup le jeu Undertale, dans lequel le personnage doit se balader, faire des recherches, combattre",amour
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1621579831622,1408,1489,"aime tellement les jeux vidéo qu’elle voudrait en faire son métier, en les créant",amour
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1629221693705,961,979,fans de jeux vidéo,amour
+PtitLibe,7-12_PtitLibe55-jeux_video_Florence,a1_1629221716939,1114,1136,jouer avec ses parents,amour
+PtitLibe,7-12_PtitLibe55-jeux_video_tout_premier_jeu_video,a1_1629222363033,1670,1685,s’ennuyait vite,ennui
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Avec_qui_Emmanuel_Macron_gouverne,a1_1629272063457,1948,2035,veut faire voter une loi pour punir plus sévèrement les violences sexuelles et sexistes,envie
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Louise,a1_1629272339306,161,176,un grand moment,indéterminée
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Louise,a1_1629272360827,894,932,a beaucoup aimé débattre avec ses amis,amour
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Louise,a1_1629272391295,1135,1158,aime les débats d’idées,amour
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Louise,a1_1629272403969,1327,1331,veux,envie
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Louise,a1_1629272408107,1336,1374,rester dans ma bulle avec mes opinions,envie
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_Que_pensent_Francais,a1_1629273114663,710,722,est apprécié,amour
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_il_y_a_an_,a1_1629272166558,696,717,souhaitaient vraiment,envie
+PtitLibe,7-12_PtitLibe56-premier_anniversaire_Elysee_il_y_a_an_,a1_1629272181455,722,760,apporter leur voix à l’un ou à l’autre,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_Florence,a1_1629274994031,1119,1128,rassurait,soulagement
+PtitLibe,7-12_PtitLibe57-Mai_68_aujourd_hui,a1_1621579831800,1282,1297,envie de danser,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_aujourd_hui,a1_1629273692019,538,659,"souhaitaient une autre vie que celle de leurs parents, qui travaillaient beaucoup, notamment dans les usines ou les mines",envie
+PtitLibe,7-12_PtitLibe57-Mai_68_aujourd_hui,a1_1629273711186,863,879,envie de liberté,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_aujourd_hui,a1_1629274045337,2633,2674,des souvenirs très forts de cette période,indéterminée
+PtitLibe,7-12_PtitLibe57-Mai_68_change_esprit_gens,a1_1629274360391,448,507,voulaient un autre avenir que celui qu’on leur construisait,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_change_esprit_gens,a1_1629274375591,769,779,le racisme,haine
+PtitLibe,7-12_PtitLibe57-Mai_68_change_esprit_gens,a1_1629274380575,793,800,l’amour,amour
+PtitLibe,7-12_PtitLibe57-Mai_68_change_esprit_gens,a1_1629274385629,841,848,l’amour,amour
+PtitLibe,7-12_PtitLibe57-Mai_68_change_esprit_gens,a1_1629274575477,1613,1637,vouloir ou non des bébés,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_change_esprit_gens,a1_1629274603338,1958,1986,envie de profiter des choses,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_description,a1_1629274740311,235,262,voulaient une vie meilleure,envie
+PtitLibe,7-12_PtitLibe57-Mai_68_il_y_a_50_ans,a1_1629276252051,424,453,souhaitaient être plus libres,envie
+PtitLibe,7-12_PtitLibe58-mariage_royal_Alice,a1_1629278449153,842,865,envie de lui ressembler,envie
+PtitLibe,7-12_PtitLibe58-mariage_royal_Alice,a1_1629278592295,1636,1656,veut devenir actrice,envie
+PtitLibe,7-12_PtitLibe58-mariage_royal_Pourquoi_plus_rois_en_France,a1_1629279224589,2062,2120,veulent que la France soit de nouveau gouvernée par un roi,envie
+PtitLibe,7-12_PtitLibe58-mariage_royal_ce_samedi,a1_1629278741704,1270,1300,les plus aimées du Royaume-Uni,amour
+PtitLibe,7-12_PtitLibe58-mariage_royal_regles_dans_monarchie,a1_1621579832012,2250,2270,aime beaucoup le roi,amour
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Paul,a1_1621579832084,1059,1081,un rêve qui se réalise,espoir
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Paul,a1_1629359500996,1088,1114,ai toujours aimé le tennis,amour
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Paul,a1_1621579832089,1475,1573,"rêve de se retrouver sur le même terrain de tennis que son joueur préféré, l’Espagnol Rafael Nadal",espoir
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Paul,a1_1629359740183,1541,1548,préféré,amour
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Paul,a1_1629359827226,1242,1292,a voulu participer aux sélections de Roland-Garros,envie
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Pourquoi_Roland-Garros_particulier,a1_1631633835509,1253,1287,voulaient habiller Suzanne Lenglen,envie
+PtitLibe,7-12_PtitLibe59-Roland-Garros_Pourquoi_Roland-Garros_particulier,a1_1631633857915,1894,1928,voulaient qu’on les voie à la télé,envie
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_29_fevrier,a1_1623331786871,1461,1481,déclarer leur flamme,amour
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_29_fevrier,a1_1631092254369,485,489,veut,envie
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_29_fevrier,a1_1631092257955,494,504,le révéler,envie
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_29_fevrier,a1_1631092307495,1414,1418,veut,envie
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_29_fevrier,a1_1631092504299,2869,2922,voulaient une journée spéciale pour leur anniversaire,envie
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_invente_29_fevrier,a1_1631092907536,3305,3314,voulaient,envie
+PtitLibe,7-12_PtitLibe6-secrets_29_fevrier_invente_29_fevrier,a1_1631092912188,3320,3332,avoir de roi,envie
+PtitLibe,7-12_PtitLibe60-Front_national_Eloise,a1_1629360621748,1459,1466,raciste,haine
+PtitLibe,7-12_PtitLibe60-Front_national_Pourquoi_change_nom,a1_1629361819143,681,718,veut donner une meilleure image du FN,envie
+PtitLibe,7-12_PtitLibe60-Front_national_Pourquoi_change_nom,a1_1629361954257,1374,1384,plus envie,envie
+PtitLibe,7-12_PtitLibe60-Front_national_Pourquoi_change_nom,a1_1629361975911,1816,1876,veut que les Français aient plus de choses que les étrangers,envie
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1621579832355,2568,2577,homophobe,haine
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1621579832356,2587,2608,voulait que ça change,envie
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360690470,219,241,rejetait les étrangers,haine
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360707368,470,480,xénophobes,haine
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360724042,287,321,voulait participer à des élections,envie
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360742621,802,811,xénophobe,haine
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360834110,1540,1551,antisémites,haine
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360985071,2300,2308,aimaient,amour
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629360995322,2313,2322,ses idées,amour
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629361072862,2547,2554,raciste,haine
+PtitLibe,7-12_PtitLibe60-Front_national_histoire_FN,a1_1629361076662,2556,2566,antisémite,haine
+PtitLibe,7-12_PtitLibe60-Front_national_importance_FN,a1_1629361438533,1506,1550,veut qu’il y ait moins d’étrangers en France,envie
+PtitLibe,7-12_PtitLibe60-Front_national_importance_FN,a1_1629361460202,1781,1786,envie,envie
+PtitLibe,7-12_PtitLibe60-Front_national_parti_comme_autres,a1_1629361687651,1656,1716,veut que les Français aient plus de droits que les étrangers,envie
+PtitLibe,7-12_PtitLibe60-Front_national_parti_comme_autres,a1_1629361637631,1125,1154,veut faire angoisser les gens,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_A_quoi_ca_sert_faire_etudes,a1_1629362065644,721,744,veulent faire plus tard,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_A_quoi_ca_sert_faire_etudes,a1_1629362088350,1240,1265,voudront devenir bouchers,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_A_quoi_ca_sert_faire_etudes,a1_1629362099200,1299,1322,veulent faire plus tard,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_A_quoi_ca_sert_faire_etudes,a1_1629362110233,1395,1414,aimerait travailler,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1621579832429,88,134,rêve depuis toute petite de devenir sage-femme,espoir
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1621579832434,1115,1121,espoir,espoir
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1621579832435,1320,1339,un vrai soulagement,soulagement
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1629362482100,216,252,veulent faire des études supérieures,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1629362493150,594,654,ne souhaitait intégrer que l’université de médecine de Tours,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1629362515331,994,1003,voulaient,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1629362527990,1008,1047,aller à la faculté de médecine de Tours,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Fanny,a1_1629362671199,1310,1311,!,soulagement
+PtitLibe,7-12_PtitLibe61-Parcoursup_Pourquoi_plus_comme_avant,a1_1629362839247,385,400,voulaient faire,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Pourquoi_plus_comme_avant,a1_1629362858817,954,974,voulaient étudier là,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Pourquoi_plus_comme_avant,a1_1629362939241,1602,1620,aimeraient étudier,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Pourquoi_plus_comme_avant,a1_1629363017171,2414,2419,envie,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_Pourquoi_plus_comme_avant,a1_1629363021928,2421,2431,s’ennuient,ennui
+PtitLibe,7-12_PtitLibe61-Parcoursup_description,a1_1629362288848,383,392,voulaient,envie
+PtitLibe,7-12_PtitLibe61-Parcoursup_description,a1_1629362299020,517,530,le souhaitent,envie
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Comment_ca_marche,a1_1629363444398,1041,1155,"veut accéder au prochain tour, qu’on appelle les huitièmes de finale (au lieu de 32 pays, il n’y en a plus que 16)",envie
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Que_represente_Coupe_monde,a1_1621579832563,603,614,une passion,amour
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Que_represente_Coupe_monde,a1_1621579832575,2019,2027,excitant,indéterminée
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Que_represente_Coupe_monde,a1_1629364803847,1385,1412,encore plus envie de gagner,envie
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Que_represente_Coupe_monde,a1_1629364813579,1418,1518,"veulent montrer qu’ils existent, qu’ils sont capables de battre les pays les plus puissants du monde",envie
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Theo,a1_1621579832627,513,597,en aime particulièrement deux : le Français Samuel Umtiti et l’Espagnol Sergio Ramos,amour
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Theo,a1_1621579832630,1322,1375,rêve de jouer une Coupe du monde dans quelques années,espoir
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Theo,a1_1629365519848,1029,1075,aimerait que la France gagne la Coupe du monde,espoir
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_Theo,a1_1631632038800,824,849,particulièrement marquant,indéterminée
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_joueurs,a1_1621579832544,1153,1177,aime faire parler de lui,amour
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_joueurs,a1_1629364049488,1922,1948,n’a jamais baissé les bras,détermination
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_joueurs,a1_1629364098929,972,1039,veut prendre sa revanche et rapporter le trophée en Amérique du Sud,envie
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_stars_de_equipe_France,a1_1621579832623,1539,1572,veut vraiment avoir Kylian Mbappé,envie
+PtitLibe,7-12_PtitLibe62-Coupe_monde_foot_stars_de_equipe_France,a1_1629365371896,1639,1656,est très apprécié,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Leonard,a1_1621579832685,20,37,fan de dinosaures,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Leonard,a1_1621579832686,67,87,adore les dinosaures,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Leonard,a1_1621579832695,1336,1386,aimerait bien que les dinosaures existent toujours,envie
+PtitLibe,7-12_PtitLibe63-dinosaures_Leonard,a1_1629374756169,193,204,Son préféré,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Leonard,a1_1629375030268,1686,1818,"aimerait être paléontologue, le nom qu’on donne aux personnes qui étudient les animaux et les plantes qui vivaient à cette époque-là",envie
+PtitLibe,7-12_PtitLibe63-dinosaures_Leonard,a1_1621579832698,1650,1818,"aime tellement les dinosaures qu’il aimerait être paléontologue, le nom qu’on donne aux personnes qui étudient les animaux et les plantes qui vivaient à cette époque-là",amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1621579832740,9,13,aime,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1621579832742,328,338,La passion,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1629375201186,1258,1269,passionnent,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1629375277326,1484,1559,"envie d’en savoir plus sur eux, de comprendre, de chercher des informations",envie
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1629375287165,1639,1646,préféré,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1629375305869,2032,2042,passionnés,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Pourquoi_aime_dinosaures,a1_1629375322629,2206,2290,"veulent juste pouvoir ensuite les revendre plus cher, et ainsi gagner plein d’argent",envie
+PtitLibe,7-12_PtitLibe63-dinosaures_Qui_sont_specialistes_dinosaures,a1_1621579832766,238,251,Cette passion,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Qui_sont_specialistes_dinosaures,a1_1629380547242,81,100,adorait les dragons,amour
+PtitLibe,7-12_PtitLibe63-dinosaures_Qui_sont_specialistes_dinosaures,a1_1629380618600,2344,2389,tellement passionnant que ça en vaut la peine,amour
+PtitLibe,7-12_PtitLibe64-securite_routiere_Comment_protege_gens_sur_route,a1_1629381023507,371,375,veut,envie
+PtitLibe,7-12_PtitLibe64-securite_routiere_Jordan,a1_1621579832878,150,161,une passion,amour
+PtitLibe,7-12_PtitLibe64-securite_routiere_Jordan,a1_1629382390801,790,802,a réconforté,soulagement
+PtitLibe,7-12_PtitLibe64-securite_routiere_Jordan,a1_1629382412279,551,565,un peu bizarre,indéterminée
+PtitLibe,7-12_PtitLibe64-securite_routiere_Jordan,a1_1629382498437,1222,1229,ce rêve,espoir
+PtitLibe,7-12_PtitLibe64-securite_routiere_Que_va_se_passer_sur_routes,a1_1629383078584,1138,1164,envie de rouler moins vite,envie
+PtitLibe,7-12_PtitLibe64-securite_routiere_faire_attention_sur_route,a1_1629382227169,335,370,veut absolument le prendre avec lui,envie
+PtitLibe,7-12_PtitLibe65-Tour_France_Felix_et_Aurele,a1_1621579832960,555,584,aime autant le Tour de France,amour
+PtitLibe,7-12_PtitLibe65-Tour_France_Felix_et_Aurele,a1_1629383315548,1331,1338,préféré,amour
+PtitLibe,7-12_PtitLibe65-Tour_France_Felix_et_Aurele,a1_1629383327239,1600,1609,préfèrent,amour
+PtitLibe,7-12_PtitLibe65-Tour_France_Pourquoi_gros_evenement,a1_1631627026823,903,911,espèrent,espoir
+PtitLibe,7-12_PtitLibe65-Tour_France_Pourquoi_gros_evenement,a1_1631627027864,918,943,faire venir des touristes,espoir
+PtitLibe,7-12_PtitLibe65-Tour_France_Que_va-t-il_se_passer_,a1_1629387337927,718,735,un sacré parcours,indéterminée
+PtitLibe,7-12_PtitLibe65-Tour_France_Que_va-t-il_se_passer_,a1_1629387379665,1763,1819,préfèrent les routes droites qui permettent d’aller vite,amour
+PtitLibe,7-12_PtitLibe65-Tour_France_Tour_France_pour_cyclistes,a1_1621579833014,502,509,en rêve,espoir
+PtitLibe,7-12_PtitLibe65-Tour_France_Tour_France_pour_cyclistes,a1_1629388776195,1588,1592,veut,envie
+PtitLibe,7-12_PtitLibe65-Tour_France_Tour_France_pour_cyclistes,a1_1629388816829,442,458,Notre motivation,détermination
+PtitLibe,7-12_PtitLibe65-Tour_France_histoires_Tour,a1_1629383664721,733,740,courage,courage
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Comment_festival_est_ne,a1_1629389015619,225,266,voulait rendre le théâtre plus accessible,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Comment_festival_est_ne,a1_1629389023140,376,430,voulait des spectacles en dehors de Paris et pour tous,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Comment_festival_est_ne,a1_1629389110039,1486,1511,voulaient le faire savoir,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Marion,a1_1621579833061,443,476,voulait bien jouer dans une pièce,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Marion,a1_1629391822475,1396,1417,préfère être discrète,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Marion,a1_1629391827397,1427,1431,veut,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Marion,a1_1629391831235,1436,1449,tout raconter,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Marion,a1_1629391841599,1463,1483,voulait être médecin,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_Marion,a1_1629391845940,1516,1546,veut être comédienne plus tard,envie
+PtitLibe,7-12_PtitLibe66-festival_Avignon_festival,a1_1629389411308,930,974,veulent y participer pour faire un spectacle,envie
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Benedicte,a1_1621579833087,1073,1103,aime travailler dans la nature,amour
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Benedicte,a1_1621579833090,1175,1183,apprécie,amour
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Benedicte,a1_1629401358521,699,726,passionnés par l’apiculture,amour
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Benedicte,a1_1629402023497,1512,1519,vouloir,envie
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Pourquoi_apiculteurs_mecontents,a1_1629443897430,647,654,veulent,envie
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Pourquoi_apiculteurs_mecontents,a1_1629443907175,660,679,que l’Etat les aide,envie
+PtitLibe,7-12_PtitLibe67-disparition_abeilles_Pourquoi_apiculteurs_mecontents,a1_1629443919139,684,826,"souhaitent que le gouvernement interdise les produits qui font du mal aux abeilles, ceux que certains agriculteurs utilisent dans leurs champs",envie
+PtitLibe,7-12_PtitLibe68-rentree_tele_Comment_fonctionne_tele_pour_enfants,a1_1629444248709,1700,1709,va plaire,amour
+PtitLibe,7-12_PtitLibe68-rentree_tele_Comment_fonctionne_tele_pour_enfants,a1_1629444253239,1761,1883,"aiment beaucoup le fantastique ou les histoires autour de la musique, des jeunes, de l’amitié, de l’amour ou de la famille",amour
+PtitLibe,7-12_PtitLibe68-rentree_tele_Comment_fonctionne_tele_pour_enfants,a1_1629444290390,1919,1961,aiment voir comment on vit chez les autres,amour
+PtitLibe,7-12_PtitLibe68-rentree_tele_Joan,a1_1621579833204,981,989,ridicule,mépris
+PtitLibe,7-12_PtitLibe68-rentree_tele_Joan,a1_1629444765339,1520,1528,plairont,amour
+PtitLibe,7-12_PtitLibe68-rentree_tele_cette_rentree,a1_1629444145970,1466,1508,veut reconquérir les enfants et les jeunes,envie
+PtitLibe,7-12_PtitLibe68-rentree_tele_qui_regarde_quoi_a_tele,a1_1629444960649,1579,1587,plaisent,amour
+PtitLibe,7-12_PtitLibe68-rentree_tele_septembre_tele,a1_1621579833238,2036,2041,plaît,amour
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Ninon,a1_1621579833311,1524,1567,aimait bien faire ces différentes activités,amour
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Ninon,a1_1629459262653,1355,1402,a beaucoup apprécié le cours sur la citoyenneté,amour
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Pourquoi_ministres_faire_reformes,a1_1629459451413,23,30,veulent,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Pourquoi_ministres_faire_reformes,a1_1629459478717,876,923,envie de mettre en place l’école de leurs rêves,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Pourquoi_ministres_faire_reformes,a1_1629459494205,1031,1052,veulent la même chose,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Pourquoi_ministres_faire_reformes,a1_1629459504722,1147,1154,veulent,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Pourquoi_ministres_faire_reformes,a1_1629459510013,1161,1193,laisser leur nom dans l’histoire,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_Pourquoi_ministres_faire_reformes,a1_1629459531946,1473,1496,veut changer les choses,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_change_rentree,a1_1629445166769,807,830,préfère pour ses écoles,amour
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_change_rentree,a1_1629445214508,1861,1909,très envie de rater une matinée avec leur enfant,envie
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_change_rentree,a1_1629445223508,2005,2014,préfèrent,amour
+PtitLibe,7-12_PtitLibe69-rythmes_scolaires_change_rentree,a1_1629445230148,2021,2162,"que les familles aient des week-ends complets, pour qu’elles aient le temps de visiter des musées ou de dormir à l’hôtel dans une autre ville",envie
+PtitLibe,7-12_PtitLibe7-Zika_et_epidemies_Pourquoi_encore_maladies,a1_1631094466134,950,978,voudraient faire disparaître,envie
+PtitLibe,7-12_PtitLibe7-Zika_et_epidemies_Pourquoi_encore_maladies,a1_1631094490087,1719,1752,aiment bien pondre dans les pneus,amour
+PtitLibe,7-12_PtitLibe7-Zika_et_epidemies_Pourquoi_encore_maladies,a1_1631094670342,3310,3382,très envie de fabriquer les remèdes contre les maladies des pays pauvres,envie
+PtitLibe,7-12_PtitLibe7-Zika_et_epidemies_Zika,a1_1631099117210,1127,1145,en faisant l’amour,désir
+PtitLibe,7-12_PtitLibe7-Zika_et_epidemies_Zika,a1_1631099150910,2188,2207,espèrent en trouver,espoir
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_Que_peut_faire_ministre,a1_1629462631697,550,589,veut recycler tous les appareils usagés,envie
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_Thomas,a1_1621579833654,1432,1444,aime le surf,amour
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_Thomas,a1_1629462855021,1537,1541,veut,envie
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_Thomas,a1_1629462859095,1552,1575,rester les bras croisés,envie
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_bloque,a1_1629459984538,757,764,préfère,amour
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_bloque,a1_1629459999990,1066,1127,veulent agir pour ce qui va se passer dans les années à venir,envie
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_bloque,a1_1629460013926,1141,1168,veulent être réélus ensuite,envie
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_bloque,a1_1629460084424,2193,2204,moins envie,envie
+PtitLibe,7-12_PtitLibe70-depart_ministre_Ecologie_bloque,a1_1629460126446,284,344,veut acheter des produits biologiques en faisant ses courses,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_Comment_restaure_patrimoine,a1_1629708591404,807,851,souhaite transmettre aux générations futures,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_patrimoine,a1_1629708989492,103,147,souhaite transmettre aux générations futures,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_patrimoine,a1_1629709004293,333,343,veut aller,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_patrimoine,a1_1629709009286,356,360,veut,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_patrimoine,a1_1629709013182,365,370,aller,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_patrimoine,a1_1629709029901,532,612,envie de conserver en bon état pour se souvenir du temps où ils étaient utilisés,envie
+PtitLibe,7-12_PtitLibe71-protection_patrimoine_patrimoine,a1_1629709454915,1712,1770,vouloir saccager les symboles de la royauté et de l’église,envie
+PtitLibe,7-12_PtitLibe72-vegetariens_Depuis_quand_vegetariens,a1_1629727007608,2079,2083,veut,envie
+PtitLibe,7-12_PtitLibe72-vegetariens_Nolita,a1_1621579833921,597,614,adore les animaux,amour
+PtitLibe,7-12_PtitLibe72-vegetariens_Nolita,a1_1621579833927,1195,1204,aimais ça,amour
+PtitLibe,7-12_PtitLibe72-vegetariens_Nolita,a1_1629727504439,1078,1103,voulaient que j’en prenne,envie
+PtitLibe,7-12_PtitLibe72-vegetariens_Pourquoi_plus_viande,a1_1629728187953,874,881,veulent,envie
+PtitLibe,7-12_PtitLibe72-vegetariens_Pourquoi_plus_viande,a1_1629728191841,886,910,boire le lait des vaches,envie
+PtitLibe,7-12_PtitLibe72-vegetariens_description,a1_1629727114606,249,256,veulent,envie
+PtitLibe,7-12_PtitLibe72-vegetariens_description,a1_1629727128762,309,319,souhaitent,envie
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1621579833946,21,32,fan de mode,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1621579833952,849,871,aime beaucoup discuter,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1621579833953,1165,1175,ma passion,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1621579833954,1401,1416,aime tout faire,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1629737577645,68,117,"passionné par les habits, les coiffures, le style",amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1629737838618,1274,1306,aimerait travailler dans la mode,espoir
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Alberic,a1_1629737864796,1751,1755,veut,envie
+PtitLibe,7-12_PtitLibe73-Fashion_Week_D_ou_viennent_modes,a1_1629738262137,2380,2460,"veut du confort, du moelleux, que ce soit doux, rond, facile à enfiler, à porter",envie
+PtitLibe,7-12_PtitLibe73-Fashion_Week_D_ou_viennent_modes,a1_1629738287766,2526,2533,préféré,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_D_ou_viennent_modes,a1_1629738277203,2470,2571,"envie de ressembler à sa chanteuse ou à son footballeur préféré, ou aux copains dans la cour de récré",envie
+PtitLibe,7-12_PtitLibe73-Fashion_Week_Fashion_Week,a1_1629738487132,46,62,les fans de mode,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_metiers_de_mode,a1_1629738640425,1522,1552,envie d’acheter une collection,envie
+PtitLibe,7-12_PtitLibe73-Fashion_Week_metiers_de_mode,a1_1629738653297,1780,1824,plaire dans tel territoire ou telle boutique,amour
+PtitLibe,7-12_PtitLibe73-Fashion_Week_mode_secteur_important,a1_1629738783777,1244,1254,apprécient,amour
+PtitLibe,7-12_PtitLibe74-feminisme_Marjane_et_Louison,a1_1629748846101,765,793,veulent sauver une princesse,envie
+PtitLibe,7-12_PtitLibe74-feminisme_Marjane_et_Louison,a1_1621579834156,1341,1450,"aime bien que parfois ce soit pas des princesses comme d’habitude, qu’elles puissent tirer à l’arc et tout ça",amour
+PtitLibe,7-12_PtitLibe74-feminisme_a_quoi_sert_feminisme,a1_1621579834067,2532,2552,aime bien les débats,amour
+PtitLibe,7-12_PtitLibe74-feminisme_a_quoi_sert_feminisme,a1_1629739151915,1975,1995,veux être cosmonaute,envie
+PtitLibe,7-12_PtitLibe74-feminisme_a_quoi_sert_feminisme,a1_1629739173917,2084,2101,veut être danseur,envie
+PtitLibe,7-12_PtitLibe74-feminisme_depuis_affaire_Weinstein,a1_1621579834076,1628,1647,envie de changer ça,envie
+PtitLibe,7-12_PtitLibe74-feminisme_depuis_affaire_Weinstein,a1_1629747466027,1071,1093,ont osé porter plainte,courage
+PtitLibe,7-12_PtitLibe74-feminisme_depuis_affaire_Weinstein,a1_1629747626815,1868,1875,séduire,désir
+PtitLibe,7-12_PtitLibe74-feminisme_depuis_affaire_Weinstein,a1_1629747631545,1897,1907,le veulent,envie
+PtitLibe,7-12_PtitLibe74-feminisme_depuis_affaire_Weinstein,a1_1629747387676,822,898,le courage d’oser dire que des hommes leur avaient fait du mal à elles aussi,courage
+PtitLibe,7-12_PtitLibe74-feminisme_evenements,a1_1629748086353,2319,2328,voulaient,envie
+PtitLibe,7-12_PtitLibe74-feminisme_evenements,a1_1629748096604,2369,2388,voulaient un enfant,envie
+PtitLibe,7-12_PtitLibe74-feminisme_evenements,a1_1629748106313,2515,2530,le souhaitaient,envie
+PtitLibe,7-12_PtitLibe74-feminisme_feminismes_differents,a1_1621579834120,623,638,irrespectueuses,mépris
+PtitLibe,7-12_PtitLibe74-feminisme_feminismes_differents,a1_1629748559300,1712,1840,"veulent que l’on prenne en compte la difficulté d’être une femme ET la difficulté d’être noire, musulmane, handicapée, lesbienne",envie
+PtitLibe,7-12_PtitLibe75-pedophilie_Comment_faire_attention,a1_1621579834194,1001,1011,aimes bien,amour
+PtitLibe,7-12_PtitLibe75-pedophilie_Comment_faire_attention,a1_1629749807412,936,940,veux,envie
+PtitLibe,7-12_PtitLibe75-pedophilie_Comment_faire_attention,a1_1629749811610,945,954,de câlins,envie
+PtitLibe,7-12_PtitLibe75-pedophilie_Mon_corps_m_appartient,a1_1629750516380,61,93,très attirés quand ils se voient,désir
+PtitLibe,7-12_PtitLibe75-pedophilie_Pourquoi_c_est_tres_grave,a1_1629751989630,1481,1496,aimer son corps,amour
+PtitLibe,7-12_PtitLibe75-pedophilie_Pourquoi_c_est_tres_grave,a1_1629752153027,2111,2126,se sentir mieux,soulagement
+PtitLibe,7-12_PtitLibe75-pedophilie_pedophilie,a1_1621579834242,1654,1663,aime bien,amour
+PtitLibe,7-12_PtitLibe75-pedophilie_pedophilie,a1_1629750913998,264,308,préfèrent utiliser le mot de pédocriminalité,amour
+PtitLibe,7-12_PtitLibe75-pedophilie_pedophilie,a1_1629751226492,411,418,Rassure,soulagement
+PtitLibe,7-12_PtitLibe76-art_contemporain_Comment_prix_oeuvre,a1_1621579834328,1897,1907,la passion,amour
+PtitLibe,7-12_PtitLibe76-art_contemporain_Comment_prix_oeuvre,a1_1629786202988,1594,1620,veulent tous la même chose,envie
+PtitLibe,7-12_PtitLibe76-art_contemporain_Comment_prix_oeuvre,a1_1629786209488,1666,1672,aiment,amour
+PtitLibe,7-12_PtitLibe76-art_contemporain_Fiac,a1_1629786466173,1109,1153,veulent mettre en avant un de leurs artistes,envie
+PtitLibe,7-12_PtitLibe76-art_contemporain_Fiac,a1_1629786474218,1204,1238,veulent enrichir leurs collections,envie
+PtitLibe,7-12_PtitLibe76-art_contemporain_Melanie,a1_1629786620418,374,381,ressens,indéterminée
+PtitLibe,7-12_PtitLibe76-art_contemporain_Melanie,a1_1629786626309,442,454,ces émotions,indéterminée
+PtitLibe,7-12_PtitLibe76-art_contemporain_Melanie,a1_1629786641518,585,592,émotion,indéterminée
+PtitLibe,7-12_PtitLibe76-art_contemporain_Melanie,a1_1629786656048,708,812,"veut montrer par là que «c’est souvent inconfortable de se montrer en public, qu’on se sent mal à l’aise",envie
+PtitLibe,7-12_PtitLibe76-art_contemporain_Qui_achete_et_vend_oeuvres,a1_1621579834371,627,632,plaît,amour
+PtitLibe,7-12_PtitLibe76-art_contemporain_Qui_achete_et_vend_oeuvres,a1_1629787210628,1043,1063,des passionnés d’art,amour
+PtitLibe,7-12_PtitLibe76-art_contemporain_Qui_achete_et_vend_oeuvres,a1_1629787215944,1069,1132,"aiment avoir chez eux des peintures, des sculptures, des photos",amour
+PtitLibe,7-12_PtitLibe76-art_contemporain_Qui_achete_et_vend_oeuvres,a1_1629787226048,1221,1229,plaisent,amour
+PtitLibe,7-12_PtitLibe76-art_contemporain_Qui_achete_et_vend_oeuvres,a1_1629787231363,1347,1353,aiment,amour
+PtitLibe,7-12_PtitLibe77-changement_heure_Vincent,a1_1629789100884,669,679,chambouler,indéterminée
+PtitLibe,7-12_PtitLibe77-changement_heure_Vincent,a1_1629789172463,962,980,le plus perturbant,indéterminée
+PtitLibe,7-12_PtitLibe77-changement_heure_Vincent,a1_1629788399557,650,679,veut éviter de les chambouler,envie
+PtitLibe,7-12_PtitLibe77-changement_heure_Vincent,a1_1629789195428,1386,1437,préfère qu’on reste pour toujours à l’heure d’hiver,envie
+PtitLibe,7-12_PtitLibe77-changement_heure_derniere_fois,a1_1621579834394,1122,1135,la même envie,envie
+PtitLibe,7-12_PtitLibe77-changement_heure_derniere_fois,a1_1629787488686,659,672,le souhaitent,envie
+PtitLibe,7-12_PtitLibe77-changement_heure_derniere_fois,a1_1629787505398,1014,1035,préfère l’heure d’été,amour
+PtitLibe,7-12_PtitLibe77-changement_heure_derniere_fois,a1_1629787536587,1155,1186,veulent sortir de l’heure d’été,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Isayas,a1_1629818189223,838,845,racisme,haine
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Isayas,a1_1629818219074,1250,1272,espère qu’il va gagner,espoir
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1621579834547,229,236,l’adore,amour
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629818346910,200,207,le hait,haine
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629818358171,460,486,se moque de l’autre partie,mépris
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629818370060,580,592,se détestent,haine
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629818410502,653,721,aiment ce président qui fait le spectacle et dit tout ce qu’il pense,amour
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629819035713,2196,2205,être aimé,amour
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629818793553,1310,1342,envie de prendre trop de risques,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Pourquoi_Trump_divise,a1_1629819053802,2238,2272,veut être au centre de l’attention,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Que_font_Americains,a1_1621579834578,2077,2118,veulent protéger la démocratie américaine,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Que_font_Americains,a1_1629819410987,668,700,détestent tellement Donald Trump,haine
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Que_font_Americains,a1_1629819699450,1335,1362,veulent faire de leur corps,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Que_font_Americains,a1_1629819691423,1263,1481,"veulent priver les femmes et les filles du droit de décider ce qu’elles veulent faire de leur corps, adopter des lois qui enrichissent les plus riches et appauvrissent les plus pauvres, et nous éloigner des autres pays",envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Trump_depuis_deux_ans,a1_1621579834628,603,607,veut,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Trump_depuis_deux_ans,a1_1621579834638,1714,1804,veut que ce soit très difficile de faire venir des produits aux Etats-Unis pour les vendre,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Trump_depuis_deux_ans,a1_1629820284591,613,641,rouvrir les mines de charbon,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_Trump_depuis_deux_ans,a1_1629820435203,1418,1474,veut de construire un mur à la frontière avec le Mexique,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1621579834601,985,1042,"veut lutter contre les inégalités, aider les plus pauvres",envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1621579834602,1046,1120,souhaite que tout le monde puisse avoir une assurance santé pas trop chère,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1629820003669,1197,1201,veut,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1629820007209,1206,1236,accueillir beaucoup d’immigrés,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1629820019290,1295,1299,veut,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1629820023962,1304,1363,que l’Etat joue un rôle trop important dans la vie des gens,envie
+PtitLibe,7-12_PtitLibe78-Trump_mi-mandat_quoi_servent_ces_elections,a1_1629820051210,1937,1950,veulent voter,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Bolsonaro_exception,a1_1621579834645,369,420,une intolérance par rapport à certaines populations,haine
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Bolsonaro_exception,a1_1621579834647,472,491,le rejet de l’autre,haine
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Bolsonaro_exception,a1_1629820731989,502,542,des réponses dures qui excluent des gens,haine
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Bolsonaro_exception,a1_1629820747545,641,716,"être contre les étrangers, les musulmans, les homosexuels, les journalistes",haine
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Bolsonaro_exception,a1_1629820773473,1218,1245,veulent essayer autre chose,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Comment_s_est_passee_election,a1_1629821369136,621,650,voulaient voir diriger l’Etat,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Comment_s_est_passee_election,a1_1629821537258,1004,1011,préféré,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Comment_s_est_passee_election,a1_1629821677135,1612,1665,ont cessé de parler à des amis qui ont voté Bolsonaro,indéterminée
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Murilo,a1_1629822184903,195,346,"veut croire que l’homme qui a été élu président du Brésil fin octobre «ne pense pas les bêtises qu’il dit» sur les femmes, les Noirs et les homosexuels",envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Murilo,a1_1629826422554,1266,1273,le veut,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Qui_est_Jair_Bolsonaro,a1_1621579834784,1450,1459,homophobe,haine
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Qui_est_Jair_Bolsonaro,a1_1629827399464,1276,1284,racistes,haine
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Qui_est_Jair_Bolsonaro,a1_1629827420504,1496,1510,aimer son fils,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Qui_est_Jair_Bolsonaro,a1_1629827427655,1542,1650,préférerait qu’il meure dans un accident de voiture plutôt que de savoir qu’il était en couple avec un homme,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Qui_est_Jair_Bolsonaro,a1_1629827439091,1830,1838,souhaite,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_Qui_est_Jair_Bolsonaro,a1_1629827448844,1843,1867,protéger l’environnement,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_problemes,a1_1621579834761,429,464,apprécient son discours sécuritaire,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_problemes,a1_1629826670367,378,386,plaisent,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_problemes,a1_1629826722607,778,878,préfèrent quelqu’un qui est anti-Noirs et homosexuels mais qui va remettre de l’ordre dans la maison,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_problemes,a1_1629826812292,1813,1821,a séduit,amour
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_problemes,a1_1629826748556,1098,1126,voudraient leur faire du mal,envie
+PtitLibe,7-12_PtitLibe79-election_president_Bresil_problemes,a1_1629826737467,1005,1126,"veut permettre aux Brésiliens d’avoir une arme plus facilement, pour se défendre de gens qui voudraient leur faire du mal",envie
+PtitLibe,7-12_PtitLibe8-loi_travail_Comment_fonctionne_entreprise,a1_1631099287335,2008,2106,"veut changer de métier, déménager à l’étranger ou rester à la maison pour s’occuper de ses enfants",envie
+PtitLibe,7-12_PtitLibe8-loi_travail_Comment_fonctionne_entreprise,a1_1631099297527,2190,2218,veut faire partir un employé,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_Natacha,a1_1631103668898,906,923,ont voulu rentrer,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_Pourquoi_cette_loi,a1_1631103783901,399,438,veulent que le gouvernement l’abandonne,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_description,a1_1631099378592,227,294,veut modifier des choses qui concernent la vie dans les entreprises,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_grandes_mobilisations,a1_1631103035428,356,363,veulent,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_grandes_mobilisations,a1_1631103042062,516,574,voulaient des améliorations de leurs conditions de travail,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_grandes_mobilisations,a1_1631103078275,1714,1724,plaisaient,amour
+PtitLibe,7-12_PtitLibe8-loi_travail_grandes_mobilisations,a1_1631103084408,1729,1744,dans la société,amour
+PtitLibe,7-12_PtitLibe8-loi_travail_grandes_mobilisations,a1_1631103142158,2789,2902,ont voulu obliger les gens à travailler plus longtemps avant d’avoir le droit de recevoir l’argent de la retraite,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_grandes_mobilisations,a1_1631103175029,3191,3200,voulaient,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_loi_travail_enfants,a1_1631103435316,1176,1267,"veulent leur donner des cours eux-mêmes, à la maison, ou payer des professeurs particuliers",envie
+PtitLibe,7-12_PtitLibe8-loi_travail_loi_travail_enfants,a1_1631103546390,2456,2504,veut changer des choses qui ne leur plaisent pas,envie
+PtitLibe,7-12_PtitLibe8-loi_travail_loi_travail_enfants,a1_1631103559002,2487,2500,leur plaisent,amour
+PtitLibe,7-12_PtitLibe8-loi_travail_propose_gouvernement,a1_1623944628172,229,280,espère que ça permettra de faire baisser le chômage,espoir
+PtitLibe,7-12_PtitLibe8-loi_travail_propose_gouvernement,a1_1631103961242,83,108,envie d’employer des gens,envie
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1621579834952,2505,2519,aime le manger,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629827646003,27,44,aimer ses animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629827734138,552,580,réellement aimer ses animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629827790388,1060,1077,aimez les animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828094684,1490,1544,"vous attacher à vos vaches, vos cochons et vos moutons",amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828116197,1861,1879,aiment leur métier,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828120759,1893,1922,aiment vivre avec des animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828197201,2422,2429,«aimer»,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828231846,2694,2712,aiment les animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828462491,3899,3917,aimons les animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828466615,3924,3930,aimons,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828471101,3937,3966,la viande qu’ils nous donnent,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828490546,4224,4242,aiment leur métier,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828494911,4248,4261,s’y attachent,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828499997,4288,4303,cet attachement,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828510343,4372,4380,aimaient,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828520520,4385,4398,leurs animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1629828532253,4450,4468,aiment les animaux,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Comment_eleveur_peut_aimer_animaux,a1_1621579834951,2449,2519,aime un être vivant dont on pourra également dire qu’on aime le manger,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Pourquoi_certaines_personnes_ont_pouvoir,a1_1629838345075,4121,4131,impuissant,impuissance
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Pourquoi_certaines_personnes_ont_pouvoir,a1_1629838350873,4160,4183,nos vies nous échappent,impuissance
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_Pourquoi_certaines_personnes_ont_pouvoir,a1_1629838358823,4191,4218,d’autres décident pour nous,impuissance
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1621579835018,2900,2906,pleure,indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1621579835019,2978,2988,les larmes,indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1629836005806,761,779,les mêmes émotions,indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1629836470482,2471,2490,toutes nos émotions,indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1629836531942,2636,2683,"toutes sortes de choses, négatives ou positives",indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1629836630587,2920,2944,dépassé par un événement,indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_garcons_pas_pleurer,a1_1629836653692,2994,3040,"un débordement d’émotion, positive ou négative",indéterminée
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_philo_pour_enfants,a1_1629837284096,752,774,adorent la philosophie,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_philo_pour_enfants,a1_1629837304684,870,877,l’amour,amour
+PtitLibe,7-12_PtitLibe80-P_tit_Libe_philosophes_toujours_seule_verite,a1_1629838548125,952,972,voudrais t’expliquer,envie
+PtitLibe,7-12_PtitLibe81-petrole_Frederic,a1_1621579835116,1417,1476,préfèrent souvent aller acheter du carburant au supermarché,amour
+PtitLibe,7-12_PtitLibe81-petrole_Frederic,a1_1629839745684,1096,1145,préfère conserver son organisation «à l’ancienne»,amour
+PtitLibe,7-12_PtitLibe81-petrole_Pourquoi_automobilistes_en_colere,a1_1629872775650,280,325,veut que les gens prennent moins leur voiture,envie
+PtitLibe,7-12_PtitLibe81-petrole_carburant,a1_1629838851372,123,194,souhaitent diminuer le nombre de voitures qui circulent dans leurs rues,envie
+PtitLibe,7-12_PtitLibe82-disparition_animaux_sauvages_Nino,a1_1621579835178,359,377,bien décidé à agir,détermination
+PtitLibe,7-12_PtitLibe82-disparition_animaux_sauvages_Nino,a1_1621579835189,1219,1226,un rêve,espoir
+PtitLibe,7-12_PtitLibe82-disparition_animaux_sauvages_Nino,a1_1629876197407,13,36,veut sauver les animaux,envie
+PtitLibe,7-12_PtitLibe82-disparition_animaux_sauvages_Nino,a1_1629876757487,1632,1633,!,détermination
+PtitLibe,7-12_PtitLibe82-disparition_animaux_sauvages_Que_se_passe,a1_1621579835209,1406,1410,aime,amour
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_En_quoi_mouvement_different_autres,a1_1629879780463,979,1016,veulent montrer qu’ils existent aussi,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Lola,a1_1629886106031,1808,1812,veut,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Lola,a1_1629886110963,1818,1846,l’emmener aux rassemblements,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Pourquoi_gilets_jaunes_mecontents,a1_1629896980817,1477,1556,"souhaitent que les gens très riches payent, comme avant, l’impôt sur la fortune",envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Que_se_passe_en_France,a1_1629897650431,1847,1868,veulent être bien vus,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Que_se_passe_en_France,a1_1629897655496,1873,1880,veulent,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Que_se_passe_en_France,a1_1629897659370,1885,1941,"bloquer les pompiers, les infirmiers ou les gens du coin",envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898106130,318,349,préfèrent s’organiser entre eux,amour
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898129957,480,487,voulait,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898506384,2107,2222,"veut montrer aux Français qu’il n’est pas comme les autres présidents avant lui, qu’il a un projet, qu’il s’y tient",envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898520863,2289,2346,veulent être considérés comme des citoyens à part entière,envie
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898530273,2354,2364,apprécient,amour
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898559365,2449,2458,méprisant,mépris
+PtitLibe,7-12_PtitLibe83-colere_gilets_jaunes_Qui_a_dernier_mot_peuple_ou_president,a1_1629898541157,2377,2499,"l’attitude des dirigeants, notamment celle du président, «qu’ils jugent méprisant, déconnecté de la réalité, du quotidien»",amour
+PtitLibe,7-12_PtitLibe84-attentat_Strasbourg_decisions_prises,a1_1629904997426,1897,1912,se sentir mieux,soulagement
+PtitLibe,7-12_PtitLibe85-metiers_Noel_Cedric,a1_1621579835410,2248,2256,apprécie,amour
+PtitLibe,7-12_PtitLibe85-metiers_Noel_Cedric,a1_1629919511679,1226,1233,veulent,envie
+PtitLibe,7-12_PtitLibe85-metiers_Noel_Eloi,a1_1629920409284,651,652,a,amour
+PtitLibe,7-12_PtitLibe85-metiers_Noel_Eloi,a1_1629920416346,673,697,aimé bricoler des jouets,amour
+PtitLibe,7-12_PtitLibe85-metiers_Noel_Eloi,a1_1629920474596,1038,1050,très curieux,curiosité
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_Etats-Unis_Japon_France,a1_1629976588654,1123,1137,les apprécient,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_Etats-Unis_Japon_France,a1_1629979444841,1819,1964,"aiment parler de la nature, montrer que les éléments naturels, comme les pierres ou l’eau, ont une âme, et ajouter de la magie dans les histoires",amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_Gregoire,a1_1621579835630,306,314,son rêve,espoir
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_Gregoire,a1_1621579835631,614,619,plaît,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_Gregoire,a1_1621579835635,1401,1431,aime bien tout faire tout seul,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_Gregoire,a1_1629980093757,492,512,passionné de musique,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_recette_succes,a1_1621579835665,1248,1260,apprécieront,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_recette_succes,a1_1629980374992,791,803,préfère voir,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_recette_succes,a1_1629980395448,1097,1103,plaire,amour
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_recette_succes,a1_1629980400637,1142,1152,s’ennuient,ennui
+PtitLibe,7-12_PtitLibe86-coulisses_dessins_animes_recette_succes,a1_1629980579742,1988,2003,veulent le voir,envie
+PtitLibe,7-12_PtitLibe87-extraterrestres_Comment_devenus_stars_cinema,a1_1629980779252,185,194,séduisant,désir
+PtitLibe,7-12_PtitLibe87-extraterrestres_Paul_Martin,a1_1621579835750,63,64,a,amour
+PtitLibe,7-12_PtitLibe87-extraterrestres_Paul_Martin,a1_1621579835754,1270,1274,aime,amour
+PtitLibe,7-12_PtitLibe87-extraterrestres_Paul_Martin,a1_1621579835756,1605,1622,les aime beaucoup,amour
+PtitLibe,7-12_PtitLibe87-extraterrestres_Paul_Martin,a1_1629986683627,74,111,été passionné par les extraterrestres,amour
+PtitLibe,7-12_PtitLibe87-extraterrestres_Paul_Martin,a1_1629986875420,1281,1341,s’inspirer des stéréotypes qui entourent les extraterrestres,amour
+PtitLibe,7-12_PtitLibe87-extraterrestres_Quand_vu_extraterrestres,a1_1629987109307,47,79,Les passionnés d’extraterrestres,amour
+PtitLibe,7-12_PtitLibe87-extraterrestres_extraterrestres_existent,a1_1629986510254,831,848,une forte émotion,indéterminée
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1621579835845,2271,2280,moqueries,mépris
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629994264258,22,34,l'homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629994268035,55,67,l’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629994280978,256,268,d’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629994309867,575,587,l’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629994653272,877,889,d’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629995194905,2345,2357,l’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629995449503,2451,2462,la rassurer,soulagement
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629995480874,2248,2255,agresse,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629995534114,2290,2298,insultes,mépris
+PtitLibe,7-12_PtitLibe88-homophobie_Comment_lutter_contre_homophobie,a1_1629995594485,2089,2096,insulte,mépris
+PtitLibe,7-12_PtitLibe88-homophobie_Gabriel,a1_1621579835877,1983,2020,un grand soulagement d’avoir tout dit,soulagement
+PtitLibe,7-12_PtitLibe88-homophobie_Gabriel,a1_1629996824448,251,273,attiré par les garçons,désir
+PtitLibe,7-12_PtitLibe88-homophobie_Gabriel,a1_1630009049396,840,861,attiré par les filles,désir
+PtitLibe,7-12_PtitLibe88-homophobie_Gabriel,a1_1630009172898,1031,1041,homophobes,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1621579835903,720,725,haine,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1621579835915,1689,1698,homophobe,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1630012664833,98,108,homophobes,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1630012744873,368,417,est attiré par des personnes du même sexe que soi,désir
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1630012928263,444,454,homophobes,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1630012988582,687,713,aimer telles qu’elles sont,amour
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1630013009500,1033,1045,L’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_Pourquoi_en_ce_moment,a1_1630013073236,1381,1391,homophobes,haine
+PtitLibe,7-12_PtitLibe88-homophobie_description,a1_1629995765858,145,155,homophobes,haine
+PtitLibe,7-12_PtitLibe88-homophobie_description,a1_1629995783388,245,257,l'homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_description,a1_1629995787823,214,220,attire,désir
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1621579835881,165,195,aime une personne du même sexe,amour
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1621579835887,521,532,de la haine,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1621579835889,548,568,de la discrimination,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1621579835902,1316,1325,homophobe,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011463344,14,26,l’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011467296,63,75,l’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011564183,277,313,aimer quelqu’un du même sexe que soi,amour
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011575568,361,371,homophobes,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011579751,382,389,veulent,envie
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011584545,394,489,"que les homosexuels aient les mêmes droits qu’elles, comme le mariage ou l’adoption des enfants",envie
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630011710710,979,989,homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630012318332,1493,1503,homophobie,homophobie
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630012341486,1560,1572,L’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630012486073,1900,1910,le rejette,haine
+PtitLibe,7-12_PtitLibe88-homophobie_homophobie,a1_1630012536942,2223,2235,l’homophobie,haine
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1621579835923,565,570,plaît,amour
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013234272,25,31,attire,désir
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013246873,77,118,est attiré par des personnes du même sexe,désir
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013256430,314,358,est attiré par des personnes de l’autre sexe,désir
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013268872,439,493,est attiré à la fois par des garçons et par des filles,désir
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013275442,548,554,attire,désir
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013316391,1510,1549,"aimer se déguiser, mettre du maquillage",amour
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013329259,1593,1617,aimer jouer aux voitures,amour
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013344132,1793,1827,préférer les filles ou les garçons,amour
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013357125,1976,1982,attire,désir
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013370058,2069,2104,préfèrent les filles ou les garçons,amour
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013384303,2177,2185,amoureux,amour
+PtitLibe,7-12_PtitLibe88-homophobie_qui_nous_attire,a1_1630013400072,2373,2389,souhaitent vivre,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1624004804116,174,181,préfère,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1624005207923,987,991,aime,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1631105652286,107,140,"aime la viande, surtout le poulet",amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1631105685085,220,224,aime,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1631105693243,229,248,le goût de l’agneau,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1631105752522,996,1017,manger des «végétaux»,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1631105782137,1264,1271,préfère,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_Abel,a1_1631105805222,1394,1399,adore,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_abattoirs,a1_1631104312141,1443,1486,souhaite que ces personnes soient protégées,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_abattoirs,a1_1631104322155,1581,1622,préfèrent que personne ne soit au courant,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_abattoirs,a1_1631104336695,1917,1962,aimerait que plus personne ne mange d’animaux,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1621579836096,854,891,ce n’est pas bien de tuer des animaux,jugement moral
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1621579836097,985,1019,il vaut mieux se nourrir sans tuer,jugement moral
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1631105884440,350,357,veulent,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1631105888575,362,371,en manger,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1631105926364,802,808,aiment,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1631105941145,829,831,ça,amour
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1631105999806,1435,1442,veulent,envie
+PtitLibe,7-12_PtitLibe9-De_animal_a_viande_certains_n_en_mangent_pas,a1_1631106003726,1449,1479,arrêter de manger de la viande,envie
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Comment_choisis_etoiles_Michelin,a1_1621579836197,1776,1807,veut être bien sûr de son choix,envie
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Laura,a1_1621579836243,240,247,ce rêve,espoir
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Laura,a1_1621579836245,1152,1160,apprécie,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Laura,a1_1630050605593,132,222,"voulait faire comme elles, s’occuper des clients, les aider à passer un bon moment à table",envie
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1621579836280,607,622,les aiment bien,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1621579836282,891,898,passion,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1621579836284,985,1027,"aime la rigueur, le côté presque militaire",amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1621579836285,1041,1054,plaît le plus,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1621579836290,2096,2102,plaira,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1621579836293,2769,2776,aimable,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1630051156115,1735,1741,rêvait,espoir
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1630051162051,1747,1773,d’être pâtissière à 10 ans,espoir
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_Qui_travaille_restaurants_gastronomiques,a1_1630051188510,1827,1869,aiment accompagner leur repas d’un bon vin,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_avoir_etoiles_Michelin,a1_1621579836173,110,129,un moment important,indéterminée
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_avoir_etoiles_Michelin,a1_1621579836176,329,336,espérer,espoir
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_avoir_etoiles_Michelin,a1_1621579836180,1166,1173,aime ça,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_avoir_etoiles_Michelin,a1_1621579836182,1254,1261,passion,amour
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_avoir_etoiles_Michelin,a1_1630014400969,287,316,le top du top des récompenses,espoir
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_description,a1_1630048235406,61,80,ne l'as jamais rêvé,espoir
+PtitLibe,7-12_PtitLibe90-restaurants_etoiles_description,a1_1630048265305,30,80,un cordon bleu meilleur que tu ne l'as jamais rêvé,amour
+PtitLibe,7-12_PtitLibe91-mal_logement_Comment_lutter_contre_mal_logement,a1_1630053141793,408,450,souhaite que le gouvernement en fasse plus,envie
+PtitLibe,7-12_PtitLibe91-mal_logement_Comment_lutter_contre_mal_logement,a1_1630053159628,768,794,veut louer son appartement,envie
+PtitLibe,7-12_PtitLibe91-mal_logement_Comment_lutter_contre_mal_logement,a1_1630053176758,1014,1024,souhaitent,envie
+PtitLibe,7-12_PtitLibe91-mal_logement_Comment_lutter_contre_mal_logement,a1_1630053177857,1031,1072,que les logements vides ne le restent pas,envie
+PtitLibe,7-12_PtitLibe91-mal_logement_Ines_et_Adam,a1_1630058371532,1009,1080,aimait beaucoup sa chambre «violette et blanche avec des rideaux roses»,amour
+PtitLibe,7-12_PtitLibe91-mal_logement_Ines_et_Adam,a1_1630058654688,1632,1633,a,détermination
+PtitLibe,7-12_PtitLibe91-mal_logement_Ines_et_Adam,a1_1630058660140,1640,1657,tout mis en œuvre,détermination
+PtitLibe,7-12_PtitLibe91-mal_logement_Ines_et_Adam,a1_1630058679942,1930,1945,un peu soulagée,soulagement
+PtitLibe,7-12_PtitLibe92-succes_rap_C_est_quoi_rap_exactement,a1_1630067854020,1785,1795,le racisme,haine
+PtitLibe,7-12_PtitLibe92-succes_rap_D_ou_vient_rap,a1_1630068292955,1071,1081,le racisme,haine
+PtitLibe,7-12_PtitLibe92-succes_rap_D_ou_vient_rap,a1_1630068446353,1588,1604,étaient détestés,haine
+PtitLibe,7-12_PtitLibe92-succes_rap_D_ou_vient_rap,a1_1630068454045,1609,1653,les fans de rap qui trouvaient ça commercial,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836468,19,29,fan de rap,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836469,54,64,fan de rap,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836475,698,746,aime beaucoup porter des sweats larges comme eux,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836476,795,826,fan d’Orelsan et du Belge Damso,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836477,839,909,"aime «la façon dont ils parlent de leur rapport aux gens, de leur vie»",amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836483,1165,1184,aime beaucoup Damso,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836486,1238,1271,aime se les dire avec les copains,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069184124,274,276,ai,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069195136,291,341,"aimé les rythmes, le côté dansant, les instruments",amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069211549,384,398,a beaucoup plu,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1621579836472,518,653,"aime beaucoup le rap américain, surtout Drake et le groupe Migos, dont il arrive maintenant «à mieux comprendre les paroles en anglais»",amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069472548,1428,1438,s’ennuyait,ennui
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069483544,1467,1527,aimait jouer dans la rue avec ses potes et manger des kebabs,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069500279,1588,1640,aiment chanter ensemble les morceaux les plus connus,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pablo,a1_1630069506209,1653,1669,préfère s’isoler,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pourquoi_rap_succes,a1_1621579836507,2345,2351,aiment,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pourquoi_rap_succes,a1_1621579836509,2474,2479,plaît,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pourquoi_rap_succes,a1_1630069630298,739,757,beaucoup de mépris,mépris
+PtitLibe,7-12_PtitLibe92-succes_rap_Pourquoi_rap_succes,a1_1630069741562,2360,2396,"jouer à se faire peur, aux gangsters",amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Pourquoi_rap_succes,a1_1630069793668,2647,2704,préfèrent Dark Vador [le méchant] à Skywalker [le gentil],amour
+PtitLibe,7-12_PtitLibe92-succes_rap_Victoires_de_musique,a1_1630069889964,58,65,préféré,amour
+PtitLibe,7-12_PtitLibe92-succes_rap_description,a1_1621579836424,230,235,plaît,amour
+PtitLibe,7-12_PtitLibe93-referendums_Emelia,a1_1630081691748,320,428,voulaient que la Nouvelle-Calédonie devienne un pays indépendant et donc ne soit plus un territoire français,envie
+PtitLibe,7-12_PtitLibe93-referendums_Emelia,a1_1630081751408,852,864,appréciaient,amour
+PtitLibe,7-12_PtitLibe93-referendums_Emelia,a1_1630081767942,1114,1138,préfère rester française,amour
+PtitLibe,7-12_PtitLibe93-referendums_Emelia,a1_1630081852436,1658,1663,aimes,amour
+PtitLibe,7-12_PtitLibe93-referendums_Emelia,a1_1630081860282,1668,1678,le chiffre,amour
+PtitLibe,7-12_PtitLibe93-referendums_Emelia,a1_1630081901833,1758,1800,voudraient qu’il y ait plus de référendums,envie
+PtitLibe,7-12_PtitLibe93-referendums_RIC,a1_1630082980130,574,606,veulent que ce soit mis en place,envie
+PtitLibe,7-12_PtitLibe93-referendums_comment_ca_marche,a1_1630081093216,1444,1485,"souhaite que les citoyens répondent ""oui""",envie
+PtitLibe,7-12_PtitLibe93-referendums_ressembler_RIC,a1_1630082081497,254,372,"espèrent pouvoir proposer eux-mêmes des référendums et ainsi donner leur avis plus souvent, sur des sujets plus variés",espoir
+PtitLibe,7-12_PtitLibe93-referendums_ressembler_RIC,a1_1630082103621,681,796,aimeraient pouvoir proposer un référendum sur l’augmentation du salaire minimum donné aux personnes qui travaillent,envie
+PtitLibe,7-12_PtitLibe93-referendums_ressembler_RIC,a1_1630082114516,840,896,souhaitent garder Emmanuel Macron comme président ou pas,envie
+PtitLibe,7-12_PtitLibe93-referendums_ressembler_RIC,a1_1630082205861,1555,1580,les amoureux du même sexe,amour
+PtitLibe,7-12_PtitLibe93-referendums_ressembler_RIC,a1_1630082522740,2283,2342,souhaitaient que leur pays quitte l’Union européenne ou non,envie
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_Que_representent_ces_recompenses,a1_1630099012431,924,958,plus de curiosité que sans le prix,curiosité
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_description,a1_1630096657182,0,18,Beaucoup d’émotion,indéterminée
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_films_gagner,a1_1630097367279,92,101,l’émotion,indéterminée
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_films_gagner,a1_1630097677911,2319,2357,envie de créer la même chose en France,envie
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1621579836696,1084,1089,plaît,amour
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1630097992410,815,854,veut devenir comédienne et réalisatrice,envie
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1630098147892,1102,1114,se détendent,soulagement
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1630098187705,1327,1338,est conquis,amour
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1621579836701,1404,1495,"aime le message du film, qu’il faut vivre sa vie tant qu’on peut, même en faisant des excès",amour
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1630098316947,2114,2126,coup de cœur,amour
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1630098322987,2137,2149,coup de cœur,amour
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_lyceens_votent,a1_1630098409630,2263,2283,a totalement séduits,amour
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_quoi_ressemblent_ceremonies,a1_1621579836730,1153,1162,Très émue,indéterminée
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_quoi_ressemblent_ceremonies,a1_1621579836739,1992,2000,la haine,haine
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_quoi_ressemblent_ceremonies,a1_1621579836741,2021,2034,très émouvant,indéterminée
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_quoi_ressemblent_ceremonies,a1_1630099611008,732,753,les moments marquants,indéterminée
+PtitLibe,7-12_PtitLibe94-cesars_et_oscars_quoi_ressemblent_ceremonies,a1_1630099721590,1169,1181,a bouleversé,indéterminée
+PtitLibe,7-12_PtitLibe95-antisemitisme_Noa,a1_1630102027639,234,245,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1621579836857,986,994,la haine,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630135795097,17,32,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630135800167,34,49,L’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630135805683,57,67,le racisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630135870672,202,247,attaquer quelqu’un par rapport à ce qu’il est,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630136016757,873,888,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630136037829,1159,1167,racistes,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630136042474,1258,1273,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630136052852,1310,1325,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630136057190,1384,1391,racisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_Que_faire_contre_antisemitisme,a1_1630136061562,1402,1417,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1621579836749,293,311,la haine des juifs,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1621579836758,1038,1067,un antisémitisme très violent,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100330740,14,29,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100334439,31,46,L’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100340733,177,184,racisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100345618,196,204,préjugés,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100368575,312,327,L’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100477852,612,627,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100736859,1799,1814,L’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100749252,1976,1987,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100786722,2089,2113,il fallait tous les tuer,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100837708,2166,2209,ont exterminé 6 millions de juifs en Europe,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_antisemitisme,a1_1630100981362,2779,2790,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_description,a1_1621579836761,231,247,rejet de l’autre,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_description,a1_1621579836764,450,463,l’intolérance,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_description,a1_1630101149164,40,51,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_description,a1_1630101180492,208,223,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_description,a1_1630101211527,317,331,cette violence,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_description,a1_1630101318896,267,278,s’attaquent,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_judaisme,a1_1630101408549,995,1010,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1621579836813,567,629,96 tombes juives ont été saccagées dans un cimetière en Alsace,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101563883,47,62,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101569849,172,187,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101573593,194,204,antisémite,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101577243,219,236,rejeter les juifs,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101620441,498,509,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101695434,740,841,Des arbres plantés en mémoire d’un jeune juif tué à cause de sa religion il y a 13 ans ont été coupés,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101701910,843,1035,"Des portraits de Simone Veil, une personnalité politique très importante en France, et qui était juive, ont aussi été recouverts de croix gammées, le symbole du nazisme, dans les rues de Paris",haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101716790,1055,1066,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101740331,1269,1279,le racisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101748256,1283,1298,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101816967,1382,1393,antisémites,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101821395,1483,1498,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101875772,1549,1564,l’antisémitisme,haine
+PtitLibe,7-12_PtitLibe95-antisemitisme_manifestations_contre_antisemitisme,a1_1630101888694,1708,1723,L’antisémitisme,haine
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Clemence,a1_1621579836867,1126,1139,se comportent,haine
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Clemence,a1_1621579836868,1173,1199,aime énormément son métier,amour
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Clemence,a1_1630136658576,919,946,voulait devenir journaliste,envie
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Clemence,a1_1630136952988,1148,1166,très mal avec elle,haine
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Clemence,a1_1630136982651,1219,1233,nous détestent,haine
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Comment_journalistes_travaillent,a1_1630137822984,1277,1316,en espérant que les médias en parleront,espoir
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Pourquoi_situation_tendue,a1_1630138272662,605,713,préfèrent filmer eux-mêmes les manifestations et diffuser les vidéos en direct sur le réseau social Facebook,amour
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Pourquoi_situation_tendue,a1_1630138370124,750,808,"Des journalistes ont été insultés, menacés et même frappés",haine
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Que_reproche_journalistes,a1_1630139169033,1228,1252,des effets très négatifs,indéterminée
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_Que_reproche_journalistes,a1_1630139689439,1988,2006,encore moins envie,envie
+PtitLibe,7-12_PtitLibe96-mefiance_envers_journalistes_description,a1_1621579836895,334,359,ce rejet des journalistes,haine
+PtitLibe,7-12_PtitLibe97-affaire_Benalla_Comment_affaire_Benalla_revelee,a1_1630143043478,1058,1074,de l’obstination,détermination
+PtitLibe,7-12_PtitLibe97-affaire_Benalla_Comment_fonctionne_Elysee,a1_1630143227172,160,165,envie,envie
+PtitLibe,7-12_PtitLibe97-affaire_Benalla_grosses_affaires_Elysee,a1_1621579837056,242,301,des conséquences beaucoup plus graves que l’affaire Benalla,indéterminée
+PtitLibe,7-12_PtitLibe97-affaire_Benalla_grosses_affaires_Elysee,a1_1630143785886,1038,1041,ont,amour
+PtitLibe,7-12_PtitLibe97-affaire_Benalla_grosses_affaires_Elysee,a1_1630143790276,1046,1098,aimé la manière dont il a réagi face à cette affaire,amour
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Nissa,a1_1621579837106,1158,1170,aime ce pays,amour
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Nissa,a1_1630145773597,1456,1461,a plu,amour
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Nissa,a1_1630168578905,880,937,voulait se présenter pour la cinquième fois aux élections,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Nissa,a1_1630168595889,1583,1603,veut défiler en paix,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Pourquoi_jeunesse_presente,a1_1630156523525,1825,1832,veulent,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Pourquoi_jeunesse_presente,a1_1630156536037,1838,1879,"plus de travail, de liberté et de justice",envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Pourquoi_touche_France,a1_1630156929499,2437,2477,gardent ce pays très fort dans leur cœur,amour
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Pourquoi_touche_France,a1_1630157051269,1974,1981,voulait,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Pourquoi_touche_France,a1_1630157052157,1986,2000,perdre ce pays,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Que_se_passe,a1_1630157366681,405,415,souhaitent,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Que_se_passe,a1_1630157370783,420,460,qu’Abdelaziz Bouteflika reste au pouvoir,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Que_se_passe,a1_1630157436819,1242,1316,veulent le retrait immédiat et définitif du président et la fin du système,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Que_se_passe,a1_1630162142013,304,384,voulait se présenter à l’élection présidentielle pour la cinquième fois de suite,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Que_se_passe,a1_1630168430076,1483,1487,veut,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_Que_se_passe,a1_1630168431247,1498,1513,gagner du temps,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_description,a1_1630168542275,166,218,voulait se présenter pour la cinquième fois de suite,envie
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_situation,a1_1630168784955,865,879,plaisait assez,amour
+PtitLibe,7-12_PtitLibe98-manifestations_Algerie_situation,a1_1630168842727,2283,2315,"veulent «ni Bouteflika, ni Saïd»",envie
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1621579837191,21,41,fan d’Égypte antique,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1621579837196,665,672,passion,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1621579837198,857,872,s’ennuyait trop,ennui
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1621579837199,1127,1186,rêve d’aller découvrir la civilisation égyptienne sur place,espoir
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1630168984445,237,263,aimais beaucoup les images,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1630169006962,375,410,Cette passionnée d’Egypte de 12 ans,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1630169017968,450,457,préféré,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1630169065084,892,943,est passionnée par toute la civilisation égyptienne,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1630169087886,1320,1344,souhaitait aller à Paris,envie
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Addison,a1_1621579837195,638,672,aime tellement explorer sa passion,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Pourquoi_Egypte_ancienne_fascinante,a1_1630169779608,58,90,des passionnés d’Egypte ancienne,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Pourquoi_Egypte_ancienne_fascinante,a1_1630169838645,105,114,Cet amour,amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Pourquoi_Egypte_ancienne_fascinante,a1_1630169869645,542,547,rêver,espoir
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Pourquoi_Egypte_ancienne_fascinante,a1_1621579837263,506,547,"aime bien imaginer plein de choses, rêver",amour
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Pourquoi_Egypte_ancienne_fascinante,a1_1630170182530,36,46,fascinante,indéterminée
+PtitLibe,7-12_PtitLibe99-Toutankhamon_Pourquoi_Egypte_ancienne_fascinante,a1_1630170194860,573,580,fascine,indéterminée

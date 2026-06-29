@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CyberAdoAgg - annotations Montrée</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fbfbfa;
+      --ink: #222426;
+      --muted: #6a7078;
+      --line: #e2e4e7;
+      --mark: #fff0a6;
+      --mark-line: #6b5b12;
+      --overlap: #f8d1bd;
+      --label-bg: #f4f5f6;
+      --label-line: #d2d6db;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      letter-spacing: 0;
+    }
+    main {
+      width: min(920px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    .page-header {
+      margin-bottom: 22px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.15;
+      font-weight: 680;
+    }
+    .records {
+      display: grid;
+      gap: 0;
+    }
+    .message {
+      border-bottom: 1px solid var(--line);
+      padding: 14px 0;
+    }
+    .message-text {
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+    .text-mark {
+      background: var(--mark);
+      border-bottom: 2px solid var(--mark-line);
+      padding: 0 1px;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+    }
+    .text-mark.overlap {
+      background: var(--overlap);
+      border-bottom-style: double;
+    }
+    .nature-label {
+      display: inline-block;
+      margin: 0 0.35rem 0 0.25rem;
+      border: 1px solid var(--label-line);
+      border-radius: 999px;
+      background: var(--label-bg);
+      color: var(--muted);
+      padding: 0.05rem 0.38rem;
+      font-size: 0.72rem;
+      line-height: 1.35;
+      vertical-align: 0.12em;
+      white-space: nowrap;
+    }
+    @media (max-width: 560px) {
+      main {
+        width: min(100vw - 20px, 1320px);
+        padding-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <h1>Émotions montrées</h1>
+    </header>
+
+    <section class="records" aria-label="Messages et spans Montrée">
+      
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">Mais frere t casiment aussi obèse que lui </span><span class="text-mark overlap" title="Enonce exclamatif ; Syntagme nominal">gros chien</span><span class="nature-label">Syntagme nominal</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Proposition">c pas cool</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">vous faites pitié</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon frerot <span class="text-mark" title="Dislocation gauche">raconte pas ta vie</span><span class="nature-label">Dislocation gauche</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mais on t&#x27;as meme pas parler a toi</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">en même temps <span class="text-mark" title="Proposition">vu comme il est gros</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce clive">c ta mere que je paye julien</span><span class="nature-label">Enonce clive</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vous etes des gamins</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">pierre <span class="text-mark" title="Proposition">personne t&#x27;as demandé ton avis</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">non mais je vais pas faire tes devoirs <span class="text-mark" title="Point d&#x27;exclamation">!</span><span class="nature-label">Point d&#x27;exclamation</span> <span class="text-mark" title="Dislocation droite">T&#x27;es malade toi !</span><span class="nature-label">Dislocation droite</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">ouhh ça insulte</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">t expert en informatique pour savoir j ai combien de moyenne ?</span><span class="nature-label">Autre</span>trouve autre chose stp au lieu de <span class="text-mark" title="Autre">raconter de la merde</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce elliptique">au pire vos gueule</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bah revois tes sources <span class="text-mark" title="Interjection">tdc</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">faites la paix et cassez pas la tete c grv <span class="text-mark" title="Syntagme nominal">bande de brut</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce elliptique">faut le brusquer un peu le paul peut être ça lui fera commencer un régime mdr</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais en quoi <span class="text-mark" title="Enonce elliptique">flemme</span><span class="nature-label">Enonce elliptique</span> frere ta 2 clique à faire</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais juste supprime la vidéo et c&#x27;est terminé <span class="text-mark" title="Autre">pourquoi tu cherche les problème</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">sa change quoi a ta vie ????</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tu l&#x27;aurais déjà fais si tu <span class="text-mark" title="Autre">fermé ta gueule</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mais ferme la pierre etles autres la</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vous avez autant pas de vie</span><span class="nature-label">Proposition</span> pour vous melez de la sienne</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bah oui <span class="text-mark" title="Interjection">gros con</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">si t&#x27;es <span class="text-mark" title="Syntagme adjectival">bien gras</span><span class="nature-label">Syntagme adjectival</span> paul</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais enft julien tes qu&#x27;une <span class="text-mark" title="Syntagme nominal">sous merde</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais frere <span class="text-mark" title="Proposition">on a besoin de 2 pokeflute pour te réveiller</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ok d acoord <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mais arrêtetu</span><span class="nature-label">Enonce exclamatif</span> vois pas t&#x27;es 4 fois plus gros que lui</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">parle pas <span class="text-mark" title="Proposition">quand tu ressemble a rien</span><span class="nature-label">Proposition</span> brice</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">wsh dosez</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Laisse tomber Josiane.. <span class="text-mark" title="Proposition">Ils sont cons ils entendent rien..</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">t&#x27;aimerais bien qu&#x27;on te le fasse?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ta résons toi <span class="text-mark" title="Interjection">t con</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">Mais putain</span><span class="nature-label">Enonce exclamatif</span> mais <span class="text-mark" title="Enonce exclamatif">c&#x27;est quoi ton problème !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">au pire blc c&#x27;est juste un <span class="text-mark overlap" title="Syntagme adjectival ; Syntagme nominal">gros tat</span><span class="nature-label">Syntagme adjectival</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">je veux rayer les sous merde de la carte</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> brice</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Apprends à écrire français brice <span class="text-mark" title="Points de suspension">..</span><span class="nature-label">Points de suspension</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">un gros tas de graisse arabe</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">bah si bah les couilles supprime la vidéo mon con</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">porter pleinte carremenent ?</span><span class="nature-label">Autre</span> <span class="text-mark" title="Autre">j ai tue ta mere ou quoi</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">vsy paule <span class="text-mark" title="Syntagme nominal">sale bagraa</span><span class="nature-label">Syntagme nominal</span> va</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">arrete Julien avec ton gros crane</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">brice je vais vraient porter plainte si ça continue. <span class="text-mark" title="Proposition">Vous êtes même pas foutu d&#x27;arrêter une blague</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon les gars ça part loin là a croire c&#x27;est moi le <span class="text-mark" title="Syntagme nominal">gros porc de service</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Autre">appart insulter les gens sur leur poids et sur leur religions vous savez faire quoi les gars</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">si vous savez pas vous amuser <span class="text-mark" title="Enonce exclamatif">c votre probleme</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais frere <span class="text-mark" title="Autre">en quoi c amusant</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">brice tu te croit marrant</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">je vais te pisser dessus et <span class="text-mark" title="Enonce exclamatif">tu me diras si c amusant</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ok <span class="text-mark" title="Syntagme nominal">mon con</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">MAis arrete de faire genre brice !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Enonce exclamatif">t vraiment con</span><span class="nature-label">Enonce exclamatif</span> ma parole julien</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">je te jure je vais te <span class="text-mark" title="Enonce exclamatif">casser la gueule</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">laisser le tranquille</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">STOP AU HARCELEMENT</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vous etes tous inferieur a nous enfaite</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais laisser les religions tranquille <span class="text-mark" title="Interjection">stoppppp</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">non mais pourquoi vouloir défendre <span class="text-mark" title="Syntagme nominal">ce </span><span class="text-mark overlap" title="Syntagme nominal ; Syntagme nominal">gros porc</span><span class="nature-label">Syntagme nominal</span><span class="text-mark" title="Syntagme nominal"> de paul</span><span class="nature-label">Syntagme nominal</span> le mec voit que par sa bouffe mdr</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais cv pas <span class="text-mark" title="Autre">????</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Dislocation gauche">pierre tu me casse les couilles</span><span class="nature-label">Dislocation gauche</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">brice <span class="text-mark" title="Enonce exclamatif">nique t&#x27;as mere</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tqt selena <span class="text-mark" title="Proposition">je nique deja la tienne</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">la vie de ma mere</span><span class="nature-label">Syntagme nominal</span> brice et julien vous allez etre 6 pied sous terre demain</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">suce</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bah <span class="text-mark" title="Enonce clive">il avait qu&#x27;a pas se goiffrer</span><span class="nature-label">Enonce clive</span> selena</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">je te hagar quand tu veuc pierre <span class="text-mark" title="Proposition">tu parle t&#x27;as la nom de cailloux ca veut faire l arabe mtn</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">bande d&#x27;hypocrytes</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">Continue de jouer brice.</span><span class="nature-label">Proposition</span> Si demain la vidéo elle est pas parti je porte plainte</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">selana <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais arrêter de défendre paul et voyais la vérité c un <span class="text-mark" title="Syntagme nominal">tas de graisse</span><span class="nature-label">Syntagme nominal</span> qui mange les plats des autres tous les soirs c mérité</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">paul il veux juste graille son dessert et tu viens <span class="text-mark" title="Enonce exclamatif">tu fait chier</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">port eplainte <span class="text-mark" title="Enonce elliptique">tu va devoir marcher pdnt encore 10 ans pour arriver au poste de police tlm t gros</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et toi <span class="text-mark" title="Proposition">t&#x27;as la peau sur les os</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">julien <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> <span class="text-mark" title="Autre">a part te branler tu sais faire quoi</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Mais <span class="text-mark" title="Enonce exclamatif">nique toi</span><span class="nature-label">Enonce exclamatif</span>  <span class="text-mark" title="Point d&#x27;exclamation">!</span><span class="nature-label">Point d&#x27;exclamation</span> <span class="text-mark" title="Enonce exclamatif">J&#x27;ai jamais rien demander à personne moi !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">brice <span class="text-mark" title="Enonce exclamatif">baise ta mere</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Dislocation gauche">mais les gars pk vous voulez pas arrêter ?</span><span class="nature-label">Dislocation gauche</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Mais je t&#x27;ai rien fait <span class="text-mark" title="Interjection">putain</span><span class="nature-label">Interjection</span> brice <span class="text-mark" title="Point d&#x27;exclamation">!</span><span class="nature-label">Point d&#x27;exclamation</span> Je mérite rien du tout !</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">si paul tu mérite un régime ;)</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">pk la violence ca sert a quoi</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">et tu va faire quoi pierre</span><span class="nature-label">Autre</span>on t a deja dit que ta religion menacer c pas bien et ca veut faire l imam avec nous</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Julien avant que je <span class="text-mark" title="Proposition">nique ta mère</span><span class="nature-label">Proposition</span> calme toi</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">Mais il vous faut quoi pour vous faire comprendre que j&#x27;ai pas choisi d&#x27;être comme ça !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">brandon <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">alors Julien on se calme</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et d&#x27;arreter de penser comme des <span class="text-mark" title="Syntagme nominal">chiebn</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> brice de nice</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Chuis sûr paul à pas respecter le ramadan <span class="text-mark" title="Syntagme prépositionnel">juste pour son gros ventre</span><span class="nature-label">Syntagme prépositionnel</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> julien <span class="text-mark" title="Proposition">jparle de ta mere</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">arthur <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> paul il est pas muslim</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon mtn <span class="text-mark" title="Enonce exclamatif">vos gueules tous</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">MAis je suis même pas muslim frr !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark overlap" title="Proposition ; Proposition">tema sa gueule</span><span class="nature-label">Proposition</span><span class="nature-label">Proposition</span> c sur il est muslim</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">T&#x27;es arriéré ou quoi !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tjrs nous les muslim persecute on seras les juifs de demain ici <span class="text-mark" title="Point d&#x27;exclamation">!</span><span class="nature-label">Point d&#x27;exclamation</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tu prouve de jour en jour mon hypothese que tes <span class="text-mark" title="Syntagme nominal">q&#x27;un qinge supplement con</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">prochain qui parle d&#x27;une religion <span class="text-mark" title="Enonce exclamatif">je le baise sa mère</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Accumulation">stop stop stop</span><span class="nature-label">Accumulation</span> a la violence</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">ferme ta gueule</span><span class="nature-label">Enonce exclamatif</span> toi josiane c bon <span class="text-mark" title="Enonce clive">c eu qui casse les couilles</span><span class="nature-label">Enonce clive</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> brice</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">meme le careme il y arrive pas ce <span class="text-mark" title="Syntagme nominal">gros porc</span><span class="nature-label">Syntagme nominal</span> bagra</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">à part <span class="text-mark" title="Syntagme nominal">tg</span><span class="nature-label">Syntagme nominal</span> tu sais dire quoi pierre</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">1 25 3 <span class="text-mark" title="Enonce exclamatif">tu ferme ta gueule</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">1 2 3 <span class="text-mark" title="Dislocation gauche">le premier qui parle il baise sa mere</span><span class="nature-label">Dislocation gauche</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">pierre <span class="text-mark" title="Syntagme nominal">sale clochard</span><span class="nature-label">Syntagme nominal</span> bouge <span class="text-mark" title="Enonce exclamatif">tu pollue l air</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">nique ta mere fdp</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">pierre <span class="text-mark" title="Accumulation">il pu, il pète, il polue la planète</span><span class="nature-label">Accumulation</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">SI TES MUSLIM EXPLOSEEEEEE</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Réaliste mais <span class="text-mark" title="Proposition">t&#x27;es pas foutu de voir</span><span class="nature-label">Proposition</span> que vous êtes que 3 à rire <span class="text-mark" title="Enonce exclamatif">bande de mongol</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">pierre tu veux le mettre dans ton lit paul ou quoi ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> jai pas envie dexploser</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce elliptique">bien dit julien:&#x27;)</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">homophooooooobe</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tu sais paul tu te sentiras bcp mieux si tu acceptes que <span class="text-mark" title="Proposition">t&#x27;es obése</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">pierre ca sert a r de parler avec eux <span class="text-mark" title="Proposition">c&#x27;est des cons</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">t pas drole</span><span class="nature-label">Enonce exclamatif</span> thibaulte</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">rejoins ton pere zemmour et <span class="text-mark" title="Enonce exclamatif">casse pas la tete</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">bouffon</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et toi pierre que t <span class="text-mark" title="Syntagme nominal">pd</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ah bah voila t bien <span class="text-mark" title="Interjection">pd</span><span class="nature-label">Interjection</span> julien</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">paul t&#x27;es un <span class="text-mark overlap" title="Syntagme nominal ; Syntagme nominal">gros lard</span><span class="nature-label">Syntagme nominal</span><span class="nature-label">Syntagme nominal</span>  <span class="text-mark" title="Proposition">et tu le resteras a vie</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">brice il juge grave le physique <span class="text-mark" title="Enonce elliptique">il a cru il etait tibo inshape ou quoi</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et <span class="text-mark" title="Enonce exclamatif">ta mere une pute et elle le restera à vie</span><span class="nature-label">Enonce exclamatif</span> brice</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">brice t&#x27;es un <span class="text-mark" title="Syntagme nominal">gros con</span><span class="nature-label">Syntagme nominal</span> et tu le resteras à vie ;)</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">popopoooo</span><span class="nature-label">Interjection</span> bien envoyé julien</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon josi <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> pardon josi</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ma mère t&#x27;emmerde <span class="text-mark overlap" title="Syntagme nominal ; Syntagme nominal">sale merde</span><span class="nature-label">Syntagme nominal</span><span class="nature-label">Syntagme nominal</span> que t</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon <span class="text-mark" title="Syntagme nominal">sale gros</span><span class="nature-label">Syntagme nominal</span> jte conseillerais de perde du poids mtn,</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">frere <span class="text-mark" title="Proposition">ta mere et ta soeur me kiffe</span><span class="nature-label">Proposition</span> <span class="text-mark" title="Syntagme nominal">pd</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mais arrete avec cette violence</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">STOPPPP</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Et toi de <span class="text-mark" title="Enonce exclamatif">te faire pousser quelques neuronnes julien.. Sérieux vous êtes même pas capable de voir que vous vous comportez comme des merde</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce elliptique">d&#x27;avoir pensé qu&#x27;un jour paul ppourrait arreter d&#x27;être énorme</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Paul <span class="text-mark" title="Enonce exclamatif">arrête de bouffer du gras</span><span class="nature-label">Enonce exclamatif</span> et donne tes desserts aux autres ça te feras un régime</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">pour tous se rejoindre au jennah <span class="text-mark" title="Proposition">faison la paix</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Selena <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">Supprimes la vidéo Julien !</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">Suprimmeeeeeeeeeeeeeeeee</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mais vos gueules</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vsi brice on trouvera un autre moment ou ils seront pas la pour nous faire chier</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce averbal">mais stop</span><span class="nature-label">Enonce averbal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce averbal">ptn la maturite</span><span class="nature-label">Enonce averbal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">j&#x27;avoue <span class="text-mark" title="Proposition">on s&#x27;en fou de ton ptit frere le juif</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et <span class="text-mark" title="Proposition">on s&#x27;en fout de savoir qui croit quoi</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">Vs êtes complexés ou quoi pour lui parler comme ca</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">Laisser la trkl nn vs avez pas une vie</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">de ouf vivez votre vie <span class="text-mark" title="Dislocation droite">on s&#x27;en tape de ce que vous pensez</span><span class="nature-label">Dislocation droite</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">grv on s&#x27;en fou</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">d&#x27;ou tu t&#x27;interesse a sa vie <span class="text-mark" title="Enonce exclamatif">laisse la tranquille</span><span class="nature-label">Enonce exclamatif</span> fr</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bravo isabelle et paul <span class="text-mark" title="Proposition">les moutons ça avance en troupeau</span><span class="nature-label">Proposition</span> j&#x27;avais oublié</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais c&#x27;est une blague j&#x27;espère elle fait ce qu&#x27;elle veut <span class="text-mark" title="Enonce exclamatif">ca vous regarde pas</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et alors ? <span class="text-mark" title="Autre">ça change quoi la religion à laquelle tu appartiens ?</span><span class="nature-label">Autre</span> ca reste toujours mon petit frère</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span> <span class="text-mark" title="Proposition">on t,as deja dit qu&#x27;on s&#x27;en foutais de ton avis</span><span class="nature-label">Proposition</span> <span class="text-mark" title="Dislocation gauche">trop tu parles</span><span class="nature-label">Dislocation gauche</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">et toi ta religion ? on ne t&#x27;embête pas pour savoir ce en quoi tu crois, si ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">allez pas nous sortir des on s&#x27;en fou de sa vie quand vous publiez des photos de vos vieilles soirées</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et alors, <span class="text-mark" title="Autre">je ne te crie pas &quot;catho&quot; à la g si ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mdr leo y veut jouer a la plus grosse avec ton ptit frr <span class="text-mark" title="Proposition">il a vrmt un prblm t,es complexer par la tienne</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">au pire les harceleurs <span class="text-mark" title="Enonce exclamatif">allez vous faire foutre</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">kestu veux toi casse toi</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span> leo</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">vas y <span class="text-mark" title="Enonce elliptique">vous avez pas de vie</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">apprenez a écrire avant de raconter <span class="text-mark" title="Syntagme nominal">de la merde</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">paul mais <span class="text-mark" title="Interjection">casse toi</span><span class="nature-label">Interjection</span> laisse la juive se defendre seul</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vous êtes graves</span><span class="nature-label">Proposition</span>, <span class="text-mark" title="Proposition">je suis Justine et pas la juive, je suis une personne et pas quelqu&#x27;un à anéantir</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">vous en aurai jamais de toute façon <span class="text-mark" title="Autre">arrêter</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">toute facon la juive et ses gardes du corps on s&#x27;en fou de vos vie <span class="text-mark" title="Enonce exclamatif">postez vos photos de merde ailleurs</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">mais ça te fait quoi que je sois juive, en quoi ça te dérange ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">bah regarde ailleurs alors</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais c&#x27;est toi tu donnes ton avis depuis tt a l&#x27;heure alors qu&#x27;<span class="text-mark" title="Accumulation">on s&#x27;en bat les couilles et si tu t&#x27;en fous casse toi et arrete de parler</span><span class="nature-label">Accumulation</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">va faire ta vie si t&#x27;en a une parce que j&#x27;ai des doutes</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bah on s&#x27;en balec que ca vs derange <span class="text-mark" title="Enonce exclamatif">on vs demande pas votre avis</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">alors poste pas sur internet si l&#x27;avis des gens te derange</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais si je suis comme vous, rien ne change sauf pour mon mode de vie mais ça ne change rien à la vôtre, <span class="text-mark" title="Enonce exclamatif">on vous laisse tranquille alors fichez nous la paix</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">et alors qu&#x27;est-ce que ça peut te faire ?</span><span class="nature-label">Autre</span> <span class="text-mark" title="Dislocation droite">elle te gene en quoi la kipa ?</span><span class="nature-label">Dislocation droite</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">ET C4EST QUOI TON PRBLM AVEC LES JUIFS</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">BAS LES COUILLES</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">attention léo a des <span class="text-mark" title="Syntagme nominal">ptn d&#x27;arguments</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">leo <span class="text-mark" title="Syntagme nominal">sale chien</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et kesta mon pote <span class="text-mark" title="Proposition">baise toi</span><span class="nature-label">Proposition</span> <span class="text-mark" title="Proposition">tu te prend pour jsp qui</span><span class="nature-label">Proposition</span> a prendre la defens ed&#x27;une juive <span class="text-mark" title="Interjection">casse toi</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce elliptique">tu montre ton cu tassume</span><span class="nature-label">Enonce elliptique</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et <span class="text-mark" title="Interjection">ta guele</span><span class="nature-label">Interjection</span> part terre ensuite</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tkktt <span class="text-mark" title="Enonce exclamatif">on t&#x27;attendra a 2</span><span class="nature-label">Enonce exclamatif</span> on te ntm</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mere teresa <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">tu nike ta mere plutot</span><span class="nature-label">Proposition</span> et encore</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon euh <span class="text-mark" title="Autre">vs avez fini de parler pour rien ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ooooh</span><span class="nature-label">Interjection</span> theresa tu me chauffes <span class="text-mark" title="Autre">tu veux le meme sort?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg toi</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">la pauline <span class="text-mark" title="Proposition">on voyait son cul</span><span class="nature-label">Proposition</span> et elle vient m harceler apres la</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">oe ta raison c <span class="text-mark" title="Syntagme nominal">la plus grosse des pute</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">teresa <span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span> va a l&#x27;eglise</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">j sui sur t es jamais allé a leglise <span class="text-mark" title="Syntagme nominal">hypocrite</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">on te brule toi a leglise</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Autre">vs en avez pas marre, vs voulez pas vs re parler et mettre les choses a plat ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">theo <span class="text-mark" title="Proposition">tu sers a rien</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">fatima arrete la <span class="text-mark" title="Syntagme nominal">mascarade</span><span class="nature-label">Syntagme nominal</span> on sait que toi t&#x27;es un autre delire toi tu fais la manche devant frr</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">j prefere faire la manche que <span class="text-mark" title="Syntagme nominal">la pute comme ta mere</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">si je sert a regler vos <span class="text-mark" title="Syntagme nominal">problemes de merde</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">la prochaine fois tu mettra un voile comme t es parents au lieu de nous faire cvhier</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">fatima <span class="text-mark" title="Enonce exclamatif">arrete de faire la folle tu vas vrm le payer</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">sa sort des cour sa mes le voile mais a la plage sa montre son cu <span class="text-mark" title="Interjection">ptdrrrrrr</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">mddddddr</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">on va faire des montages tu as te retrouver à poil sur internet</span><span class="nature-label">Proposition</span> <span class="text-mark" title="Interjection">ptddrrrr</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">theo <span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">rooohh</span><span class="nature-label">Interjection</span> theo c&#x27;est toi la</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> theo la veriter blaisse tu te sens mal</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">tg toi</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mes les toi ou je pense</span><span class="nature-label">Enonce exclamatif</span> tes screen</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">teresa <span class="text-mark" title="Proposition">je vais pas le répeter</span><span class="nature-label">Proposition</span> tu n&#x27;y iras pas chez la police</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce averbal">donc chute merci</span><span class="nature-label">Enonce averbal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ah et <span class="text-mark" title="Autre">tu croit quoi</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">regler vos problemes comme des adultes au lieu de <span class="text-mark" title="Proposition">parler pour rien la</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">theo <span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span> vrm <span class="text-mark" title="Proposition">tu sers à r</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">la vie <span class="text-mark" title="Proposition">t&#x27;es explosé</span><span class="nature-label">Proposition</span> la tu peux gérer degun</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">jvais me suicider <span class="text-mark" title="Proposition">tu vas voir si vous allez rien avoir</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">ecrit francais et tu viendra me parler culture&#x27;</span><span class="nature-label">Enonce exclamatif</span> mdrr</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">voila sucide toi donc teresa <span class="text-mark" title="Proposition">ta bien ouvert ta guele pour rien</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">crève</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vous irez en efer enfer*</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">vs etes serieux ?</span><span class="nature-label">Proposition</span> <span class="text-mark" title="Autre">vs aimerais quon vs dises sa ?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">oe <span class="text-mark" title="Syntagme nominal">pure merde</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">avec vos habits du bled la cassez vous</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mdrr c clair l <span class="text-mark" title="Syntagme nominal">odeur infecte</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">oo <span class="text-mark" title="Enonce exclamatif">tg pierre</span><span class="nature-label">Enonce exclamatif</span> <span class="text-mark" title="Enonce exclamatif">me fais pas chier</span><span class="nature-label">Enonce exclamatif</span> <span class="text-mark" title="Enonce exclamatif">jmen blc de ta vie</span><span class="nature-label">Enonce exclamatif</span> franchement</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">teresa parle bien <span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">teresa fais comme fatima <span class="text-mark" title="Enonce exclamatif">ferme la</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">alors <span class="text-mark" title="Proposition">pk tu lui envoy un message si tu ten fou bien dit</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">pauline et pierre <span class="text-mark" title="Syntagme nominal">2 grosses merdes</span><span class="nature-label">Syntagme nominal</span> qui parlent</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">grv teresa t autant inutile que Mbendib</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">quand tu <span class="text-mark" title="Enonce exclamatif">fermeras ta gueule</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">oyé tous repostez en story les photos de <span class="text-mark" title="Syntagme nominal">la negre</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">fatima t une <span class="text-mark" title="Syntagme nominal">grosse pute</span><span class="nature-label">Syntagme nominal</span> <span class="text-mark" title="Proposition">a part envoyez des nudes tu f rien</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">mdrrr</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">bon cest bon</span><span class="nature-label">Proposition</span> vs tourner en rond la depuis taleur</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">et elle ose ouvrir sa bouche de <span class="text-mark" title="Syntagme nominal">suceuse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">c, <span class="text-mark" title="Interjection">mdrr</span><span class="nature-label">Interjection</span> elle t belle $*</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">comme une prostitué qu&#x27;elle fait bien <span class="text-mark" title="Interjection">mdrr</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">vos geule</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">vas apprendre la langue de ton pays déjà</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">ptdr <span class="text-mark" title="Autre">maiis fatima t&#x27;as vu ton orthographe</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">t dans notre pays et tu parle</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">vous etes des gros gamins</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ooo</span><span class="nature-label">Interjection</span> nicolas <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bon fatima on va te <span class="text-mark" title="Interjection">ntm</span><span class="nature-label">Interjection</span> tkt</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">mdrrrrr</span><span class="nature-label">Interjection</span> theo qui abandonne</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">retournez dans votre ferme traire vos meres</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">si l&#x27;unitilité etait une personne</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">t&#x27;as cru t&#x27;as dead ça?</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ptdrrrr</span><span class="nature-label">Interjection</span> punshline éclatées cousine oula non pas cousine <span class="text-mark" title="Syntagme nominal">esclave</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tete qu&#x27;elle a parle ps avk moi <span class="text-mark" title="Syntagme nominal">grosse pute</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">Alors julie t&#x27;ai dégeulasse de sortir avec une gadji <span class="text-mark" title="Syntagme nominal">bande de salopes</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">on est pas ensemble déjà puis même si c&#x27;était le cas,  <span class="text-mark" title="Proposition">ça ne te regarde pas</span><span class="nature-label">Proposition</span> et <span class="text-mark" title="Proposition">je vois pas en quoi ça te concerne</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Dislocation gauche">mais grave bande de lesbiennes</span><span class="nature-label">Dislocation gauche</span> vous degoutée <span class="text-mark" title="Interjection">aaaaah</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais assumer vous degouter <span class="text-mark" title="Syntagme nominal">bande de crasseuse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">grosse crasseuse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">putain</span><span class="nature-label">Interjection</span> mais <span class="text-mark" title="Enonce exclamatif">laissez nous tranquille</span><span class="nature-label">Enonce exclamatif</span> jvous dis qu&#x27;on est pas ensemble point</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais assume <span class="text-mark" title="Syntagme nominal">grosse pute</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">wshhh elodie dit leur on a vu leur <span class="text-mark" title="Syntagme nominal">sal photo</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">tu m&#x27;étonnes que vous l&#x27;avez vue,  c&#x27;est vous qu&#x27;il l&#x27;avez prises <span class="text-mark" title="Syntagme nominal">connasses</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ftg grosse salope</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">on est pas gouines,  je lui tenais la main pour la réconforter <span class="text-mark" title="Autre">y a quoi ?</span><span class="nature-label">Autre</span> laissez-nous vivre</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">burk</span><span class="nature-label">Interjection</span> sa me degoute</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">mellez-vous de votre cul</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">assume que t&#x27;aime les filles c tout <span class="text-mark" title="Syntagme nominal">connasse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">cul de crasseuse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">on fait ce qu&#x27;on veut grosse chienne</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span> <span class="text-mark" title="Enonce exclamatif">saloppe</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">marie <span class="text-mark" title="Interjection">tg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">saloperie</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">on dit que la vérité grosse pute</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Dislocation gauche">chienne que tes ont aimes pas les lesbienne ici</span><span class="nature-label">Dislocation gauche</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bref venais on les vire de la classe c&#x27;est <span class="text-mark" title="Syntagme nominal">grosse crasseuse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">on veut pas de sa ici</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">grave pas de <span class="text-mark" title="Syntagme nominal">crasseuse</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">burk</span><span class="nature-label">Interjection</span> <span class="text-mark" title="Syntagme nominal">bande de chienne</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">bah alors <span class="text-mark" title="Enonce exclamatif">tais-toi et laisse-nous vivre</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">c&#x27;est quoi le rapport entre être gouine et être une pute ?</span><span class="nature-label">Proposition</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">pute</span><span class="nature-label">Syntagme nominal</span> et <span class="text-mark" title="Syntagme nominal">gouine</span><span class="nature-label">Syntagme nominal</span> cla meme</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">c toi ta un problème <span class="text-mark" title="Syntagme nominal">grosse pute</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span> c toi la <span class="text-mark" title="Syntagme nominal">gouine</span><span class="nature-label">Syntagme nominal</span> tu parle avec nous <span class="text-mark" title="Syntagme nominal">sombre pute</span><span class="nature-label">Syntagme nominal</span> wallah t ki</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">t&#x27;as des problèmes</span><span class="nature-label">Enonce exclamatif</span> pour dire des choses pareil</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">tu te rends compte de ce que tu dis là ??</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ftg</span><span class="nature-label">Interjection</span> tu vas kiffer</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ptdrrr</span><span class="nature-label">Interjection</span> grvvv et arthur ta channgé jte croyais pas comme sa quoi toiausssi tai <span class="text-mark" title="Syntagme nominal">pd</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais <span class="text-mark" title="Enonce exclamatif">arrêter c&#x27;est exessif la</span><span class="nature-label">Enonce exclamatif</span> <span class="text-mark" title="Autre">vous aimeriez etre a sa place et qu&#x27;on vous dises la meme chose ?!</span><span class="nature-label">Autre</span> Non,  parce que personne ne mérite ca</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">allo le viol c&#x27;est pas une blague</span><span class="nature-label">Enonce exclamatif</span> <span class="text-mark" title="Syntagme nominal">grosse bouffonne</span><span class="nature-label">Syntagme nominal</span>,  <span class="text-mark" title="Enonce exclamatif">va falloir avoir des valeurs un peu là un minimum</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">laissé la tranquille</span><span class="nature-label">Enonce exclamatif</span> elle a le droit d&#x27;aimer qui elle veut</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Proposition">c une blague</span><span class="nature-label">Proposition</span> les gens qui retournent leur veste la tous des hypocrites la</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme adverbal">mais grave</span><span class="nature-label">Syntagme adverbal</span> <span class="text-mark" title="Syntagme nominal">que des traitres</span><span class="nature-label">Syntagme nominal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Autre">si vous ne disiez pas n&#x27;importe quoi aussi,  les gens seraient peut-êtr eun peu avec vous</span><span class="nature-label">Autre</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">ptddddrrrrrrr</span><span class="nature-label">Interjection</span> mais la blague</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce elliptique">rien a foutre</span><span class="nature-label">Enonce elliptique</span> <span class="text-mark" title="Enonce averbal">PAS DE GOUINE ICI</span><span class="nature-label">Enonce averbal</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Syntagme nominal">bande de crasseux</span><span class="nature-label">Syntagme nominal</span> meme arthur on va te degager de la classe</p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text">mais vous allez trop loin,  vous dites n&#x27;importes quoi alors <span class="text-mark" title="Enonce exclamatif">vous méritez les deux connasses</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Enonce exclamatif">STOP LESBIENNES !!!!</span><span class="nature-label">Enonce exclamatif</span></p>
+      </article>
+    
+
+      <article class="message">
+        <p class="message-text"><span class="text-mark" title="Interjection">DEHORSSSSS</span><span class="nature-label">Interjection</span></p>
+      </article>
+    
+    </section>
+  </main>
+</body>
+</html>

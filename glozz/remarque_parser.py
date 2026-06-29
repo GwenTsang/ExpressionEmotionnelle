@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-remarque_parser.py — Parsing spécifique des éléments "Remarque" dans les fichiers Glozz
+remarque_parser.py — Parsing ciblé des éléments "Remarque" dans les fichiers Glozz
 
-Ce script parcourt les sous-corpus Glozz, associe chaque fichier d'annotation (.aa) 
-à son fichier de texte brut (.ac), et extrait uniquement les unités d'annotation 
+Ce module parcourt les sous-corpus Glozz, associe chaque fichier d'annotation (.aa)
+à son fichier de texte brut (.ac), et extrait uniquement les unités d'annotation
 de type "Autre" pour en extraire la feature "Remarque".
+
+Contrairement à glozz_parser.process_all_corpora(), ce module ne parse que les
+unités pertinentes (type "Autre") et ignore le traitement des relations Discontinue,
+ce qui le rend significativement plus léger pour les cas d'usage centrés sur les
+remarques.
 
 Colonnes produites :
     corpus, file_id, unit_id, start_idx, end_idx, text_span, remarque
 """
 
 import os
+import re
 import sys
 import argparse
 import xml.etree.ElementTree as ET
@@ -42,6 +48,35 @@ def _get_feature_value(feature_node) -> Optional[str]:
 def _clean_span(text: str) -> str:
     """Normalise le span textuel."""
     return text.replace("\n", " ").replace("\r", " ").strip()
+
+
+def _normalize_remarque(text: Optional[str]) -> Optional[str]:
+    """Normalise, corrige les typos et dé-duplique les valeurs de remarque.
+
+    Les valeurs multiples (séparées par /, ; ou ,) sont normalisées
+    individuellement, dé-dupliquées, puis recombinées.
+    """
+    if not text:
+        return None
+    parts = re.split(r'[/;,]', text)
+    normalized = []
+    for p in parts:
+        p = p.strip().lower()
+        if not p:
+            continue
+        # Corrections de typos connues
+        typo_map = {
+            "emour": "amour",
+            "stresse": "stress",
+            "amour (apprécier)": "amour",
+            "déterminsation": "détermination",
+        }
+        p = typo_map.get(p, p)
+        if p not in normalized:
+            normalized.append(p)
+    if not normalized:
+        return None
+    return ", ".join(normalized)
 
 def parse_remarques_from_pair(aa_filepath: str, ac_filepath: str, corpus_name: str) -> List[Dict[str, Any]]:
     """Parse une paire de fichiers .aa/.ac et extrait les remarques des unités 'Autre'."""
@@ -101,7 +136,7 @@ def parse_remarques_from_pair(aa_filepath: str, ac_filepath: str, corpus_name: s
             for feature in feature_set.findall("feature"):
                 name = feature.get("name", "")
                 if name.lower() == "remarque":
-                    remarque_val = _get_feature_value(feature)
+                    remarque_val = _normalize_remarque(_get_feature_value(feature))
                     break
 
         records.append({
@@ -111,7 +146,7 @@ def parse_remarques_from_pair(aa_filepath: str, ac_filepath: str, corpus_name: s
             "start_idx": start_idx,
             "end_idx": end_idx,
             "text_span": _clean_span(text_span),
-            "remarque": remarque_val
+            "remarque": remarque_val,
         })
 
     return records
@@ -179,11 +214,14 @@ def main():
     non_empty_remarques = df["remarque"].dropna().str.strip().ne("").sum()
     print(f"Nombre d'unités avec une remarque non vide : {non_empty_remarques} / {len(df)}")
 
-    # Valeurs uniques de remarque
-    unique_vals = get_unique_remarques(df)
-    print(f"\n=== Valeurs uniques de Remarque ({len(unique_vals)}) ===")
-    for val in unique_vals:
-        print(f"  - {val}")
+    # Valeurs uniques de remarque avec proportions (ordre décroissant)
+    total_units = len(df)
+    remarque_counts = df["remarque"].dropna().str.strip()
+    remarque_counts = remarque_counts[remarque_counts != ""].value_counts()
+    print(f"\n=== Valeurs uniques de Remarque ({len(remarque_counts)}) ===")
+    for val, count in remarque_counts.items():
+        proportion = (count / total_units) * 100 if total_units > 0 else 0
+        print(f"  - {val} ({proportion:.1f}%)")
 
     # Sauvegarde CSV
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
