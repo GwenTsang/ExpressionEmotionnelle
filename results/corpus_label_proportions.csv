@@ -1,0 +1,57 @@
+corpus,dimension,measure,label,count,denominator,proportion,percent,denominator_description
+CyberAggAdo,emotion,emotion_assignment_share,Colère,340,572,0.59440559,59.4406,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Dégoût,96,572,0.16783217,16.7832,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Joie,31,572,0.0541958,5.4196,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Peur,4,572,0.00699301,0.6993,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Surprise,5,572,0.00874126,0.8741,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Tristesse,15,572,0.02622378,2.6224,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Admiration,0,572,0.0,0.0,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Culpabilité,3,572,0.00524476,0.5245,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Embarras,2,572,0.0034965,0.3497,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Fierté,3,572,0.00524476,0.5245,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Jalousie,6,572,0.01048951,1.049,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_assignment_share,Autre,67,572,0.11713287,11.7133,all emotion category assignments; multi-label units contribute one assignment per category
+CyberAggAdo,emotion,emotion_unit_presence,Colère,340,491,0.69246436,69.2464,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Dégoût,96,491,0.19551935,19.5519,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Joie,31,491,0.06313646,6.3136,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Peur,4,491,0.00814664,0.8147,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Surprise,5,491,0.0101833,1.0183,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Tristesse,15,491,0.0305499,3.055,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Admiration,0,491,0.0,0.0,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Culpabilité,3,491,0.00610998,0.611,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Embarras,2,491,0.00407332,0.4073,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Fierté,3,491,0.00610998,0.611,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Jalousie,6,491,0.01221996,1.222,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,emotion,emotion_unit_presence,Autre,67,491,0.13645621,13.6456,all emotion annotation units; multi-label units can be counted in several labels
+CyberAggAdo,mode,mode_unit_share,Comportementale,36,491,0.07331976,7.332,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+CyberAggAdo,mode,mode_unit_share,Désignée,56,491,0.11405295,11.4053,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+CyberAggAdo,mode,mode_unit_share,Montrée,345,491,0.70264766,70.2648,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+CyberAggAdo,mode,mode_unit_share,Suggérée,54,491,0.10997963,10.998,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+TTK-Glozz,emotion,emotion_assignment_share,Colère,1721,8937,0.19257021,19.257,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Dégoût,80,8937,0.00895155,0.8952,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Joie,1223,8937,0.13684682,13.6847,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Peur,1485,8937,0.16616314,16.6163,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Surprise,1233,8937,0.13796576,13.7966,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Tristesse,950,8937,0.10629965,10.63,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Admiration,272,8937,0.03043527,3.0435,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Culpabilité,25,8937,0.00279736,0.2797,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Embarras,238,8937,0.02663086,2.6631,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Fierté,269,8937,0.03009959,3.01,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Jalousie,9,8937,0.00100705,0.1007,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_assignment_share,Autre,1432,8937,0.16023274,16.0233,all emotion category assignments; multi-label units contribute one assignment per category
+TTK-Glozz,emotion,emotion_unit_presence,Colère,1721,8243,0.20878321,20.8783,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Dégoût,80,8243,0.0097052,0.9705,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Joie,1223,8243,0.14836831,14.8368,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Peur,1485,8243,0.18015286,18.0153,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Surprise,1233,8243,0.14958146,14.9581,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Tristesse,950,8243,0.1152493,11.5249,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Admiration,272,8243,0.0329977,3.2998,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Culpabilité,25,8243,0.00303288,0.3033,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Embarras,238,8243,0.02887298,2.8873,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Fierté,269,8243,0.03263375,3.2634,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Jalousie,9,8243,0.00109184,0.1092,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,emotion,emotion_unit_presence,Autre,1432,8243,0.17372316,17.3723,all emotion annotation units; multi-label units can be counted in several labels
+TTK-Glozz,mode,mode_unit_share,Comportementale,1450,6811,0.21289091,21.2891,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+TTK-Glozz,mode,mode_unit_share,Désignée,1688,6811,0.24783439,24.7834,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+TTK-Glozz,mode,mode_unit_share,Montrée,1424,6811,0.20907356,20.9074,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
+TTK-Glozz,mode,mode_unit_share,Suggérée,2249,6811,0.33020115,33.0201,all units with a valid mode; TTK-Glozz Autre units have no mode and are excluded
